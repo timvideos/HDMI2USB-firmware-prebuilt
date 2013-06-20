@@ -9,12 +9,19 @@ on the HDMI2USB wiki.
 These files are part of the HDMI2USB project. See the project website for more
 details https://github.com/timvideos/HDMI2USB/wiki
 
-* The Diglient Adept tools should be installed to /usr/local/bin
-* The firmware files should be placed in /lib/firmware
-* The load-hdmi2usb script should be placed in /usr/local/bin
+```
+$ git clone https://github.com/shenki/hdmi2usb-udev
+$ cd hdmi2usb-udev
+$ sudo cp hdmi2usb-r2-20130616* /lib/firmware
+$ sudo cp load-hdmi2usb /usr/local/bin/
+$ sudo cp hdmi2usb.rules /etc/udev/rules.d/
+```
 
 These locations can be changed if required by modifying the script and udev
 rule.
+
+Logging can be performed if the LOGFILE variable in load-hdmi2usb is modified
+to point to a file such as /tmp/hdmi2usbudev.log.
 
 Issues
 ------
