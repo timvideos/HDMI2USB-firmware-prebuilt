@@ -12,6 +12,9 @@ website](https://github.com/timvideos/HDMI2USB/wiki) for more details.
 The Digilent Adept tools must be installed at /usr/local/bin. If they are not,
 adjust the script to point to the correct locations.
 
+This script uses the version of fxload present in Ubuntu and Debian. This one
+can be passed the USB device path as provided by udev.
+
 Installing udev rules
 ---------------------
 
