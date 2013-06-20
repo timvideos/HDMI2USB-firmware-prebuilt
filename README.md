@@ -3,11 +3,11 @@ HDMI2USB udev rules
 
 Scripts automate programming of the Digilent Atlys board using udev. The manual
 process is
-"documented"(https://github.com/timvideos/HDMI2USB/wiki/Digilent-Atlys-Board%3A-Loading-Firmware)
+[documented](https://github.com/timvideos/HDMI2USB/wiki/Digilent-Atlys-Board%3A-Loading-Firmware)
 on the HDMI2USB wiki.
 
-These files are part of the HDMI2USB project. See the project website for more
-details https://github.com/timvideos/HDMI2USB/wiki
+These files are part of the HDMI2USB project. See the [project
+website](https://github.com/timvideos/HDMI2USB/wiki) for more details.
 
 ```
 $ git clone https://github.com/shenki/hdmi2usb-udev
