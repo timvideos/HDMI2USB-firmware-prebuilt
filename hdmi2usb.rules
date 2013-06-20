@@ -1,0 +1,5 @@
+# Digilent rule for detaching kernel drivers
+ACTION=="add", ATTRS{idVendor}=="1443", ATTRS{manufacturer}=="Digilent", MODE="666", RUN+="/usr/local/sbin/dftdrvdtch %s{busnum} %s{devnum}"
+
+# Load FPGA and Cypress firmware
+SUBSYSTEM=="usb", ACTION=="add", ATTRS{idVendor}=="1443", ATTRS{idProduct}=="0007", RUN+="/usr/local/bin/load-hdmi2usb $devpath"

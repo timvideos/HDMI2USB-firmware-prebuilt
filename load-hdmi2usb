@@ -1,0 +1,12 @@
+#!/bin/bash
+# Joel Stanley <joel@jms.id.au>
+# Loads hdmi2usb firmware for FPGA and Cypress FX2
+FPGA_FIRMWARE=/lib/firmware/hdmi2usb-r2-20130616.bit
+CYPRESS_FIRMWARE=/lib/firmware/hdmi2usb_uvc-r2-20130616.hex
+DEVICEPATH=$1
+LOGFILE=/dev/null
+date >> $LOGFILE
+echo "Programming FPGA firmware" >> $LOGFILE
+/usr/local/bin/djtgcfg prog -d Atlys -i 0 -f $FPGA_FIRMWARE >> $LOGFILE
+echo "Programming cypress firmware" >> $LOGFILE
+/sbin/fxload -v -t fx2 -I $CYPRESS_FIRMWARE -D $DEVICEPATH >> $LOGFILE
