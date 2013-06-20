@@ -9,6 +9,12 @@ on the HDMI2USB wiki.
 These files are part of the HDMI2USB project. See the [project
 website](https://github.com/timvideos/HDMI2USB/wiki) for more details.
 
+The Digilent Adept tools must be installed at /usr/local/bin. If they are not,
+adjust the script to point to the correct locations.
+
+Installing udev rules
+---------------------
+
 ```
 $ git clone https://github.com/shenki/hdmi2usb-udev
 $ cd hdmi2usb-udev
@@ -22,6 +28,32 @@ rule.
 
 Logging can be performed if the LOGFILE variable in load-hdmi2usb is modified
 to point to a file such as /tmp/hdmi2usbudev.log.
+
+To load the udev rule without restarting:
+
+```
+$ sudo udevadm control --reload-rules
+```
+
+Running from command line
+-------------------------
+
+The primary goal of these scripts is to make programming automatic through the
+use of udev. However, the script that udev calls can also be useful automating
+the two steps required from the command line.
+
+The script must be passed the /dev USB device. To find it:
+
+```
+$ lsusb
+Bus 002 Device 038: ID 1443:0007 Digilent CoolRunner-II CPLD Starter Kit
+```
+
+In this example, the bus is 002 and the device is 038. The path can be used as follows:
+
+```
+sudo ./load-hdmi2usb /dev/bus/usb/002/038
+```
 
 Issues
 ------
