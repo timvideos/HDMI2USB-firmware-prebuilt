@@ -55,6 +55,7 @@ function build_firmware {
 
   # Generate the .bit file (FPGA Firmware)
   (
+    . /opt/Xilinx/14.7/ISE_DS/settings64.sh
     cd "$FIRMWARE_LOCATION"
     make all
   )
