@@ -46,9 +46,9 @@ function build_firmware {
   # Generate the .hex file (Cypress USB Firmware)
   (
     cd "$FIRMWARE_LOCATION/cypress"
-    make output/hdmi2usb.hex
+    make
   )
-  if [ ! -f "$FIRMWARE_LOCATION/cypress/output/hdmi2usb.hex" ]; then
+  if [ ! -f "$FIRMWARE_LOCATION/cypress/hdmi2usb.hex" ]; then
     echo "Cypress Firmware failed to build!"
     exit 1
   fi
@@ -80,7 +80,7 @@ function copy_firmware {
 
   mkdir "$OUTPUT_LOCATION"
   FILES=(
-    "cypress/output/hdmi2usb.hex"
+    "cypress/hdmi2usb.hex"
     "build/hdmi2usb.bit"
     "build/hdmi2usb.xsvf"
   )
