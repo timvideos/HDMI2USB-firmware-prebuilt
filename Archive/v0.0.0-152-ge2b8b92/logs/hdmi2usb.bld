@@ -1,0 +1,796 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /backup/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild
+-filter ../ise/iseconfig/filter.filter -intstyle ise -dd _ngo -sd ../ipcore_dir
+-nt timestamp -uc ../ucf/hdmi2usb.ucf -p xc6slx45-csg324-3 hdmi2usb.ngc
+hdmi2usb.ngd
+
+Reading NGO file
+"/backup/laptop/tansell-x1c-l/tansell/foss/hdmi2usb/HDMI2USB-firmware-prebuilt/s
+rc/build/hdmi2usb.ngc" ...
+Loading design module "../ipcore_dir/cdcfifo.ngc"...
+Loading design module "../ipcore_dir/edidram.ngc"...
+Loading design module "../ipcore_dir/bytefifoFPGA.ngc"...
+Loading design module "../ipcore_dir/bytefifo.ngc"...
+Loading design module "../ipcore_dir/rawUVCfifo.ngc"...
+Loading design module "../ipcore_dir/cmdfifo.ngc"...
+Loading design module "../ipcore_dir/rgbfifo.ngc"...
+Loading design module "../ipcore_dir/image_selector_fifo.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "../ucf/hdmi2usb.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'clk', used in period specification 'TS_clk',
+   was traced into DCM_CLKGEN instance dcm_clkgen_inst. The following new TNM
+   groups and period specifications were generated at the DCM_CLKGEN output(s): 
+   CLKFX: <TIMESPEC TS_pclk_tp = PERIOD "pclk_tp" TS_clk / 0.65 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk', used in period specification 'TS_clk',
+   was traced into PLL_ADV instance u_pll_adv. The following new TNM groups and
+   period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC
+   TS_ddr2_comp_ramComp_memc3_infrastructure_inst_mcb_drp_clk_bufg_in = PERIOD
+   "ddr2_comp_ramComp_memc3_infrastructure_inst_mcb_drp_clk_bufg_in" TS_clk /
+   1.5625 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk', used in period specification 'TS_clk',
+   was traced into PLL_ADV instance u_pll_adv. The following new TNM groups and
+   period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_ddr2_comp_ramComp_memc3_infrastructure_inst_clk_2x_180
+   = PERIOD "ddr2_comp_ramComp_memc3_infrastructure_inst_clk_2x_180" TS_clk /
+   6.25 PHASE 0.8 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk', used in period specification 'TS_clk',
+   was traced into PLL_ADV instance u_pll_adv. The following new TNM groups and
+   period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_ddr2_comp_ramComp_memc3_infrastructure_inst_clk_2x_0 =
+   PERIOD "ddr2_comp_ramComp_memc3_infrastructure_inst_clk_2x_0" TS_clk / 6.25
+   HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk', used in period specification 'TS_clk',
+   was traced into PLL_ADV instance u_pll_adv. The following new TNM groups and
+   period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC
+   TS_ddr2_comp_ramComp_memc3_infrastructure_inst_clk0_bufg_in = PERIOD
+   "ddr2_comp_ramComp_memc3_infrastructure_inst_clk0_bufg_in" TS_clk / 0.78125
+   HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'DVI_CLOCK0', used in period specification
+   'TS_DVI_CLOCK0', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT1: <TIMESPEC TS_hdmiMatri_Comp_dvi_rx0_pllclk1 = PERIOD
+   "hdmiMatri_Comp_dvi_rx0_pllclk1" TS_DVI_CLOCK0 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'DVI_CLOCK0', used in period specification
+   'TS_DVI_CLOCK0', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT0: <TIMESPEC TS_hdmiMatri_Comp_dvi_rx0_pllclk0 = PERIOD
+   "hdmiMatri_Comp_dvi_rx0_pllclk0" TS_DVI_CLOCK0 / 10 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'DVI_CLOCK0', used in period specification
+   'TS_DVI_CLOCK0', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT2: <TIMESPEC TS_hdmiMatri_Comp_dvi_rx0_pllclk2 = PERIOD
+   "hdmiMatri_Comp_dvi_rx0_pllclk2" TS_DVI_CLOCK0 / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'DVI_CLOCK1', used in period specification
+   'TS_DVI_CLOCK1', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT1: <TIMESPEC TS_hdmiMatri_Comp_dvi_rx1_pllclk1 = PERIOD
+   "hdmiMatri_Comp_dvi_rx1_pllclk1" TS_DVI_CLOCK1 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'DVI_CLOCK1', used in period specification
+   'TS_DVI_CLOCK1', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT0: <TIMESPEC TS_hdmiMatri_Comp_dvi_rx1_pllclk0 = PERIOD
+   "hdmiMatri_Comp_dvi_rx1_pllclk0" TS_DVI_CLOCK1 / 10 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'DVI_CLOCK1', used in period specification
+   'TS_DVI_CLOCK1', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT2: <TIMESPEC TS_hdmiMatri_Comp_dvi_rx1_pllclk2 = PERIOD
+   "hdmiMatri_Comp_dvi_rx1_pllclk2" TS_DVI_CLOCK1 / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'pclk_tp', used in period specification
+   'TS_pclk_tp', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_hdmiMatri_Comp_tx_pllclk0 = PERIOD
+   "hdmiMatri_Comp_tx_pllclk0" TS_pclk_tp / 10 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'pclk_tp', used in period specification
+   'TS_pclk_tp', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_hdmiMatri_Comp_tx_pllclk2 = PERIOD
+   "hdmiMatri_Comp_tx_pllclk2" TS_pclk_tp / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'hdmiMatri_Comp_dvi_rx0_pllclk1', used in period
+   specification 'TS_hdmiMatri_Comp_dvi_rx0_pllclk1', was traced into PLL_ADV
+   instance PLL_ADV. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_hdmiMatri_Comp_tx_pllclk0_0 = PERIOD
+   "hdmiMatri_Comp_tx_pllclk0_0" TS_hdmiMatri_Comp_dvi_rx0_pllclk1 / 10 HIGH
+   50%>
+
+INFO:ConstraintSystem:178 - TNM 'hdmiMatri_Comp_dvi_rx0_pllclk1', used in period
+   specification 'TS_hdmiMatri_Comp_dvi_rx0_pllclk1', was traced into PLL_ADV
+   instance PLL_ADV. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_hdmiMatri_Comp_tx_pllclk2_0 = PERIOD
+   "hdmiMatri_Comp_tx_pllclk2_0" TS_hdmiMatri_Comp_dvi_rx0_pllclk1 / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'hdmiMatri_Comp_dvi_rx1_pllclk1', used in period
+   specification 'TS_hdmiMatri_Comp_dvi_rx1_pllclk1', was traced into PLL_ADV
+   instance PLL_ADV. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_hdmiMatri_Comp_tx_pllclk0_1 = PERIOD
+   "hdmiMatri_Comp_tx_pllclk0_1" TS_hdmiMatri_Comp_dvi_rx1_pllclk1 / 10 HIGH
+   50%>
+
+INFO:ConstraintSystem:178 - TNM 'hdmiMatri_Comp_dvi_rx1_pllclk1', used in period
+   specification 'TS_hdmiMatri_Comp_dvi_rx1_pllclk1', was traced into PLL_ADV
+   instance PLL_ADV. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_hdmiMatri_Comp_tx_pllclk2_1 = PERIOD
+   "hdmiMatri_Comp_tx_pllclk2_1" TS_hdmiMatri_Comp_dvi_rx1_pllclk1 / 2 HIGH 50%>
+
+Done...
+
+WARNING:NgdBuild:1440 - User specified non-default attribute value (10) was
+   detected for the CLKIN1_PERIOD attribute on PLL "PLL_ADV".  This does not
+   match the PERIOD constraint value (15.3846154 ns.).  The uncertainty
+   calculation will use the PERIOD constraint value.  This could result in
+   incorrect uncertainty calculated for PLL output clocks.
+WARNING:NgdBuild:1440 - User specified non-default attribute value (15.384615)
+   was detected for the CLKIN1_PERIOD attribute on PLL "PLL_ADV".  This does not
+   match the PERIOD constraint value (10 ns.).  The uncertainty calculation will
+   use the PERIOD constraint value.  This could result in incorrect uncertainty
+   calculated for PLL output clocks.
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N36' has no driver
+WARNING:NgdBuild:452 - logical net 'N37' has no driver
+WARNING:NgdBuild:452 - logical net 'N38' has no driver
+WARNING:NgdBuild:452 - logical net 'N39' has no driver
+WARNING:NgdBuild:452 - logical net 'N40' has no driver
+WARNING:NgdBuild:452 - logical net 'N41' has no driver
+WARNING:NgdBuild:452 - logical net 'N42' has no driver
+WARNING:NgdBuild:452 - logical net 'N43' has no driver
+WARNING:NgdBuild:452 - logical net 'N44' has no driver
+WARNING:NgdBuild:452 - logical net 'N45' has no driver
+WARNING:NgdBuild:452 - logical net 'N46' has no driver
+WARNING:NgdBuild:452 - logical net 'N47' has no driver
+WARNING:NgdBuild:452 - logical net 'N48' has no driver
+WARNING:NgdBuild:452 - logical net 'N49' has no driver
+WARNING:NgdBuild:452 - logical net 'N50' has no driver
+WARNING:NgdBuild:452 - logical net 'N51' has no driver
+WARNING:NgdBuild:452 - logical net 'N52' has no driver
+WARNING:NgdBuild:452 - logical net 'N53' has no driver
+WARNING:NgdBuild:452 - logical net 'N54' has no driver
+WARNING:NgdBuild:452 - logical net 'N55' has no driver
+WARNING:NgdBuild:452 - logical net 'N56' has no driver
+WARNING:NgdBuild:452 - logical net 'N57' has no driver
+WARNING:NgdBuild:452 - logical net 'N58' has no driver
+WARNING:NgdBuild:452 - logical net 'N59' has no driver
+WARNING:NgdBuild:452 - logical net 'N60' has no driver
+WARNING:NgdBuild:452 - logical net 'N61' has no driver
+WARNING:NgdBuild:452 - logical net 'N62' has no driver
+WARNING:NgdBuild:452 - logical net 'N63' has no driver
+WARNING:NgdBuild:452 - logical net 'N64' has no driver
+WARNING:NgdBuild:452 - logical net 'N65' has no driver
+WARNING:NgdBuild:452 - logical net 'N66' has no driver
+WARNING:NgdBuild:452 - logical net 'N67' has no driver
+WARNING:NgdBuild:452 - logical net 'N68' has no driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<19>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<18>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx1/sdout<10>' has no
+   driver
+WARNING:NgdBuild:478 - clock net hdmiMatri_Comp/dvi_rx1/tmdsclk with clock
+   driver hdmiMatri_Comp/dvi_rx1/tmdsclk_bufg drives no clock pins
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<19>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<18>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'hdmiMatri_Comp/dvi_rx0/sdout<10>' has no
+   driver
+WARNING:NgdBuild:478 - clock net hdmiMatri_Comp/dvi_rx0/tmdsclk with clock
+   driver hdmiMatri_Comp/dvi_rx0/tmdsclk_bufg drives no clock pins
+WARNING:NgdBuild:452 - logical net 'usb_comp/jpg_uvc_error' has no driver
+WARNING:NgdBuild:452 - logical net 'ddr2_comp/ramComp/c3_p2_cmd_byte_addr<29>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'ddr2_comp/ramComp/c3_p2_cmd_byte_addr<28>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'ddr2_comp/ramComp/c3_p2_cmd_byte_addr<27>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'ddr2_comp/ramComp/c3_p3_cmd_byte_addr<29>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'ddr2_comp/ramComp/c3_p3_cmd_byte_addr<28>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'ddr2_comp/ramComp/c3_p3_cmd_byte_addr<27>'
+   has no driver
+WARNING:NgdBuild:478 - clock net ddr2_comp/ramComp/clk_img with clock driver
+   ddr2_comp/ramComp/memc3_infrastructure_inst/U_BUFG_img drives no clock pins
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/ram_wraddr<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<31>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<30>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<29>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<28>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<27>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<26>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<25>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<24>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<23>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<22>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<21>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<20>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<19>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<18>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<17>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<16>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<15>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<14>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<13>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<12>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<11>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<10>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_ABus<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_retry' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_toutSup' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/OPB_errAck' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_x_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/fdct_sm_settings_y_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_x_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/zig_sm_settings_y_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_x_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/qua_sm_settings_y_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_x_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/rle_sm_settings_y_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_x_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_y_cnt<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/huf_sm_settings_cmp_idx<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<23>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<22>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<21>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<20>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<19>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<18>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<17>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<16>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<15>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<14>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<13>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<12>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<11>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<10>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<9>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<8>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<7>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<6>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<5>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<4>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<3>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<2>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/bs_ram_wraddr<1>'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/jfif_ram_wraddr<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/jfif_ram_wraddr<9>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/jfif_ram_wraddr<8>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/jfif_ram_wraddr<7>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/jfif_ram_wraddr<6>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/jfif_ram_wraddr<5>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/jfif_ram_wraddr<4>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/jfif_ram_wraddr<3>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/jfif_ram_wraddr<2>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/jfif_ram_wraddr<1>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'jpeg_encoder/jpegencoder/jfif_ram_wraddr<0>'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/romedatao_s<0><1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/romedatao_s<0><0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/romedatao_s<1><1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/romedatao_s<1><0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/romedatao_s<2><1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/romedatao_s<2><0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/rome2datao_s<0><1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/rome2datao_s<0><0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/rome2datao_s<1><1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/rome2datao_s<1><0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/rome2datao_s<2><1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'jpeg_encoder/jpegencoder/U_FDCT/U_MDCT/rome2datao_s<2><0>' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 341
+
+Total memory usage is 506964 kilobytes
+
+Writing NGD file "hdmi2usb.ngd" ...
+Total REAL time to NGDBUILD completion:  12 sec
+Total CPU time to NGDBUILD completion:   12 sec
+
+Writing NGDBUILD log file "hdmi2usb.bld"...
