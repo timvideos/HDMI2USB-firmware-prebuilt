@@ -139,13 +139,11 @@ function update_link {
   git commit -m "Updating $BRANCH to $COMMIT_NAME$EXTRA_MSG"
 }
 
-
-if [ x$XILINX == "x" ]; then
-  echo "Xilinx environment not found."
-  echo "Source the settings64.sh file in the ISE_DS directory."
+if [ ! -f /opt/Xilinx/14.7/ISE_DS/settings64.sh ]; then
+  echo "To build the firmware, Xilinx ISE 14.7 needs to be installed to /opt/Xilinx"
+  echo "See https://github.com/timvideos/HDMI2USB/wiki/Development-Environment for more information."
   exit 1
 fi
-
 
 BRANCH=$1
 COMMIT_ID=$2
