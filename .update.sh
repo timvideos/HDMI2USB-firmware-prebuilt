@@ -32,7 +32,9 @@ function checkout_firmware {
     cd "$FIRMWARE_LOCATION"
     git checkout "$COMMIT_ID"
     git reset --hard
-    git clean -X -d -f
+    if [ ! -z "$CLEAN" ]; then
+      git clean -X -d -f
+    fi
   )
 }
 
@@ -46,10 +48,11 @@ function build_firmware {
   # Generate the .hex file (Cypress USB Firmware)
   build_hex() {
     cd "$FIRMWARE_LOCATION/cypress"
+    make clean
     make
   }
   CYPRESS_FILE="$FIRMWARE_LOCATION/cypress/hdmi2usb.hex"
-  if [ ! -f "$CYPRESS_FILE" ]; then
+  if [ \( ! -z "$CLEAN" \) -o \( ! -f "$CYPRESS_FILE" \) ]; then
     build_hex
   fi
   if [ ! -f "$CYPRESS_FILE" ]; then
@@ -62,10 +65,13 @@ function build_firmware {
   build_bit() {
     source /opt/Xilinx/14.7/ISE_DS/settings64.sh
     cd "$FIRMWARE_LOCATION"
+    make clean
     make all
   }
-  build_bit
   FPGA_BITFILE="$FIRMWARE_LOCATION/build/hdmi2usb.bit"
+  if [ \( ! -z "$CLEAN" \) -o \( ! -f "$FPGA_BITFILE" \) ]; then
+    build_bit
+  fi
   if [ ! -f "$FPGA_BITFILE" ]; then
     echo "FPGA Firmware failed to build!"
     echo "No '$FPGA_BITFILE' file found."
@@ -78,8 +84,10 @@ function build_firmware {
     cd "$FIRMWARE_LOCATION"
     make xsvf
   }
-  build_xsvf
   FPGA_XSVF="$FIRMWARE_LOCATION/build/hdmi2usb.xsvf"
+  if [ \( ! -z "$CLEAN" \) -o \( ! -f "$FPGA_XSVF" \) ]; then
+    build_xsvf
+  fi
   if [ ! -f "$FPGA_XSVF" ]; then
     echo "FPGA Firmware failed to convert to .xsvf!"
     echo "No '$FPGA_XSVF' file found."
@@ -191,7 +199,7 @@ COMMIT_NAME=$(describe_firmware "$SRC_DIR")
 echo "Name for '$COMMIT_ID' is '$COMMIT_NAME'"
 OUT_DIR=$SCRIPT_DIR/Archive/$COMMIT_NAME
 
-if [ ! -d "$OUT_DIR" ]; then
+if [ \( ! -z "$CLEAN" \) -o \( ! -d "$OUT_DIR" \) ]; then
   build_firmware "$SRC_DIR"
   copy_firmware "$SRC_DIR" "$OUT_DIR"
 fi
