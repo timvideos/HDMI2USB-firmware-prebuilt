@@ -54,21 +54,24 @@ function build_firmware {
   fi
 
   # Generate the .bit file (FPGA Firmware)
-  (
-    . /opt/Xilinx/14.7/ISE_DS/settings64.sh
+  build_bit() {
+    source /opt/Xilinx/14.7/ISE_DS/settings64.sh
     cd "$FIRMWARE_LOCATION"
     make all
-  )
+  }
+  build_bit
   if [ ! -f "$FIRMWARE_LOCATION/build/hdmi2usb.bit" ]; then
     echo "FPGA Firmware failed to build!"
     exit 1
   fi
 
   # Generate the .xsvf file (FPGA Firmare converted for libfpgalink)
-  (
+  build_xsvf() {
+    . /opt/Xilinx/14.7/ISE_DS/settings64.sh
     cd "$FIRMWARE_LOCATION"
     make xsvf
-  )
+  }
+  build_xsvf
   if [ ! -f "$FIRMWARE_LOCATION/build/hdmi2usb.xsvf" ]; then
     echo "FPGA Firmware failed to convert to .xsvf!"
     exit 1
