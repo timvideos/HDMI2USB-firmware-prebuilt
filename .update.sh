@@ -11,9 +11,10 @@
 #
 #  The latest testing version becomes stable.
 
-
 set -e
 set -x
+
+SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 function checkout_firmware {
   FIRMWARE_LOCATION="$1"
@@ -181,15 +182,16 @@ case x$BRANCH in
 esac
 
 # Build the firmware
-checkout_firmware src "$COMMIT_ID"
+SRC_DIR=$SCRIPT_DIR/src
+checkout_firmware "$SRC_DIR" "$COMMIT_ID"
 
-COMMIT_NAME=$(describe_firmware src)
+COMMIT_NAME=$(describe_firmware "$SRC_DIR")
 echo "Name for '$COMMIT_ID' is '$COMMIT_NAME'"
-OUTDIR=Archive/$COMMIT_NAME
+OUT_DIR=$SCRIPT_DIR/Archive/$COMMIT_NAME
 
-if [ ! -d $OUTDIR ]; then
-  build_firmware src
-  copy_firmware src $OUTDIR
+if [ ! -d "$OUT_DIR" ]; then
+  build_firmware "$SRC_DIR"
+  copy_firmware "$SRC_DIR" "$OUT_DIR"
 fi
 
 if [ "x$EXTRA_MSG" != x ]; then
