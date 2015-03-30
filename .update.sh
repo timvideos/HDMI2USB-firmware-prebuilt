@@ -195,12 +195,13 @@ esac
 SRC_DIR=$SCRIPT_DIR/src
 checkout_firmware "$SRC_DIR" "$COMMIT_ID"
 
+cd $SCRIPT_DIR
 COMMIT_NAME=$(describe_firmware "$SRC_DIR")
 echo "Name for '$COMMIT_ID' is '$COMMIT_NAME'"
-OUT_DIR=$SCRIPT_DIR/Archive/$COMMIT_NAME
-
+OUT_DIR=Archive/$COMMIT_NAME
 if [ \( ! -z "$CLEAN" \) -o \( ! -d "$OUT_DIR" \) ]; then
   build_firmware "$SRC_DIR"
+  # The git add in copy_firmware needs a relative path.
   copy_firmware "$SRC_DIR" "$OUT_DIR"
 fi
 
