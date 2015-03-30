@@ -50,6 +50,7 @@ function build_firmware {
   )
   if [ ! -f "$FIRMWARE_LOCATION/cypress/hdmi2usb.hex" ]; then
     echo "Cypress Firmware failed to build!"
+    echo "No '$FIRMWARE_LOCATION/cypress/hdmi2usb.hex' file found."
     exit 1
   fi
 
@@ -62,6 +63,7 @@ function build_firmware {
   build_bit
   if [ ! -f "$FIRMWARE_LOCATION/build/hdmi2usb.bit" ]; then
     echo "FPGA Firmware failed to build!"
+    echo "No '$FIRMWARE_LOCATION/build/hdmi2usb.bit' file found."
     exit 1
   fi
 
@@ -74,6 +76,7 @@ function build_firmware {
   build_xsvf
   if [ ! -f "$FIRMWARE_LOCATION/build/hdmi2usb.xsvf" ]; then
     echo "FPGA Firmware failed to convert to .xsvf!"
+    echo "No '$FIRMWARE_LOCATION/build/hdmi2usb.xsvf' file found."
     exit 1
   fi
 }
