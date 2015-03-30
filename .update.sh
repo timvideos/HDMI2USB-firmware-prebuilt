@@ -48,9 +48,10 @@ function build_firmware {
     cd "$FIRMWARE_LOCATION/cypress"
     make
   )
-  if [ ! -f "$FIRMWARE_LOCATION/cypress/hdmi2usb.hex" ]; then
+  CYPRESS_FILE="$FIRMWARE_LOCATION/cypress/hdmi2usb.hex"
+  if [ ! -f "$CYPRESS_FILE" ]; then
     echo "Cypress Firmware failed to build!"
-    echo "No '$FIRMWARE_LOCATION/cypress/hdmi2usb.hex' file found."
+    echo "No '$CYPRESS_FILE' file found."
     exit 1
   fi
 
@@ -61,9 +62,10 @@ function build_firmware {
     make all
   }
   build_bit
-  if [ ! -f "$FIRMWARE_LOCATION/build/hdmi2usb.bit" ]; then
+  FPGA_BITFILE="$FIRMWARE_LOCATION/build/hdmi2usb.bit"
+  if [ ! -f "$FPGA_BITFILE" ]; then
     echo "FPGA Firmware failed to build!"
-    echo "No '$FIRMWARE_LOCATION/build/hdmi2usb.bit' file found."
+    echo "No '$FPGA_BITFILE' file found."
     exit 1
   fi
 
@@ -74,9 +76,10 @@ function build_firmware {
     make xsvf
   }
   build_xsvf
-  if [ ! -f "$FIRMWARE_LOCATION/build/hdmi2usb.xsvf" ]; then
+  FPGA_XSVF="$FIRMWARE_LOCATION/build/hdmi2usb.xsvf"
+  if [ ! -f "$FPGA_XSVF" ]; then
     echo "FPGA Firmware failed to convert to .xsvf!"
-    echo "No '$FIRMWARE_LOCATION/build/hdmi2usb.xsvf' file found."
+    echo "No '$FPGA_XSVF' file found."
     exit 1
   fi
 }
