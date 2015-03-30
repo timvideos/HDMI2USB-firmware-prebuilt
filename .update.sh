@@ -3,7 +3,7 @@
 # vim: ai ts=2 sw=2 et sts=2 ft=sh
 # vim: autoindent tabstop=2 shiftwidth=2 expandtab softtabstop=2 filetype=sh
 
-# .update.sh [branch] [commit-id]
+# .update.sh [branch] [commit-id] [message]
 #
 #  branch - unstable, testing, stable
 #  commit-id - For unstable and testing, it is commit id of target from git://github.com/timvideos/HDMI2USB.git
@@ -19,7 +19,6 @@ SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 function checkout_firmware {
   FIRMWARE_LOCATION="$1"
   COMMIT_ID="$2"
-  EXTRA_MSG="$3"
 
   if [ ! -d "$FIRMWARE_LOCATION" ]; then
     git clone git://github.com/timvideos/HDMI2USB.git "$FIRMWARE_LOCATION"
