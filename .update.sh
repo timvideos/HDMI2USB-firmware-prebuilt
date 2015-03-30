@@ -200,13 +200,16 @@ COMMIT_NAME=$(describe_firmware "$SRC_DIR")
 echo "Name for '$COMMIT_ID' is '$COMMIT_NAME'"
 OUT_DIR=Archive/$COMMIT_NAME
 if [ \( ! -z "$CLEAN" \) -o \( ! -d "$OUT_DIR" \) ]; then
-  build_firmware "$SRC_DIR"
+  if [ ! -z "$CLEAN" ]; then
+    rm -rvf $OUT_DIR
+  fi
+  ( build_firmware "$SRC_DIR" )
   # The git add in copy_firmware needs a relative path.
-  copy_firmware "$SRC_DIR" "$OUT_DIR"
+  ( copy_firmware "$SRC_DIR" "$OUT_DIR" )
 fi
 
 if [ "x$EXTRA_MSG" != x ]; then
   EXTRA_MSG=" $EXTRA_MSG"
 fi
 
-update_link "$BRANCH" "$COMMIT_NAME" "$EXTRA_MSG"
+( update_link "$BRANCH" "$COMMIT_NAME" "$EXTRA_MSG" )
