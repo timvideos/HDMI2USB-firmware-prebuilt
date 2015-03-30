@@ -45,11 +45,14 @@ function describe_firmware {
 function build_firmware {
   FIRMWARE_LOCATION="$1"
   # Generate the .hex file (Cypress USB Firmware)
-  (
+  build_hex() {
     cd "$FIRMWARE_LOCATION/cypress"
     make
-  )
+  }
   CYPRESS_FILE="$FIRMWARE_LOCATION/cypress/hdmi2usb.hex"
+  if [ ! -f "$CYPRESS_FILE" ]; then
+    build_hex
+  fi
   if [ ! -f "$CYPRESS_FILE" ]; then
     echo "Cypress Firmware failed to build!"
     echo "No '$CYPRESS_FILE' file found."
