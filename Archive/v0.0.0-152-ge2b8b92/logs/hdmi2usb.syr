@@ -8714,13 +8714,13 @@ testpattern_comp/vsync_i|    2.106|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 139.00 secs
-Total CPU time to Xst completion: 137.68 secs
+Total REAL time to Xst completion: 132.00 secs
+Total CPU time to Xst completion: 131.88 secs
  
 --> 
 
 
-Total memory usage is 889096 kilobytes
+Total memory usage is 889016 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 1326 (   0 filtered)

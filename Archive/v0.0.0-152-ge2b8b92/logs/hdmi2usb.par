@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-tansell-z620-l2.syd.corp.google.com::  Tue Mar 31 00:40:59 2015
+tansell-z620-l2.syd.corp.google.com::  Tue Mar 31 01:33:05 2015
 
 par -filter ../ise/iseconfig/filter.filter -w -intstyle ise -ol high -xe n -mt
 off hdmi2usb_map.ncd hdmi2usb.ncd hdmi2usb.pcf 
@@ -116,8 +116,8 @@ WARNING:Timing:3159 - The DCM, testpattern_comp/patternClk_com/dcm_clkgen_inst, 
    clock domains must be constrained using FROM/TO constraints.
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 13 secs 
-Finished initial Timing Analysis.  REAL time: 14 secs 
+Starting initial Timing Analysis.  REAL time: 14 secs 
+Finished initial Timing Analysis.  REAL time: 15 secs 
 
 WARNING:Par:288 - The signal btnr_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal flagA_IBUF has no load.  PAR will not attempt to route this signal.
@@ -344,25 +344,25 @@ WARNING:Par:288 - The signal ddr2_comp/ramComp/memc3_wrapper_inst/memc3_mcb_raw_
 Starting Router
 
 
-Phase  1  : 70529 unrouted;      REAL time: 15 secs 
+Phase  1  : 70529 unrouted;      REAL time: 16 secs 
 
-Phase  2  : 58067 unrouted;      REAL time: 19 secs 
+Phase  2  : 58067 unrouted;      REAL time: 21 secs 
 
-Phase  3  : 23145 unrouted;      REAL time: 43 secs 
+Phase  3  : 23145 unrouted;      REAL time: 44 secs 
 
-Phase  4  : 23147 unrouted; (Setup:322, Hold:402657, Component Switching Limit:0)     REAL time: 45 secs 
+Phase  4  : 23147 unrouted; (Setup:322, Hold:402657, Component Switching Limit:0)     REAL time: 46 secs 
 
 Updating file: hdmi2usb.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:235, Hold:407936, Component Switching Limit:0)     REAL time: 1 mins 19 secs 
+Phase  5  : 0 unrouted; (Setup:235, Hold:407936, Component Switching Limit:0)     REAL time: 1 mins 20 secs 
 
-Phase  6  : 0 unrouted; (Setup:235, Hold:407936, Component Switching Limit:0)     REAL time: 1 mins 20 secs 
+Phase  6  : 0 unrouted; (Setup:235, Hold:407936, Component Switching Limit:0)     REAL time: 1 mins 22 secs 
 
-Phase  7  : 0 unrouted; (Setup:225, Hold:407936, Component Switching Limit:0)     REAL time: 1 mins 56 secs 
+Phase  7  : 0 unrouted; (Setup:225, Hold:407936, Component Switching Limit:0)     REAL time: 1 mins 58 secs 
 
-Phase  8  : 0 unrouted; (Setup:225, Hold:407936, Component Switching Limit:0)     REAL time: 1 mins 56 secs 
+Phase  8  : 0 unrouted; (Setup:225, Hold:407936, Component Switching Limit:0)     REAL time: 1 mins 58 secs 
 
-Phase  9  : 0 unrouted; (Setup:225, Hold:407936, Component Switching Limit:0)     REAL time: 1 mins 56 secs 
+Phase  9  : 0 unrouted; (Setup:225, Hold:407936, Component Switching Limit:0)     REAL time: 1 mins 58 secs 
 WARNING:Route:466 - Unusually high hold time violation detected among 119 connections. The top 20 such instances are printed below. The
    router will continue and try to fix it
 	img_sel_comp/resX_H1_q<11>:DQ -> resx<11>:D6 -3949
@@ -387,11 +387,11 @@ WARNING:Route:466 - Unusually high hold time violation detected among 119 connec
 	img_sel_comp/resX_H1_q<11>:CQ -> resx<11>:C4 -3666
 
 
-Phase 10  : 0 unrouted; (Setup:225, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 57 secs 
+Phase 10  : 0 unrouted; (Setup:225, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 59 secs 
 
-Phase 11  : 0 unrouted; (Setup:225, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 
-Total REAL time to Router completion: 2 mins 
-Total CPU time to Router completion: 2 mins 11 secs 
+Phase 11  : 0 unrouted; (Setup:225, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 3 secs 
+Total REAL time to Router completion: 2 mins 3 secs 
+Total CPU time to Router completion: 2 mins 12 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -744,8 +744,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 83 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 2 mins 3 secs 
-Total CPU time to PAR completion: 2 mins 13 secs 
+Total REAL time to PAR completion: 2 mins 5 secs 
+Total CPU time to PAR completion: 2 mins 15 secs 
 
 Peak Memory Usage:  995 MB
 
