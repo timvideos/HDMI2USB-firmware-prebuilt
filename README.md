@@ -5,11 +5,18 @@ support devices.
 This firmware is built from the
 [HDMI2USB-misoc-firmware repository](https://github.com/mithro/HDMI2USB-misoc-firmware).
 
-Two boards are currently supported by the [HDMI2USB.tv firmware](http://hdmi2usb.tv), they are:
-
- * [atlys](https://github.com/timvideos/HDMI2USB-firmware-prebuilt/tree/master/atlys/) -
-   [Digilent Atlys](http://hdmi2usb.tv/digilent-atlys/) - Original board used for prototyping the HDMI2USB.tv firmware.
+There are two boards currently supported by the 
+[HDMI2USB.tv firmware](http://hdmi2usb.tv):
 
  * [opsis](https://github.com/timvideos/HDMI2USB-firmware-prebuilt/tree/master/opsis/) - 
    [Numato Opsis](http://hdmi2usb.tv/numato-opsis) - First fully open hardware specifically designed for the HDMI2USB.tv firmware.
+   <br> [![CrowdSupply Image](http://planet.timvideos.us/numato-opsis-crowdfunding-campaign-master/badge.png)](https://www.crowdsupply.com/numato-lab/opsis)
+   <br> <img src="http://hdmi2usb.tv/img/numato-opsis.jpg" width=200>
+
+ * [atlys](https://github.com/timvideos/HDMI2USB-firmware-prebuilt/tree/master/atlys/) -
+   [Digilent Atlys](http://hdmi2usb.tv/digilent-atlys/) - Original board used for prototyping the HDMI2USB.tv firmware.
+   <br> <img src="http://hdmi2usb.tv/img/digilent-atlys.jpg" width=200>
+
+For a comparison table between the supported boards see
+[the "Hardware" section of the HDMI2USB.tv website](http://hdmi2usb.tv/hardware/).
 
