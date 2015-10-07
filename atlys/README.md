@@ -10,14 +10,14 @@ HDMI2USB mode.
 
 There are three versions of the firmware available;
 
- * [stable](https://raw.githubusercontent.com/timvideos/HDMI2USB-firmware-prebuilt/master/boards/atlys/firmware/stable) - 
+ * [stable](https://raw.githubusercontent.com/timvideos/HDMI2USB-firmware-prebuilt/master/atlys/firmware/stable) - 
    The current stable firmware recommended for normal use.
 
- * [testing](https://raw.githubusercontent.com/timvideos/HDMI2USB-firmware-prebuilt/master/boards/atlys/firmware/testing) - 
+ * [testing](https://raw.githubusercontent.com/timvideos/HDMI2USB-firmware-prebuilt/master/atlys/firmware/testing) - 
    The latest version of the firmware confirmed to at least operate in some
    fashion by developers. It should be usable and needs people to test with!
 
- * [unstable](https://raw.githubusercontent.com/timvideos/HDMI2USB-firmware-prebuilt/master/boards/atlys/firmware/unstable) - 
+ * [unstable](https://raw.githubusercontent.com/timvideos/HDMI2USB-firmware-prebuilt/master/atlys/firmware/unstable) - 
    The automated build of the firmware from the git repository.
 
 The Digilent Atlys board requires **two different** firmware, one for the FPGA
