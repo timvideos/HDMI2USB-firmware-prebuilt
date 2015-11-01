@@ -555,8 +555,8 @@ WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11323: Assignment to hdmi_out0_abstractactor_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11324: Assignment to hdmi_out0_dma_out_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11325: Assignment to hdmi_out0_compositeactor_busy1 ignored, since the identifier is never used
-WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11358: Result of 27-bit expression is truncated to fit in 24-bit target.
-WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11359: Result of 27-bit expression is truncated to fit in 24-bit target.
+WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11368: Result of 27-bit expression is truncated to fit in 24-bit target.
+WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11369: Result of 27-bit expression is truncated to fit in 24-bit target.
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11484: Assignment to hdmi_out0_chroma_upsampler_sink_ack ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11486: Assignment to hdmi_out0_chroma_upsampler_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11498: Assignment to hdmi_out0_ycbcr2rgb_source_stb ignored, since the identifier is never used
@@ -567,8 +567,8 @@ WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11671: Assignment to hdmi_out1_abstractactor_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11672: Assignment to hdmi_out1_dma_out_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11673: Assignment to hdmi_out1_compositeactor_busy1 ignored, since the identifier is never used
-WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11683: Result of 27-bit expression is truncated to fit in 24-bit target.
-WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11684: Result of 27-bit expression is truncated to fit in 24-bit target.
+WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11693: Result of 27-bit expression is truncated to fit in 24-bit target.
+WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11694: Result of 27-bit expression is truncated to fit in 24-bit target.
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11976: Assignment to hdmi_out1_chroma_upsampler_sink_ack ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11978: Assignment to hdmi_out1_chroma_upsampler_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11990: Assignment to hdmi_out1_ycbcr2rgb_source_stb ignored, since the identifier is never used
@@ -11789,13 +11789,13 @@ record1_hdmi_in_clk_p|    6.360|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 249.00 secs
-Total CPU time to Xst completion: 247.92 secs
+Total REAL time to Xst completion: 317.00 secs
+Total CPU time to Xst completion: 315.10 secs
  
 --> 
 
 
-Total memory usage is 991716 kilobytes
+Total memory usage is 991672 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 1446 (   0 filtered)
@@ -12067,11 +12067,11 @@ WARNING:Timing:3159 - The DCM, DCM_CLKGEN, has the attribute DFS_OSCILLATOR_MODE
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 1 mins 6 secs 
-Total CPU  time at the beginning of Placer: 1 mins 6 secs 
+Total REAL time at the beginning of Placer: 1 mins 9 secs 
+Total CPU  time at the beginning of Placer: 1 mins 9 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:b6b81ae6) REAL time: 1 mins 10 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:b6b81ae6) REAL time: 1 mins 13 secs 
 
 Phase 2.7  Design Feasibility Check
 WARNING:Place:1137 - This design is not guaranteed to be routable! This design
@@ -12146,27 +12146,27 @@ WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
    <hdmi_out_pix_bufg_1.O> allowing your design to continue. This constraint
    disables all clock placer rules related to the specified COMP.PIN.
-Phase 2.7  Design Feasibility Check (Checksum:b6b81ae6) REAL time: 1 mins 14 secs 
+Phase 2.7  Design Feasibility Check (Checksum:b6b81ae6) REAL time: 1 mins 16 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:836b9026) REAL time: 1 mins 14 secs 
+Phase 3.31  Local Placement Optimization (Checksum:836b9026) REAL time: 1 mins 16 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:7bf81b53) REAL time: 1 mins 54 secs 
+(Checksum:7bf81b53) REAL time: 1 mins 57 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:7bf81b53) REAL time: 1 mins 54 secs 
+Phase 5.36  Local Placement Optimization (Checksum:7bf81b53) REAL time: 1 mins 57 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:7bf81b53) REAL time: 1 mins 54 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:7bf81b53) REAL time: 1 mins 57 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:7bf81b53) REAL time: 1 mins 54 secs 
+Phase 7.3  Local Placement Optimization (Checksum:7bf81b53) REAL time: 1 mins 57 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:7bf81b53) REAL time: 1 mins 55 secs 
+Phase 8.5  Local Placement Optimization (Checksum:7bf81b53) REAL time: 1 mins 58 secs 
 
 Phase 9.8  Global Placement
 .............................
@@ -12174,22 +12174,22 @@ Phase 9.8  Global Placement
 ..........................................................................................................................................................................................................
 ...........................................................................................................................................................................................................
 ..............................................................................................................
-Phase 9.8  Global Placement (Checksum:3a22c55e) REAL time: 7 mins 38 secs 
+Phase 9.8  Global Placement (Checksum:3a22c55e) REAL time: 7 mins 33 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:3a22c55e) REAL time: 7 mins 39 secs 
+Phase 10.5  Local Placement Optimization (Checksum:3a22c55e) REAL time: 7 mins 34 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:72eb9a15) REAL time: 8 mins 37 secs 
+Phase 11.18  Placement Optimization (Checksum:72eb9a15) REAL time: 8 mins 30 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:72eb9a15) REAL time: 8 mins 37 secs 
+Phase 12.5  Local Placement Optimization (Checksum:72eb9a15) REAL time: 8 mins 31 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:4075980d) REAL time: 8 mins 39 secs 
+Phase 13.34  Placement Validation (Checksum:4075980d) REAL time: 8 mins 32 secs 
 
-Total REAL time to Placer completion: 8 mins 41 secs 
-Total CPU  time to Placer completion: 8 mins 40 secs 
+Total REAL time to Placer completion: 8 mins 34 secs 
+Total CPU  time to Placer completion: 8 mins 33 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -12286,9 +12286,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                4.73
 
-Peak Memory Usage:  1301 MB
-Total REAL time to MAP completion:  8 mins 58 secs 
-Total CPU time to MAP completion:   8 mins 57 secs 
+Peak Memory Usage:  1300 MB
+Total REAL time to MAP completion:  8 mins 50 secs 
+Total CPU time to MAP completion:   8 mins 50 secs 
 
 Mapping completed.
 See MAP report file "atlys_hdmi2usb-hdmi2usbsoc-atlys_map.mrp" for details.
@@ -12436,25 +12436,25 @@ Phase  1  : 123066 unrouted;      REAL time: 36 secs
 
 Phase  2  : 107810 unrouted;      REAL time: 42 secs 
 
-Phase  3  : 46748 unrouted;      REAL time: 1 mins 48 secs 
+Phase  3  : 46748 unrouted;      REAL time: 1 mins 49 secs 
 
-Phase  4  : 46862 unrouted; (Setup:0, Hold:81462, Component Switching Limit:0)     REAL time: 1 mins 58 secs 
+Phase  4  : 46862 unrouted; (Setup:0, Hold:81462, Component Switching Limit:0)     REAL time: 1 mins 59 secs 
 
 Updating file: atlys_hdmi2usb-hdmi2usbsoc-atlys.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:95025, Component Switching Limit:0)     REAL time: 4 mins 45 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:95025, Component Switching Limit:0)     REAL time: 4 mins 33 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:95025, Component Switching Limit:0)     REAL time: 4 mins 45 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:95025, Component Switching Limit:0)     REAL time: 4 mins 33 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:95025, Component Switching Limit:0)     REAL time: 4 mins 45 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:95025, Component Switching Limit:0)     REAL time: 4 mins 33 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:95025, Component Switching Limit:0)     REAL time: 4 mins 45 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:95025, Component Switching Limit:0)     REAL time: 4 mins 33 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 54 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 44 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 3 secs 
-Total REAL time to Router completion: 5 mins 3 secs 
-Total CPU time to Router completion: 5 mins 15 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 53 secs 
+Total REAL time to Router completion: 4 mins 54 secs 
+Total CPU time to Router completion: 5 mins 6 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -12748,8 +12748,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 15 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 5 mins 10 secs 
-Total CPU time to PAR completion: 5 mins 22 secs 
+Total REAL time to PAR completion: 5 mins 1 secs 
+Total CPU time to PAR completion: 5 mins 13 secs 
 
 Peak Memory Usage:  1165 MB
 
@@ -12774,7 +12774,7 @@ Loading device for application Rf_Device from file '6slx45.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45, package csg324, speed -3
 Opened constraints file atlys_hdmi2usb-hdmi2usbsoc-atlys.pcf.
 
-Sun Nov  1 05:29:13 2015
+Sun Nov  1 06:01:19 2015
 
 INFO:Bitgen:341 - This design is using one or more 9K Block RAMs (RAMB8BWER). 
    9K Block RAM initialization data, both user defined and default, requires a
