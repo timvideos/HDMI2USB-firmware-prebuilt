@@ -4267,13 +4267,13 @@ eth_clocks_tx  |    8.588|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 69.00 secs
-Total CPU time to Xst completion: 68.40 secs
+Total REAL time to Xst completion: 61.00 secs
+Total CPU time to Xst completion: 60.75 secs
  
 --> 
 
 
-Total memory usage is 477920 kilobytes
+Total memory usage is 477332 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  471 (   0 filtered)
@@ -4414,22 +4414,22 @@ Phase 9.8  Global Placement
 .................................................................................
 ....................................................................
 ..................
-Phase 9.8  Global Placement (Checksum:f61c4e35) REAL time: 2 mins 2 secs 
+Phase 9.8  Global Placement (Checksum:f61c4e35) REAL time: 2 mins 1 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:f61c4e35) REAL time: 2 mins 3 secs 
+Phase 10.5  Local Placement Optimization (Checksum:f61c4e35) REAL time: 2 mins 2 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:2d565fcb) REAL time: 2 mins 16 secs 
+Phase 11.18  Placement Optimization (Checksum:2d565fcb) REAL time: 2 mins 14 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:2d565fcb) REAL time: 2 mins 16 secs 
+Phase 12.5  Local Placement Optimization (Checksum:2d565fcb) REAL time: 2 mins 14 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:82d59b69) REAL time: 2 mins 16 secs 
+Phase 13.34  Placement Validation (Checksum:82d59b69) REAL time: 2 mins 14 secs 
 
-Total REAL time to Placer completion: 2 mins 23 secs 
-Total CPU  time to Placer completion: 2 mins 23 secs 
+Total REAL time to Placer completion: 2 mins 21 secs 
+Total CPU  time to Placer completion: 2 mins 21 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -4518,9 +4518,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                3.75
 
-Peak Memory Usage:  876 MB
-Total REAL time to MAP completion:  2 mins 28 secs 
-Total CPU time to MAP completion:   2 mins 27 secs 
+Peak Memory Usage:  875 MB
+Total REAL time to MAP completion:  2 mins 25 secs 
+Total CPU time to MAP completion:   2 mins 25 secs 
 
 Mapping completed.
 See MAP report file "atlys_base-minisoc-atlys_map.mrp" for details.
@@ -4627,7 +4627,7 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 10 secs 
+Starting initial Timing Analysis.  REAL time: 9 secs 
 Finished initial Timing Analysis.  REAL time: 10 secs 
 
 WARNING:Par:288 - The signal eth_col_IBUF has no load.  PAR will not attempt to route this signal.
@@ -4648,7 +4648,7 @@ Phase  1  : 30204 unrouted;      REAL time: 11 secs
 
 Phase  2  : 25664 unrouted;      REAL time: 13 secs 
 
-Phase  3  : 11786 unrouted;      REAL time: 28 secs 
+Phase  3  : 11786 unrouted;      REAL time: 27 secs 
 
 Phase  4  : 11786 unrouted; (Setup:0, Hold:5684, Component Switching Limit:0)     REAL time: 29 secs 
 
@@ -4814,7 +4814,7 @@ Loading device for application Rf_Device from file '6slx45.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45, package csg324, speed -3
 Opened constraints file atlys_base-minisoc-atlys.pcf.
 
-Sun Nov 15 05:40:13 2015
+Sun Nov 15 06:30:36 2015
 
 INFO:Bitgen:341 - This design is using one or more 9K Block RAMs (RAMB8BWER). 
    9K Block RAM initialization data, both user defined and default, requires a
