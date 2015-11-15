@@ -11840,13 +11840,13 @@ record1_hdmi_in_clk_p|    6.360|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 230.00 secs
-Total CPU time to Xst completion: 229.40 secs
+Total REAL time to Xst completion: 241.00 secs
+Total CPU time to Xst completion: 237.94 secs
  
 --> 
 
 
-Total memory usage is 924976 kilobytes
+Total memory usage is 925000 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 1421 (   0 filtered)
@@ -12118,49 +12118,13 @@ WARNING:Timing:3159 - The DCM, DCM_CLKGEN, has the attribute DFS_OSCILLATOR_MODE
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 55 secs 
-Total CPU  time at the beginning of Placer: 55 secs 
+Total REAL time at the beginning of Placer: 59 secs 
+Total CPU  time at the beginning of Placer: 59 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:f9707f6c) REAL time: 59 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:f9707f6c) REAL time: 1 mins 3 secs 
 
 Phase 2.7  Design Feasibility Check
-WARNING:Place:1137 - This design is not guaranteed to be routable! This design
-   contains a global buffer instance, <hdmi_out_pix_bufg_1>, driving the net,
-   <hdmi_out1_pix_clk>, that is driving the following (first 30) non-clock load
-   pins.
-   < PIN:
-   Mmux_hdmi_out1_hdmi_phy_es1_out[9]_hdmi_out1_hdmi_phy_es1_out[4]_mux_5913_OUT
-   11.A3; >
-   < PIN:
-   Mmux_hdmi_out1_hdmi_phy_es1_out[9]_hdmi_out1_hdmi_phy_es1_out[4]_mux_5913_OUT
-   31.A3; >
-   < PIN:
-   Mmux_hdmi_out1_hdmi_phy_es2_out[9]_hdmi_out1_hdmi_phy_es2_out[4]_mux_5914_OUT
-   51.A3; >
-   < PIN:
-   Mmux_hdmi_out1_hdmi_phy_es0_out[9]_hdmi_out1_hdmi_phy_es0_out[4]_mux_5912_OUT
-   11.A3; >
-   < PIN:
-   Mmux_hdmi_out1_hdmi_phy_es0_out[9]_hdmi_out1_hdmi_phy_es0_out[4]_mux_5912_OUT
-   31.A3; >
-   < PIN:
-   Mmux_hdmi_out1_hdmi_phy_es0_out[9]_hdmi_out1_hdmi_phy_es0_out[4]_mux_5912_OUT
-   51.A4; >
-   < PIN:
-   Mmux_hdmi_out1_hdmi_phy_es2_out[9]_hdmi_out1_hdmi_phy_es2_out[4]_mux_5914_OUT
-   11.A3; >
-   < PIN:
-   Mmux_hdmi_out1_hdmi_phy_es2_out[9]_hdmi_out1_hdmi_phy_es2_out[4]_mux_5914_OUT
-   31.A3; >
-   This is not a recommended design practice in Spartan-6 due to limitations in
-   the global routing that may cause excessive delay, skew or unroutable
-   situations.  It is recommended to only use a BUFG resource to drive clock
-   loads. Please pay extra attention to the timing and routing of this path to
-   ensure the design goals are met. This is normally an ERROR but the
-   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
-   <hdmi_out_pix_bufg_1.O> allowing your design to continue. This constraint
-   disables all clock placer rules related to the specified COMP.PIN.
 WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    contains a global buffer instance, <hdmi_out_pix_bufg>, driving the net,
    <hdmi_out0_pix_clk>, that is driving the following (first 30) non-clock load
@@ -12197,27 +12161,63 @@ WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
    <hdmi_out_pix_bufg.O> allowing your design to continue. This constraint
    disables all clock placer rules related to the specified COMP.PIN.
-Phase 2.7  Design Feasibility Check (Checksum:f9707f6c) REAL time: 1 mins 1 secs 
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <hdmi_out_pix_bufg_1>, driving the net,
+   <hdmi_out1_pix_clk>, that is driving the following (first 30) non-clock load
+   pins.
+   < PIN:
+   Mmux_hdmi_out1_hdmi_phy_es1_out[9]_hdmi_out1_hdmi_phy_es1_out[4]_mux_5913_OUT
+   11.A3; >
+   < PIN:
+   Mmux_hdmi_out1_hdmi_phy_es1_out[9]_hdmi_out1_hdmi_phy_es1_out[4]_mux_5913_OUT
+   31.A3; >
+   < PIN:
+   Mmux_hdmi_out1_hdmi_phy_es2_out[9]_hdmi_out1_hdmi_phy_es2_out[4]_mux_5914_OUT
+   51.A3; >
+   < PIN:
+   Mmux_hdmi_out1_hdmi_phy_es0_out[9]_hdmi_out1_hdmi_phy_es0_out[4]_mux_5912_OUT
+   11.A3; >
+   < PIN:
+   Mmux_hdmi_out1_hdmi_phy_es0_out[9]_hdmi_out1_hdmi_phy_es0_out[4]_mux_5912_OUT
+   31.A3; >
+   < PIN:
+   Mmux_hdmi_out1_hdmi_phy_es0_out[9]_hdmi_out1_hdmi_phy_es0_out[4]_mux_5912_OUT
+   51.A4; >
+   < PIN:
+   Mmux_hdmi_out1_hdmi_phy_es2_out[9]_hdmi_out1_hdmi_phy_es2_out[4]_mux_5914_OUT
+   11.A3; >
+   < PIN:
+   Mmux_hdmi_out1_hdmi_phy_es2_out[9]_hdmi_out1_hdmi_phy_es2_out[4]_mux_5914_OUT
+   31.A3; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <hdmi_out_pix_bufg_1.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+Phase 2.7  Design Feasibility Check (Checksum:f9707f6c) REAL time: 1 mins 6 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:8f6b0e4c) REAL time: 1 mins 1 secs 
+Phase 3.31  Local Placement Optimization (Checksum:8f6b0e4c) REAL time: 1 mins 6 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:31838dfe) REAL time: 1 mins 39 secs 
+(Checksum:31838dfe) REAL time: 1 mins 54 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:31838dfe) REAL time: 1 mins 39 secs 
+Phase 5.36  Local Placement Optimization (Checksum:31838dfe) REAL time: 1 mins 54 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:31838dfe) REAL time: 1 mins 39 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:31838dfe) REAL time: 1 mins 54 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:31838dfe) REAL time: 1 mins 39 secs 
+Phase 7.3  Local Placement Optimization (Checksum:31838dfe) REAL time: 1 mins 54 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:31838dfe) REAL time: 1 mins 40 secs 
+Phase 8.5  Local Placement Optimization (Checksum:31838dfe) REAL time: 1 mins 55 secs 
 
 Phase 9.8  Global Placement
 ........................
@@ -12225,22 +12225,22 @@ Phase 9.8  Global Placement
 .........................................................................
 .......................................................................
 .......................
-Phase 9.8  Global Placement (Checksum:2017d1ed) REAL time: 6 mins 18 secs 
+Phase 9.8  Global Placement (Checksum:2017d1ed) REAL time: 5 mins 43 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:2017d1ed) REAL time: 6 mins 19 secs 
+Phase 10.5  Local Placement Optimization (Checksum:2017d1ed) REAL time: 5 mins 44 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:71260019) REAL time: 7 mins 29 secs 
+Phase 11.18  Placement Optimization (Checksum:71260019) REAL time: 6 mins 36 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:71260019) REAL time: 7 mins 29 secs 
+Phase 12.5  Local Placement Optimization (Checksum:71260019) REAL time: 6 mins 37 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:f480b1de) REAL time: 7 mins 31 secs 
+Phase 13.34  Placement Validation (Checksum:f480b1de) REAL time: 6 mins 38 secs 
 
-Total REAL time to Placer completion: 7 mins 32 secs 
-Total CPU  time to Placer completion: 7 mins 32 secs 
+Total REAL time to Placer completion: 6 mins 39 secs 
+Total CPU  time to Placer completion: 6 mins 39 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -12338,8 +12338,8 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                3.76
 
 Peak Memory Usage:  1185 MB
-Total REAL time to MAP completion:  7 mins 50 secs 
-Total CPU time to MAP completion:   7 mins 50 secs 
+Total REAL time to MAP completion:  6 mins 54 secs 
+Total CPU time to MAP completion:   6 mins 53 secs 
 
 Mapping completed.
 See MAP report file "atlys_hdmi2usb-hdmi2usbsoc-atlys_map.mrp" for details.
@@ -12462,8 +12462,8 @@ WARNING:Timing:3159 - The DCM, DCM_CLKGEN, has the attribute DFS_OSCILLATOR_MODE
    FROM/TO constraints.
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 34 secs 
-Finished initial Timing Analysis.  REAL time: 35 secs 
+Starting initial Timing Analysis.  REAL time: 26 secs 
+Finished initial Timing Analysis.  REAL time: 27 secs 
 
 WARNING:Par:288 - The signal obj_fx2_flaga_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal obj_fx2_flagc_IBUF has no load.  PAR will not attempt to route this signal.
@@ -12483,29 +12483,29 @@ WARNING:Par:288 - The signal eth_clocks_gtx_IBUF has no load.  PAR will not atte
 Starting Router
 
 
-Phase  1  : 93492 unrouted;      REAL time: 38 secs 
+Phase  1  : 93492 unrouted;      REAL time: 29 secs 
 
-Phase  2  : 79542 unrouted;      REAL time: 44 secs 
+Phase  2  : 79542 unrouted;      REAL time: 33 secs 
 
-Phase  3  : 37845 unrouted;      REAL time: 1 mins 43 secs 
+Phase  3  : 37845 unrouted;      REAL time: 1 mins 14 secs 
 
-Phase  4  : 37845 unrouted; (Setup:0, Hold:74065, Component Switching Limit:0)     REAL time: 1 mins 47 secs 
+Phase  4  : 37845 unrouted; (Setup:0, Hold:74065, Component Switching Limit:0)     REAL time: 1 mins 17 secs 
 
 Updating file: atlys_hdmi2usb-hdmi2usbsoc-atlys.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:11956, Component Switching Limit:0)     REAL time: 3 mins 37 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:11956, Component Switching Limit:0)     REAL time: 2 mins 31 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:11956, Component Switching Limit:0)     REAL time: 3 mins 37 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:11956, Component Switching Limit:0)     REAL time: 2 mins 31 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:11956, Component Switching Limit:0)     REAL time: 3 mins 37 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:11956, Component Switching Limit:0)     REAL time: 2 mins 31 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:11956, Component Switching Limit:0)     REAL time: 3 mins 37 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:11956, Component Switching Limit:0)     REAL time: 2 mins 31 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 mins 39 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 33 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 mins 49 secs 
-Total REAL time to Router completion: 3 mins 49 secs 
-Total CPU time to Router completion: 4 mins 1 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 39 secs 
+Total REAL time to Router completion: 2 mins 39 secs 
+Total CPU time to Router completion: 2 mins 46 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -12799,8 +12799,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 15 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 3 mins 58 secs 
-Total CPU time to PAR completion: 4 mins 9 secs 
+Total REAL time to PAR completion: 2 mins 45 secs 
+Total CPU time to PAR completion: 2 mins 52 secs 
 
 Peak Memory Usage:  1046 MB
 
@@ -12825,7 +12825,7 @@ Loading device for application Rf_Device from file '6slx45.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45, package csg324, speed -3
 Opened constraints file atlys_hdmi2usb-hdmi2usbsoc-atlys.pcf.
 
-Sun Nov 15 05:51:34 2015
+Sun Nov 15 06:47:42 2015
 
 INFO:Bitgen:341 - This design is using one or more 9K Block RAMs (RAMB8BWER). 
    9K Block RAM initialization data, both user defined and default, requires a
