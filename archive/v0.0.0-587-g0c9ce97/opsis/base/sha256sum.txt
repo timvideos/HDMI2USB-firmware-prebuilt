@@ -1,0 +1,3 @@
+355fb902bc9b8ec3662910abd571b01fbff927289d681a2eacff83075a389846  opsis_base-basesoc-opsis.bin
+c0f0bd4ed88142108fb0e050bb88ff0c196b37f56bb610f51b0e65ebed761832  opsis_base-basesoc-opsis.bit
+e03b23dc57cfa772e92a4b89504ea1941d29345e527dc0e4bc7e381fbcefc1c8  output.log
