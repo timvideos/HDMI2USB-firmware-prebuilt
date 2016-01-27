@@ -11027,13 +11027,13 @@ record1_hdmi_in_clk_p|    7.671|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 322.00 secs
-Total CPU time to Xst completion: 320.63 secs
+Total REAL time to Xst completion: 318.00 secs
+Total CPU time to Xst completion: 315.01 secs
  
 --> 
 
 
-Total memory usage is 932916 kilobytes
+Total memory usage is 932944 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 1517 (   0 filtered)
@@ -11294,8 +11294,8 @@ NGDBUILD Design Results Summary:
   Number of warnings:  15
 
 Writing NGD file "opsis_hdmi2usb-hdmi2usbsoc-opsis.ngd" ...
-Total REAL time to NGDBUILD completion:  27 sec
-Total CPU time to NGDBUILD completion:   27 sec
+Total REAL time to NGDBUILD completion:  21 sec
+Total CPU time to NGDBUILD completion:   21 sec
 
 Writing NGDBUILD log file "opsis_hdmi2usb-hdmi2usbsoc-opsis.bld"...
 
@@ -11318,11 +11318,11 @@ WARNING:Timing:3159 - The DCM, DCM_CLKGEN, has the attribute DFS_OSCILLATOR_MODE
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 1 mins 22 secs 
-Total CPU  time at the beginning of Placer: 1 mins 22 secs 
+Total REAL time at the beginning of Placer: 1 mins 18 secs 
+Total CPU  time at the beginning of Placer: 1 mins 18 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:beded38e) REAL time: 1 mins 28 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:beded38e) REAL time: 1 mins 24 secs 
 
 Phase 2.7  Design Feasibility Check
 WARNING:Place:1137 - This design is not guaranteed to be routable! This design
@@ -11397,50 +11397,50 @@ WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
    <hdmi_out_pix_bufg_1.O> allowing your design to continue. This constraint
    disables all clock placer rules related to the specified COMP.PIN.
-Phase 2.7  Design Feasibility Check (Checksum:beded38e) REAL time: 1 mins 32 secs 
+Phase 2.7  Design Feasibility Check (Checksum:beded38e) REAL time: 1 mins 27 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:749bdfce) REAL time: 1 mins 32 secs 
+Phase 3.31  Local Placement Optimization (Checksum:749bdfce) REAL time: 1 mins 27 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:4eb4b8f6) REAL time: 2 mins 36 secs 
+(Checksum:4eb4b8f6) REAL time: 2 mins 22 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:4eb4b8f6) REAL time: 2 mins 36 secs 
+Phase 5.36  Local Placement Optimization (Checksum:4eb4b8f6) REAL time: 2 mins 22 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:4eb4b8f6) REAL time: 2 mins 36 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:4eb4b8f6) REAL time: 2 mins 22 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:4eb4b8f6) REAL time: 2 mins 36 secs 
+Phase 7.3  Local Placement Optimization (Checksum:4eb4b8f6) REAL time: 2 mins 23 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:4eb4b8f6) REAL time: 2 mins 36 secs 
+Phase 8.5  Local Placement Optimization (Checksum:4eb4b8f6) REAL time: 2 mins 23 secs 
 
 Phase 9.8  Global Placement
-..........................
-.............................................................................................
-................................................................................................................................................
-.......................................................................................................................................................................................
-..................................................................
-Phase 9.8  Global Placement (Checksum:2ad0dd61) REAL time: 7 mins 29 secs 
+........................
+.............................................................
+.................................................................................................................................
+......................................................................................................
+.....................................
+Phase 9.8  Global Placement (Checksum:b5fcc503) REAL time: 7 mins 26 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:2ad0dd61) REAL time: 7 mins 30 secs 
+Phase 10.5  Local Placement Optimization (Checksum:b5fcc503) REAL time: 7 mins 27 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:20bea7cd) REAL time: 8 mins 34 secs 
+Phase 11.18  Placement Optimization (Checksum:5a6d7f50) REAL time: 8 mins 21 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:20bea7cd) REAL time: 8 mins 35 secs 
+Phase 12.5  Local Placement Optimization (Checksum:5a6d7f50) REAL time: 8 mins 22 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:d55534) REAL time: 8 mins 36 secs 
+Phase 13.34  Placement Validation (Checksum:9db264a7) REAL time: 8 mins 23 secs 
 
-Total REAL time to Placer completion: 8 mins 38 secs 
-Total CPU  time to Placer completion: 8 mins 37 secs 
+Total REAL time to Placer completion: 8 mins 26 secs 
+Total CPU  time to Placer completion: 8 mins 25 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -11453,7 +11453,7 @@ Slice Logic Utilization:
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                3
-  Number of Slice LUTs:                     14,751 out of  27,288   54%
+  Number of Slice LUTs:                     14,799 out of  27,288   54%
     Number used as logic:                   12,746 out of  27,288   46%
       Number using O6 output only:           9,455
       Number using O5 output only:             591
@@ -11469,18 +11469,18 @@ Slice Logic Utilization:
         Number using O6 output only:            79
         Number using O5 output only:             0
         Number using O5 and O6:                 54
-    Number used exclusively as route-thrus:    306
-      Number with same-slice register load:    266
+    Number used exclusively as route-thrus:    354
+      Number with same-slice register load:    314
       Number with same-slice carry load:        40
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 5,530 out of   6,822   81%
+  Number of occupied Slices:                 5,619 out of   6,822   82%
   Number of MUXCYs used:                     2,324 out of  13,644   17%
-  Number of LUT Flip Flop pairs used:       17,865
-    Number with an unused Flip Flop:         6,527 out of  17,865   36%
-    Number with an unused LUT:               3,114 out of  17,865   17%
-    Number of fully used LUT-FF pairs:       8,224 out of  17,865   46%
+  Number of LUT Flip Flop pairs used:       17,900
+    Number with an unused Flip Flop:         6,595 out of  17,900   36%
+    Number with an unused LUT:               3,101 out of  17,900   17%
+    Number of fully used LUT-FF pairs:       8,204 out of  17,900   45%
     Number of unique control sets:             515
     Number of slice register sites lost
       to control set restrictions:           1,437 out of  54,576    2%
@@ -11540,8 +11540,8 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                3.77
 
 Peak Memory Usage:  1211 MB
-Total REAL time to MAP completion:  8 mins 54 secs 
-Total CPU time to MAP completion:   8 mins 53 secs 
+Total REAL time to MAP completion:  8 mins 47 secs 
+Total CPU time to MAP completion:   8 mins 46 secs 
 
 Mapping completed.
 See MAP report file "opsis_hdmi2usb-hdmi2usbsoc-opsis_map.mrp" for details.
@@ -11571,7 +11571,7 @@ Slice Logic Utilization:
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                3
-  Number of Slice LUTs:                     14,751 out of  27,288   54%
+  Number of Slice LUTs:                     14,799 out of  27,288   54%
     Number used as logic:                   12,746 out of  27,288   46%
       Number using O6 output only:           9,455
       Number using O5 output only:             591
@@ -11587,18 +11587,18 @@ Slice Logic Utilization:
         Number using O6 output only:            79
         Number using O5 output only:             0
         Number using O5 and O6:                 54
-    Number used exclusively as route-thrus:    306
-      Number with same-slice register load:    266
+    Number used exclusively as route-thrus:    354
+      Number with same-slice register load:    314
       Number with same-slice carry load:        40
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 5,530 out of   6,822   81%
+  Number of occupied Slices:                 5,619 out of   6,822   82%
   Number of MUXCYs used:                     2,324 out of  13,644   17%
-  Number of LUT Flip Flop pairs used:       17,865
-    Number with an unused Flip Flop:         6,527 out of  17,865   36%
-    Number with an unused LUT:               3,114 out of  17,865   17%
-    Number of fully used LUT-FF pairs:       8,224 out of  17,865   46%
+  Number of LUT Flip Flop pairs used:       17,900
+    Number with an unused Flip Flop:         6,595 out of  17,900   36%
+    Number with an unused LUT:               3,101 out of  17,900   17%
+    Number of fully used LUT-FF pairs:       8,204 out of  17,900   45%
     Number of slice register sites lost
       to control set restrictions:               0 out of  54,576    0%
 
@@ -11667,8 +11667,8 @@ WARNING:Timing:3159 - The DCM, DCM_CLKGEN, has the attribute DFS_OSCILLATOR_MODE
    FROM/TO constraints.
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 24 secs 
-Finished initial Timing Analysis.  REAL time: 25 secs 
+Starting initial Timing Analysis.  REAL time: 28 secs 
+Finished initial Timing Analysis.  REAL time: 28 secs 
 
 WARNING:Par:288 - The signal fx2_flaga_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal fx2_flagc_IBUF has no load.  PAR will not attempt to route this signal.
@@ -11685,29 +11685,29 @@ WARNING:Par:288 - The signal record2_hdmi_out_hpd_notif_IBUF has no load.  PAR w
 Starting Router
 
 
-Phase  1  : 102658 unrouted;      REAL time: 27 secs 
+Phase  1  : 102555 unrouted;      REAL time: 30 secs 
 
-Phase  2  : 87464 unrouted;      REAL time: 32 secs 
+Phase  2  : 87426 unrouted;      REAL time: 36 secs 
 
-Phase  3  : 44770 unrouted;      REAL time: 1 mins 30 secs 
+Phase  3  : 43429 unrouted;      REAL time: 1 mins 45 secs 
 
-Phase  4  : 44787 unrouted; (Setup:0, Hold:5530, Component Switching Limit:0)     REAL time: 1 mins 36 secs 
+Phase  4  : 43434 unrouted; (Setup:0, Hold:8193, Component Switching Limit:0)     REAL time: 1 mins 53 secs 
 
 Updating file: opsis_hdmi2usb-hdmi2usbsoc-opsis.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:4916, Component Switching Limit:0)     REAL time: 5 mins 1 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:3365, Component Switching Limit:0)     REAL time: 4 mins 12 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:4916, Component Switching Limit:0)     REAL time: 5 mins 1 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:3365, Component Switching Limit:0)     REAL time: 4 mins 12 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:4916, Component Switching Limit:0)     REAL time: 5 mins 1 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:3365, Component Switching Limit:0)     REAL time: 4 mins 12 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:4916, Component Switching Limit:0)     REAL time: 5 mins 1 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:3365, Component Switching Limit:0)     REAL time: 4 mins 12 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 3 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 13 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 14 secs 
-Total REAL time to Router completion: 5 mins 14 secs 
-Total CPU time to Router completion: 5 mins 26 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 20 secs 
+Total REAL time to Router completion: 4 mins 20 secs 
+Total CPU time to Router completion: 4 mins 31 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -11725,34 +11725,34 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|    hdmi_in1_pix_clk | BUFGMUX_X2Y10| No   |  315 |  0.060     |  1.272      |
+|    hdmi_in1_pix_clk | BUFGMUX_X2Y10| No   |  303 |  0.062     |  1.273      |
 +---------------------+--------------+------+------+------------+-------------+
-|             sys_clk |  BUFGMUX_X2Y3| No   | 2116 |  0.068     |  1.279      |
+|             sys_clk |  BUFGMUX_X2Y3| No   | 2092 |  0.065     |  1.276      |
 +---------------------+--------------+------+------+------------+-------------+
-|         encoder_clk |  BUFGMUX_X3Y8| No   | 1235 |  0.063     |  1.275      |
+|         encoder_clk |  BUFGMUX_X3Y8| No   | 1235 |  0.069     |  1.280      |
 +---------------------+--------------+------+------+------------+-------------+
-|    hdmi_in0_pix_clk |  BUFGMUX_X2Y9| No   |  296 |  0.062     |  1.278      |
+|    hdmi_in0_pix_clk |  BUFGMUX_X2Y9| No   |  304 |  0.062     |  1.274      |
 +---------------------+--------------+------+------+------------+-------------+
-|   hdmi_out0_pix_clk |  BUFGMUX_X2Y4| No   |  133 |  0.553     |  1.786      |
+|   hdmi_out0_pix_clk |  BUFGMUX_X2Y4| No   |  129 |  0.551     |  1.787      |
 +---------------------+--------------+------+------+------------+-------------+
-|      sdram_half_clk | BUFGMUX_X2Y11| No   |   41 |  0.509     |  1.743      |
+|      sdram_half_clk | BUFGMUX_X2Y11| No   |   43 |  0.502     |  1.743      |
 +---------------------+--------------+------+------+------------+-------------+
-|  hdmi_in0_pix2x_clk | BUFGMUX_X3Y15| No   |   74 |  0.185     |  1.396      |
+|  hdmi_in0_pix2x_clk | BUFGMUX_X3Y15| No   |   67 |  0.184     |  1.396      |
 +---------------------+--------------+------+------+------------+-------------+
-|   hdmi_out1_pix_clk |  BUFGMUX_X2Y2| No   |  133 |  0.555     |  1.766      |
+|   hdmi_out1_pix_clk |  BUFGMUX_X2Y2| No   |  131 |  0.555     |  1.766      |
 +---------------------+--------------+------+------+------------+-------------+
-|  hdmi_in1_pix2x_clk | BUFGMUX_X3Y14| No   |   58 |  0.183     |  1.397      |
+|  hdmi_in1_pix2x_clk | BUFGMUX_X3Y14| No   |   58 |  0.186     |  1.397      |
 +---------------------+--------------+------+------+------------+-------------+
-|           sys2x_clk |  BUFGMUX_X3Y5| No   |  104 |  0.137     |  1.381      |
+|           sys2x_clk |  BUFGMUX_X3Y5| No   |   98 |  0.148     |  1.381      |
 +---------------------+--------------+------+------+------------+-------------+
 | hdmi_out0_pix2x_clk | BUFGMUX_X2Y12| No   |   10 |  0.208     |  1.473      |
 +---------------------+--------------+------+------+------------+-------------+
-| hdmi_out1_pix2x_clk | BUFGMUX_X3Y13| No   |   10 |  0.231     |  1.473      |
+| hdmi_out1_pix2x_clk | BUFGMUX_X3Y13| No   |   10 |  0.249     |  1.473      |
 +---------------------+--------------+------+------+------------+-------------+
 |hdmi2usbsoc_clk_sdra |              |      |      |            |             |
 |      m_half_shifted | BUFGMUX_X3Y16| No   |    4 |  0.000     |  1.743      |
 +---------------------+--------------+------+------+------------+-------------+
-|      fx2_ifclk_IBUF |         Local|      |   28 |  2.429     |  4.223      |
+|      fx2_ifclk_IBUF |         Local|      |   31 |  2.201     |  4.610      |
 +---------------------+--------------+------+------+------------+-------------+
 |   sdram_full_wr_clk |         Local|      |   34 |  0.028     |  1.533      |
 +---------------------+--------------+------+------+------------+-------------+
@@ -11767,7 +11767,7 @@ Generating Clock Report
 | hdmi_in0_pix10x_clk |         Local|      |   12 |  0.038     |  1.552      |
 +---------------------+--------------+------+------+------------+-------------+
 |hdmi2usbsoc_dna_cnt< |              |      |      |            |             |
-|                  0> |         Local|      |    6 |  0.000     |  2.354      |
+|                  0> |         Local|      |    6 |  0.000     |  2.151      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -11789,82 +11789,82 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi2usbsoc_pll_2_ = PERIOD TIMEGRP "h | SETUP       |     0.037ns|     4.942ns|       0|           0
-  dmi2usbsoc_pll_2_"         TS_hdmi2usbsoc | HOLD        |     0.433ns|            |       0|           0
+  TS_hdmi2usbsoc_pll_2_ = PERIOD TIMEGRP "h | SETUP       |     0.012ns|     4.981ns|       0|           0
+  dmi2usbsoc_pll_2_"         TS_hdmi2usbsoc | HOLD        |     0.467ns|            |       0|           0
   _clk100b / 2 PHASE 3.19444444 ns HIGH 50% |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi2usbsoc_pll_1_ = PERIOD TIMEGRP "h | SETUP       |     0.040ns|    14.946ns|       0|           0
-  dmi2usbsoc_pll_1_"         TS_hdmi2usbsoc | HOLD        |     0.246ns|            |       0|           0
-  _clk100b / 0.666666667 HIGH 50%           |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in1_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     0.058ns|     5.942ns|       0|           0
-  mi_in1_pll_clk1"         TSrecord1_hdmi_i | HOLD        |     0.379ns|            |       0|           0
-  n_clk_p / 2 HIGH 50%                      |             |            |            |        |            
+  TS_hdmi_out0_clocking_pll_clk1_0 = PERIOD | SETUP       |     0.061ns|     4.939ns|       0|           0
+   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.063ns|            |       0|           0
+  clk1_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
+  _pix_unbuffered_0 / 2 HIGH 50%            |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_clk_pix_unbuffered_ | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
   0 = PERIOD TIMEGRP         "hdmi_out0_clo |             |            |            |        |            
   cking_clk_pix_unbuffered_0" TS_base50_clk |             |            |            |        |            
    HIGH 50%                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi2usbsoc_pll_5_ = PERIOD TIMEGRP "h | SETUP       |     0.085ns|    19.856ns|       0|           0
-  dmi2usbsoc_pll_5_"         TS_hdmi2usbsoc | HOLD        |     0.102ns|            |       0|           0
-  _clk100b / 0.5 HIGH 50%                   |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_hdmi2usbsoc_pll_4_ = PERIOD TIMEGRP "h | SETUP       |     0.098ns|     9.457ns|       0|           0
-  dmi2usbsoc_pll_4_"         TS_hdmi2usbsoc | HOLD        |     0.045ns|            |       0|           0
+  TS_hdmi2usbsoc_pll_4_ = PERIOD TIMEGRP "h | SETUP       |     0.239ns|     8.676ns|       0|           0
+  dmi2usbsoc_pll_4_"         TS_hdmi2usbsoc | HOLD        |     0.048ns|            |       0|           0
   _clk100b HIGH 50%                         |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in0_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     0.246ns|     5.754ns|       0|           0
-  mi_in0_pll_clk1"         TSrecord0_hdmi_i | HOLD        |     0.413ns|            |       0|           0
-  n_clk_p / 2 HIGH 50%                      |             |            |            |        |            
+  TSrecord1_hdmi_in_clk_p = PERIOD TIMEGRP  | MINLOWPULSE |     7.000ns|     5.000ns|       0|           0
+  "GRPrecord1_hdmi_in_clk_p" 12 ns HIGH     |             |            |            |        |            
+       50%                                  |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TSrecord0_hdmi_in_clk_p = PERIOD TIMEGRP  | MINLOWPULSE |     7.000ns|     5.000ns|       0|           0
   "GRPrecord0_hdmi_in_clk_p" 12 ns HIGH     |             |            |            |        |            
        50%                                  |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TSrecord1_hdmi_in_clk_p = PERIOD TIMEGRP  | MINLOWPULSE |     7.000ns|     5.000ns|       0|           0
-  "GRPrecord1_hdmi_in_clk_p" 12 ns HIGH     |             |            |            |        |            
-       50%                                  |             |            |            |        |            
+  TS_hdmi_in0_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     0.503ns|     5.497ns|       0|           0
+  mi_in0_pll_clk1"         TSrecord0_hdmi_i | HOLD        |     0.415ns|            |       0|           0
+  n_clk_p / 2 HIGH 50%                      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi_in0_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     0.508ns|    11.492ns|       0|           0
+  mi_in0_pll_clk2"         TSrecord0_hdmi_i | HOLD        |     0.111ns|            |       0|           0
+  n_clk_p HIGH 50%                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi2usbsoc_pll_1_ = PERIOD TIMEGRP "h | SETUP       |     0.677ns|    14.322ns|       0|           0
+  dmi2usbsoc_pll_1_"         TS_hdmi2usbsoc | HOLD        |     0.251ns|            |       0|           0
+  _clk100b / 0.666666667 HIGH 50%           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi2usbsoc_pll_5_ = PERIOD TIMEGRP "h | SETUP       |     1.006ns|    18.922ns|       0|           0
+  dmi2usbsoc_pll_5_"         TS_hdmi2usbsoc | HOLD        |     0.123ns|            |       0|           0
+  _clk100b / 0.5 HIGH 50%                   |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_clk_pix_unbuffered  | MINLOWPULSE |    15.000ns|     5.000ns|       0|           0
   = PERIOD TIMEGRP         "hdmi_out0_clock |             |            |            |        |            
   ing_clk_pix_unbuffered" TSbase50_clk HIGH |             |            |            |        |            
    50%                                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in1_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     1.429ns|    10.571ns|       0|           0
-  mi_in1_pll_clk2"         TSrecord1_hdmi_i | HOLD        |     0.162ns|            |       0|           0
-  n_clk_p HIGH 50%                          |             |            |            |        |            
+  TS_hdmi_in1_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     1.405ns|     4.595ns|       0|           0
+  mi_in1_pll_clk1"         TSrecord1_hdmi_i | HOLD        |     0.336ns|            |       0|           0
+  n_clk_p / 2 HIGH 50%                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi2usbsoc_clk100b = PERIOD TIMEGRP " | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
   hdmi2usbsoc_clk100b" TSclk100 HIGH        |             |            |            |        |            
     50%                                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in0_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     1.627ns|    10.373ns|       0|           0
-  mi_in0_pll_clk2"         TSrecord0_hdmi_i | HOLD        |     0.209ns|            |       0|           0
+  TSfx2_ifclk = PERIOD TIMEGRP "GRPfx2_ifcl | SETUP       |     1.711ns|    17.378ns|       0|           0
+  k" 20.8 ns HIGH 50%                       | HOLD        |     0.285ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi_in1_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     2.248ns|     9.752ns|       0|           0
+  mi_in1_pll_clk2"         TSrecord1_hdmi_i | HOLD        |     0.240ns|            |       0|           0
   n_clk_p HIGH 50%                          |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_hdmi_out0_clocking_pll_clk1_0 = PERIOD | SETUP       |     1.666ns|     3.334ns|       0|           0
-   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.087ns|            |       0|           0
-  clk1_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
-  _pix_unbuffered_0 / 2 HIGH 50%            |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_hdmi_out0_clocking_pll_clk2_0 = PERIOD | SETUP       |     3.137ns|     6.863ns|       0|           0
-   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.107ns|            |       0|           0
-  clk2_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
-  _pix_unbuffered_0 HIGH 50%                |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi2usbsoc_pll_3_ = PERIOD TIMEGRP "h | MINPERIOD   |     3.270ns|     1.730ns|       0|           0
   dmi2usbsoc_pll_3_"         TS_hdmi2usbsoc |             |            |            |        |            
   _clk100b / 2 PHASE 2.91666667 ns HIGH 50% |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi_out0_clocking_pll_clk2_0 = PERIOD | SETUP       |     3.317ns|     6.683ns|       0|           0
+   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.268ns|            |       0|           0
+  clk2_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
+  _pix_unbuffered_0 HIGH 50%                |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_base50_clk = PERIOD TIMEGRP "base50_cl | MINLOWPULSE |     4.660ns|     5.340ns|       0|           0
   k" TSclk100 HIGH 50%                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TSclk100 = PERIOD TIMEGRP "GRPclk100" 10  | MINLOWPULSE |     4.660ns|     5.340ns|       0|           0
   ns HIGH 50%                               |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TSfx2_ifclk = PERIOD TIMEGRP "GRPfx2_ifcl | SETUP       |     4.855ns|    11.090ns|       0|           0
-  k" 20.8 ns HIGH 50%                       | HOLD        |     0.180ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_pll_clk1 = PERIOD T | MINPERIOD   |     8.270ns|     1.730ns|       0|           0
   IMEGRP "hdmi_out0_clocking_pll_clk1"      |             |            |            |        |            
@@ -11879,39 +11879,39 @@ Asterisk (*) preceding a constraint indicates it was not met.
       TS_hdmi_out0_clocking_clk_pix_unbuffe |             |            |            |        |            
   red HIGH 50%                              |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_out0_clocking_pll_clk0_0 = PERIOD | N/A         |         N/A|         N/A|     N/A|         N/A
-   TIMEGRP         "hdmi_out0_clocking_pll_ |             |            |            |        |            
-  clk0_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
-  _pix_unbuffered_0 / 10 HIGH 50%           |             |            |            |        |            
+  TS_hdmi_in0_pll_clk0 = PERIOD TIMEGRP "hd | N/A         |         N/A|         N/A|     N/A|         N/A
+  mi_in0_pll_clk0"         TSrecord0_hdmi_i |             |            |            |        |            
+  n_clk_p / 10 HIGH 50%                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks7_path" TIG              | SETUP       |         N/A|     8.104ns|     N/A|           0
-----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks8_path" TIG              | SETUP       |         N/A|    -1.333ns|     N/A|           0
-----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks9_path" TIG              | SETUP       |         N/A|     8.314ns|     N/A|           0
-----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks10_path" TIG             | SETUP       |         N/A|    -1.630ns|     N/A|           0
-----------------------------------------------------------------------------------------------------------
-  TS_hdmi2usbsoc_pll_0_ = PERIOD TIMEGRP "h | N/A         |         N/A|         N/A|     N/A|         N/A
-  dmi2usbsoc_pll_0_"         TS_hdmi2usbsoc |             |            |            |        |            
-  _clk100b / 4 HIGH 50%                     |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks11_path" TIG             | N/A         |         N/A|         N/A|     N/A|         N/A
-----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks12_path" TIG             | SETUP       |         N/A|    11.482ns|     N/A|           0
+  TS_hdmi_in1_pll_clk0 = PERIOD TIMEGRP "hd | N/A         |         N/A|         N/A|     N/A|         N/A
+  mi_in1_pll_clk0"         TSrecord1_hdmi_i |             |            |            |        |            
+  n_clk_p / 10 HIGH 50%                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_pll_clk0 = PERIOD T | N/A         |         N/A|         N/A|     N/A|         N/A
   IMEGRP "hdmi_out0_clocking_pll_clk0"      |             |            |            |        |            
       TS_hdmi_out0_clocking_clk_pix_unbuffe |             |            |            |        |            
   red / 10 HIGH 50%                         |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in1_pll_clk0 = PERIOD TIMEGRP "hd | N/A         |         N/A|         N/A|     N/A|         N/A
-  mi_in1_pll_clk0"         TSrecord1_hdmi_i |             |            |            |        |            
-  n_clk_p / 10 HIGH 50%                     |             |            |            |        |            
+  PATH "TSise_sucks12_path" TIG             | SETUP       |         N/A|    11.655ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in0_pll_clk0 = PERIOD TIMEGRP "hd | N/A         |         N/A|         N/A|     N/A|         N/A
-  mi_in0_pll_clk0"         TSrecord0_hdmi_i |             |            |            |        |            
-  n_clk_p / 10 HIGH 50%                     |             |            |            |        |            
+  PATH "TSise_sucks11_path" TIG             | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi2usbsoc_pll_0_ = PERIOD TIMEGRP "h | N/A         |         N/A|         N/A|     N/A|         N/A
+  dmi2usbsoc_pll_0_"         TS_hdmi2usbsoc |             |            |            |        |            
+  _clk100b / 4 HIGH 50%                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "TSise_sucks10_path" TIG             | SETUP       |         N/A|    -1.795ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TSise_sucks9_path" TIG              | SETUP       |         N/A|     8.275ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TSise_sucks8_path" TIG              | SETUP       |         N/A|    -1.776ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TSise_sucks7_path" TIG              | SETUP       |         N/A|     8.812ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi_out0_clocking_pll_clk0_0 = PERIOD | N/A         |         N/A|         N/A|     N/A|         N/A
+   TIMEGRP         "hdmi_out0_clocking_pll_ |             |            |            |        |            
+  clk0_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
+  _pix_unbuffered_0 / 10 HIGH 50%           |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -11942,22 +11942,22 @@ Derived Constraints for TSclk100
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSclk100                       |     10.000ns|      5.340ns|      9.964ns|            0|            0|            0|      4204845|
-| TS_hdmi2usbsoc_clk100b        |     10.000ns|      3.334ns|      9.964ns|            0|            0|            0|      4177815|
+|TSclk100                       |     10.000ns|      5.340ns|      9.962ns|            0|            0|            0|      4204845|
+| TS_hdmi2usbsoc_clk100b        |     10.000ns|      3.334ns|      9.962ns|            0|            0|            0|      4177815|
 |  TS_hdmi2usbsoc_pll_3_        |      5.000ns|      1.730ns|          N/A|            0|            0|            0|            0|
-|  TS_hdmi2usbsoc_pll_1_        |     15.000ns|     14.946ns|          N/A|            0|            0|       130795|            0|
-|  TS_hdmi2usbsoc_pll_5_        |     20.000ns|     19.856ns|          N/A|            0|            0|      4043911|            0|
+|  TS_hdmi2usbsoc_pll_1_        |     15.000ns|     14.322ns|          N/A|            0|            0|       130795|            0|
+|  TS_hdmi2usbsoc_pll_5_        |     20.000ns|     18.922ns|          N/A|            0|            0|      4043911|            0|
 |  TS_hdmi2usbsoc_pll_0_        |      2.500ns|          N/A|          N/A|            0|            0|            0|            0|
-|  TS_hdmi2usbsoc_pll_4_        |     10.000ns|      9.457ns|          N/A|            0|            0|         2753|            0|
-|  TS_hdmi2usbsoc_pll_2_        |      5.000ns|      4.942ns|          N/A|            0|            0|          356|            0|
-| TS_base50_clk                 |     10.000ns|      5.340ns|      6.863ns|            0|            0|            0|        27030|
-|  TS_hdmi_out0_clocking_clk_pix|     10.000ns|      3.334ns|      6.863ns|            0|            0|            0|        27030|
+|  TS_hdmi2usbsoc_pll_4_        |     10.000ns|      8.676ns|          N/A|            0|            0|         2753|            0|
+|  TS_hdmi2usbsoc_pll_2_        |      5.000ns|      4.981ns|          N/A|            0|            0|          356|            0|
+| TS_base50_clk                 |     10.000ns|      5.340ns|      9.878ns|            0|            0|            0|        27030|
+|  TS_hdmi_out0_clocking_clk_pix|     10.000ns|      3.334ns|      9.878ns|            0|            0|            0|        27030|
 |  _unbuffered_0                |             |             |             |             |             |             |             |
-|   TS_hdmi_out0_clocking_pll_cl|      5.000ns|      3.334ns|          N/A|            0|            0|           30|            0|
+|   TS_hdmi_out0_clocking_pll_cl|      5.000ns|      4.939ns|          N/A|            0|            0|           30|            0|
 |   k1_0                        |             |             |             |             |             |             |             |
 |   TS_hdmi_out0_clocking_pll_cl|      1.000ns|          N/A|          N/A|            0|            0|            0|            0|
 |   k0_0                        |             |             |             |             |             |             |             |
-|   TS_hdmi_out0_clocking_pll_cl|     10.000ns|      6.863ns|          N/A|            0|            0|        27000|            0|
+|   TS_hdmi_out0_clocking_pll_cl|     10.000ns|      6.683ns|          N/A|            0|            0|        27000|            0|
 |   k2_0                        |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -11967,10 +11967,10 @@ Derived Constraints for TSrecord0_hdmi_in_clk_p
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSrecord0_hdmi_in_clk_p        |     12.000ns|      5.000ns|     11.508ns|            0|            0|            0|        13643|
-| TS_hdmi_in0_pll_clk1          |      6.000ns|      5.754ns|          N/A|            0|            0|         1689|            0|
+|TSrecord0_hdmi_in_clk_p        |     12.000ns|      5.000ns|     11.492ns|            0|            0|            0|        13643|
+| TS_hdmi_in0_pll_clk1          |      6.000ns|      5.497ns|          N/A|            0|            0|         1689|            0|
 | TS_hdmi_in0_pll_clk0          |      1.200ns|          N/A|          N/A|            0|            0|            0|            0|
-| TS_hdmi_in0_pll_clk2          |     12.000ns|     10.373ns|          N/A|            0|            0|        11954|            0|
+| TS_hdmi_in0_pll_clk2          |     12.000ns|     11.492ns|          N/A|            0|            0|        11954|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 Derived Constraints for TSrecord1_hdmi_in_clk_p
@@ -11979,10 +11979,10 @@ Derived Constraints for TSrecord1_hdmi_in_clk_p
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSrecord1_hdmi_in_clk_p        |     12.000ns|      5.000ns|     11.884ns|            0|            0|            0|        13509|
-| TS_hdmi_in1_pll_clk1          |      6.000ns|      5.942ns|          N/A|            0|            0|         1689|            0|
+|TSrecord1_hdmi_in_clk_p        |     12.000ns|      5.000ns|      9.752ns|            0|            0|            0|        13509|
+| TS_hdmi_in1_pll_clk1          |      6.000ns|      4.595ns|          N/A|            0|            0|         1689|            0|
 | TS_hdmi_in1_pll_clk0          |      1.200ns|          N/A|          N/A|            0|            0|            0|            0|
-| TS_hdmi_in1_pll_clk2          |     12.000ns|     10.571ns|          N/A|            0|            0|        11820|            0|
+| TS_hdmi_in1_pll_clk2          |     12.000ns|      9.752ns|          N/A|            0|            0|        11820|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -11999,8 +11999,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 12 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 5 mins 23 secs 
-Total CPU time to PAR completion: 5 mins 34 secs 
+Total REAL time to PAR completion: 4 mins 27 secs 
+Total CPU time to PAR completion: 4 mins 38 secs 
 
 Peak Memory Usage:  1084 MB
 
@@ -12025,7 +12025,7 @@ Loading device for application Rf_Device from file '6slx45t.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45t, package fgg484, speed -3
 Opened constraints file opsis_hdmi2usb-hdmi2usbsoc-opsis.pcf.
 
-Wed Jan 27 07:17:00 2016
+Wed Jan 27 07:48:24 2016
 
 INFO:Bitgen:341 - This design is using one or more 9K Block RAMs (RAMB8BWER). 
    9K Block RAM initialization data, both user defined and default, requires a
