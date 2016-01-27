@@ -3362,13 +3362,13 @@ clk100         |   13.686|         |    1.919|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 56.00 secs
-Total CPU time to Xst completion: 56.04 secs
+Total REAL time to Xst completion: 62.00 secs
+Total CPU time to Xst completion: 61.56 secs
  
 --> 
 
 
-Total memory usage is 494996 kilobytes
+Total memory usage is 474960 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  472 (   0 filtered)
@@ -3483,34 +3483,34 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 19 secs 
-Total CPU  time at the beginning of Placer: 19 secs 
+Total REAL time at the beginning of Placer: 21 secs 
+Total CPU  time at the beginning of Placer: 21 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:bc4c95b2) REAL time: 21 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:bc4c95b2) REAL time: 23 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:bc4c95b2) REAL time: 22 secs 
+Phase 2.7  Design Feasibility Check (Checksum:bc4c95b2) REAL time: 24 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:6bfa42f2) REAL time: 22 secs 
+Phase 3.31  Local Placement Optimization (Checksum:6bfa42f2) REAL time: 24 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:a63b123a) REAL time: 45 secs 
+(Checksum:a63b123a) REAL time: 50 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:a63b123a) REAL time: 45 secs 
+Phase 5.36  Local Placement Optimization (Checksum:a63b123a) REAL time: 50 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:a63b123a) REAL time: 45 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:a63b123a) REAL time: 50 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:a63b123a) REAL time: 45 secs 
+Phase 7.3  Local Placement Optimization (Checksum:a63b123a) REAL time: 50 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:a63b123a) REAL time: 45 secs 
+Phase 8.5  Local Placement Optimization (Checksum:a63b123a) REAL time: 50 secs 
 
 Phase 9.8  Global Placement
 .........................
@@ -3518,22 +3518,22 @@ Phase 9.8  Global Placement
 .....................................................................................................................
 ........................................................................................................................................................
 .......................................
-Phase 9.8  Global Placement (Checksum:95609c42) REAL time: 2 mins 2 secs 
+Phase 9.8  Global Placement (Checksum:95609c42) REAL time: 2 mins 14 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:95609c42) REAL time: 2 mins 3 secs 
+Phase 10.5  Local Placement Optimization (Checksum:95609c42) REAL time: 2 mins 14 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:8ab5e953) REAL time: 2 mins 15 secs 
+Phase 11.18  Placement Optimization (Checksum:8ab5e953) REAL time: 2 mins 28 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:8ab5e953) REAL time: 2 mins 16 secs 
+Phase 12.5  Local Placement Optimization (Checksum:8ab5e953) REAL time: 2 mins 28 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:7ca8071c) REAL time: 2 mins 16 secs 
+Phase 13.34  Placement Validation (Checksum:7ca8071c) REAL time: 2 mins 28 secs 
 
-Total REAL time to Placer completion: 2 mins 23 secs 
-Total CPU  time to Placer completion: 2 mins 23 secs 
+Total REAL time to Placer completion: 2 mins 36 secs 
+Total CPU  time to Placer completion: 2 mins 36 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -3625,8 +3625,8 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                3.65
 
 Peak Memory Usage:  876 MB
-Total REAL time to MAP completion:  2 mins 30 secs 
-Total CPU time to MAP completion:   2 mins 30 secs 
+Total REAL time to MAP completion:  2 mins 41 secs 
+Total CPU time to MAP completion:   2 mins 41 secs 
 
 Mapping completed.
 See MAP report file "opsis_base-basesoc-opsis_map.mrp" for details.
@@ -3745,25 +3745,25 @@ Phase  1  : 30110 unrouted;      REAL time: 11 secs
 
 Phase  2  : 25696 unrouted;      REAL time: 14 secs 
 
-Phase  3  : 12033 unrouted;      REAL time: 30 secs 
+Phase  3  : 12033 unrouted;      REAL time: 34 secs 
 
-Phase  4  : 12034 unrouted; (Setup:0, Hold:2319, Component Switching Limit:0)     REAL time: 33 secs 
+Phase  4  : 12034 unrouted; (Setup:0, Hold:2319, Component Switching Limit:0)     REAL time: 38 secs 
 
 Updating file: opsis_base-basesoc-opsis.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:1839, Component Switching Limit:0)     REAL time: 58 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:1839, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:1839, Component Switching Limit:0)     REAL time: 58 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:1839, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:1839, Component Switching Limit:0)     REAL time: 58 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:1839, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:1839, Component Switching Limit:0)     REAL time: 58 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:1839, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 58 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 2 secs 
-Total REAL time to Router completion: 1 mins 2 secs 
-Total CPU time to Router completion: 1 mins 5 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 8 secs 
+Total REAL time to Router completion: 1 mins 8 secs 
+Total CPU time to Router completion: 1 mins 12 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -3870,8 +3870,8 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 1 mins 7 secs 
-Total CPU time to PAR completion: 1 mins 10 secs 
+Total REAL time to PAR completion: 1 mins 11 secs 
+Total CPU time to PAR completion: 1 mins 15 secs 
 
 Peak Memory Usage:  799 MB
 
@@ -3896,7 +3896,7 @@ Loading device for application Rf_Device from file '6slx45t.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45t, package fgg484, speed -3
 Opened constraints file opsis_base-basesoc-opsis.pcf.
 
-Wed Jan 27 06:52:39 2016
+Wed Jan 27 07:32:50 2016
 
 INFO:Bitgen:341 - This design is using one or more 9K Block RAMs (RAMB8BWER). 
    9K Block RAM initialization data, both user defined and default, requires a
