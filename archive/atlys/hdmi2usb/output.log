@@ -535,11 +535,11 @@ WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11377: Assignment to hdmi_in1_dma_slot_array_slot0_clear ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11402: Assignment to hdmi_in1_dma_slot_array_slot1_clear ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11535: Assignment to hdmi_out0_dma_out_busy ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11536: Assignment to hdmi_out0_abstractactor_busy ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11537: Assignment to hdmi_out0_compositeactor_busy0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11536: Assignment to hdmi_out0_compositeactor_busy0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11537: Assignment to hdmi_out0_abstractactor_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11538: Assignment to hdmi_out0_compositeactor_busy1 ignored, since the identifier is never used
-WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11584: Result of 27-bit expression is truncated to fit in 24-bit target.
-WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11585: Result of 27-bit expression is truncated to fit in 24-bit target.
+WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11586: Result of 27-bit expression is truncated to fit in 24-bit target.
+WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11587: Result of 27-bit expression is truncated to fit in 24-bit target.
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11705: Assignment to hdmi_out0_chroma_upsampler_sink_ack ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11707: Assignment to hdmi_out0_chroma_upsampler_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11719: Assignment to hdmi_out0_ycbcr2rgb_source_stb ignored, since the identifier is never used
@@ -4283,8 +4283,8 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 4-bit subtractor for signal <hdmi_out0_clocking_busy_counter[3]_GND_1_o_sub_6968_OUT> created at line 23046.
     Found 5-bit subtractor for signal <hdmi_out0_reader_rsv_level[4]_GND_1_o_sub_7008_OUT> created at line 23143.
     Found 5-bit subtractor for signal <hdmi_out0_reader_level[4]_GND_1_o_sub_7017_OUT> created at line 23158.
-    Found 5-bit subtractor for signal <hdmi_out1_reader_rsv_level[4]_GND_1_o_sub_7058_OUT> created at line 23249.
-    Found 5-bit subtractor for signal <hdmi_out1_reader_level[4]_GND_1_o_sub_7067_OUT> created at line 23264.
+    Found 5-bit subtractor for signal <hdmi_out1_reader_rsv_level[4]_GND_1_o_sub_7057_OUT> created at line 23243.
+    Found 5-bit subtractor for signal <hdmi_out1_reader_level[4]_GND_1_o_sub_7066_OUT> created at line 23258.
     Found 16-bit subtractor for signal <encoder_reader_v[15]_GND_1_o_sub_7091_OUT> created at line 23336.
     Found 5-bit subtractor for signal <encoder_reader_reader_rsv_level[4]_GND_1_o_sub_7097_OUT> created at line 23346.
     Found 5-bit subtractor for signal <encoder_reader_reader_level[4]_GND_1_o_sub_7106_OUT> created at line 23361.
@@ -4301,7 +4301,7 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 24-bit adder for signal <hdmi_out0_intseq_source_payload_value> created at line 11847.
     Found 10-bit adder for signal <hdmi_out1_fifo_graycounter0_q_binary[9]_GND_1_o_add_2214_OUT> created at line 11997.
     Found 10-bit adder for signal <hdmi_out1_fifo_graycounter1_q_binary[9]_GND_1_o_add_2217_OUT> created at line 12013.
-    Found 24-bit adder for signal <hdmi_out1_intseq_source_payload_value> created at line 12186.
+    Found 24-bit adder for signal <hdmi_out1_intseq_source_payload_value> created at line 12182.
     Found 16-bit adder for signal <encoder_reader_h_next> created at line 12232.
     Found 27-bit adder for signal <encoder_reader_read_address> created at line 12233.
     Found 29-bit adder for signal <n14241> created at line 12234.
@@ -4640,11 +4640,11 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 24-bit adder for signal <hdmi_out0_intseq_counter[23]_GND_1_o_add_7019_OUT> created at line 23170.
     Found 10-bit adder for signal <hdmi_out1_vtg_hcounter[9]_GND_1_o_add_7036_OUT> created at line 23195.
     Found 12-bit adder for signal <hdmi_out1_vtg_vcounter[11]_GND_1_o_add_7043_OUT> created at line 23214.
-    Found 5-bit adder for signal <hdmi_out1_reader_rsv_level[4]_GND_1_o_add_7055_OUT> created at line 23245.
-    Found 4-bit adder for signal <hdmi_out1_reader_produce[3]_GND_1_o_add_7060_OUT> created at line 23253.
-    Found 4-bit adder for signal <hdmi_out1_reader_consume[3]_GND_1_o_add_7062_OUT> created at line 23256.
-    Found 5-bit adder for signal <hdmi_out1_reader_level[4]_GND_1_o_add_7064_OUT> created at line 23260.
-    Found 24-bit adder for signal <hdmi_out1_intseq_counter[23]_GND_1_o_add_7079_OUT> created at line 23309.
+    Found 5-bit adder for signal <hdmi_out1_reader_rsv_level[4]_GND_1_o_add_7054_OUT> created at line 23239.
+    Found 4-bit adder for signal <hdmi_out1_reader_produce[3]_GND_1_o_add_7059_OUT> created at line 23247.
+    Found 4-bit adder for signal <hdmi_out1_reader_consume[3]_GND_1_o_add_7061_OUT> created at line 23250.
+    Found 5-bit adder for signal <hdmi_out1_reader_level[4]_GND_1_o_add_7063_OUT> created at line 23254.
+    Found 24-bit adder for signal <hdmi_out1_intseq_counter[23]_GND_1_o_add_7078_OUT> created at line 23303.
     Found 16-bit adder for signal <encoder_reader_v[15]_GND_1_o_add_7089_OUT> created at line 23333.
     Found 5-bit adder for signal <encoder_reader_reader_rsv_level[4]_GND_1_o_add_7094_OUT> created at line 23342.
     Found 4-bit adder for signal <encoder_reader_reader_produce[3]_GND_1_o_add_7099_OUT> created at line 23350.
@@ -4699,20 +4699,20 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es2_cnt[5]_GND_1_o_sub_5751_OUT> created at line 19269.
     Found 6-bit subtractor for signal <_n23628> created at line 19206.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es1_cnt[5]_GND_1_o_sub_5676_OUT> created at line 19206.
-    Found 6-bit subtractor for signal <_n23632> created at line 19216.
-    Found 6-bit adder for signal <_n23633> created at line 19216.
+    Found 6-bit subtractor for signal <_n23631> created at line 19216.
+    Found 6-bit adder for signal <_n23632> created at line 19216.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es1_cnt[5]_GND_1_o_sub_5691_OUT> created at line 19216.
-    Found 6-bit subtractor for signal <_n23638> created at line 19209.
+    Found 6-bit subtractor for signal <_n23637> created at line 19209.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es1_cnt[5]_GND_1_o_sub_5679_OUT> created at line 19209.
+    Found 6-bit subtractor for signal <_n23639> created at line 19221.
     Found 6-bit subtractor for signal <_n23640> created at line 19221.
-    Found 6-bit subtractor for signal <_n23641> created at line 19221.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es1_cnt[5]_GND_1_o_sub_5694_OUT> created at line 19221.
-    Found 6-bit subtractor for signal <_n23661> created at line 19161.
+    Found 6-bit subtractor for signal <_n23660> created at line 19161.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es0_cnt[5]_GND_1_o_sub_5622_OUT> created at line 19161.
-    Found 6-bit subtractor for signal <_n23663> created at line 19168.
-    Found 6-bit adder for signal <_n23664> created at line 19168.
+    Found 6-bit subtractor for signal <_n23662> created at line 19168.
+    Found 6-bit adder for signal <_n23663> created at line 19168.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es0_cnt[5]_GND_1_o_sub_5634_OUT> created at line 19168.
-    Found 6-bit subtractor for signal <_n23666> created at line 19158.
+    Found 6-bit subtractor for signal <_n23665> created at line 19158.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es0_cnt[5]_GND_1_o_sub_5619_OUT> created at line 19158.
     Found 16x16-bit multiplier for signal <n15095> created at line 12233.
     Found 20-bit shifter logical right for signal <n15283> created at line 17136
@@ -4750,7 +4750,7 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 512x8-bit dual-port RAM <Mram_mem_grain1_1> for signal <mem_grain1_1>.
     Found 512x8-bit dual-port RAM <Mram_mem_grain2_1> for signal <mem_grain2_1>.
     Found 512x8-bit dual-port RAM <Mram_mem_grain3_1> for signal <mem_grain3_1>.
-    Found 16x16-bit Read Only RAM for signal <_n25865>
+    Found 16x16-bit Read Only RAM for signal <_n25868>
     Found 1-bit 3-to-1 multiplexer for signal <hdmi2usbsoc_interface_ack> created at line 8617.
     Found 8-bit 4-to-1 multiplexer for signal <ethmac_crc32_inserter_cnt[1]_ethmac_crc32_inserter_value[7]_wide_mux_1431_OUT> created at line 9121.
     Found 8-bit 4-to-1 multiplexer for signal <ethmac_tx_converter_unpack_source_payload_data> created at line 9459.
@@ -4815,7 +4815,7 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 8-bit 4-to-1 multiplexer for signal <hdmi_out1_fifo_pix_y[7]_hdmi_out1_fifo_asyncfifo_dout_p3_y[7]_mux_5846_OUT> created at line 19322.
     Found 8-bit 4-to-1 multiplexer for signal <hdmi_out1_fifo_pix_cb_cr[7]_hdmi_out1_fifo_asyncfifo_dout_p3_cb_cr[7]_mux_5847_OUT> created at line 19322.
     Found 1-bit 8-to-1 multiplexer for signal <_n23612> created at line 22792.
-    Found 1-bit 8-to-1 multiplexer for signal <_n23658> created at line 22534.
+    Found 1-bit 8-to-1 multiplexer for signal <_n23657> created at line 22534.
     Found 1-bit tristate buffer for signal <record0_hdmi_in_sda> created at line 26767
     Found 1-bit tristate buffer for signal <record1_hdmi_in_sda> created at line 27191
     Found 1-bit tristate buffer for signal <record2_hdmi_out_sda> created at line 27595
@@ -4847,7 +4847,7 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 1-bit comparator equal for signal <hdmi2usbsoc_sdram_choose_req_is_write_hdmi2usbsoc_sdram_choose_req_want_writes_equal_408_o> created at line 8088
     Found 29-bit comparator equal for signal <hdmi2usbsoc_tag_do_tag[28]_GND_1_o_equal_1331_o> created at line 8536
     Found 8-bit comparator not equal for signal <ethmac_preamble_checker_match> created at line 8968
-    Found 16-bit comparator greater for signal <_n25135> created at line 9330
+    Found 16-bit comparator greater for signal <_n25134> created at line 9330
     Found 1-bit comparator equal for signal <ethmac_tx_cdc_graycounter0_q[3]_ethmac_tx_cdc_consume_wdomain[3]_equal_1508_o> created at line 9577
     Found 1-bit comparator equal for signal <ethmac_tx_cdc_graycounter0_q[2]_ethmac_tx_cdc_consume_wdomain[2]_equal_1509_o> created at line 9577
     Found 2-bit comparator not equal for signal <n1915> created at line 9577
@@ -4880,13 +4880,13 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 4-bit comparator greater for signal <GND_1_o_hdmi_out1_hdmi_phy_es0_n1d[3]_LessThan_2238_o> created at line 12057
     Found 4-bit comparator greater for signal <GND_1_o_hdmi_out1_hdmi_phy_es1_n1d[3]_LessThan_2240_o> created at line 12058
     Found 4-bit comparator greater for signal <GND_1_o_hdmi_out1_hdmi_phy_es2_n1d[3]_LessThan_2242_o> created at line 12059
-    Found 24-bit comparator equal for signal <hdmi_out1_intseq_last> created at line 12185
+    Found 24-bit comparator equal for signal <hdmi_out1_intseq_last> created at line 12181
     Found 16-bit comparator greater for signal <encoder_reader_h_width_storage[15]_INV_422_o> created at line 12321
     Found 16-bit comparator greater for signal <n3465> created at line 12324
     Found 1-bit comparator equal for signal <asyncfifo_graycounter0_q0[2]_asyncfifo_consume_wdomain0[2]_equal_2310_o> created at line 12362
     Found 1-bit comparator equal for signal <asyncfifo_graycounter0_q0[1]_asyncfifo_consume_wdomain0[1]_equal_2311_o> created at line 12362
     Found 1-bit comparator not equal for signal <n3509> created at line 12362
-    Found 3-bit comparator equal for signal <_n25099> created at line 12363
+    Found 3-bit comparator equal for signal <_n25098> created at line 12363
     Found 1-bit comparator equal for signal <n3536> created at line 12488
     Found 11-bit comparator greater for signal <encoder_output_fifo_almost_full> created at line 12581
     Found 1-bit comparator equal for signal <asyncfifo_graycounter0_q1[2]_asyncfifo_consume_wdomain1[2]_equal_2367_o> created at line 12640
@@ -8624,7 +8624,7 @@ INFO:Xst:3226 - The RAM <Mram_mem_grain3_11> will be implemented as a BLOCK RAM,
     -----------------------------------------------------------------------
     | optimization       | speed                               |          |
     -----------------------------------------------------------------------
-INFO:Xst:3231 - The small RAM <Mram__n25865> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram__n25868> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -10782,7 +10782,6 @@ INFO:Xst:2261 - The FF/Latch <hdmi_in1_wer0_period_counter_23> in Unit <top> is 
 INFO:Xst:2261 - The FF/Latch <hdmi_in1_wer0_period_counter_19> in Unit <top> is equivalent to the following 2 FFs/Latches, which will be removed : <hdmi_in1_wer1_period_counter_19> <hdmi_in1_wer2_period_counter_19> 
 INFO:Xst:2261 - The FF/Latch <JpegEnc/U_FDCT/U_MDCT/U_DCT2D/databuf_reg_6_0> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_FDCT/U_MDCT/U_DCT2D/databuf_reg_2_0> 
 INFO:Xst:2261 - The FF/Latch <hdmi_in1_wer0_toggle_i> in Unit <top> is equivalent to the following 2 FFs/Latches, which will be removed : <hdmi_in1_wer1_toggle_i> <hdmi_in1_wer2_toggle_i> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_FDCT/U_MDCT/U_DCT2D/stage2_cnt_reg_5> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_FDCT/U_MDCT/U_DCT2D/stage2_cnt_reg_4> 
 INFO:Xst:2261 - The FF/Latch <lm32_cpu/load_store_unit/d_cyc_o> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <lm32_cpu/load_store_unit/d_stb_o> 
 INFO:Xst:2261 - The FF/Latch <JpegEnc/U_FDCT/U_MDCT/U_DCT1D/dcto_2_20> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_FDCT/U_MDCT/U_DCT1D/dcto_2_21> 
 INFO:Xst:2261 - The FF/Latch <hdmi_in1_wer0_wer_counter_r_updated> in Unit <top> is equivalent to the following 2 FFs/Latches, which will be removed : <hdmi_in1_wer1_wer_counter_r_updated> <hdmi_in1_wer2_wer_counter_r_updated> 
@@ -10820,18 +10819,6 @@ INFO:Xst:2261 - The FF/Latch <lm32_cpu/direction_x> in Unit <top> is equivalent 
 INFO:Xst:2261 - The FF/Latch <hdmi_out1_hdmi_phy_es0_q_m_0> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <hdmi_out1_hdmi_phy_es0_q_m_8_BRB1> 
 INFO:Xst:2261 - The FF/Latch <hdmi_out1_hdmi_phy_es1_q_m_0> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <hdmi_out1_hdmi_phy_es1_q_m_8_BRB1> 
 INFO:Xst:2261 - The FF/Latch <hdmi_out1_hdmi_phy_es2_q_m_0> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <hdmi_out1_hdmi_phy_es2_q_m_8_BRB1> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<19>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<18>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<18>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<17>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<16>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<15><4>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<20>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<19>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<9><4>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<8><4>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<10><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<9><4>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<13><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<12><4>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<8><4>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<7><4>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<11><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<10><4>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<12><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<11><4>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<15><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<14><4>1_FRB> 
-INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<14><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<13><4>1_FRB> 
 INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<5>1_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<4>1_FRB> 
 INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<3>1_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<2>1_FRB> 
 INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<7><4>1_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<6>1_FRB> 
@@ -10840,20 +10827,20 @@ INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<4>1_FRB
 INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<1>11_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<0>1_FRB> 
 INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<2>11_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<1>1_FRB> 
 INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<17>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<16>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<16>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<15><4>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<20>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<19>1_FRB> 
 INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<21>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<20>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<19>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<18>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<9><4>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<8><4>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<13><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<12><4>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<18>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<17>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<11><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<10><4>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<15><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<14><4>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<14><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<13><4>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<10><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<9><4>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<8><4>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<7><4>1_FRB> 
+INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<12><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<11><4>1_FRB> 
 INFO:Xst:2260 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<22>111_FRB> in Unit <top> is equivalent to the following FF/Latch : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<21>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<19>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<18>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<18>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<17>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<16>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<15><4>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<20>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<19>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<9><4>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<8><4>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<10><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<9><4>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<13><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<12><4>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<8><4>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<7><4>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<11><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<10><4>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<12><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<11><4>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<15><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<14><4>1_FRB> 
-INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<14><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<13><4>1_FRB> 
 INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<5>1_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<4>1_FRB> 
 INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<3>1_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<2>1_FRB> 
 INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<7><4>1_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<6>1_FRB> 
@@ -10862,7 +10849,19 @@ INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<4>1_FRB
 INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<1>11_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<0>1_FRB> 
 INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<2>11_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<1>1_FRB> 
 INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<17>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<16>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<16>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<15><4>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<20>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<19>1_FRB> 
 INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<21>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<20>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<19>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<18>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<9><4>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<8><4>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<13><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<12><4>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<18>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<17>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<11><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<10><4>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<15><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<14><4>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<14><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<13><4>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<10><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<9><4>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<8><4>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<7><4>1_FRB> 
+INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<12><4>211_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<11><4>1_FRB> 
 INFO:Xst:2261 - The FF/Latch <JpegEnc/U_Huffman/GND_93_o_Decoder_245_OUT<22>111_FRB> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <JpegEnc/U_Huffman/GND_93_o_Decoder_253_OUT<21>1_FRB> 
 
 Pipelining and Register Balancing Report ...
@@ -10888,6 +10887,7 @@ Processing Unit <top> :
 	Register(s) JpegEnc/U_Huffman/bit_ptr_1 JpegEnc/U_Huffman/bit_ptr_0 JpegEnc/U_Huffman/bit_ptr_2 has(ve) been forward balanced into : JpegEnc/U_Huffman/Msub_GND_93_o_GND_93_o_sub_244_OUT_Madd_cy<2>11_FRB.
 	Register(s) JpegEnc/U_Huffman/bit_ptr_3 JpegEnc/U_Huffman/Msub_GND_93_o_GND_93_o_sub_244_OUT_Madd_cy<2>11_FRB has(ve) been forward balanced into : JpegEnc/U_Huffman/Msub_GND_93_o_GND_93_o_sub_244_OUT_Madd_xor<3>11_FRB.
 	Register(s) JpegEnc/U_Huffman/bit_ptr_4 JpegEnc/U_Huffman/bit_ptr_3 JpegEnc/U_Huffman/Msub_GND_93_o_GND_93_o_sub_244_OUT_Madd_cy<2>11_FRB has(ve) been forward balanced into : JpegEnc/U_Huffman/Msub_GND_93_o_GND_93_o_sub_244_OUT_Madd_xor<4>11_FRB.
+	Register(s) hdmi2usbsoc_hdmi2usbsoc_interface_adr_4 hdmi2usbsoc_hdmi2usbsoc_interface_adr_2 hdmi2usbsoc_hdmi2usbsoc_interface_adr_1 has(ve) been forward balanced into : Mmux_interface11_adr[4]_GND_1_o_wide_mux_7171_OUT4111_FRB.
 	Register(s) JpegEnc/U_CtrlSM/jpeg_busy has(ve) been backward balanced into : JpegEnc/U_CtrlSM/jpeg_busy_BRB0 JpegEnc/U_CtrlSM/jpeg_busy_BRB1 JpegEnc/U_CtrlSM/jpeg_busy_BRB2.
 	Register(s) JpegEnc/U_Huffman/U_DoubleFifo/data_out_0 has(ve) been backward balanced into : JpegEnc/U_Huffman/U_DoubleFifo/data_out_0_BRB1 JpegEnc/U_Huffman/U_DoubleFifo/data_out_0_BRB2.
 	Register(s) JpegEnc/U_Huffman/U_DoubleFifo/data_out_1 has(ve) been backward balanced into : JpegEnc/U_Huffman/U_DoubleFifo/data_out_1_BRB1 JpegEnc/U_Huffman/U_DoubleFifo/data_out_1_BRB2.
@@ -10931,10 +10931,10 @@ Processing Unit <top> :
 	Register(s) JpegEnc/U_RLE_TOP/U_rle/runlength_reg_2 has(ve) been backward balanced into : JpegEnc/U_RLE_TOP/U_rle/runlength_reg_2_BRB4 .
 	Register(s) JpegEnc/U_RLE_TOP/U_rle/runlength_reg_3 has(ve) been backward balanced into : JpegEnc/U_RLE_TOP/U_rle/runlength_reg_3_BRB1 JpegEnc/U_RLE_TOP/U_rle/runlength_reg_3_BRB2 JpegEnc/U_RLE_TOP/U_rle/runlength_reg_3_BRB4 JpegEnc/U_RLE_TOP/U_rle/runlength_reg_3_BRB5.
 	Register(s) encoder_ycbcr422to444_valid_n0 has(ve) been backward balanced into : encoder_ycbcr422to444_valid_n0_BRB0 encoder_ycbcr422to444_valid_n0_BRB1 encoder_ycbcr422to444_valid_n0_BRB2 encoder_ycbcr422to444_valid_n0_BRB3 encoder_ycbcr422to444_valid_n0_BRB4.
-	Register(s) hdmi2usbsoc_ddrphy_rddata_sr_1 has(ve) been backward balanced into : hdmi2usbsoc_ddrphy_rddata_sr_1_BRB0 hdmi2usbsoc_ddrphy_rddata_sr_1_BRB1 hdmi2usbsoc_ddrphy_rddata_sr_1_BRB2 hdmi2usbsoc_ddrphy_rddata_sr_1_BRB3 hdmi2usbsoc_ddrphy_rddata_sr_1_BRB4 hdmi2usbsoc_ddrphy_rddata_sr_1_BRB5.
-	Register(s) hdmi2usbsoc_ddrphy_rddata_sr_2 has(ve) been backward balanced into : hdmi2usbsoc_ddrphy_rddata_sr_2_BRB0 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB1 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB2 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB3 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB4 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB6 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB7 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB8 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB9 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB10.
-	Register(s) hdmi2usbsoc_ddrphy_rddata_sr_3 has(ve) been backward balanced into : hdmi2usbsoc_ddrphy_rddata_sr_3_BRB0 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB1 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB2 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB3 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB4 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB6 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB7 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB8 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB9 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB10.
-	Register(s) hdmi2usbsoc_ddrphy_rddata_sr_4 has(ve) been backward balanced into : hdmi2usbsoc_ddrphy_rddata_sr_4_BRB0 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB1 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB2 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB3 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB4 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB6 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB7 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB8 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB9 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB10.
+	Register(s) hdmi2usbsoc_ddrphy_rddata_sr_1 has(ve) been backward balanced into : hdmi2usbsoc_ddrphy_rddata_sr_1_BRB0 hdmi2usbsoc_ddrphy_rddata_sr_1_BRB1 hdmi2usbsoc_ddrphy_rddata_sr_1_BRB2 hdmi2usbsoc_ddrphy_rddata_sr_1_BRB3 hdmi2usbsoc_ddrphy_rddata_sr_1_BRB4.
+	Register(s) hdmi2usbsoc_ddrphy_rddata_sr_2 has(ve) been backward balanced into : hdmi2usbsoc_ddrphy_rddata_sr_2_BRB0 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB1 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB2 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB4 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB5 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB6 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB7 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB8 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB9 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB10 hdmi2usbsoc_ddrphy_rddata_sr_2_BRB11.
+	Register(s) hdmi2usbsoc_ddrphy_rddata_sr_3 has(ve) been backward balanced into : hdmi2usbsoc_ddrphy_rddata_sr_3_BRB0 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB1 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB2 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB4 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB5 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB6 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB7 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB8 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB9 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB10 hdmi2usbsoc_ddrphy_rddata_sr_3_BRB11.
+	Register(s) hdmi2usbsoc_ddrphy_rddata_sr_4 has(ve) been backward balanced into : hdmi2usbsoc_ddrphy_rddata_sr_4_BRB0 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB1 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB2 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB3 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB5 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB6 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB7 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB8 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB9 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB10 hdmi2usbsoc_ddrphy_rddata_sr_4_BRB11.
 	Register(s) hdmi2usbsoc_ddrphy_record0_cke has(ve) been backward balanced into : hdmi2usbsoc_ddrphy_record0_cke_BRB0 .
 	Register(s) hdmi2usbsoc_ddrphy_record0_odt has(ve) been backward balanced into : hdmi2usbsoc_ddrphy_record0_odt_BRB0 hdmi2usbsoc_ddrphy_record0_odt_BRB1.
 	Register(s) hdmi2usbsoc_sdram_dfi_p0_rddata_en has(ve) been backward balanced into : hdmi2usbsoc_sdram_dfi_p0_rddata_en_BRB0 hdmi2usbsoc_sdram_dfi_p0_rddata_en_BRB1 hdmi2usbsoc_sdram_dfi_p0_rddata_en_BRB2.
@@ -11081,41 +11081,30 @@ Processing Unit <top> :
 	Register(s) lm32_cpu/m_result_sel_shift_x has(ve) been backward balanced into : lm32_cpu/m_result_sel_shift_x_BRB0 lm32_cpu/m_result_sel_shift_x_BRB1 lm32_cpu/m_result_sel_shift_x_BRB2 lm32_cpu/m_result_sel_shift_x_BRB3 lm32_cpu/m_result_sel_shift_x_BRB4.
 	Register(s) lm32_cpu/w_result_sel_mul_m has(ve) been backward balanced into : lm32_cpu/w_result_sel_mul_m_BRB0 lm32_cpu/w_result_sel_mul_m_BRB1.
 	Register(s) lm32_cpu/w_result_sel_mul_x has(ve) been backward balanced into : lm32_cpu/w_result_sel_mul_x_BRB0 lm32_cpu/w_result_sel_mul_x_BRB2.
-	Register(s) new_master_dat_r_ack0 has(ve) been backward balanced into : new_master_dat_r_ack0_BRB0 new_master_dat_r_ack0_BRB1 new_master_dat_r_ack0_BRB2 new_master_dat_r_ack0_BRB3 new_master_dat_r_ack0_BRB5 new_master_dat_r_ack0_BRB8 new_master_dat_r_ack0_BRB9 new_master_dat_r_ack0_BRB10 new_master_dat_r_ack0_BRB11 new_master_dat_r_ack0_BRB14 new_master_dat_r_ack0_BRB16 new_master_dat_r_ack0_BRB19 new_master_dat_r_ack0_BRB21 .
-	Register(s) new_master_dat_r_ack1 has(ve) been backward balanced into : new_master_dat_r_ack1_BRB0 new_master_dat_r_ack1_BRB1 new_master_dat_r_ack1_BRB2 new_master_dat_r_ack1_BRB3 new_master_dat_r_ack1_BRB5 new_master_dat_r_ack1_BRB8 new_master_dat_r_ack1_BRB9 new_master_dat_r_ack1_BRB10 new_master_dat_r_ack1_BRB11 new_master_dat_r_ack1_BRB14 new_master_dat_r_ack1_BRB16 new_master_dat_r_ack1_BRB19 new_master_dat_r_ack1_BRB21 .
-	Register(s) new_master_dat_r_ack18 has(ve) been backward balanced into : new_master_dat_r_ack18_BRB0 new_master_dat_r_ack18_BRB1 new_master_dat_r_ack18_BRB2 new_master_dat_r_ack18_BRB3 new_master_dat_r_ack18_BRB4 new_master_dat_r_ack18_BRB5 new_master_dat_r_ack18_BRB6 new_master_dat_r_ack18_BRB7 new_master_dat_r_ack18_BRB8 new_master_dat_r_ack18_BRB9 new_master_dat_r_ack18_BRB10 new_master_dat_r_ack18_BRB11 new_master_dat_r_ack18_BRB12 new_master_dat_r_ack18_BRB13 new_master_dat_r_ack18_BRB14 new_master_dat_r_ack18_BRB15 new_master_dat_r_ack18_BRB16 new_master_dat_r_ack18_BRB17 new_master_dat_r_ack18_BRB18 new_master_dat_r_ack18_BRB19 new_master_dat_r_ack18_BRB20 new_master_dat_r_ack18_BRB21 new_master_dat_r_ack18_BRB22 new_master_dat_r_ack18_BRB23 new_master_dat_r_ack18_BRB24 new_master_dat_r_ack18_BRB25 new_master_dat_r_ack18_BRB26 new_master_dat_r_ack18_BRB27 new_master_dat_r_ack18_BRB29 new_master_dat_r_ack18_BRB30 new_master_dat_r_ack18_BRB31 new_master_dat_r_ack18_BRB32 new_master_dat_r_ack18_BRB33
-new_master_dat_r_ack18_BRB34 new_master_dat_r_ack18_BRB35 new_master_dat_r_ack18_BRB36 new_master_dat_r_ack18_BRB40.
-	Register(s) new_master_dat_r_ack19 has(ve) been backward balanced into : new_master_dat_r_ack19_BRB0 new_master_dat_r_ack19_BRB1 new_master_dat_r_ack19_BRB2 new_master_dat_r_ack19_BRB3 new_master_dat_r_ack19_BRB4 new_master_dat_r_ack19_BRB5 new_master_dat_r_ack19_BRB6 new_master_dat_r_ack19_BRB7 new_master_dat_r_ack19_BRB8 new_master_dat_r_ack19_BRB9 new_master_dat_r_ack19_BRB10 new_master_dat_r_ack19_BRB11 new_master_dat_r_ack19_BRB12 new_master_dat_r_ack19_BRB13 new_master_dat_r_ack19_BRB14 new_master_dat_r_ack19_BRB15 new_master_dat_r_ack19_BRB16 new_master_dat_r_ack19_BRB17 new_master_dat_r_ack19_BRB18 new_master_dat_r_ack19_BRB19 new_master_dat_r_ack19_BRB20 new_master_dat_r_ack19_BRB21 new_master_dat_r_ack19_BRB22 new_master_dat_r_ack19_BRB23 new_master_dat_r_ack19_BRB24 new_master_dat_r_ack19_BRB25 new_master_dat_r_ack19_BRB26 new_master_dat_r_ack19_BRB27 new_master_dat_r_ack19_BRB29 new_master_dat_r_ack19_BRB30 new_master_dat_r_ack19_BRB31 new_master_dat_r_ack19_BRB32 new_master_dat_r_ack19_BRB33
-new_master_dat_r_ack19_BRB34 new_master_dat_r_ack19_BRB35 new_master_dat_r_ack19_BRB36 new_master_dat_r_ack19_BRB40.
-	Register(s) new_master_dat_r_ack2 has(ve) been backward balanced into : new_master_dat_r_ack2_BRB0 new_master_dat_r_ack2_BRB1 new_master_dat_r_ack2_BRB2 new_master_dat_r_ack2_BRB3 new_master_dat_r_ack2_BRB4 new_master_dat_r_ack2_BRB5 new_master_dat_r_ack2_BRB8 new_master_dat_r_ack2_BRB9 new_master_dat_r_ack2_BRB10 new_master_dat_r_ack2_BRB11 new_master_dat_r_ack2_BRB14 new_master_dat_r_ack2_BRB15 new_master_dat_r_ack2_BRB16 new_master_dat_r_ack2_BRB19 new_master_dat_r_ack2_BRB21 .
-	Register(s) new_master_dat_r_ack20 has(ve) been backward balanced into : new_master_dat_r_ack20_BRB0 new_master_dat_r_ack20_BRB1 new_master_dat_r_ack20_BRB2 new_master_dat_r_ack20_BRB3 new_master_dat_r_ack20_BRB4 new_master_dat_r_ack20_BRB5 new_master_dat_r_ack20_BRB6 new_master_dat_r_ack20_BRB7 new_master_dat_r_ack20_BRB8 new_master_dat_r_ack20_BRB9 new_master_dat_r_ack20_BRB10 new_master_dat_r_ack20_BRB11 new_master_dat_r_ack20_BRB12 new_master_dat_r_ack20_BRB13 new_master_dat_r_ack20_BRB14 new_master_dat_r_ack20_BRB15 new_master_dat_r_ack20_BRB16 new_master_dat_r_ack20_BRB17 new_master_dat_r_ack20_BRB18 new_master_dat_r_ack20_BRB19 new_master_dat_r_ack20_BRB20 new_master_dat_r_ack20_BRB21 new_master_dat_r_ack20_BRB22 new_master_dat_r_ack20_BRB23 new_master_dat_r_ack20_BRB24 new_master_dat_r_ack20_BRB25 new_master_dat_r_ack20_BRB26 new_master_dat_r_ack20_BRB27 new_master_dat_r_ack20_BRB29 new_master_dat_r_ack20_BRB30 new_master_dat_r_ack20_BRB31 new_master_dat_r_ack20_BRB32 new_master_dat_r_ack20_BRB33
-new_master_dat_r_ack20_BRB34 new_master_dat_r_ack20_BRB35 new_master_dat_r_ack20_BRB36 new_master_dat_r_ack20_BRB40.
-	Register(s) new_master_dat_r_ack21 has(ve) been backward balanced into : new_master_dat_r_ack21_BRB0 new_master_dat_r_ack21_BRB1 new_master_dat_r_ack21_BRB2 new_master_dat_r_ack21_BRB3 new_master_dat_r_ack21_BRB5 new_master_dat_r_ack21_BRB6 new_master_dat_r_ack21_BRB7 new_master_dat_r_ack21_BRB8 new_master_dat_r_ack21_BRB9 new_master_dat_r_ack21_BRB10 new_master_dat_r_ack21_BRB11 new_master_dat_r_ack21_BRB12 new_master_dat_r_ack21_BRB13 new_master_dat_r_ack21_BRB14 new_master_dat_r_ack21_BRB15 new_master_dat_r_ack21_BRB16 new_master_dat_r_ack21_BRB17 new_master_dat_r_ack21_BRB18 new_master_dat_r_ack21_BRB19 new_master_dat_r_ack21_BRB20 new_master_dat_r_ack21_BRB21 new_master_dat_r_ack21_BRB22 new_master_dat_r_ack21_BRB23 new_master_dat_r_ack21_BRB24 new_master_dat_r_ack21_BRB25 new_master_dat_r_ack21_BRB26 new_master_dat_r_ack21_BRB27 new_master_dat_r_ack21_BRB28.
+	Register(s) new_master_dat_r_ack0 has(ve) been backward balanced into : new_master_dat_r_ack0_BRB0 new_master_dat_r_ack0_BRB1 new_master_dat_r_ack0_BRB2 new_master_dat_r_ack0_BRB3 new_master_dat_r_ack0_BRB4 new_master_dat_r_ack0_BRB5 new_master_dat_r_ack0_BRB6 new_master_dat_r_ack0_BRB7 new_master_dat_r_ack0_BRB8 new_master_dat_r_ack0_BRB9 new_master_dat_r_ack0_BRB10 new_master_dat_r_ack0_BRB11 new_master_dat_r_ack0_BRB12 new_master_dat_r_ack0_BRB13 new_master_dat_r_ack0_BRB15 new_master_dat_r_ack0_BRB17 new_master_dat_r_ack0_BRB18 new_master_dat_r_ack0_BRB19 new_master_dat_r_ack0_BRB20 new_master_dat_r_ack0_BRB21 new_master_dat_r_ack0_BRB22 new_master_dat_r_ack0_BRB23 new_master_dat_r_ack0_BRB24 new_master_dat_r_ack0_BRB35 new_master_dat_r_ack0_BRB38.
+	Register(s) new_master_dat_r_ack1 has(ve) been backward balanced into : new_master_dat_r_ack1_BRB0 new_master_dat_r_ack1_BRB1 new_master_dat_r_ack1_BRB2 new_master_dat_r_ack1_BRB3 new_master_dat_r_ack1_BRB4 new_master_dat_r_ack1_BRB5 new_master_dat_r_ack1_BRB6 new_master_dat_r_ack1_BRB7 new_master_dat_r_ack1_BRB8 new_master_dat_r_ack1_BRB9 new_master_dat_r_ack1_BRB10 new_master_dat_r_ack1_BRB11 new_master_dat_r_ack1_BRB12 new_master_dat_r_ack1_BRB13 new_master_dat_r_ack1_BRB15 new_master_dat_r_ack1_BRB17 new_master_dat_r_ack1_BRB18 new_master_dat_r_ack1_BRB19 new_master_dat_r_ack1_BRB20 new_master_dat_r_ack1_BRB21 new_master_dat_r_ack1_BRB22 new_master_dat_r_ack1_BRB23 new_master_dat_r_ack1_BRB24 new_master_dat_r_ack1_BRB35 new_master_dat_r_ack1_BRB38.
+	Register(s) new_master_dat_r_ack18 has(ve) been backward balanced into : new_master_dat_r_ack18_BRB0 new_master_dat_r_ack18_BRB1 new_master_dat_r_ack18_BRB2 new_master_dat_r_ack18_BRB3 new_master_dat_r_ack18_BRB4 new_master_dat_r_ack18_BRB5 new_master_dat_r_ack18_BRB6 new_master_dat_r_ack18_BRB7 new_master_dat_r_ack18_BRB8 new_master_dat_r_ack18_BRB9 new_master_dat_r_ack18_BRB10 new_master_dat_r_ack18_BRB11 new_master_dat_r_ack18_BRB12 new_master_dat_r_ack18_BRB13 new_master_dat_r_ack18_BRB14 new_master_dat_r_ack18_BRB15 new_master_dat_r_ack18_BRB16 new_master_dat_r_ack18_BRB17 new_master_dat_r_ack18_BRB18 new_master_dat_r_ack18_BRB19 new_master_dat_r_ack18_BRB20 new_master_dat_r_ack18_BRB21 new_master_dat_r_ack18_BRB22 new_master_dat_r_ack18_BRB23 new_master_dat_r_ack18_BRB26 new_master_dat_r_ack18_BRB27 .
+	Register(s) new_master_dat_r_ack19 has(ve) been backward balanced into : new_master_dat_r_ack19_BRB0 new_master_dat_r_ack19_BRB1 new_master_dat_r_ack19_BRB2 new_master_dat_r_ack19_BRB3 new_master_dat_r_ack19_BRB4 new_master_dat_r_ack19_BRB5 new_master_dat_r_ack19_BRB6 new_master_dat_r_ack19_BRB7 new_master_dat_r_ack19_BRB8 new_master_dat_r_ack19_BRB9 new_master_dat_r_ack19_BRB10 new_master_dat_r_ack19_BRB11 new_master_dat_r_ack19_BRB12 new_master_dat_r_ack19_BRB13 new_master_dat_r_ack19_BRB14 new_master_dat_r_ack19_BRB15 new_master_dat_r_ack19_BRB16 new_master_dat_r_ack19_BRB17 new_master_dat_r_ack19_BRB18 new_master_dat_r_ack19_BRB19 new_master_dat_r_ack19_BRB20 new_master_dat_r_ack19_BRB21 new_master_dat_r_ack19_BRB22 new_master_dat_r_ack19_BRB23 new_master_dat_r_ack19_BRB26 new_master_dat_r_ack19_BRB27 .
+	Register(s) new_master_dat_r_ack2 has(ve) been backward balanced into : new_master_dat_r_ack2_BRB0 new_master_dat_r_ack2_BRB1 new_master_dat_r_ack2_BRB2 new_master_dat_r_ack2_BRB3 new_master_dat_r_ack2_BRB4 new_master_dat_r_ack2_BRB5 new_master_dat_r_ack2_BRB6 new_master_dat_r_ack2_BRB7 new_master_dat_r_ack2_BRB8 new_master_dat_r_ack2_BRB9 new_master_dat_r_ack2_BRB10 new_master_dat_r_ack2_BRB11 new_master_dat_r_ack2_BRB12 new_master_dat_r_ack2_BRB13 new_master_dat_r_ack2_BRB15 new_master_dat_r_ack2_BRB18 new_master_dat_r_ack2_BRB19 new_master_dat_r_ack2_BRB20 new_master_dat_r_ack2_BRB21 new_master_dat_r_ack2_BRB22 new_master_dat_r_ack2_BRB23 new_master_dat_r_ack2_BRB24 new_master_dat_r_ack2_BRB34 new_master_dat_r_ack2_BRB35 new_master_dat_r_ack2_BRB38.
+	Register(s) new_master_dat_r_ack20 has(ve) been backward balanced into : new_master_dat_r_ack20_BRB0 new_master_dat_r_ack20_BRB1 new_master_dat_r_ack20_BRB2 new_master_dat_r_ack20_BRB3 new_master_dat_r_ack20_BRB4 new_master_dat_r_ack20_BRB5 new_master_dat_r_ack20_BRB6 new_master_dat_r_ack20_BRB7 new_master_dat_r_ack20_BRB8 new_master_dat_r_ack20_BRB9 new_master_dat_r_ack20_BRB10 new_master_dat_r_ack20_BRB11 new_master_dat_r_ack20_BRB12 new_master_dat_r_ack20_BRB13 new_master_dat_r_ack20_BRB14 new_master_dat_r_ack20_BRB15 new_master_dat_r_ack20_BRB16 new_master_dat_r_ack20_BRB17 new_master_dat_r_ack20_BRB18 new_master_dat_r_ack20_BRB19 new_master_dat_r_ack20_BRB20 new_master_dat_r_ack20_BRB21 new_master_dat_r_ack20_BRB22 new_master_dat_r_ack20_BRB23 new_master_dat_r_ack20_BRB26 new_master_dat_r_ack20_BRB27 .
+	Register(s) new_master_dat_r_ack21 has(ve) been backward balanced into : new_master_dat_r_ack21_BRB0 new_master_dat_r_ack21_BRB2 new_master_dat_r_ack21_BRB5 new_master_dat_r_ack21_BRB9 new_master_dat_r_ack21_BRB12 new_master_dat_r_ack21_BRB14 new_master_dat_r_ack21_BRB15 new_master_dat_r_ack21_BRB16 new_master_dat_r_ack21_BRB17 new_master_dat_r_ack21_BRB18 new_master_dat_r_ack21_BRB19 new_master_dat_r_ack21_BRB20 new_master_dat_r_ack21_BRB21 new_master_dat_r_ack21_BRB22 new_master_dat_r_ack21_BRB23 new_master_dat_r_ack21_BRB28.
 	Register(s) new_master_dat_r_ack22 has(ve) been backward balanced into : new_master_dat_r_ack22_BRB0 new_master_dat_r_ack22_BRB1 new_master_dat_r_ack22_BRB2 new_master_dat_r_ack22_BRB3 new_master_dat_r_ack22_BRB4.
-	Register(s) new_master_dat_r_ack24 has(ve) been backward balanced into : new_master_dat_r_ack24_BRB0 new_master_dat_r_ack24_BRB1 new_master_dat_r_ack24_BRB2 new_master_dat_r_ack24_BRB4 new_master_dat_r_ack24_BRB5 new_master_dat_r_ack24_BRB6 new_master_dat_r_ack24_BRB7 new_master_dat_r_ack24_BRB10 new_master_dat_r_ack24_BRB12 new_master_dat_r_ack24_BRB14 new_master_dat_r_ack24_BRB15 new_master_dat_r_ack24_BRB17 new_master_dat_r_ack24_BRB19 new_master_dat_r_ack24_BRB20 new_master_dat_r_ack24_BRB21 new_master_dat_r_ack24_BRB22 new_master_dat_r_ack24_BRB24 new_master_dat_r_ack24_BRB25 new_master_dat_r_ack24_BRB27 .
-	Register(s) new_master_dat_r_ack25 has(ve) been backward balanced into : new_master_dat_r_ack25_BRB0 new_master_dat_r_ack25_BRB1 new_master_dat_r_ack25_BRB2 new_master_dat_r_ack25_BRB4 new_master_dat_r_ack25_BRB5 new_master_dat_r_ack25_BRB6 new_master_dat_r_ack25_BRB7 new_master_dat_r_ack25_BRB10 new_master_dat_r_ack25_BRB12 new_master_dat_r_ack25_BRB14 new_master_dat_r_ack25_BRB15 new_master_dat_r_ack25_BRB17 new_master_dat_r_ack25_BRB19 new_master_dat_r_ack25_BRB20 new_master_dat_r_ack25_BRB21 new_master_dat_r_ack25_BRB22 new_master_dat_r_ack25_BRB24 new_master_dat_r_ack25_BRB25 new_master_dat_r_ack25_BRB27 .
-	Register(s) new_master_dat_r_ack26 has(ve) been backward balanced into : new_master_dat_r_ack26_BRB0 new_master_dat_r_ack26_BRB1 new_master_dat_r_ack26_BRB2 new_master_dat_r_ack26_BRB4 new_master_dat_r_ack26_BRB5 new_master_dat_r_ack26_BRB6 new_master_dat_r_ack26_BRB7 new_master_dat_r_ack26_BRB10 new_master_dat_r_ack26_BRB12 new_master_dat_r_ack26_BRB14 new_master_dat_r_ack26_BRB15 new_master_dat_r_ack26_BRB17 new_master_dat_r_ack26_BRB19 new_master_dat_r_ack26_BRB20 new_master_dat_r_ack26_BRB21 new_master_dat_r_ack26_BRB22 new_master_dat_r_ack26_BRB24 new_master_dat_r_ack26_BRB25 new_master_dat_r_ack26_BRB27 .
-	Register(s) new_master_dat_r_ack27 has(ve) been backward balanced into : new_master_dat_r_ack27_BRB0 new_master_dat_r_ack27_BRB1 new_master_dat_r_ack27_BRB2 new_master_dat_r_ack27_BRB3 new_master_dat_r_ack27_BRB5 new_master_dat_r_ack27_BRB6 new_master_dat_r_ack27_BRB10 new_master_dat_r_ack27_BRB14 new_master_dat_r_ack27_BRB15 new_master_dat_r_ack27_BRB17 new_master_dat_r_ack27_BRB19 new_master_dat_r_ack27_BRB20 new_master_dat_r_ack27_BRB22 new_master_dat_r_ack27_BRB24 new_master_dat_r_ack27_BRB25 new_master_dat_r_ack27_BRB27 .
+	Register(s) new_master_dat_r_ack24 has(ve) been backward balanced into : new_master_dat_r_ack24_BRB0 new_master_dat_r_ack24_BRB2 new_master_dat_r_ack24_BRB3 new_master_dat_r_ack24_BRB4 new_master_dat_r_ack24_BRB5 new_master_dat_r_ack24_BRB14 new_master_dat_r_ack24_BRB17 new_master_dat_r_ack24_BRB18 new_master_dat_r_ack24_BRB19 new_master_dat_r_ack24_BRB22 new_master_dat_r_ack24_BRB23 new_master_dat_r_ack24_BRB24 new_master_dat_r_ack24_BRB28.
+	Register(s) new_master_dat_r_ack25 has(ve) been backward balanced into : new_master_dat_r_ack25_BRB0 new_master_dat_r_ack25_BRB2 new_master_dat_r_ack25_BRB3 new_master_dat_r_ack25_BRB4 new_master_dat_r_ack25_BRB5 new_master_dat_r_ack25_BRB14 new_master_dat_r_ack25_BRB17 new_master_dat_r_ack25_BRB18 new_master_dat_r_ack25_BRB19 new_master_dat_r_ack25_BRB22 new_master_dat_r_ack25_BRB23 new_master_dat_r_ack25_BRB24 new_master_dat_r_ack25_BRB28.
+	Register(s) new_master_dat_r_ack26 has(ve) been backward balanced into : new_master_dat_r_ack26_BRB0 new_master_dat_r_ack26_BRB2 new_master_dat_r_ack26_BRB3 new_master_dat_r_ack26_BRB4 new_master_dat_r_ack26_BRB5 new_master_dat_r_ack26_BRB14 new_master_dat_r_ack26_BRB17 new_master_dat_r_ack26_BRB18 new_master_dat_r_ack26_BRB19 new_master_dat_r_ack26_BRB22 new_master_dat_r_ack26_BRB23 new_master_dat_r_ack26_BRB24 new_master_dat_r_ack26_BRB28.
+	Register(s) new_master_dat_r_ack27 has(ve) been backward balanced into : new_master_dat_r_ack27_BRB0 new_master_dat_r_ack27_BRB1 new_master_dat_r_ack27_BRB2 new_master_dat_r_ack27_BRB3 new_master_dat_r_ack27_BRB5 new_master_dat_r_ack27_BRB14 new_master_dat_r_ack27_BRB17 new_master_dat_r_ack27_BRB18 new_master_dat_r_ack27_BRB19 new_master_dat_r_ack27_BRB22 new_master_dat_r_ack27_BRB23 new_master_dat_r_ack27_BRB24 new_master_dat_r_ack27_BRB28.
 	Register(s) new_master_dat_r_ack28 has(ve) been backward balanced into : new_master_dat_r_ack28_BRB0 new_master_dat_r_ack28_BRB1 new_master_dat_r_ack28_BRB2 new_master_dat_r_ack28_BRB3 new_master_dat_r_ack28_BRB4.
-	Register(s) new_master_dat_r_ack3 has(ve) been backward balanced into : new_master_dat_r_ack3_BRB0 new_master_dat_r_ack3_BRB2 new_master_dat_r_ack3_BRB3 new_master_dat_r_ack3_BRB7 new_master_dat_r_ack3_BRB8 new_master_dat_r_ack3_BRB9 new_master_dat_r_ack3_BRB10 new_master_dat_r_ack3_BRB11 new_master_dat_r_ack3_BRB12.
-	Register(s) new_master_dat_r_ack30 has(ve) been backward balanced into : new_master_dat_r_ack30_BRB0 new_master_dat_r_ack30_BRB1 new_master_dat_r_ack30_BRB5 new_master_dat_r_ack30_BRB7 new_master_dat_r_ack30_BRB12 .
-	Register(s) new_master_dat_r_ack31 has(ve) been backward balanced into : new_master_dat_r_ack31_BRB0 new_master_dat_r_ack31_BRB1 new_master_dat_r_ack31_BRB5 new_master_dat_r_ack31_BRB7 new_master_dat_r_ack31_BRB12 .
-	Register(s) new_master_dat_r_ack32 has(ve) been backward balanced into : new_master_dat_r_ack32_BRB0 new_master_dat_r_ack32_BRB1 new_master_dat_r_ack32_BRB5 new_master_dat_r_ack32_BRB7 new_master_dat_r_ack32_BRB12 .
-	Register(s) new_master_dat_r_ack33 has(ve) been backward balanced into : new_master_dat_r_ack33_BRB1 new_master_dat_r_ack33_BRB5 new_master_dat_r_ack33_BRB18 new_master_dat_r_ack33_BRB23 new_master_dat_r_ack33_BRB28.
+	Register(s) new_master_dat_r_ack3 has(ve) been backward balanced into : new_master_dat_r_ack3_BRB0 new_master_dat_r_ack3_BRB2 new_master_dat_r_ack3_BRB3 new_master_dat_r_ack3_BRB4 new_master_dat_r_ack3_BRB5 new_master_dat_r_ack3_BRB6 new_master_dat_r_ack3_BRB7 new_master_dat_r_ack3_BRB8 new_master_dat_r_ack3_BRB9 new_master_dat_r_ack3_BRB10 new_master_dat_r_ack3_BRB11 new_master_dat_r_ack3_BRB12 new_master_dat_r_ack3_BRB13 new_master_dat_r_ack3_BRB14 new_master_dat_r_ack3_BRB15 new_master_dat_r_ack3_BRB16 new_master_dat_r_ack3_BRB17 new_master_dat_r_ack3_BRB18 new_master_dat_r_ack3_BRB19 new_master_dat_r_ack3_BRB20 new_master_dat_r_ack3_BRB21 new_master_dat_r_ack3_BRB22.
+	Register(s) new_master_dat_r_ack33 has(ve) been backward balanced into : new_master_dat_r_ack33_BRB18 new_master_dat_r_ack33_BRB23 new_master_dat_r_ack33_BRB28.
 	Register(s) new_master_dat_r_ack34 has(ve) been backward balanced into : new_master_dat_r_ack34_BRB0 new_master_dat_r_ack34_BRB1 new_master_dat_r_ack34_BRB2 new_master_dat_r_ack34_BRB3 new_master_dat_r_ack34_BRB4.
-	Register(s) new_master_dat_r_ack4 has(ve) been backward balanced into : new_master_dat_r_ack4_BRB0 new_master_dat_r_ack4_BRB1.
+	Register(s) new_master_dat_r_ack4 has(ve) been backward balanced into : new_master_dat_r_ack4_BRB0 new_master_dat_r_ack4_BRB1 new_master_dat_r_ack4_BRB2 new_master_dat_r_ack4_BRB3 new_master_dat_r_ack4_BRB4.
 Unit <top> processed.
 FlipFlop JpegEnc/U_Huffman/VLC_size_0 has been replicated 1 time(s)
 FlipFlop JpegEnc/U_Huffman/VLC_size_1 has been replicated 1 time(s)
 FlipFlop JpegEnc/U_Huffman/VLC_size_2 has been replicated 1 time(s)
 FlipFlop JpegEnc/U_Huffman/VLC_size_3 has been replicated 1 time(s)
 FlipFlop JpegEnc/U_Huffman/VLC_size_4 has been replicated 1 time(s)
-FlipFlop hdmi2usbsoc_hdmi2usbsoc_interface_adr_0 has been replicated 1 time(s)
-FlipFlop hdmi2usbsoc_hdmi2usbsoc_interface_adr_1 has been replicated 1 time(s)
 FlipFlop hdmi2usbsoc_hdmi2usbsoc_interface_adr_3 has been replicated 1 time(s)
-FlipFlop hdmi2usbsoc_hdmi2usbsoc_interface_adr_4 has been replicated 1 time(s)
-FlipFlop hdmi2usbsoc_hdmi2usbsoc_interface_adr_5 has been replicated 1 time(s)
-FlipFlop hdmi2usbsoc_hdmi2usbsoc_interface_adr_6 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -11278,98 +11267,83 @@ Processing Unit <top> :
 	Found 2-bit shift register for signal <hdmi_out1_chroma_upsampler_source_y_7_BRB3>.
 	Found 2-bit shift register for signal <hdmi_out1_chroma_upsampler_source_y_7_BRB4>.
 	Found 2-bit shift register for signal <hdmi_out1_chroma_upsampler_source_y_7_BRB5>.
-	Found 4-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_1_BRB0>.
 	Found 4-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_1_BRB1>.
 	Found 4-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_1_BRB2>.
-	Found 4-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_1_BRB3>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack19_BRB15>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack19_BRB16>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack19_BRB17>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack19_BRB20>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack19_BRB21>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack19_BRB22>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack25_BRB15>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack25_BRB17>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack25_BRB20>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack25_BRB22>.
 	Found 2-bit shift register for signal <hdmi_in0_frame_rgb2ycbcr_source_y_6_BRB3>.
 	Found 2-bit shift register for signal <hdmi_in1_frame_rgb2ycbcr_source_y_6_BRB3>.
-	Found 3-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB6>.
-	Found 3-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB7>.
-	Found 3-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB8>.
-	Found 3-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB4>.
-	Found 4-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB9>.
-	Found 4-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB10>.
+	Found 3-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB5>.
+	Found 4-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB6>.
+	Found 4-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB7>.
 	Found 2-bit shift register for signal <hdmi_in0_frame_rgb2ycbcr_source_y_7_BRB4>.
 	Found 2-bit shift register for signal <hdmi_in1_frame_rgb2ycbcr_source_y_7_BRB4>.
+	Found 5-bit shift register for signal <new_master_dat_r_ack4_BRB2>.
 	Found 2-bit shift register for signal <hdmi_in0_frame_rgb2ycbcr_source_y_0_BRB10>.
 	Found 2-bit shift register for signal <hdmi_in1_frame_rgb2ycbcr_source_y_0_BRB10>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB11>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB12>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack2_BRB9>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack2_BRB10>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack2_BRB11>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB25>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB26>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB27>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack26_BRB25>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack26_BRB27>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB5>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB6>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB7>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB8>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB9>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB1>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB10>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB13>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB5>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB6>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB1>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB10>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack33_BRB5>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack33_BRB1>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB3>.
+	Found 3-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB4>.
+	Found 3-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB8>.
+	Found 3-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB9>.
+	Found 3-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB10>.
+	Found 3-bit shift register for signal <hdmi2usbsoc_ddrphy_rddata_sr_2_BRB11>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB14>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB15>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB16>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB17>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB19>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB20>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB21>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB22>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack26_BRB17>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack26_BRB22>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB5>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB6>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB7>.
 	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB8>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB4>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB9>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB10>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB11>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB12>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB5>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB9>.
 	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB2>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB14>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack21_BRB15>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack21_BRB16>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack21_BRB17>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB0>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB19>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack21_BRB20>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack21_BRB21>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack21_BRB22>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB3>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB24>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack21_BRB12>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB5>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB2>.
+	Found 2-bit shift register for signal <new_master_dat_r_ack19_BRB10>.
+	Found 2-bit shift register for signal <new_master_dat_r_ack19_BRB11>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB13>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB15>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB0>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB18>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB19>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB20>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB21>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB22>.
 	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB14>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack27_BRB15>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack27_BRB17>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB18>.
 	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB19>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack27_BRB20>.
-	Found 2-bit shift register for signal <new_master_dat_r_ack27_BRB22>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB23>.
 	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB24>.
+	Found 4-bit shift register for signal <new_master_dat_r_ack27_BRB28>.
 	Found 7-bit shift register for signal <hdmi_in0_frame_rgb2ycbcr_sop_n6_BRB0>.
 	Found 7-bit shift register for signal <hdmi_in0_frame_rgb2ycbcr_sop_n6_BRB1>.
 	Found 7-bit shift register for signal <hdmi_in0_frame_rgb2ycbcr_sop_n6_BRB2>.
 	Found 7-bit shift register for signal <hdmi_in1_frame_rgb2ycbcr_sop_n6_BRB0>.
 	Found 7-bit shift register for signal <hdmi_in1_frame_rgb2ycbcr_sop_n6_BRB1>.
 	Found 7-bit shift register for signal <hdmi_in1_frame_rgb2ycbcr_sop_n6_BRB2>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB29>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB30>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB31>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB32>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB33>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB34>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB35>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB36>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB40>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack26_BRB7>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack26_BRB12>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack26_BRB21>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack2_BRB14>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack2_BRB19>.
-	Found 3-bit shift register for signal <new_master_dat_r_ack2_BRB21>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack2_BRB1>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack2_BRB23>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack2_BRB24>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB3>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB4>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB6>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB7>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB13>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB18>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB26>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack20_BRB27>.
+	Found 3-bit shift register for signal <new_master_dat_r_ack2_BRB38>.
+	Found 2-bit shift register for signal <new_master_dat_r_ack1_BRB17>.
 INFO:Xst:741 - HDL ADVISOR - A 5-bit shift register was found for signal <JpegEnc/U_QUANT_TOP/U_quantizer/pipeline_reg_4> and currently occupies 5 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
 Unit <top> processed.
 
@@ -11377,14 +11351,14 @@ Unit <top> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 12041
- Flip-Flops                                            : 12041
-# Shift Registers                                      : 250
+# Registers                                            : 12031
+ Flip-Flops                                            : 12031
+# Shift Registers                                      : 235
  10-bit shift register                                 : 8
- 2-bit shift register                                  : 98
- 3-bit shift register                                  : 29
- 4-bit shift register                                  : 101
- 5-bit shift register                                  : 3
+ 2-bit shift register                                  : 81
+ 3-bit shift register                                  : 28
+ 4-bit shift register                                  : 103
+ 5-bit shift register                                  : 4
  6-bit shift register                                  : 1
  7-bit shift register                                  : 6
  8-bit shift register                                  : 4
@@ -11410,36 +11384,36 @@ Top Level Output File Name         : atlys_hdmi2usb-hdmi2usbsoc-atlys.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 18758
+# BELS                             : 18785
 #      GND                         : 1
 #      INV                         : 338
 #      LUT1                        : 621
-#      LUT2                        : 1649
-#      LUT3                        : 2323
-#      LUT4                        : 1728
-#      LUT5                        : 1887
-#      LUT6                        : 5965
+#      LUT2                        : 1637
+#      LUT3                        : 2327
+#      LUT4                        : 1763
+#      LUT5                        : 1884
+#      LUT6                        : 5967
 #      MULT_AND                    : 42
 #      MUXCY                       : 2029
-#      MUXF7                       : 221
+#      MUXF7                       : 222
 #      MUXF8                       : 16
 #      VCC                         : 1
 #      XORCY                       : 1937
-# FlipFlops/Latches                : 12397
-#      FD                          : 2177
+# FlipFlops/Latches                : 12370
+#      FD                          : 2181
 #      FDC                         : 1280
 #      FDC_1                       : 3
 #      FDCE                        : 936
 #      FDCE_1                      : 20
-#      FDE                         : 396
+#      FDE                         : 381
 #      FDE_1                       : 8
 #      FDP                         : 13
 #      FDP_1                       : 2
-#      FDPE                        : 61
-#      FDR                         : 2344
-#      FDRE                        : 4902
-#      FDS                         : 34
-#      FDSE                        : 214
+#      FDPE                        : 62
+#      FDR                         : 2335
+#      FDRE                        : 4903
+#      FDS                         : 28
+#      FDSE                        : 211
 #      ODDR2                       : 7
 # RAMS                             : 1231
 #      RAM128X1D                   : 64
@@ -11448,8 +11422,8 @@ Primitive and Black Box Usage:
 #      RAM64X1D                    : 72
 #      RAMB16BWER                  : 69
 #      RAMB8BWER                   : 38
-# Shift Registers                  : 250
-#      SRLC16E                     : 250
+# Shift Registers                  : 235
+#      SRLC16E                     : 235
 # Clock Buffers                    : 12
 #      BUFG                        : 12
 # IO Buffers                       : 106
@@ -11480,18 +11454,18 @@ Selected Device : 6slx45csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:           12397  out of  54576    22%  
- Number of Slice LUTs:                17137  out of  27288    62%  
-    Number used as Logic:             14511  out of  27288    53%  
-    Number used as Memory:             2626  out of   6408    40%  
+ Number of Slice Registers:           12370  out of  54576    22%  
+ Number of Slice LUTs:                17148  out of  27288    62%  
+    Number used as Logic:             14537  out of  27288    53%  
+    Number used as Memory:             2611  out of   6408    40%  
        Number used as RAM:             2376
-       Number used as SRL:              250
+       Number used as SRL:              235
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:  22424
-   Number with an unused Flip Flop:   10027  out of  22424    44%  
-   Number with an unused LUT:          5287  out of  22424    23%  
-   Number of fully used LUT-FF pairs:  7110  out of  22424    31%  
+ Number of LUT Flip Flop pairs used:  22423
+   Number with an unused Flip Flop:   10053  out of  22423    44%  
+   Number with an unused LUT:          5275  out of  22423    23%  
+   Number of fully used LUT-FF pairs:  7095  out of  22423    31%  
    Number of unique control sets:       493
 
 IO Utilization: 
@@ -11527,7 +11501,7 @@ Clock Information:
 Clock Signal                         | Clock buffer(FF name)  | Load  |
 -------------------------------------+------------------------+-------+
 eth_clocks_rx                        | IBUF                   | 149   |
-clk100                               | PLL_ADV:CLKOUT5        | 10465 |
+clk100                               | PLL_ADV:CLKOUT5        | 10423 |
 eth_clocks_tx                        | IBUF                   | 126   |
 clk100                               | PLL_ADV:CLKOUT2        | 75    |
 obj_fx2_ifclk                        | IBUF                   | 52    |
@@ -11578,7 +11552,7 @@ Delay:               7.137ns (Levels of Logic = 5)
      LUT5:I2->O           14   0.205   1.205  ethmac_rx_cdc_asyncfifo_writable (ethmac_rx_cdc_asyncfifo_writable)
      LUT6:I2->O            8   0.203   0.907  ethmac_crc32_checker_fifo_full_ethmac_crc32_checker_fifo_out_OR_916_o1 (ethmac_crc32_checker_fifo_full_ethmac_crc32_checker_fifo_out_OR_916_o)
      LUT4:I2->O            4   0.203   0.931  Mmux_ethmac_rx_gap_checker_sink_ack11 (ethmac_rx_gap_checker_sink_ack)
-     LUT4:I0->O            2   0.203   0.616  _n25422_inv11 (_n25422_inv1)
+     LUT4:I0->O            2   0.203   0.616  _n25421_inv11 (_n25421_inv1)
      FDRE:CE                   0.322          liteethphymiirx_pack_source_eop
     ----------------------------------------
     Total                      7.137ns (1.788ns logic, 5.349ns route)
@@ -11605,7 +11579,7 @@ Delay:               10.051ns (Levels of Logic = 8)
      LUT5:I4->O            1   0.205   0.580  ethmac_preamble_inserter_sink_ack1 (ethmac_preamble_inserter_sink_ack1)
      LUT5:I4->O           26   0.205   1.207  ethmac_preamble_inserter_sink_ack2 (ethmac_preamble_inserter_sink_ack)
      LUT6:I5->O            7   0.205   0.774  Mmux_ethmac_padding_inserter_sink_ack11 (ethmac_padding_inserter_sink_ack)
-     LUT4:I3->O            4   0.205   0.684  _n239251 (_n23925)
+     LUT4:I3->O            4   0.205   0.684  _n239241 (_n23924)
      LUT4:I3->O           38   0.205   1.376  Mcount_ethmac_tx_cdc_graycounter1_q_binary_xor<2>11 (Mcount_ethmac_tx_cdc_graycounter1_q_binary2)
      RAM16X1D:DPRA2->DPO    1   0.205   0.579  Mram_storage_1140 (_n19924<32>)
      FD:D                      0.102          memdat_1_32
@@ -11616,7 +11590,7 @@ Delay:               10.051ns (Levels of Logic = 8)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk100'
   Clock period: 11.409ns (frequency: 87.651MHz)
-  Total number of paths / destination ports: 3754814 / 34317
+  Total number of paths / destination ports: 3750610 / 34260
 -------------------------------------------------------------------------
 Delay:               15.212ns (Levels of Logic = 16)
   Source:            JpegEnc/U_Huffman/VLC_size_1 (FF)
@@ -11637,12 +11611,12 @@ Delay:               15.212ns (Levels of Logic = 16)
      LUT6:I5->O            1   0.205   0.580  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1527 (JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1531)
      LUT6:I5->O            1   0.205   0.580  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1529 (JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1533)
      LUT6:I5->O            2   0.205   0.617  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1531 (JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1535)
-     LUT5:I4->O            1   0.205   0.580  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1533_SW0 (N6360)
+     LUT5:I4->O            1   0.205   0.580  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1533_SW0 (N6376)
      LUT6:I5->O            1   0.205   0.580  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1533 (JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1537)
      LUT6:I5->O            1   0.205   0.580  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1535 (JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1539)
      LUT6:I5->O            1   0.205   0.580  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1537 (JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1541)
      LUT6:I5->O            2   0.205   0.617  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1539 (JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1543)
-     LUT5:I4->O            1   0.205   0.580  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1541_SW0 (N6328)
+     LUT5:I4->O            1   0.205   0.580  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1541_SW0 (N6338)
      LUT6:I5->O            1   0.205   0.580  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1541 (JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1545)
      LUT6:I5->O            1   0.205   0.000  JpegEnc/U_Huffman/Mmux_state[1]_word_reg[22]_wide_mux_457_OUT1542 (JpegEnc/U_Huffman/state[1]_word_reg[22]_wide_mux_457_OUT<22>)
      FDCE:D                    0.102          JpegEnc/U_Huffman/word_reg_22
@@ -11666,7 +11640,7 @@ Delay:               6.204ns (Levels of Logic = 5)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDCE_1:C->Q           4   0.447   1.028  fx2_jpeg_streamer/packet_counter_7 (fx2_jpeg_streamer/packet_counter_7)
-     LUT5:I0->O            1   0.203   0.580  fx2_jpeg_streamer/n00091_SW0 (N3254)
+     LUT5:I0->O            1   0.203   0.580  fx2_jpeg_streamer/n00091_SW0 (N3238)
      LUT6:I5->O           13   0.205   0.933  fx2_jpeg_streamer/n00091 (fx2_jpeg_streamer/n0009)
      LUT4:I3->O            4   0.205   0.684  fx2_jpeg_streamer/Mmux_sink_ack12 (asyncfifo_source_ack1)
      LUT4:I3->O            9   0.205   0.829  Mmux_asyncfifo_graycounter1_q_next_binary121 (Mcount_asyncfifo_graycounter1_q_binary11)
@@ -11694,7 +11668,7 @@ Delay:               8.109ns (Levels of Logic = 8)
      FD:C->Q               7   0.447   1.002  hdmi_out1_hdmi_phy_es0_n0q_m_1 (hdmi_out1_hdmi_phy_es0_n0q_m_1)
      LUT4:I1->O            2   0.205   0.721  hdmi_out1_hdmi_phy_es0_n1q_m[3]_hdmi_out1_hdmi_phy_es0_n0q_m[3]_LessThan_5948_o1 (hdmi_out1_hdmi_phy_es0_n1q_m[3]_hdmi_out1_hdmi_phy_es0_n0q_m[3]_LessThan_5948_o1)
      LUT5:I3->O           20   0.203   1.093  GND_1_o_GND_1_o_or_5949_OUT<0>1 (GND_1_o_GND_1_o_or_5949_OUT<0>)
-     LUT4:I3->O            2   0.205   0.721  Mmux_hdmi_out1_hdmi_phy_es0_cnt[5]_hdmi_out1_hdmi_phy_es0_cnt[5]_mux_5959_OUT_B_A3_SW1 (N6460)
+     LUT4:I3->O            2   0.205   0.721  Mmux_hdmi_out1_hdmi_phy_es0_cnt[5]_hdmi_out1_hdmi_phy_es0_cnt[5]_mux_5959_OUT_B_A3_SW1 (N6474)
      LUT5:I3->O            2   0.203   0.981  Mmux_hdmi_out1_hdmi_phy_es0_cnt[5]_hdmi_out1_hdmi_phy_es0_cnt[5]_mux_5959_OUT_B_rs_lut<2> (Mmux_hdmi_out1_hdmi_phy_es0_cnt[5]_hdmi_out1_hdmi_phy_es0_cnt[5]_mux_5959_OUT_B_rs_lut<2>)
      LUT6:I0->O            3   0.203   0.898  Mmux_hdmi_out1_hdmi_phy_es0_cnt[5]_hdmi_out1_hdmi_phy_es0_cnt[5]_mux_5959_OUT_B_rs_cy<2>12 (Mmux_hdmi_out1_hdmi_phy_es0_cnt[5]_hdmi_out1_hdmi_phy_es0_cnt[5]_mux_5959_OUT_B_rs_cy<2>)
      LUT6:I2->O            1   0.203   0.580  Mmux_hdmi_out1_hdmi_phy_es0_cnt[5]_hdmi_out1_hdmi_phy_es0_cnt[5]_mux_5959_OUT_B_rs_xor<5>11 (Mmux_hdmi_out1_hdmi_phy_es0_cnt[5]_hdmi_out1_hdmi_phy_es0_cnt[5]_mux_5959_OUT_rs_B<5>)
@@ -11723,8 +11697,8 @@ Delay:               5.149ns (Levels of Logic = 4)
      FDRE:C->Q             3   0.447   0.879  hdmi_in0_datacapture1_lateness_4 (hdmi_in0_datacapture1_lateness_4)
      LUT3:I0->O            1   0.205   0.580  hdmi_in0_datacapture1_too_late<7>_SW0 (N2686)
      LUT6:I5->O            2   0.205   0.721  hdmi_in0_datacapture1_too_late<7> (hdmi_in0_datacapture1_too_late)
-     LUT2:I0->O            1   0.203   0.580  _n25357_inv_SW0 (N3188)
-     LUT6:I5->O            8   0.205   0.802  _n25357_inv (_n25357_inv)
+     LUT2:I0->O            1   0.203   0.580  _n25356_inv_SW0 (N3166)
+     LUT6:I5->O            8   0.205   0.802  _n25356_inv (_n25356_inv)
      FDRE:CE                   0.322          hdmi_in0_datacapture1_lateness_1
     ----------------------------------------
     Total                      5.149ns (1.587ns logic, 3.562ns route)
@@ -11733,7 +11707,7 @@ Delay:               5.149ns (Levels of Logic = 4)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'record1_hdmi_in_clk_p'
   Clock period: 10.297ns (frequency: 97.111MHz)
-  Total number of paths / destination ports: 12864 / 2706
+  Total number of paths / destination ports: 12837 / 2706
 -------------------------------------------------------------------------
 Delay:               5.149ns (Levels of Logic = 4)
   Source:            hdmi_in1_datacapture2_lateness_4 (FF)
@@ -11748,8 +11722,8 @@ Delay:               5.149ns (Levels of Logic = 4)
      FDRE:C->Q             3   0.447   0.879  hdmi_in1_datacapture2_lateness_4 (hdmi_in1_datacapture2_lateness_4)
      LUT3:I0->O            1   0.205   0.580  hdmi_in1_datacapture2_too_late<7>_SW0 (N2694)
      LUT6:I5->O            2   0.205   0.721  hdmi_in1_datacapture2_too_late<7> (hdmi_in1_datacapture2_too_late)
-     LUT2:I0->O            1   0.203   0.580  _n25389_inv_SW0 (N3196)
-     LUT6:I5->O            8   0.205   0.802  _n25389_inv (_n25389_inv)
+     LUT2:I0->O            1   0.203   0.580  _n25388_inv_SW0 (N3174)
+     LUT6:I5->O            8   0.205   0.802  _n25388_inv (_n25388_inv)
      FDRE:CE                   0.322          hdmi_in1_datacapture2_lateness_2
     ----------------------------------------
     Total                      5.149ns (1.587ns logic, 3.562ns route)
@@ -11798,7 +11772,7 @@ Offset:              2.823ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk100'
-  Total number of paths / destination ports: 351 / 350
+  Total number of paths / destination ports: 350 / 350
 -------------------------------------------------------------------------
 Offset:              5.092ns (Levels of Logic = 4)
   Source:            obj_fx2_flagb (PAD)
@@ -11855,7 +11829,7 @@ Offset:              2.431ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
     ISERDES2:VALID        10   0.000   1.104  ISERDES2_18 (hdmi_in0_datacapture1_pd_valid)
-     LUT6:I2->O            8   0.203   0.802  _n25357_inv (_n25357_inv)
+     LUT6:I2->O            8   0.203   0.802  _n25356_inv (_n25356_inv)
      FDRE:CE                   0.322          hdmi_in0_datacapture1_lateness_1
     ----------------------------------------
     Total                      2.431ns (0.525ns logic, 1.906ns route)
@@ -11875,7 +11849,7 @@ Offset:              2.431ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
     ISERDES2:VALID        10   0.000   1.104  ISERDES2_26 (hdmi_in1_datacapture2_pd_valid)
-     LUT6:I2->O            8   0.203   0.802  _n25389_inv (_n25389_inv)
+     LUT6:I2->O            8   0.203   0.802  _n25388_inv (_n25388_inv)
      FDRE:CE                   0.322          hdmi_in1_datacapture2_lateness_2
     ----------------------------------------
     Total                      2.431ns (0.525ns logic, 1.906ns route)
@@ -11915,7 +11889,7 @@ Offset:              5.617ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDRE:C->Q             3   0.447   0.995  crg_counter_2 (crg_counter_2)
-     LUT5:I0->O            2   0.203   0.617  crg_reset0_SW0 (N3232)
+     LUT5:I0->O            2   0.203   0.617  crg_reset0_SW0 (N3214)
      LUT6:I5->O            1   0.205   0.579  eth_rst_n1 (eth_rst_n_OBUF)
      OBUF:I->O                 2.571          eth_rst_n_OBUF (eth_rst_n)
     ----------------------------------------
@@ -12048,7 +12022,7 @@ Clock to Setup on destination clock base50_clk
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 base50_clk     |    1.128|         |         |         |
-clk100         |    4.879|         |         |         |
+clk100         |    4.875|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk100
@@ -12097,7 +12071,7 @@ Clock to Setup on destination clock obj_fx2_ifclk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk100         |    4.057|         |    5.318|         |
+clk100         |    4.053|         |    5.314|         |
 obj_fx2_ifclk  |    6.244|    6.204|    5.806|         |
 ---------------+---------+---------+---------+---------+
 
@@ -12116,14 +12090,14 @@ Clock to Setup on destination clock record1_hdmi_in_clk_p
 Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------------+---------+---------+---------+---------+
 clk100               |    1.232|         |         |         |
-record1_hdmi_in_clk_p|    6.263|         |         |         |
+record1_hdmi_in_clk_p|    6.360|         |         |         |
 ---------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 262.00 secs
-Total CPU time to Xst completion: 260.64 secs
+Total REAL time to Xst completion: 230.00 secs
+Total CPU time to Xst completion: 228.30 secs
  
 --> 
 
@@ -12132,7 +12106,7 @@ Total memory usage is 931268 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 1572 (   0 filtered)
-Number of infos    :  427 (   0 filtered)
+Number of infos    :  426 (   0 filtered)
 
 Release 14.7 - ngdbuild P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -12378,7 +12352,7 @@ NGDBUILD Design Results Summary:
 
 Writing NGD file "atlys_hdmi2usb-hdmi2usbsoc-atlys.ngd" ...
 Total REAL time to NGDBUILD completion:  20 sec
-Total CPU time to NGDBUILD completion:   20 sec
+Total CPU time to NGDBUILD completion:   19 sec
 
 Writing NGDBUILD log file "atlys_hdmi2usb-hdmi2usbsoc-atlys.bld"...
 
@@ -12400,11 +12374,11 @@ WARNING:Timing:3159 - The DCM, DCM_CLKGEN, has the attribute DFS_OSCILLATOR_MODE
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 1 mins 
-Total CPU  time at the beginning of Placer: 1 mins 
+Total REAL time at the beginning of Placer: 1 mins 2 secs 
+Total CPU  time at the beginning of Placer: 1 mins 1 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:213d000) REAL time: 1 mins 4 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:ebada01a) REAL time: 1 mins 6 secs 
 
 Phase 2.7  Design Feasibility Check
 WARNING:Place:1137 - This design is not guaranteed to be routable! This design
@@ -12479,50 +12453,50 @@ WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
    <hdmi_out_pix_bufg_1.O> allowing your design to continue. This constraint
    disables all clock placer rules related to the specified COMP.PIN.
-Phase 2.7  Design Feasibility Check (Checksum:213d000) REAL time: 1 mins 6 secs 
+Phase 2.7  Design Feasibility Check (Checksum:ebada01a) REAL time: 1 mins 8 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:e5ebc020) REAL time: 1 mins 6 secs 
+Phase 3.31  Local Placement Optimization (Checksum:baf644ba) REAL time: 1 mins 8 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:9cb9fc72) REAL time: 1 mins 48 secs 
+(Checksum:71188d1b) REAL time: 1 mins 49 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:9cb9fc72) REAL time: 1 mins 48 secs 
+Phase 5.36  Local Placement Optimization (Checksum:71188d1b) REAL time: 1 mins 49 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:9cb9fc72) REAL time: 1 mins 48 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:71188d1b) REAL time: 1 mins 49 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:9cb9fc72) REAL time: 1 mins 48 secs 
+Phase 7.3  Local Placement Optimization (Checksum:71188d1b) REAL time: 1 mins 49 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:9cb9fc72) REAL time: 1 mins 49 secs 
+Phase 8.5  Local Placement Optimization (Checksum:71188d1b) REAL time: 1 mins 50 secs 
 
 Phase 9.8  Global Placement
 ........................
-................................................................................................
-....................................................................................................
-....................................................................................................................
-..................................................
-Phase 9.8  Global Placement (Checksum:fb35b143) REAL time: 6 mins 10 secs 
+...............................
+...........................................................................
+......................................................................
+....................
+Phase 9.8  Global Placement (Checksum:9b76140c) REAL time: 7 mins 14 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:fb35b143) REAL time: 6 mins 10 secs 
+Phase 10.5  Local Placement Optimization (Checksum:9b76140c) REAL time: 7 mins 15 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:4bf59158) REAL time: 7 mins 9 secs 
+Phase 11.18  Placement Optimization (Checksum:6ebf694f) REAL time: 8 mins 3 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:4bf59158) REAL time: 7 mins 10 secs 
+Phase 12.5  Local Placement Optimization (Checksum:6ebf694f) REAL time: 8 mins 3 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:6c69f61a) REAL time: 7 mins 11 secs 
+Phase 13.34  Placement Validation (Checksum:d210e8ea) REAL time: 8 mins 4 secs 
 
-Total REAL time to Placer completion: 7 mins 13 secs 
-Total CPU  time to Placer completion: 7 mins 12 secs 
+Total REAL time to Placer completion: 8 mins 6 secs 
+Total CPU  time to Placer completion: 8 mins 5 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -12530,42 +12504,42 @@ Design Summary:
 Number of errors:      0
 Number of warnings:    5
 Slice Logic Utilization:
-  Number of Slice Registers:                12,389 out of  54,576   22%
-    Number used as Flip Flops:              12,386
+  Number of Slice Registers:                12,362 out of  54,576   22%
+    Number used as Flip Flops:              12,359
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                3
-  Number of Slice LUTs:                     14,144 out of  27,288   51%
-    Number used as logic:                   12,147 out of  27,288   44%
-      Number using O6 output only:           8,865
-      Number using O5 output only:             598
-      Number using O5 and O6:                2,684
+  Number of Slice LUTs:                     14,169 out of  27,288   51%
+    Number used as logic:                   12,149 out of  27,288   44%
+      Number using O6 output only:           8,834
+      Number using O5 output only:             600
+      Number using O5 and O6:                2,715
       Number used as ROM:                        0
-    Number used as Memory:                   1,567 out of   6,408   24%
-      Number used as Dual Port RAM:          1,420
-        Number using O6 output only:           420
-        Number using O5 output only:            44
-        Number using O5 and O6:                956
+    Number used as Memory:                   1,557 out of   6,408   24%
+      Number used as Dual Port RAM:          1,418
+        Number using O6 output only:           418
+        Number using O5 output only:            42
+        Number using O5 and O6:                958
       Number used as Single Port RAM:            0
-      Number used as Shift Register:           147
-        Number using O6 output only:            44
+      Number used as Shift Register:           139
+        Number using O6 output only:            43
         Number using O5 output only:             0
-        Number using O5 and O6:                103
-    Number used exclusively as route-thrus:    430
-      Number with same-slice register load:    389
+        Number using O5 and O6:                 96
+    Number used exclusively as route-thrus:    463
+      Number with same-slice register load:    422
       Number with same-slice carry load:        41
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 5,371 out of   6,822   78%
+  Number of occupied Slices:                 5,332 out of   6,822   78%
   Number of MUXCYs used:                     2,376 out of  13,644   17%
-  Number of LUT Flip Flop pairs used:       17,366
-    Number with an unused Flip Flop:         6,447 out of  17,366   37%
-    Number with an unused LUT:               3,222 out of  17,366   18%
-    Number of fully used LUT-FF pairs:       7,697 out of  17,366   44%
+  Number of LUT Flip Flop pairs used:       17,299
+    Number with an unused Flip Flop:         6,447 out of  17,299   37%
+    Number with an unused LUT:               3,130 out of  17,299   18%
+    Number of fully used LUT-FF pairs:       7,722 out of  17,299   44%
     Number of unique control sets:             522
     Number of slice register sites lost
-      to control set restrictions:           1,532 out of  54,576    2%
+      to control set restrictions:           1,526 out of  54,576    2%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -12620,8 +12594,8 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                3.77
 
 Peak Memory Usage:  1201 MB
-Total REAL time to MAP completion:  7 mins 28 secs 
-Total CPU time to MAP completion:   7 mins 28 secs 
+Total REAL time to MAP completion:  8 mins 22 secs 
+Total CPU time to MAP completion:   8 mins 21 secs 
 
 Mapping completed.
 See MAP report file "atlys_hdmi2usb-hdmi2usbsoc-atlys_map.mrp" for details.
@@ -12646,39 +12620,39 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                12,389 out of  54,576   22%
-    Number used as Flip Flops:              12,386
+  Number of Slice Registers:                12,362 out of  54,576   22%
+    Number used as Flip Flops:              12,359
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                3
-  Number of Slice LUTs:                     14,144 out of  27,288   51%
-    Number used as logic:                   12,147 out of  27,288   44%
-      Number using O6 output only:           8,865
-      Number using O5 output only:             598
-      Number using O5 and O6:                2,684
+  Number of Slice LUTs:                     14,169 out of  27,288   51%
+    Number used as logic:                   12,149 out of  27,288   44%
+      Number using O6 output only:           8,834
+      Number using O5 output only:             600
+      Number using O5 and O6:                2,715
       Number used as ROM:                        0
-    Number used as Memory:                   1,567 out of   6,408   24%
-      Number used as Dual Port RAM:          1,420
-        Number using O6 output only:           420
-        Number using O5 output only:            44
-        Number using O5 and O6:                956
+    Number used as Memory:                   1,557 out of   6,408   24%
+      Number used as Dual Port RAM:          1,418
+        Number using O6 output only:           418
+        Number using O5 output only:            42
+        Number using O5 and O6:                958
       Number used as Single Port RAM:            0
-      Number used as Shift Register:           147
-        Number using O6 output only:            44
+      Number used as Shift Register:           139
+        Number using O6 output only:            43
         Number using O5 output only:             0
-        Number using O5 and O6:                103
-    Number used exclusively as route-thrus:    430
-      Number with same-slice register load:    389
+        Number using O5 and O6:                 96
+    Number used exclusively as route-thrus:    463
+      Number with same-slice register load:    422
       Number with same-slice carry load:        41
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 5,371 out of   6,822   78%
+  Number of occupied Slices:                 5,332 out of   6,822   78%
   Number of MUXCYs used:                     2,376 out of  13,644   17%
-  Number of LUT Flip Flop pairs used:       17,366
-    Number with an unused Flip Flop:         6,447 out of  17,366   37%
-    Number with an unused LUT:               3,222 out of  17,366   18%
-    Number of fully used LUT-FF pairs:       7,697 out of  17,366   44%
+  Number of LUT Flip Flop pairs used:       17,299
+    Number with an unused Flip Flop:         6,447 out of  17,299   37%
+    Number with an unused LUT:               3,130 out of  17,299   18%
+    Number of fully used LUT-FF pairs:       7,722 out of  17,299   44%
     Number of slice register sites lost
       to control set restrictions:               0 out of  54,576    0%
 
@@ -12744,8 +12718,8 @@ WARNING:Timing:3159 - The DCM, DCM_CLKGEN, has the attribute DFS_OSCILLATOR_MODE
    FROM/TO constraints.
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 27 secs 
-Finished initial Timing Analysis.  REAL time: 28 secs 
+Starting initial Timing Analysis.  REAL time: 32 secs 
+Finished initial Timing Analysis.  REAL time: 32 secs 
 
 WARNING:Par:288 - The signal obj_fx2_flaga_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal obj_fx2_flagc_IBUF has no load.  PAR will not attempt to route this signal.
@@ -12763,29 +12737,29 @@ WARNING:Par:288 - The signal eth_clocks_gtx_IBUF has no load.  PAR will not atte
 Starting Router
 
 
-Phase  1  : 97422 unrouted;      REAL time: 30 secs 
+Phase  1  : 97364 unrouted;      REAL time: 34 secs 
 
-Phase  2  : 82900 unrouted;      REAL time: 35 secs 
+Phase  2  : 82851 unrouted;      REAL time: 40 secs 
 
-Phase  3  : 38387 unrouted;      REAL time: 1 mins 17 secs 
+Phase  3  : 40326 unrouted;      REAL time: 1 mins 33 secs 
 
-Phase  4  : 38394 unrouted; (Setup:0, Hold:24072, Component Switching Limit:0)     REAL time: 1 mins 23 secs 
+Phase  4  : 40391 unrouted; (Setup:0, Hold:9595, Component Switching Limit:0)     REAL time: 1 mins 45 secs 
 
 Updating file: atlys_hdmi2usb-hdmi2usbsoc-atlys.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:29563, Component Switching Limit:0)     REAL time: 2 mins 39 secs 
+Phase  5  : 0 unrouted; (Setup:328, Hold:7660, Component Switching Limit:0)     REAL time: 6 mins 37 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:29563, Component Switching Limit:0)     REAL time: 2 mins 39 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:7660, Component Switching Limit:0)     REAL time: 6 mins 46 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:29563, Component Switching Limit:0)     REAL time: 2 mins 39 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:7660, Component Switching Limit:0)     REAL time: 6 mins 46 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:29563, Component Switching Limit:0)     REAL time: 2 mins 39 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:7660, Component Switching Limit:0)     REAL time: 6 mins 46 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 44 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 6 mins 47 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 2 mins 51 secs 
-Total REAL time to Router completion: 2 mins 51 secs 
-Total CPU time to Router completion: 3 mins 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 6 mins 54 secs 
+Total REAL time to Router completion: 6 mins 54 secs 
+Total CPU time to Router completion: 7 mins 7 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -12803,37 +12777,37 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|             sys_clk |  BUFGMUX_X2Y3| No   | 3235 |  0.171     |  1.382      |
+|             sys_clk |  BUFGMUX_X2Y3| No   | 3206 |  0.170     |  1.381      |
 +---------------------+--------------+------+------+------------+-------------+
-|   hdmi_out0_pix_clk |  BUFGMUX_X2Y4| No   |  121 |  0.555     |  1.769      |
+|    hdmi_in1_pix_clk | BUFGMUX_X2Y10| No   |  274 |  0.063     |  1.274      |
 +---------------------+--------------+------+------+------------+-------------+
-|  hdmi_in1_pix2x_clk | BUFGMUX_X3Y14| No   |   54 |  0.159     |  1.396      |
+|   hdmi_out1_pix_clk |  BUFGMUX_X2Y2| No   |  123 |  0.545     |  1.787      |
 +---------------------+--------------+------+------+------------+-------------+
-|  hdmi_in0_pix2x_clk | BUFGMUX_X3Y15| No   |   61 |  0.234     |  1.456      |
+|   hdmi_out0_pix_clk |  BUFGMUX_X2Y4| No   |  130 |  0.549     |  1.769      |
 +---------------------+--------------+------+------+------------+-------------+
-|   hdmi_out1_pix_clk |  BUFGMUX_X2Y2| No   |  121 |  0.551     |  1.786      |
+|    hdmi_in0_pix_clk |  BUFGMUX_X2Y9| No   |  263 |  0.048     |  1.263      |
 +---------------------+--------------+------+------+------------+-------------+
-|    hdmi_in1_pix_clk | BUFGMUX_X2Y10| No   |  264 |  0.061     |  1.274      |
+|  hdmi_in1_pix2x_clk | BUFGMUX_X3Y14| No   |   58 |  0.180     |  1.396      |
 +---------------------+--------------+------+------+------------+-------------+
-|    hdmi_in0_pix_clk |  BUFGMUX_X2Y9| No   |  272 |  0.052     |  1.272      |
+|  hdmi_in0_pix2x_clk | BUFGMUX_X3Y15| No   |   60 |  0.236     |  1.456      |
 +---------------------+--------------+------+------+------------+-------------+
-|      sdram_half_clk | BUFGMUX_X3Y16| No   |   25 |  0.499     |  1.743      |
+|      sdram_half_clk | BUFGMUX_X3Y16| No   |   24 |  0.484     |  1.743      |
 +---------------------+--------------+------+------+------------+-------------+
-| hdmi_out1_pix2x_clk |  BUFGMUX_X2Y1| No   |   10 |  0.227     |  1.473      |
+| hdmi_out1_pix2x_clk |  BUFGMUX_X2Y1| No   |   10 |  0.220     |  1.473      |
 +---------------------+--------------+------+------+------------+-------------+
-| hdmi_out0_pix2x_clk | BUFGMUX_X2Y12| No   |   12 |  0.224     |  1.456      |
+| hdmi_out0_pix2x_clk | BUFGMUX_X2Y12| No   |   10 |  0.227     |  1.456      |
 +---------------------+--------------+------+------+------------+-------------+
 |hdmi2usbsoc_crg_clk_ |              |      |      |            |             |
 |  sdram_half_shifted |  BUFGMUX_X3Y8| No   |    4 |  0.000     |  1.774      |
 +---------------------+--------------+------+------+------------+-------------+
-|  eth_clocks_rx_IBUF |         Local|      |   51 |  2.166     |  4.617      |
+|  obj_fx2_ifclk_IBUF |         Local|      |   16 |  2.972     |  5.783      |
 +---------------------+--------------+------+------+------------+-------------+
-|  obj_fx2_ifclk_IBUF |         Local|      |   15 |  4.862     |  7.218      |
+|  eth_clocks_tx_IBUF |         Local|      |   49 |  1.676     |  5.196      |
 +---------------------+--------------+------+------+------------+-------------+
-|  eth_clocks_tx_IBUF |         Local|      |   49 |  3.407     |  5.409      |
+|  eth_clocks_rx_IBUF |         Local|      |   51 |  1.415     |  3.054      |
 +---------------------+--------------+------+------+------------+-------------+
 |hdmi2usbsoc_dna_cnt< |              |      |      |            |             |
-|                  0> |         Local|      |    6 |  0.000     |  1.746      |
+|                  0> |         Local|      |    6 |  0.000     |  1.471      |
 +---------------------+--------------+------+------+------------+-------------+
 |   sdram_full_wr_clk |         Local|      |   34 |  0.028     |  1.533      |
 +---------------------+--------------+------+------+------------+-------------+
@@ -12867,8 +12841,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi2usbsoc_crg_pll_5_ = PERIOD TIMEGR | SETUP       |     0.048ns|    13.285ns|       0|           0
-  P "hdmi2usbsoc_crg_pll_5_"         TS_hdm | HOLD        |     0.067ns|            |       0|           0
+  TS_hdmi2usbsoc_crg_pll_5_ = PERIOD TIMEGR | SETUP       |     0.034ns|    13.299ns|       0|           0
+  P "hdmi2usbsoc_crg_pll_5_"         TS_hdm | HOLD        |     0.076ns|            |       0|           0
   i2usbsoc_crg_clk100b / 0.75 HIGH 50%      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_clk_pix_unbuffered_ | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
@@ -12876,12 +12850,11 @@ Asterisk (*) preceding a constraint indicates it was not met.
   cking_clk_pix_unbuffered_0" TS_base50_clk |             |            |            |        |            
    HIGH 50%                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_out0_clocking_pll_clk1_0 = PERIOD | SETUP       |     0.101ns|     4.899ns|       0|           0
-   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.093ns|            |       0|           0
-  clk1_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
-  _pix_unbuffered_0 / 2 HIGH 50%            |             |            |            |        |            
+  TS_hdmi_in0_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     0.129ns|    11.742ns|       0|           0
+  mi_in0_pll_clk2"         TSrecord0_hdmi_i | HOLD        |     0.192ns|            |       0|           0
+  n_clk_p HIGH 50%                          |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi2usbsoc_crg_pll_2_ = PERIOD TIMEGR | SETUP       |     0.246ns|     6.338ns|       0|           0
+  TS_hdmi2usbsoc_crg_pll_2_ = PERIOD TIMEGR | SETUP       |     0.261ns|     6.318ns|       0|           0
   P "hdmi2usbsoc_crg_pll_2_"         TS_hdm | HOLD        |     0.444ns|            |       0|           0
   i2usbsoc_crg_clk100b / 1.5 PHASE 5 ns HIG |             |            |            |        |            
   H 50%                                     |             |            |            |        |            
@@ -12894,37 +12867,38 @@ Asterisk (*) preceding a constraint indicates it was not met.
   "GRPrecord1_hdmi_in_clk_p" 12 ns HIGH     |             |            |            |        |            
        50%                                  |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in0_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     0.603ns|     5.397ns|       0|           0
-  mi_in0_pll_clk1"         TSrecord0_hdmi_i | HOLD        |     0.415ns|            |       0|           0
+  TS_hdmi_out0_clocking_pll_clk1_0 = PERIOD | SETUP       |     0.281ns|     4.719ns|       0|           0
+   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.085ns|            |       0|           0
+  clk1_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
+  _pix_unbuffered_0 / 2 HIGH 50%            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi_in0_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     0.416ns|     5.584ns|       0|           0
+  mi_in0_pll_clk1"         TSrecord0_hdmi_i | HOLD        |     0.392ns|            |       0|           0
   n_clk_p / 2 HIGH 50%                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in0_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     0.696ns|    11.011ns|       0|           0
-  mi_in0_pll_clk2"         TSrecord0_hdmi_i | HOLD        |     0.261ns|            |       0|           0
-  n_clk_p HIGH 50%                          |             |            |            |        |            
+  TSobj_fx2_ifclk = PERIOD TIMEGRP "GRPobj_ | SETUP       |     0.671ns|    19.458ns|       0|           0
+  fx2_ifclk" 20.8 ns HIGH 50%               | HOLD        |     0.374ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_clk_pix_unbuffered  | MINLOWPULSE |    15.000ns|     5.000ns|       0|           0
   = PERIOD TIMEGRP         "hdmi_out0_clock |             |            |            |        |            
   ing_clk_pix_unbuffered" TSbase50_clk HIGH |             |            |            |        |            
    50%                                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in1_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     1.502ns|     4.498ns|       0|           0
-  mi_in1_pll_clk1"         TSrecord1_hdmi_i | HOLD        |     0.364ns|            |       0|           0
+  TS_hdmi_in1_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     1.839ns|     4.161ns|       0|           0
+  mi_in1_pll_clk1"         TSrecord1_hdmi_i | HOLD        |     0.379ns|            |       0|           0
   n_clk_p / 2 HIGH 50%                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi2usbsoc_crg_clk100b = PERIOD TIMEG | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
   RP "hdmi2usbsoc_crg_clk100b" TSclk100     |             |            |            |        |            
        HIGH 50%                             |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TSobj_fx2_ifclk = PERIOD TIMEGRP "GRPobj_ | SETUP       |     2.801ns|    15.198ns|       0|           0
-  fx2_ifclk" 20.8 ns HIGH 50%               | HOLD        |     0.115ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  TS_hdmi_out0_clocking_pll_clk2_0 = PERIOD | SETUP       |     3.391ns|     6.609ns|       0|           0
-   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.211ns|            |       0|           0
+  TS_hdmi_out0_clocking_pll_clk2_0 = PERIOD | SETUP       |     2.453ns|     7.547ns|       0|           0
+   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.173ns|            |       0|           0
   clk2_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
   _pix_unbuffered_0 HIGH 50%                |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in1_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     3.596ns|     8.213ns|       0|           0
-  mi_in1_pll_clk2"         TSrecord1_hdmi_i | HOLD        |     0.098ns|            |       0|           0
+  TS_hdmi_in1_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     3.558ns|     8.442ns|       0|           0
+  mi_in1_pll_clk2"         TSrecord1_hdmi_i | HOLD        |     0.167ns|            |       0|           0
   n_clk_p HIGH 50%                          |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_base50_clk = PERIOD TIMEGRP "base50_cl | MINLOWPULSE |     4.660ns|     5.340ns|       0|           0
@@ -12951,20 +12925,20 @@ Asterisk (*) preceding a constraint indicates it was not met.
       TS_hdmi_out0_clocking_clk_pix_unbuffe |             |            |            |        |            
   red HIGH 50%                              |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TSeth_clocks_rx = PERIOD TIMEGRP "GRPeth_ | SETUP       |    33.186ns|     6.814ns|       0|           0
-  clocks_rx" 40 ns HIGH 50%                 | HOLD        |     0.094ns|            |       0|           0
+  TSeth_clocks_rx = PERIOD TIMEGRP "GRPeth_ | SETUP       |    32.487ns|     7.513ns|       0|           0
+  clocks_rx" 40 ns HIGH 50%                 | HOLD        |     0.047ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks9_path" TIG              | SETUP       |         N/A|    12.612ns|     N/A|           0
+  PATH "TSise_sucks9_path" TIG              | SETUP       |         N/A|    12.372ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks8_path" TIG              | SETUP       |         N/A|    -4.287ns|     N/A|           0
+  PATH "TSise_sucks8_path" TIG              | SETUP       |         N/A|    -4.304ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_in1_pll_clk0 = PERIOD TIMEGRP "hd | N/A         |         N/A|         N/A|     N/A|         N/A
   mi_in1_pll_clk0"         TSrecord1_hdmi_i |             |            |            |        |            
   n_clk_p / 10 HIGH 50%                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks7_path" TIG              | SETUP       |         N/A|    13.363ns|     N/A|           0
+  PATH "TSise_sucks7_path" TIG              | SETUP       |         N/A|    12.051ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks11_path" TIG             | MAXDELAY    |         N/A|     6.704ns|     N/A|           0
+  PATH "TSise_sucks11_path" TIG             | MAXDELAY    |         N/A|     7.646ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_pll_clk0 = PERIOD T | N/A         |         N/A|         N/A|     N/A|         N/A
   IMEGRP "hdmi_out0_clocking_pll_clk0"      |             |            |            |        |            
@@ -12975,26 +12949,26 @@ Asterisk (*) preceding a constraint indicates it was not met.
   mi_in0_pll_clk0"         TSrecord0_hdmi_i |             |            |            |        |            
   n_clk_p / 10 HIGH 50%                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks12_path" TIG             | SETUP       |         N/A|    13.561ns|     N/A|           0
+  PATH "TSise_sucks12_path" TIG             | SETUP       |         N/A|    14.223ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks4_path" TIG              | SETUP       |         N/A|     5.286ns|     N/A|           0
+  PATH "TSise_sucks4_path" TIG              | SETUP       |         N/A|     6.623ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi2usbsoc_crg_pll_0_ = PERIOD TIMEGR | N/A         |         N/A|         N/A|     N/A|         N/A
   P "hdmi2usbsoc_crg_pll_0_"         TS_hdm |             |            |            |        |            
   i2usbsoc_crg_clk100b / 3 HIGH 50%         |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks3_path" TIG              | SETUP       |         N/A|     3.105ns|     N/A|           0
+  PATH "TSise_sucks3_path" TIG              | SETUP       |         N/A|     2.131ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks2_path" TIG              | SETUP       |         N/A|     7.939ns|     N/A|           0
+  PATH "TSise_sucks2_path" TIG              | SETUP       |         N/A|     6.471ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks1_path" TIG              | MAXDELAY    |         N/A|     8.661ns|     N/A|           0
+  PATH "TSise_sucks1_path" TIG              | MAXDELAY    |         N/A|     8.277ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_pll_clk0_0 = PERIOD | N/A         |         N/A|         N/A|     N/A|         N/A
    TIMEGRP         "hdmi_out0_clocking_pll_ |             |            |            |        |            
   clk0_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
   _pix_unbuffered_0 / 10 HIGH 50%           |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks10_path" TIG             | SETUP       |         N/A|    -4.877ns|     N/A|           0
+  PATH "TSise_sucks10_path" TIG             | SETUP       |         N/A|    -4.260ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -13025,20 +12999,20 @@ Derived Constraints for TSclk100
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSclk100                       |     10.000ns|      5.340ns|      9.964ns|            0|            0|            0|      4194508|
-| TS_hdmi2usbsoc_crg_clk100b    |     10.000ns|      3.334ns|      9.964ns|            0|            0|            0|      4172843|
+|TSclk100                       |     10.000ns|      5.340ns|      9.974ns|            0|            0|            0|      4190442|
+| TS_hdmi2usbsoc_crg_clk100b    |     10.000ns|      3.334ns|      9.974ns|            0|            0|            0|      4168777|
 |  TS_hdmi2usbsoc_crg_pll_3_    |      6.667ns|      1.730ns|          N/A|            0|            0|            0|            0|
-|  TS_hdmi2usbsoc_crg_pll_5_    |     13.333ns|     13.285ns|          N/A|            0|            0|      4172572|            0|
+|  TS_hdmi2usbsoc_crg_pll_5_    |     13.333ns|     13.299ns|          N/A|            0|            0|      4168509|            0|
 |  TS_hdmi2usbsoc_crg_pll_0_    |      3.333ns|          N/A|          N/A|            0|            0|            0|            0|
-|  TS_hdmi2usbsoc_crg_pll_2_    |      6.667ns|      6.338ns|          N/A|            0|            0|          271|            0|
-| TS_base50_clk                 |     10.000ns|      5.340ns|      9.798ns|            0|            0|            0|        21665|
-|  TS_hdmi_out0_clocking_clk_pix|     10.000ns|      3.334ns|      9.798ns|            0|            0|            0|        21665|
+|  TS_hdmi2usbsoc_crg_pll_2_    |      6.667ns|      6.318ns|          N/A|            0|            0|          268|            0|
+| TS_base50_clk                 |     10.000ns|      5.340ns|      9.438ns|            0|            0|            0|        21665|
+|  TS_hdmi_out0_clocking_clk_pix|     10.000ns|      3.334ns|      9.438ns|            0|            0|            0|        21665|
 |  _unbuffered_0                |             |             |             |             |             |             |             |
-|   TS_hdmi_out0_clocking_pll_cl|      5.000ns|      4.899ns|          N/A|            0|            0|           30|            0|
+|   TS_hdmi_out0_clocking_pll_cl|      5.000ns|      4.719ns|          N/A|            0|            0|           30|            0|
 |   k1_0                        |             |             |             |             |             |             |             |
 |   TS_hdmi_out0_clocking_pll_cl|      1.000ns|          N/A|          N/A|            0|            0|            0|            0|
 |   k0_0                        |             |             |             |             |             |             |             |
-|   TS_hdmi_out0_clocking_pll_cl|     10.000ns|      6.609ns|          N/A|            0|            0|        21635|            0|
+|   TS_hdmi_out0_clocking_pll_cl|     10.000ns|      7.547ns|          N/A|            0|            0|        21635|            0|
 |   k2_0                        |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -13048,10 +13022,10 @@ Derived Constraints for TSrecord0_hdmi_in_clk_p
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSrecord0_hdmi_in_clk_p        |     12.000ns|      5.000ns|     11.011ns|            0|            0|            0|        13098|
-| TS_hdmi_in0_pll_clk1          |      6.000ns|      5.397ns|          N/A|            0|            0|         1689|            0|
+|TSrecord0_hdmi_in_clk_p        |     12.000ns|      5.000ns|     11.742ns|            0|            0|            0|        13098|
+| TS_hdmi_in0_pll_clk1          |      6.000ns|      5.584ns|          N/A|            0|            0|         1689|            0|
 | TS_hdmi_in0_pll_clk0          |      1.200ns|          N/A|          N/A|            0|            0|            0|            0|
-| TS_hdmi_in0_pll_clk2          |     12.000ns|     11.011ns|          N/A|            0|            0|        11409|            0|
+| TS_hdmi_in0_pll_clk2          |     12.000ns|     11.742ns|          N/A|            0|            0|        11409|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 Derived Constraints for TSrecord1_hdmi_in_clk_p
@@ -13060,10 +13034,10 @@ Derived Constraints for TSrecord1_hdmi_in_clk_p
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSrecord1_hdmi_in_clk_p        |     12.000ns|      5.000ns|      8.996ns|            0|            0|            0|        13282|
-| TS_hdmi_in1_pll_clk1          |      6.000ns|      4.498ns|          N/A|            0|            0|         1689|            0|
+|TSrecord1_hdmi_in_clk_p        |     12.000ns|      5.000ns|      8.442ns|            0|            0|            0|        13254|
+| TS_hdmi_in1_pll_clk1          |      6.000ns|      4.161ns|          N/A|            0|            0|         1689|            0|
 | TS_hdmi_in1_pll_clk0          |      1.200ns|          N/A|          N/A|            0|            0|            0|            0|
-| TS_hdmi_in1_pll_clk2          |     12.000ns|      8.213ns|          N/A|            0|            0|        11593|            0|
+| TS_hdmi_in1_pll_clk2          |     12.000ns|      8.442ns|          N/A|            0|            0|        11565|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -13080,10 +13054,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 13 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 2 mins 58 secs 
-Total CPU time to PAR completion: 3 mins 7 secs 
+Total REAL time to PAR completion: 7 mins 1 secs 
+Total CPU time to PAR completion: 7 mins 14 secs 
 
-Peak Memory Usage:  1087 MB
+Peak Memory Usage:  1104 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
@@ -13106,7 +13080,7 @@ Loading device for application Rf_Device from file '6slx45.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45, package csg324, speed -3
 Opened constraints file atlys_hdmi2usb-hdmi2usbsoc-atlys.pcf.
 
-Wed Jan 27 05:21:36 2016
+Wed Jan 27 06:44:01 2016
 
 INFO:Bitgen:341 - This design is using one or more 9K Block RAMs (RAMB8BWER). 
    9K Block RAM initialization data, both user defined and default, requires a
