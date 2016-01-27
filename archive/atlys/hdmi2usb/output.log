@@ -535,20 +535,20 @@ WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11377: Assignment to hdmi_in1_dma_slot_array_slot0_clear ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11402: Assignment to hdmi_in1_dma_slot_array_slot1_clear ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11535: Assignment to hdmi_out0_dma_out_busy ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11536: Assignment to hdmi_out0_compositeactor_busy0 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11537: Assignment to hdmi_out0_abstractactor_busy ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11536: Assignment to hdmi_out0_abstractactor_busy ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11537: Assignment to hdmi_out0_compositeactor_busy0 ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11538: Assignment to hdmi_out0_compositeactor_busy1 ignored, since the identifier is never used
-WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11586: Result of 27-bit expression is truncated to fit in 24-bit target.
-WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11587: Result of 27-bit expression is truncated to fit in 24-bit target.
+WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11584: Result of 27-bit expression is truncated to fit in 24-bit target.
+WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11585: Result of 27-bit expression is truncated to fit in 24-bit target.
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11705: Assignment to hdmi_out0_chroma_upsampler_sink_ack ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11707: Assignment to hdmi_out0_chroma_upsampler_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11719: Assignment to hdmi_out0_ycbcr2rgb_source_stb ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11720: Assignment to hdmi_out0_ycbcr2rgb_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11721: Assignment to hdmi_out0_ycbcr2rgb_source_eop ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11722: Assignment to hdmi_out0_ycbcr2rgb_source_sop ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11883: Assignment to hdmi_out1_compositeactor_busy0 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11884: Assignment to hdmi_out1_abstractactor_busy ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11885: Assignment to hdmi_out1_dma_out_busy ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11883: Assignment to hdmi_out1_dma_out_busy ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11884: Assignment to hdmi_out1_compositeactor_busy0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11885: Assignment to hdmi_out1_abstractactor_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11886: Assignment to hdmi_out1_compositeactor_busy1 ignored, since the identifier is never used
 WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11909: Result of 27-bit expression is truncated to fit in 24-bit target.
 WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/atlys_hdmi2usb-hdmi2usbsoc-atlys.v" Line 11910: Result of 27-bit expression is truncated to fit in 24-bit target.
@@ -4283,8 +4283,8 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 4-bit subtractor for signal <hdmi_out0_clocking_busy_counter[3]_GND_1_o_sub_6968_OUT> created at line 23046.
     Found 5-bit subtractor for signal <hdmi_out0_reader_rsv_level[4]_GND_1_o_sub_7008_OUT> created at line 23143.
     Found 5-bit subtractor for signal <hdmi_out0_reader_level[4]_GND_1_o_sub_7017_OUT> created at line 23158.
-    Found 5-bit subtractor for signal <hdmi_out1_reader_rsv_level[4]_GND_1_o_sub_7057_OUT> created at line 23243.
-    Found 5-bit subtractor for signal <hdmi_out1_reader_level[4]_GND_1_o_sub_7066_OUT> created at line 23258.
+    Found 5-bit subtractor for signal <hdmi_out1_reader_rsv_level[4]_GND_1_o_sub_7058_OUT> created at line 23249.
+    Found 5-bit subtractor for signal <hdmi_out1_reader_level[4]_GND_1_o_sub_7067_OUT> created at line 23264.
     Found 16-bit subtractor for signal <encoder_reader_v[15]_GND_1_o_sub_7091_OUT> created at line 23336.
     Found 5-bit subtractor for signal <encoder_reader_reader_rsv_level[4]_GND_1_o_sub_7097_OUT> created at line 23346.
     Found 5-bit subtractor for signal <encoder_reader_reader_level[4]_GND_1_o_sub_7106_OUT> created at line 23361.
@@ -4638,12 +4638,12 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 4-bit adder for signal <hdmi_out0_reader_consume[3]_GND_1_o_add_7012_OUT> created at line 23150.
     Found 5-bit adder for signal <hdmi_out0_reader_level[4]_GND_1_o_add_7014_OUT> created at line 23154.
     Found 24-bit adder for signal <hdmi_out0_intseq_counter[23]_GND_1_o_add_7019_OUT> created at line 23170.
-    Found 10-bit adder for signal <hdmi_out1_vtg_hcounter[9]_GND_1_o_add_7036_OUT> created at line 23195.
-    Found 12-bit adder for signal <hdmi_out1_vtg_vcounter[11]_GND_1_o_add_7043_OUT> created at line 23214.
-    Found 5-bit adder for signal <hdmi_out1_reader_rsv_level[4]_GND_1_o_add_7054_OUT> created at line 23239.
-    Found 4-bit adder for signal <hdmi_out1_reader_produce[3]_GND_1_o_add_7059_OUT> created at line 23247.
-    Found 4-bit adder for signal <hdmi_out1_reader_consume[3]_GND_1_o_add_7061_OUT> created at line 23250.
-    Found 5-bit adder for signal <hdmi_out1_reader_level[4]_GND_1_o_add_7063_OUT> created at line 23254.
+    Found 10-bit adder for signal <hdmi_out1_vtg_hcounter[9]_GND_1_o_add_7037_OUT> created at line 23201.
+    Found 12-bit adder for signal <hdmi_out1_vtg_vcounter[11]_GND_1_o_add_7044_OUT> created at line 23220.
+    Found 5-bit adder for signal <hdmi_out1_reader_rsv_level[4]_GND_1_o_add_7055_OUT> created at line 23245.
+    Found 4-bit adder for signal <hdmi_out1_reader_produce[3]_GND_1_o_add_7060_OUT> created at line 23253.
+    Found 4-bit adder for signal <hdmi_out1_reader_consume[3]_GND_1_o_add_7062_OUT> created at line 23256.
+    Found 5-bit adder for signal <hdmi_out1_reader_level[4]_GND_1_o_add_7064_OUT> created at line 23260.
     Found 24-bit adder for signal <hdmi_out1_intseq_counter[23]_GND_1_o_add_7079_OUT> created at line 23309.
     Found 16-bit adder for signal <encoder_reader_v[15]_GND_1_o_add_7089_OUT> created at line 23333.
     Found 5-bit adder for signal <encoder_reader_reader_rsv_level[4]_GND_1_o_add_7094_OUT> created at line 23342.
@@ -4699,20 +4699,20 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es2_cnt[5]_GND_1_o_sub_5751_OUT> created at line 19269.
     Found 6-bit subtractor for signal <_n23628> created at line 19206.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es1_cnt[5]_GND_1_o_sub_5676_OUT> created at line 19206.
-    Found 6-bit subtractor for signal <_n23631> created at line 19216.
-    Found 6-bit adder for signal <_n23632> created at line 19216.
+    Found 6-bit subtractor for signal <_n23632> created at line 19216.
+    Found 6-bit adder for signal <_n23633> created at line 19216.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es1_cnt[5]_GND_1_o_sub_5691_OUT> created at line 19216.
-    Found 6-bit subtractor for signal <_n23637> created at line 19209.
+    Found 6-bit subtractor for signal <_n23638> created at line 19209.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es1_cnt[5]_GND_1_o_sub_5679_OUT> created at line 19209.
-    Found 6-bit subtractor for signal <_n23639> created at line 19221.
     Found 6-bit subtractor for signal <_n23640> created at line 19221.
+    Found 6-bit subtractor for signal <_n23641> created at line 19221.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es1_cnt[5]_GND_1_o_sub_5694_OUT> created at line 19221.
-    Found 6-bit subtractor for signal <_n23660> created at line 19161.
+    Found 6-bit subtractor for signal <_n23661> created at line 19161.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es0_cnt[5]_GND_1_o_sub_5622_OUT> created at line 19161.
-    Found 6-bit subtractor for signal <_n23662> created at line 19168.
-    Found 6-bit adder for signal <_n23663> created at line 19168.
+    Found 6-bit subtractor for signal <_n23663> created at line 19168.
+    Found 6-bit adder for signal <_n23664> created at line 19168.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es0_cnt[5]_GND_1_o_sub_5634_OUT> created at line 19168.
-    Found 6-bit subtractor for signal <_n23665> created at line 19158.
+    Found 6-bit subtractor for signal <_n23666> created at line 19158.
     Found 6-bit adder for signal <hdmi_out0_hdmi_phy_es0_cnt[5]_GND_1_o_sub_5619_OUT> created at line 19158.
     Found 16x16-bit multiplier for signal <n15095> created at line 12233.
     Found 20-bit shifter logical right for signal <n15283> created at line 17136
@@ -4750,7 +4750,7 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 512x8-bit dual-port RAM <Mram_mem_grain1_1> for signal <mem_grain1_1>.
     Found 512x8-bit dual-port RAM <Mram_mem_grain2_1> for signal <mem_grain2_1>.
     Found 512x8-bit dual-port RAM <Mram_mem_grain3_1> for signal <mem_grain3_1>.
-    Found 16x16-bit Read Only RAM for signal <_n25867>
+    Found 16x16-bit Read Only RAM for signal <_n25869>
     Found 1-bit 3-to-1 multiplexer for signal <hdmi2usbsoc_interface_ack> created at line 8617.
     Found 8-bit 4-to-1 multiplexer for signal <ethmac_crc32_inserter_cnt[1]_ethmac_crc32_inserter_value[7]_wide_mux_1431_OUT> created at line 9121.
     Found 8-bit 4-to-1 multiplexer for signal <ethmac_tx_converter_unpack_source_payload_data> created at line 9459.
@@ -4802,20 +4802,20 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 8-bit 21-to-1 multiplexer for signal <interface15_adr[4]_GND_1_o_wide_mux_7202_OUT> created at line 24899.
     Found 8-bit 7-to-1 multiplexer for signal <interface16_adr[2]_GND_1_o_wide_mux_7204_OUT> created at line 24989.
     Found 8-bit 4-to-1 multiplexer for signal <interface17_adr[1]_bank15_tuning_word0_w[7]_wide_mux_7207_OUT> created at line 25016.
-    Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine0_wrport_dat_w> created at line 676.
     Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine1_wrport_dat_w> created at line 715.
-    Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine2_wrport_dat_w> created at line 754.
-    Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine3_wrport_dat_w> created at line 793.
     Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine4_wrport_dat_w> created at line 832.
-    Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine5_wrport_dat_w> created at line 871.
-    Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine6_wrport_dat_w> created at line 910.
+    Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine2_wrport_dat_w> created at line 754.
     Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine7_wrport_dat_w> created at line 949.
+    Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine6_wrport_dat_w> created at line 910.
+    Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine3_wrport_dat_w> created at line 793.
+    Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine0_wrport_dat_w> created at line 676.
+    Found 22-bit 7-to-1 multiplexer for signal <hdmi2usbsoc_sdram_bankmachine5_wrport_dat_w> created at line 871.
     Found 8-bit 4-to-1 multiplexer for signal <hdmi_out0_fifo_pix_y[7]_hdmi_out0_fifo_asyncfifo_dout_p3_y[7]_mux_5525_OUT> created at line 19013.
     Found 8-bit 4-to-1 multiplexer for signal <hdmi_out0_fifo_pix_cb_cr[7]_hdmi_out0_fifo_asyncfifo_dout_p3_cb_cr[7]_mux_5526_OUT> created at line 19013.
     Found 8-bit 4-to-1 multiplexer for signal <hdmi_out1_fifo_pix_y[7]_hdmi_out1_fifo_asyncfifo_dout_p3_y[7]_mux_5846_OUT> created at line 19322.
     Found 8-bit 4-to-1 multiplexer for signal <hdmi_out1_fifo_pix_cb_cr[7]_hdmi_out1_fifo_asyncfifo_dout_p3_cb_cr[7]_mux_5847_OUT> created at line 19322.
     Found 1-bit 8-to-1 multiplexer for signal <_n23612> created at line 22792.
-    Found 1-bit 8-to-1 multiplexer for signal <_n23657> created at line 22534.
+    Found 1-bit 8-to-1 multiplexer for signal <_n23658> created at line 22534.
     Found 1-bit tristate buffer for signal <record0_hdmi_in_sda> created at line 26767
     Found 1-bit tristate buffer for signal <record1_hdmi_in_sda> created at line 27191
     Found 1-bit tristate buffer for signal <record2_hdmi_out_sda> created at line 27595
@@ -4847,7 +4847,7 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 1-bit comparator equal for signal <hdmi2usbsoc_sdram_choose_req_is_write_hdmi2usbsoc_sdram_choose_req_want_writes_equal_408_o> created at line 8088
     Found 29-bit comparator equal for signal <hdmi2usbsoc_tag_do_tag[28]_GND_1_o_equal_1331_o> created at line 8536
     Found 8-bit comparator not equal for signal <ethmac_preamble_checker_match> created at line 8968
-    Found 16-bit comparator greater for signal <_n25134> created at line 9330
+    Found 16-bit comparator greater for signal <_n25135> created at line 9330
     Found 1-bit comparator equal for signal <ethmac_tx_cdc_graycounter0_q[3]_ethmac_tx_cdc_consume_wdomain[3]_equal_1508_o> created at line 9577
     Found 1-bit comparator equal for signal <ethmac_tx_cdc_graycounter0_q[2]_ethmac_tx_cdc_consume_wdomain[2]_equal_1509_o> created at line 9577
     Found 2-bit comparator not equal for signal <n1915> created at line 9577
@@ -4886,7 +4886,7 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 1-bit comparator equal for signal <asyncfifo_graycounter0_q0[2]_asyncfifo_consume_wdomain0[2]_equal_2310_o> created at line 12362
     Found 1-bit comparator equal for signal <asyncfifo_graycounter0_q0[1]_asyncfifo_consume_wdomain0[1]_equal_2311_o> created at line 12362
     Found 1-bit comparator not equal for signal <n3509> created at line 12362
-    Found 3-bit comparator equal for signal <_n25098> created at line 12363
+    Found 3-bit comparator equal for signal <_n25099> created at line 12363
     Found 1-bit comparator equal for signal <n3536> created at line 12488
     Found 11-bit comparator greater for signal <encoder_output_fifo_almost_full> created at line 12581
     Found 1-bit comparator equal for signal <asyncfifo_graycounter0_q1[2]_asyncfifo_consume_wdomain1[2]_equal_2367_o> created at line 12640
@@ -4957,14 +4957,14 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <storage
     Found 12-bit comparator not equal for signal <hdmi_out0_vtg_vcounter[11]_hdmi_out0_vtg_tr_vres[11]_equal_6991_o> created at line 23093
     Found 12-bit comparator equal for signal <hdmi_out0_vtg_vcounter[11]_hdmi_out0_vtg_tr_vsync_start[11]_equal_6992_o> created at line 23096
     Found 12-bit comparator not equal for signal <hdmi_out0_vtg_vcounter[11]_hdmi_out0_vtg_tr_vsync_end[11]_equal_6993_o> created at line 23099
-    Found 10-bit comparator not equal for signal <hdmi_out1_vtg_hcounter[9]_hdmi_out1_vtg_tr_hres[9]_equal_7039_o> created at line 23199
-    Found 10-bit comparator equal for signal <hdmi_out1_vtg_hcounter[9]_hdmi_out1_vtg_tr_hsync_start[9]_equal_7040_o> created at line 23202
-    Found 10-bit comparator not equal for signal <hdmi_out1_vtg_hcounter[9]_hdmi_out1_vtg_tr_hsync_end[9]_equal_7041_o> created at line 23205
-    Found 10-bit comparator equal for signal <hdmi_out1_vtg_hcounter[9]_hdmi_out1_vtg_tr_hscan[9]_equal_7042_o> created at line 23208
-    Found 12-bit comparator equal for signal <hdmi_out1_vtg_vcounter[11]_hdmi_out1_vtg_tr_vscan[11]_equal_7043_o> created at line 23210
-    Found 12-bit comparator not equal for signal <hdmi_out1_vtg_vcounter[11]_hdmi_out1_vtg_tr_vres[11]_equal_7049_o> created at line 23220
-    Found 12-bit comparator equal for signal <hdmi_out1_vtg_vcounter[11]_hdmi_out1_vtg_tr_vsync_start[11]_equal_7050_o> created at line 23223
-    Found 12-bit comparator not equal for signal <hdmi_out1_vtg_vcounter[11]_hdmi_out1_vtg_tr_vsync_end[11]_equal_7051_o> created at line 23226
+    Found 10-bit comparator not equal for signal <hdmi_out1_vtg_hcounter[9]_hdmi_out1_vtg_tr_hres[9]_equal_7040_o> created at line 23205
+    Found 10-bit comparator equal for signal <hdmi_out1_vtg_hcounter[9]_hdmi_out1_vtg_tr_hsync_start[9]_equal_7041_o> created at line 23208
+    Found 10-bit comparator not equal for signal <hdmi_out1_vtg_hcounter[9]_hdmi_out1_vtg_tr_hsync_end[9]_equal_7042_o> created at line 23211
+    Found 10-bit comparator equal for signal <hdmi_out1_vtg_hcounter[9]_hdmi_out1_vtg_tr_hscan[9]_equal_7043_o> created at line 23214
+    Found 12-bit comparator equal for signal <hdmi_out1_vtg_vcounter[11]_hdmi_out1_vtg_tr_vscan[11]_equal_7044_o> created at line 23216
+    Found 12-bit comparator not equal for signal <hdmi_out1_vtg_vcounter[11]_hdmi_out1_vtg_tr_vres[11]_equal_7050_o> created at line 23226
+    Found 12-bit comparator equal for signal <hdmi_out1_vtg_vcounter[11]_hdmi_out1_vtg_tr_vsync_start[11]_equal_7051_o> created at line 23229
+    Found 12-bit comparator not equal for signal <hdmi_out1_vtg_vcounter[11]_hdmi_out1_vtg_tr_vsync_end[11]_equal_7052_o> created at line 23232
     Found 7-bit comparator greater for signal <hdmi2usbsoc_dna_cnt[6]_GND_1_o_LessThan_7954_o> created at line 25399
     Found 11-bit comparator greater for signal <GND_1_o_hdmi2usbsoc_crg_por[10]_LessThan_8370_o> created at line 28506
     WARNING:Xst:2404 -  FFs/Latches <eth_tx_er<0:0>> (without init value) have a constant value of 0 in block <top>.
@@ -8624,7 +8624,7 @@ INFO:Xst:3226 - The RAM <Mram_mem_grain3_11> will be implemented as a BLOCK RAM,
     -----------------------------------------------------------------------
     | optimization       | speed                               |          |
     -----------------------------------------------------------------------
-INFO:Xst:3231 - The small RAM <Mram__n25867> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram__n25869> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -11552,7 +11552,7 @@ Delay:               7.137ns (Levels of Logic = 5)
      LUT5:I2->O           14   0.205   1.205  ethmac_rx_cdc_asyncfifo_writable (ethmac_rx_cdc_asyncfifo_writable)
      LUT6:I2->O            8   0.203   0.907  ethmac_crc32_checker_fifo_full_ethmac_crc32_checker_fifo_out_OR_916_o1 (ethmac_crc32_checker_fifo_full_ethmac_crc32_checker_fifo_out_OR_916_o)
      LUT4:I2->O            4   0.203   0.931  Mmux_ethmac_rx_gap_checker_sink_ack11 (ethmac_rx_gap_checker_sink_ack)
-     LUT4:I0->O            2   0.203   0.616  _n25421_inv11 (_n25421_inv1)
+     LUT4:I0->O            2   0.203   0.616  _n25422_inv11 (_n25422_inv1)
      FDRE:CE                   0.322          liteethphymiirx_pack_source_eop
     ----------------------------------------
     Total                      7.137ns (1.788ns logic, 5.349ns route)
@@ -11579,7 +11579,7 @@ Delay:               10.051ns (Levels of Logic = 8)
      LUT5:I4->O            1   0.205   0.580  ethmac_preamble_inserter_sink_ack1 (ethmac_preamble_inserter_sink_ack1)
      LUT5:I4->O           26   0.205   1.207  ethmac_preamble_inserter_sink_ack2 (ethmac_preamble_inserter_sink_ack)
      LUT6:I5->O            7   0.205   0.774  Mmux_ethmac_padding_inserter_sink_ack11 (ethmac_padding_inserter_sink_ack)
-     LUT4:I3->O            4   0.205   0.684  _n239241 (_n23924)
+     LUT4:I3->O            4   0.205   0.684  _n239251 (_n23925)
      LUT4:I3->O           38   0.205   1.376  Mcount_ethmac_tx_cdc_graycounter1_q_binary_xor<2>11 (Mcount_ethmac_tx_cdc_graycounter1_q_binary2)
      RAM16X1D:DPRA2->DPO    1   0.205   0.579  Mram_storage_1140 (_n19924<32>)
      FD:D                      0.102          memdat_1_32
@@ -11697,8 +11697,8 @@ Delay:               5.149ns (Levels of Logic = 4)
      FDRE:C->Q             3   0.447   0.879  hdmi_in0_datacapture1_lateness_4 (hdmi_in0_datacapture1_lateness_4)
      LUT3:I0->O            1   0.205   0.580  hdmi_in0_datacapture1_too_late<7>_SW0 (N2686)
      LUT6:I5->O            2   0.205   0.721  hdmi_in0_datacapture1_too_late<7> (hdmi_in0_datacapture1_too_late)
-     LUT2:I0->O            1   0.203   0.580  _n25356_inv_SW0 (N3166)
-     LUT6:I5->O            8   0.205   0.802  _n25356_inv (_n25356_inv)
+     LUT2:I0->O            1   0.203   0.580  _n25357_inv_SW0 (N3166)
+     LUT6:I5->O            8   0.205   0.802  _n25357_inv (_n25357_inv)
      FDRE:CE                   0.322          hdmi_in0_datacapture1_lateness_1
     ----------------------------------------
     Total                      5.149ns (1.587ns logic, 3.562ns route)
@@ -11722,8 +11722,8 @@ Delay:               5.149ns (Levels of Logic = 4)
      FDRE:C->Q             3   0.447   0.879  hdmi_in1_datacapture2_lateness_4 (hdmi_in1_datacapture2_lateness_4)
      LUT3:I0->O            1   0.205   0.580  hdmi_in1_datacapture2_too_late<7>_SW0 (N2694)
      LUT6:I5->O            2   0.205   0.721  hdmi_in1_datacapture2_too_late<7> (hdmi_in1_datacapture2_too_late)
-     LUT2:I0->O            1   0.203   0.580  _n25388_inv_SW0 (N3174)
-     LUT6:I5->O            8   0.205   0.802  _n25388_inv (_n25388_inv)
+     LUT2:I0->O            1   0.203   0.580  _n25389_inv_SW0 (N3174)
+     LUT6:I5->O            8   0.205   0.802  _n25389_inv (_n25389_inv)
      FDRE:CE                   0.322          hdmi_in1_datacapture2_lateness_2
     ----------------------------------------
     Total                      5.149ns (1.587ns logic, 3.562ns route)
@@ -11829,7 +11829,7 @@ Offset:              2.431ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
     ISERDES2:VALID        10   0.000   1.104  ISERDES2_18 (hdmi_in0_datacapture1_pd_valid)
-     LUT6:I2->O            8   0.203   0.802  _n25356_inv (_n25356_inv)
+     LUT6:I2->O            8   0.203   0.802  _n25357_inv (_n25357_inv)
      FDRE:CE                   0.322          hdmi_in0_datacapture1_lateness_1
     ----------------------------------------
     Total                      2.431ns (0.525ns logic, 1.906ns route)
@@ -11849,7 +11849,7 @@ Offset:              2.431ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
     ISERDES2:VALID        10   0.000   1.104  ISERDES2_26 (hdmi_in1_datacapture2_pd_valid)
-     LUT6:I2->O            8   0.203   0.802  _n25388_inv (_n25388_inv)
+     LUT6:I2->O            8   0.203   0.802  _n25389_inv (_n25389_inv)
      FDRE:CE                   0.322          hdmi_in1_datacapture2_lateness_2
     ----------------------------------------
     Total                      2.431ns (0.525ns logic, 1.906ns route)
@@ -12096,13 +12096,13 @@ record1_hdmi_in_clk_p|    6.360|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 244.00 secs
-Total CPU time to Xst completion: 243.26 secs
+Total REAL time to Xst completion: 254.00 secs
+Total CPU time to Xst completion: 252.72 secs
  
 --> 
 
 
-Total memory usage is 931376 kilobytes
+Total memory usage is 931332 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 1572 (   0 filtered)
@@ -12374,11 +12374,11 @@ WARNING:Timing:3159 - The DCM, DCM_CLKGEN, has the attribute DFS_OSCILLATOR_MODE
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 59 secs 
-Total CPU  time at the beginning of Placer: 58 secs 
+Total REAL time at the beginning of Placer: 1 mins 40 secs 
+Total CPU  time at the beginning of Placer: 1 mins 40 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:e9b29b28) REAL time: 1 mins 4 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:76360305) REAL time: 1 mins 46 secs 
 
 Phase 2.7  Design Feasibility Check
 WARNING:Place:1137 - This design is not guaranteed to be routable! This design
@@ -12453,50 +12453,50 @@ WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
    <hdmi_out_pix_bufg_1.O> allowing your design to continue. This constraint
    disables all clock placer rules related to the specified COMP.PIN.
-Phase 2.7  Design Feasibility Check (Checksum:e9b29b28) REAL time: 1 mins 7 secs 
+Phase 2.7  Design Feasibility Check (Checksum:76360305) REAL time: 1 mins 51 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:b8fb3fc8) REAL time: 1 mins 7 secs 
+Phase 3.31  Local Placement Optimization (Checksum:457ea7a5) REAL time: 1 mins 51 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:6f1d8829) REAL time: 1 mins 58 secs 
+(Checksum:2b38413) REAL time: 3 mins 11 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:6f1d8829) REAL time: 1 mins 58 secs 
+Phase 5.36  Local Placement Optimization (Checksum:2b38413) REAL time: 3 mins 11 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:6f1d8829) REAL time: 1 mins 58 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:2b38413) REAL time: 3 mins 11 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:6f1d8829) REAL time: 1 mins 58 secs 
+Phase 7.3  Local Placement Optimization (Checksum:2b38413) REAL time: 3 mins 11 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:6f1d8829) REAL time: 1 mins 59 secs 
+Phase 8.5  Local Placement Optimization (Checksum:2b38413) REAL time: 3 mins 11 secs 
 
 Phase 9.8  Global Placement
-.......................
-.................................
-..............................................................................
-.........................................................................................
-.....................
-Phase 9.8  Global Placement (Checksum:252390a9) REAL time: 6 mins 46 secs 
+......................
+....................................
+......................................................................................................................
+....................................................................................
+...................
+Phase 9.8  Global Placement (Checksum:f4c40355) REAL time: 10 mins 48 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:252390a9) REAL time: 6 mins 47 secs 
+Phase 10.5  Local Placement Optimization (Checksum:f4c40355) REAL time: 10 mins 49 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:90fd9550) REAL time: 7 mins 47 secs 
+Phase 11.18  Placement Optimization (Checksum:17c41b93) REAL time: 12 mins 43 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:90fd9550) REAL time: 7 mins 48 secs 
+Phase 12.5  Local Placement Optimization (Checksum:17c41b93) REAL time: 12 mins 43 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:a83762aa) REAL time: 7 mins 49 secs 
+Phase 13.34  Placement Validation (Checksum:21188f06) REAL time: 12 mins 46 secs 
 
-Total REAL time to Placer completion: 7 mins 51 secs 
-Total CPU  time to Placer completion: 7 mins 50 secs 
+Total REAL time to Placer completion: 12 mins 49 secs 
+Total CPU  time to Placer completion: 12 mins 49 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -12509,11 +12509,11 @@ Slice Logic Utilization:
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                3
-  Number of Slice LUTs:                     14,236 out of  27,288   52%
+  Number of Slice LUTs:                     14,178 out of  27,288   51%
     Number used as logic:                   12,148 out of  27,288   44%
-      Number using O6 output only:           8,836
+      Number using O6 output only:           8,835
       Number using O5 output only:             598
-      Number using O5 and O6:                2,714
+      Number using O5 and O6:                2,715
       Number used as ROM:                        0
     Number used as Memory:                   1,557 out of   6,408   24%
       Number used as Dual Port RAM:          1,418
@@ -12525,18 +12525,18 @@ Slice Logic Utilization:
         Number using O6 output only:            43
         Number using O5 output only:             0
         Number using O5 and O6:                 96
-    Number used exclusively as route-thrus:    531
-      Number with same-slice register load:    490
+    Number used exclusively as route-thrus:    473
+      Number with same-slice register load:    432
       Number with same-slice carry load:        41
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 5,350 out of   6,822   78%
+  Number of occupied Slices:                 5,346 out of   6,822   78%
   Number of MUXCYs used:                     2,376 out of  13,644   17%
-  Number of LUT Flip Flop pairs used:       17,341
-    Number with an unused Flip Flop:         6,545 out of  17,341   37%
-    Number with an unused LUT:               3,105 out of  17,341   17%
-    Number of fully used LUT-FF pairs:       7,691 out of  17,341   44%
+  Number of LUT Flip Flop pairs used:       17,423
+    Number with an unused Flip Flop:         6,553 out of  17,423   37%
+    Number with an unused LUT:               3,245 out of  17,423   18%
+    Number of fully used LUT-FF pairs:       7,625 out of  17,423   43%
     Number of unique control sets:             522
     Number of slice register sites lost
       to control set restrictions:           1,526 out of  54,576    2%
@@ -12594,8 +12594,8 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                3.77
 
 Peak Memory Usage:  1201 MB
-Total REAL time to MAP completion:  8 mins 7 secs 
-Total CPU time to MAP completion:   8 mins 6 secs 
+Total REAL time to MAP completion:  13 mins 17 secs 
+Total CPU time to MAP completion:   13 mins 16 secs 
 
 Mapping completed.
 See MAP report file "atlys_hdmi2usb-hdmi2usbsoc-atlys_map.mrp" for details.
@@ -12625,11 +12625,11 @@ Slice Logic Utilization:
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                3
-  Number of Slice LUTs:                     14,236 out of  27,288   52%
+  Number of Slice LUTs:                     14,178 out of  27,288   51%
     Number used as logic:                   12,148 out of  27,288   44%
-      Number using O6 output only:           8,836
+      Number using O6 output only:           8,835
       Number using O5 output only:             598
-      Number using O5 and O6:                2,714
+      Number using O5 and O6:                2,715
       Number used as ROM:                        0
     Number used as Memory:                   1,557 out of   6,408   24%
       Number used as Dual Port RAM:          1,418
@@ -12641,18 +12641,18 @@ Slice Logic Utilization:
         Number using O6 output only:            43
         Number using O5 output only:             0
         Number using O5 and O6:                 96
-    Number used exclusively as route-thrus:    531
-      Number with same-slice register load:    490
+    Number used exclusively as route-thrus:    473
+      Number with same-slice register load:    432
       Number with same-slice carry load:        41
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 5,350 out of   6,822   78%
+  Number of occupied Slices:                 5,346 out of   6,822   78%
   Number of MUXCYs used:                     2,376 out of  13,644   17%
-  Number of LUT Flip Flop pairs used:       17,341
-    Number with an unused Flip Flop:         6,545 out of  17,341   37%
-    Number with an unused LUT:               3,105 out of  17,341   17%
-    Number of fully used LUT-FF pairs:       7,691 out of  17,341   44%
+  Number of LUT Flip Flop pairs used:       17,423
+    Number with an unused Flip Flop:         6,553 out of  17,423   37%
+    Number with an unused LUT:               3,245 out of  17,423   18%
+    Number of fully used LUT-FF pairs:       7,625 out of  17,423   43%
     Number of slice register sites lost
       to control set restrictions:               0 out of  54,576    0%
 
@@ -12718,8 +12718,8 @@ WARNING:Timing:3159 - The DCM, DCM_CLKGEN, has the attribute DFS_OSCILLATOR_MODE
    FROM/TO constraints.
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 28 secs 
-Finished initial Timing Analysis.  REAL time: 29 secs 
+Starting initial Timing Analysis.  REAL time: 49 secs 
+Finished initial Timing Analysis.  REAL time: 51 secs 
 
 WARNING:Par:288 - The signal obj_fx2_flaga_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal obj_fx2_flagc_IBUF has no load.  PAR will not attempt to route this signal.
@@ -12737,29 +12737,29 @@ WARNING:Par:288 - The signal eth_clocks_gtx_IBUF has no load.  PAR will not atte
 Starting Router
 
 
-Phase  1  : 97290 unrouted;      REAL time: 31 secs 
+Phase  1  : 97432 unrouted;      REAL time: 54 secs 
 
-Phase  2  : 82797 unrouted;      REAL time: 36 secs 
+Phase  2  : 82895 unrouted;      REAL time: 1 mins 2 secs 
 
-Phase  3  : 39031 unrouted;      REAL time: 1 mins 19 secs 
+Phase  3  : 39530 unrouted;      REAL time: 2 mins 27 secs 
 
-Phase  4  : 39036 unrouted; (Setup:0, Hold:241, Component Switching Limit:0)     REAL time: 1 mins 27 secs 
+Phase  4  : 39559 unrouted; (Setup:9, Hold:23839, Component Switching Limit:0)     REAL time: 2 mins 49 secs 
 
 Updating file: atlys_hdmi2usb-hdmi2usbsoc-atlys.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:51, Component Switching Limit:0)     REAL time: 3 mins 4 secs 
+Phase  5  : 0 unrouted; (Setup:9, Hold:8395, Component Switching Limit:0)     REAL time: 5 mins 39 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:51, Component Switching Limit:0)     REAL time: 3 mins 4 secs 
+Phase  6  : 0 unrouted; (Setup:9, Hold:8395, Component Switching Limit:0)     REAL time: 5 mins 45 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:51, Component Switching Limit:0)     REAL time: 3 mins 4 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:8395, Component Switching Limit:0)     REAL time: 6 mins 31 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:51, Component Switching Limit:0)     REAL time: 3 mins 4 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:8395, Component Switching Limit:0)     REAL time: 6 mins 31 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 mins 6 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 6 mins 33 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 mins 15 secs 
-Total REAL time to Router completion: 3 mins 15 secs 
-Total CPU time to Router completion: 3 mins 25 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 6 mins 44 secs 
+Total REAL time to Router completion: 6 mins 44 secs 
+Total CPU time to Router completion: 7 mins 17 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -12777,37 +12777,37 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|             sys_clk |  BUFGMUX_X2Y3| No   | 3182 |  0.171     |  1.382      |
+|             sys_clk |  BUFGMUX_X2Y3| No   | 3221 |  0.171     |  1.382      |
 +---------------------+--------------+------+------+------------+-------------+
-|    hdmi_in1_pix_clk | BUFGMUX_X2Y10| No   |  266 |  0.062     |  1.273      |
+|    hdmi_in1_pix_clk | BUFGMUX_X2Y10| No   |  276 |  0.059     |  1.270      |
 +---------------------+--------------+------+------+------------+-------------+
-|   hdmi_out1_pix_clk |  BUFGMUX_X2Y2| No   |  125 |  0.572     |  1.787      |
+|   hdmi_out1_pix_clk |  BUFGMUX_X2Y2| No   |  121 |  0.552     |  1.787      |
 +---------------------+--------------+------+------+------------+-------------+
-|   hdmi_out0_pix_clk |  BUFGMUX_X2Y4| No   |  123 |  0.542     |  1.769      |
+|   hdmi_out0_pix_clk |  BUFGMUX_X2Y4| No   |  127 |  0.556     |  1.769      |
 +---------------------+--------------+------+------+------------+-------------+
-|    hdmi_in0_pix_clk |  BUFGMUX_X2Y9| No   |  267 |  0.059     |  1.272      |
+|    hdmi_in0_pix_clk |  BUFGMUX_X2Y9| No   |  277 |  0.059     |  1.272      |
 +---------------------+--------------+------+------+------------+-------------+
-|  hdmi_in1_pix2x_clk | BUFGMUX_X3Y14| No   |   62 |  0.179     |  1.396      |
+|  hdmi_in1_pix2x_clk | BUFGMUX_X3Y14| No   |   62 |  0.182     |  1.396      |
 +---------------------+--------------+------+------+------------+-------------+
-|  hdmi_in0_pix2x_clk | BUFGMUX_X3Y15| No   |   63 |  0.236     |  1.456      |
+|  hdmi_in0_pix2x_clk | BUFGMUX_X3Y15| No   |   78 |  0.241     |  1.456      |
 +---------------------+--------------+------+------+------------+-------------+
-|      sdram_half_clk | BUFGMUX_X3Y16| No   |   24 |  0.484     |  1.743      |
+|      sdram_half_clk | BUFGMUX_X3Y16| No   |   25 |  0.483     |  1.743      |
 +---------------------+--------------+------+------+------------+-------------+
-| hdmi_out1_pix2x_clk |  BUFGMUX_X2Y1| No   |   10 |  0.206     |  1.473      |
+| hdmi_out1_pix2x_clk |  BUFGMUX_X2Y1| No   |   10 |  0.225     |  1.473      |
 +---------------------+--------------+------+------+------------+-------------+
-| hdmi_out0_pix2x_clk | BUFGMUX_X2Y12| No   |   12 |  0.231     |  1.456      |
+| hdmi_out0_pix2x_clk | BUFGMUX_X2Y12| No   |   11 |  0.236     |  1.456      |
 +---------------------+--------------+------+------+------------+-------------+
 |hdmi2usbsoc_crg_clk_ |              |      |      |            |             |
 |  sdram_half_shifted |  BUFGMUX_X3Y8| No   |    4 |  0.000     |  1.774      |
 +---------------------+--------------+------+------+------------+-------------+
-|  obj_fx2_ifclk_IBUF |         Local|      |   15 |  3.881     |  6.274      |
+|  obj_fx2_ifclk_IBUF |         Local|      |   15 |  1.285     |  3.672      |
 +---------------------+--------------+------+------+------------+-------------+
-|  eth_clocks_tx_IBUF |         Local|      |   50 |  1.596     |  4.547      |
+|  eth_clocks_tx_IBUF |         Local|      |   48 |  4.023     |  6.441      |
 +---------------------+--------------+------+------+------------+-------------+
-|  eth_clocks_rx_IBUF |         Local|      |   51 |  1.053     |  2.751      |
+|  eth_clocks_rx_IBUF |         Local|      |   52 |  3.095     |  5.037      |
 +---------------------+--------------+------+------+------------+-------------+
 |hdmi2usbsoc_dna_cnt< |              |      |      |            |             |
-|                  0> |         Local|      |    6 |  0.000     |  1.923      |
+|                  0> |         Local|      |    6 |  0.000     |  2.051      |
 +---------------------+--------------+------+------+------------+-------------+
 |   sdram_full_wr_clk |         Local|      |   34 |  0.028     |  1.533      |
 +---------------------+--------------+------+------+------------+-------------+
@@ -12841,18 +12841,19 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in1_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     0.029ns|     5.971ns|       0|           0
-  mi_in1_pll_clk1"         TSrecord1_hdmi_i | HOLD        |     0.436ns|            |       0|           0
-  n_clk_p / 2 HIGH 50%                      |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_hdmi2usbsoc_crg_pll_5_ = PERIOD TIMEGR | SETUP       |     0.036ns|    13.297ns|       0|           0
-  P "hdmi2usbsoc_crg_pll_5_"         TS_hdm | HOLD        |     0.097ns|            |       0|           0
+  TS_hdmi2usbsoc_crg_pll_5_ = PERIOD TIMEGR | SETUP       |     0.061ns|    13.272ns|       0|           0
+  P "hdmi2usbsoc_crg_pll_5_"         TS_hdm | HOLD        |     0.028ns|            |       0|           0
   i2usbsoc_crg_clk100b / 0.75 HIGH 50%      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_clk_pix_unbuffered_ | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
   0 = PERIOD TIMEGRP         "hdmi_out0_clo |             |            |            |        |            
   cking_clk_pix_unbuffered_0" TS_base50_clk |             |            |            |        |            
    HIGH 50%                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi2usbsoc_crg_pll_2_ = PERIOD TIMEGR | SETUP       |     0.259ns|     6.320ns|       0|           0
+  P "hdmi2usbsoc_crg_pll_2_"         TS_hdm | HOLD        |     0.419ns|            |       0|           0
+  i2usbsoc_crg_clk100b / 1.5 PHASE 5 ns HIG |             |            |            |        |            
+  H 50%                                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TSrecord0_hdmi_in_clk_p = PERIOD TIMEGRP  | MINLOWPULSE |     7.000ns|     5.000ns|       0|           0
   "GRPrecord0_hdmi_in_clk_p" 12 ns HIGH     |             |            |            |        |            
@@ -12862,44 +12863,43 @@ Asterisk (*) preceding a constraint indicates it was not met.
   "GRPrecord1_hdmi_in_clk_p" 12 ns HIGH     |             |            |            |        |            
        50%                                  |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in0_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     0.427ns|     5.573ns|       0|           0
-  mi_in0_pll_clk1"         TSrecord0_hdmi_i | HOLD        |     0.379ns|            |       0|           0
-  n_clk_p / 2 HIGH 50%                      |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_hdmi2usbsoc_crg_pll_2_ = PERIOD TIMEGR | SETUP       |     0.527ns|     5.963ns|       0|           0
-  P "hdmi2usbsoc_crg_pll_2_"         TS_hdm | HOLD        |     0.447ns|            |       0|           0
-  i2usbsoc_crg_clk100b / 1.5 PHASE 5 ns HIG |             |            |            |        |            
-  H 50%                                     |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_hdmi_out0_clocking_pll_clk1_0 = PERIOD | SETUP       |     0.651ns|     4.349ns|       0|           0
-   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.058ns|            |       0|           0
+  TS_hdmi_out0_clocking_pll_clk1_0 = PERIOD | SETUP       |     0.448ns|     4.552ns|       0|           0
+   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.031ns|            |       0|           0
   clk1_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
   _pix_unbuffered_0 / 2 HIGH 50%            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi_in0_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     0.536ns|     5.464ns|       0|           0
+  mi_in0_pll_clk1"         TSrecord0_hdmi_i | HOLD        |     0.416ns|            |       0|           0
+  n_clk_p / 2 HIGH 50%                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_clk_pix_unbuffered  | MINLOWPULSE |    15.000ns|     5.000ns|       0|           0
   = PERIOD TIMEGRP         "hdmi_out0_clock |             |            |            |        |            
   ing_clk_pix_unbuffered" TSbase50_clk HIGH |             |            |            |        |            
    50%                                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TSobj_fx2_ifclk = PERIOD TIMEGRP "GRPobj_ | SETUP       |     1.079ns|    18.642ns|       0|           0
-  fx2_ifclk" 20.8 ns HIGH 50%               | HOLD        |     0.397ns|            |       0|           0
+  TS_hdmi_in0_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     1.403ns|    10.597ns|       0|           0
+  mi_in0_pll_clk2"         TSrecord0_hdmi_i | HOLD        |     0.174ns|            |       0|           0
+  n_clk_p HIGH 50%                          |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in1_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     1.312ns|    10.688ns|       0|           0
-  mi_in1_pll_clk2"         TSrecord1_hdmi_i | HOLD        |     0.116ns|            |       0|           0
+  TS_hdmi_in1_pll_clk1 = PERIOD TIMEGRP "hd | SETUP       |     1.483ns|     4.517ns|       0|           0
+  mi_in1_pll_clk1"         TSrecord1_hdmi_i | HOLD        |     0.393ns|            |       0|           0
+  n_clk_p / 2 HIGH 50%                      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TSobj_fx2_ifclk = PERIOD TIMEGRP "GRPobj_ | SETUP       |     2.052ns|    16.696ns|       0|           0
+  fx2_ifclk" 20.8 ns HIGH 50%               | HOLD        |     0.424ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_hdmi_in1_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     2.084ns|     9.916ns|       0|           0
+  mi_in1_pll_clk2"         TSrecord1_hdmi_i | HOLD        |     0.119ns|            |       0|           0
   n_clk_p HIGH 50%                          |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi2usbsoc_crg_clk100b = PERIOD TIMEG | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
   RP "hdmi2usbsoc_crg_clk100b" TSclk100     |             |            |            |        |            
        HIGH 50%                             |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_hdmi_out0_clocking_pll_clk2_0 = PERIOD | SETUP       |     2.786ns|     7.214ns|       0|           0
-   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.207ns|            |       0|           0
+  TS_hdmi_out0_clocking_pll_clk2_0 = PERIOD | SETUP       |     3.251ns|     6.749ns|       0|           0
+   TIMEGRP         "hdmi_out0_clocking_pll_ | HOLD        |     0.182ns|            |       0|           0
   clk2_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
   _pix_unbuffered_0 HIGH 50%                |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_hdmi_in0_pll_clk2 = PERIOD TIMEGRP "hd | SETUP       |     3.144ns|     7.854ns|       0|           0
-  mi_in0_pll_clk2"         TSrecord0_hdmi_i | HOLD        |     0.178ns|            |       0|           0
-  n_clk_p HIGH 50%                          |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_base50_clk = PERIOD TIMEGRP "base50_cl | MINLOWPULSE |     4.660ns|     5.340ns|       0|           0
   k" TSclk100 HIGH 50%                      |             |            |            |        |            
@@ -12925,20 +12925,20 @@ Asterisk (*) preceding a constraint indicates it was not met.
       TS_hdmi_out0_clocking_clk_pix_unbuffe |             |            |            |        |            
   red HIGH 50%                              |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TSeth_clocks_rx = PERIOD TIMEGRP "GRPeth_ | SETUP       |    32.943ns|     7.057ns|       0|           0
-  clocks_rx" 40 ns HIGH 50%                 | HOLD        |     0.138ns|            |       0|           0
+  TSeth_clocks_rx = PERIOD TIMEGRP "GRPeth_ | SETUP       |    31.420ns|     8.580ns|       0|           0
+  clocks_rx" 40 ns HIGH 50%                 | HOLD        |     0.062ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks9_path" TIG              | SETUP       |         N/A|    11.568ns|     N/A|           0
+  PATH "TSise_sucks9_path" TIG              | SETUP       |         N/A|    12.247ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks8_path" TIG              | SETUP       |         N/A|    -4.052ns|     N/A|           0
+  PATH "TSise_sucks8_path" TIG              | SETUP       |         N/A|    -4.288ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_in1_pll_clk0 = PERIOD TIMEGRP "hd | N/A         |         N/A|         N/A|     N/A|         N/A
   mi_in1_pll_clk0"         TSrecord1_hdmi_i |             |            |            |        |            
   n_clk_p / 10 HIGH 50%                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks7_path" TIG              | SETUP       |         N/A|    11.858ns|     N/A|           0
+  PATH "TSise_sucks7_path" TIG              | SETUP       |         N/A|    11.646ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks11_path" TIG             | MAXDELAY    |         N/A|     5.988ns|     N/A|           0
+  PATH "TSise_sucks11_path" TIG             | MAXDELAY    |         N/A|     5.881ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_pll_clk0 = PERIOD T | N/A         |         N/A|         N/A|     N/A|         N/A
   IMEGRP "hdmi_out0_clocking_pll_clk0"      |             |            |            |        |            
@@ -12949,26 +12949,26 @@ Asterisk (*) preceding a constraint indicates it was not met.
   mi_in0_pll_clk0"         TSrecord0_hdmi_i |             |            |            |        |            
   n_clk_p / 10 HIGH 50%                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks12_path" TIG             | SETUP       |         N/A|    13.891ns|     N/A|           0
+  PATH "TSise_sucks12_path" TIG             | SETUP       |         N/A|    16.515ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks4_path" TIG              | SETUP       |         N/A|     8.854ns|     N/A|           0
+  PATH "TSise_sucks4_path" TIG              | SETUP       |         N/A|     5.635ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi2usbsoc_crg_pll_0_ = PERIOD TIMEGR | N/A         |         N/A|         N/A|     N/A|         N/A
   P "hdmi2usbsoc_crg_pll_0_"         TS_hdm |             |            |            |        |            
   i2usbsoc_crg_clk100b / 3 HIGH 50%         |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks3_path" TIG              | SETUP       |         N/A|     0.934ns|     N/A|           0
+  PATH "TSise_sucks3_path" TIG              | SETUP       |         N/A|     1.855ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks2_path" TIG              | SETUP       |         N/A|     7.262ns|     N/A|           0
+  PATH "TSise_sucks2_path" TIG              | SETUP       |         N/A|     7.109ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks1_path" TIG              | MAXDELAY    |         N/A|     8.850ns|     N/A|           0
+  PATH "TSise_sucks1_path" TIG              | MAXDELAY    |         N/A|     8.931ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
   TS_hdmi_out0_clocking_pll_clk0_0 = PERIOD | N/A         |         N/A|         N/A|     N/A|         N/A
    TIMEGRP         "hdmi_out0_clocking_pll_ |             |            |            |        |            
   clk0_0"         TS_hdmi_out0_clocking_clk |             |            |            |        |            
   _pix_unbuffered_0 / 10 HIGH 50%           |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks10_path" TIG             | SETUP       |         N/A|    -4.018ns|     N/A|           0
+  PATH "TSise_sucks10_path" TIG             | SETUP       |         N/A|    -4.198ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -12999,20 +12999,20 @@ Derived Constraints for TSclk100
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSclk100                       |     10.000ns|      5.340ns|      9.973ns|            0|            0|            0|      4190442|
-| TS_hdmi2usbsoc_crg_clk100b    |     10.000ns|      3.334ns|      9.973ns|            0|            0|            0|      4168777|
+|TSclk100                       |     10.000ns|      5.340ns|      9.954ns|            0|            0|            0|      4190442|
+| TS_hdmi2usbsoc_crg_clk100b    |     10.000ns|      3.334ns|      9.954ns|            0|            0|            0|      4168777|
 |  TS_hdmi2usbsoc_crg_pll_3_    |      6.667ns|      1.730ns|          N/A|            0|            0|            0|            0|
-|  TS_hdmi2usbsoc_crg_pll_5_    |     13.333ns|     13.297ns|          N/A|            0|            0|      4168509|            0|
+|  TS_hdmi2usbsoc_crg_pll_5_    |     13.333ns|     13.272ns|          N/A|            0|            0|      4168509|            0|
 |  TS_hdmi2usbsoc_crg_pll_0_    |      3.333ns|          N/A|          N/A|            0|            0|            0|            0|
-|  TS_hdmi2usbsoc_crg_pll_2_    |      6.667ns|      5.963ns|          N/A|            0|            0|          268|            0|
-| TS_base50_clk                 |     10.000ns|      5.340ns|      8.698ns|            0|            0|            0|        21665|
-|  TS_hdmi_out0_clocking_clk_pix|     10.000ns|      3.334ns|      8.698ns|            0|            0|            0|        21665|
+|  TS_hdmi2usbsoc_crg_pll_2_    |      6.667ns|      6.320ns|          N/A|            0|            0|          268|            0|
+| TS_base50_clk                 |     10.000ns|      5.340ns|      9.104ns|            0|            0|            0|        21665|
+|  TS_hdmi_out0_clocking_clk_pix|     10.000ns|      3.334ns|      9.104ns|            0|            0|            0|        21665|
 |  _unbuffered_0                |             |             |             |             |             |             |             |
-|   TS_hdmi_out0_clocking_pll_cl|      5.000ns|      4.349ns|          N/A|            0|            0|           30|            0|
+|   TS_hdmi_out0_clocking_pll_cl|      5.000ns|      4.552ns|          N/A|            0|            0|           30|            0|
 |   k1_0                        |             |             |             |             |             |             |             |
 |   TS_hdmi_out0_clocking_pll_cl|      1.000ns|          N/A|          N/A|            0|            0|            0|            0|
 |   k0_0                        |             |             |             |             |             |             |             |
-|   TS_hdmi_out0_clocking_pll_cl|     10.000ns|      7.214ns|          N/A|            0|            0|        21635|            0|
+|   TS_hdmi_out0_clocking_pll_cl|     10.000ns|      6.749ns|          N/A|            0|            0|        21635|            0|
 |   k2_0                        |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -13022,10 +13022,10 @@ Derived Constraints for TSrecord0_hdmi_in_clk_p
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSrecord0_hdmi_in_clk_p        |     12.000ns|      5.000ns|     11.146ns|            0|            0|            0|        13098|
-| TS_hdmi_in0_pll_clk1          |      6.000ns|      5.573ns|          N/A|            0|            0|         1689|            0|
+|TSrecord0_hdmi_in_clk_p        |     12.000ns|      5.000ns|     10.928ns|            0|            0|            0|        13098|
+| TS_hdmi_in0_pll_clk1          |      6.000ns|      5.464ns|          N/A|            0|            0|         1689|            0|
 | TS_hdmi_in0_pll_clk0          |      1.200ns|          N/A|          N/A|            0|            0|            0|            0|
-| TS_hdmi_in0_pll_clk2          |     12.000ns|      7.854ns|          N/A|            0|            0|        11409|            0|
+| TS_hdmi_in0_pll_clk2          |     12.000ns|     10.597ns|          N/A|            0|            0|        11409|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 Derived Constraints for TSrecord1_hdmi_in_clk_p
@@ -13034,10 +13034,10 @@ Derived Constraints for TSrecord1_hdmi_in_clk_p
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSrecord1_hdmi_in_clk_p        |     12.000ns|      5.000ns|     11.942ns|            0|            0|            0|        13254|
-| TS_hdmi_in1_pll_clk1          |      6.000ns|      5.971ns|          N/A|            0|            0|         1689|            0|
+|TSrecord1_hdmi_in_clk_p        |     12.000ns|      5.000ns|      9.916ns|            0|            0|            0|        13254|
+| TS_hdmi_in1_pll_clk1          |      6.000ns|      4.517ns|          N/A|            0|            0|         1689|            0|
 | TS_hdmi_in1_pll_clk0          |      1.200ns|          N/A|          N/A|            0|            0|            0|            0|
-| TS_hdmi_in1_pll_clk2          |     12.000ns|     10.688ns|          N/A|            0|            0|        11565|            0|
+| TS_hdmi_in1_pll_clk2          |     12.000ns|      9.916ns|          N/A|            0|            0|        11565|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -13054,10 +13054,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 13 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 3 mins 27 secs 
-Total CPU time to PAR completion: 3 mins 37 secs 
+Total REAL time to PAR completion: 6 mins 56 secs 
+Total CPU time to PAR completion: 7 mins 29 secs 
 
-Peak Memory Usage:  1069 MB
+Peak Memory Usage:  1144 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
@@ -13080,7 +13080,7 @@ Loading device for application Rf_Device from file '6slx45.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45, package csg324, speed -3
 Opened constraints file atlys_hdmi2usb-hdmi2usbsoc-atlys.pcf.
 
-Wed Jan 27 07:37:58 2016
+Wed Jan 27 08:32:39 2016
 
 INFO:Bitgen:341 - This design is using one or more 9K Block RAMs (RAMB8BWER). 
    9K Block RAM initialization data, both user defined and default, requires a
