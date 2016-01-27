@@ -3836,7 +3836,9 @@ INFO:Xst:2261 - The FF/Latch <lm32_cpu/instruction_unit/icache/memories[0].way_0
 INFO:Xst:2261 - The FF/Latch <lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_7> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_5> 
 INFO:Xst:2261 - The FF/Latch <lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_8> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_6> 
 INFO:Xst:2261 - The FF/Latch <lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_9> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_7> 
+INFO:Xst:2261 - The FF/Latch <new_master_dat_w_ack> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <minisoc_minisoc_sdram_dfi_p1_wrdata_en> 
 INFO:Xst:2261 - The FF/Latch <lm32_cpu/load_store_unit/d_cyc_o> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <lm32_cpu/load_store_unit/d_stb_o> 
+INFO:Xst:2261 - The FF/Latch <minisoc_minisoc_sdram_dfi_p0_rddata_en> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <new_master_dat_r_ack0> 
 INFO:Xst:2261 - The FF/Latch <lm32_cpu/load_x> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <lm32_cpu/w_result_sel_load_x> 
 
 Mapping all equations...
@@ -3844,7 +3846,11 @@ Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 0) on block top, actual ratio is 24.
 Forward register balancing over carry chain Madd_n6028_cy<0>
 INFO:Xst:2261 - The FF/Latch <lm32_cpu/load_m> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <lm32_cpu/w_result_sel_load_m_BRB0> 
+INFO:Xst:2261 - The FF/Latch <new_master_dat_r_ack1> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <minisoc_ddrphy_rddata_sr_4_BRB5> 
 INFO:Xst:2261 - The FF/Latch <lm32_cpu/direction_x> in Unit <top> is equivalent to the following 2 FFs/Latches, which will be removed : <lm32_cpu/m_result_sel_compare_x_BRB0> <lm32_cpu/m_bypass_enable_x_BRB5> 
+INFO:Xst:2261 - The FF/Latch <new_master_dat_r_ack2> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <minisoc_ddrphy_rddata_sr_3_BRB5> 
+INFO:Xst:2261 - The FF/Latch <new_master_dat_r_ack3> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <minisoc_ddrphy_rddata_sr_2_BRB5> 
+INFO:Xst:2261 - The FF/Latch <new_master_dat_r_ack4> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <minisoc_ddrphy_rddata_sr_1_BRB5> 
 
 Pipelining and Register Balancing Report ...
 
@@ -3856,29 +3862,27 @@ Processing Unit <top> :
 	Register(s) lm32_cpu/m_result_sel_shift_x has(ve) been backward balanced into : lm32_cpu/m_result_sel_shift_x_BRB0 lm32_cpu/m_result_sel_shift_x_BRB1 lm32_cpu/m_result_sel_shift_x_BRB2 lm32_cpu/m_result_sel_shift_x_BRB3 lm32_cpu/m_result_sel_shift_x_BRB4.
 	Register(s) lm32_cpu/w_result_sel_mul_m has(ve) been backward balanced into : lm32_cpu/w_result_sel_mul_m_BRB0 lm32_cpu/w_result_sel_mul_m_BRB1.
 	Register(s) lm32_cpu/w_result_sel_mul_x has(ve) been backward balanced into : lm32_cpu/w_result_sel_mul_x_BRB0 lm32_cpu/w_result_sel_mul_x_BRB2.
-	Register(s) minisoc_ddrphy_rddata_sr_1 has(ve) been backward balanced into : minisoc_ddrphy_rddata_sr_1_BRB0 minisoc_ddrphy_rddata_sr_1_BRB1 minisoc_ddrphy_rddata_sr_1_BRB2 minisoc_ddrphy_rddata_sr_1_BRB3 minisoc_ddrphy_rddata_sr_1_BRB4 minisoc_ddrphy_rddata_sr_1_BRB5.
-	Register(s) minisoc_ddrphy_rddata_sr_2 has(ve) been backward balanced into : minisoc_ddrphy_rddata_sr_2_BRB0 minisoc_ddrphy_rddata_sr_2_BRB1 minisoc_ddrphy_rddata_sr_2_BRB2 minisoc_ddrphy_rddata_sr_2_BRB3 minisoc_ddrphy_rddata_sr_2_BRB4 minisoc_ddrphy_rddata_sr_2_BRB6 minisoc_ddrphy_rddata_sr_2_BRB7 minisoc_ddrphy_rddata_sr_2_BRB8 minisoc_ddrphy_rddata_sr_2_BRB9 minisoc_ddrphy_rddata_sr_2_BRB10.
-	Register(s) minisoc_ddrphy_rddata_sr_3 has(ve) been backward balanced into : minisoc_ddrphy_rddata_sr_3_BRB0 minisoc_ddrphy_rddata_sr_3_BRB1 minisoc_ddrphy_rddata_sr_3_BRB2 minisoc_ddrphy_rddata_sr_3_BRB3 minisoc_ddrphy_rddata_sr_3_BRB4 minisoc_ddrphy_rddata_sr_3_BRB6 minisoc_ddrphy_rddata_sr_3_BRB7 minisoc_ddrphy_rddata_sr_3_BRB8 minisoc_ddrphy_rddata_sr_3_BRB9 minisoc_ddrphy_rddata_sr_3_BRB10.
-	Register(s) minisoc_ddrphy_rddata_sr_4 has(ve) been backward balanced into : minisoc_ddrphy_rddata_sr_4_BRB0 minisoc_ddrphy_rddata_sr_4_BRB1 minisoc_ddrphy_rddata_sr_4_BRB2 minisoc_ddrphy_rddata_sr_4_BRB3 minisoc_ddrphy_rddata_sr_4_BRB4 minisoc_ddrphy_rddata_sr_4_BRB6 minisoc_ddrphy_rddata_sr_4_BRB7 minisoc_ddrphy_rddata_sr_4_BRB8 minisoc_ddrphy_rddata_sr_4_BRB9 minisoc_ddrphy_rddata_sr_4_BRB10.
+	Register(s) minisoc_ddrphy_rddata_sr_1 has(ve) been backward balanced into : minisoc_ddrphy_rddata_sr_1_BRB0 minisoc_ddrphy_rddata_sr_1_BRB1 minisoc_ddrphy_rddata_sr_1_BRB2 minisoc_ddrphy_rddata_sr_1_BRB3 minisoc_ddrphy_rddata_sr_1_BRB4 .
+	Register(s) minisoc_ddrphy_rddata_sr_2 has(ve) been backward balanced into : minisoc_ddrphy_rddata_sr_2_BRB0 minisoc_ddrphy_rddata_sr_2_BRB1 minisoc_ddrphy_rddata_sr_2_BRB2 minisoc_ddrphy_rddata_sr_2_BRB4 minisoc_ddrphy_rddata_sr_2_BRB5 minisoc_ddrphy_rddata_sr_2_BRB6 minisoc_ddrphy_rddata_sr_2_BRB7.
+	Register(s) minisoc_ddrphy_rddata_sr_3 has(ve) been backward balanced into : minisoc_ddrphy_rddata_sr_3_BRB0 minisoc_ddrphy_rddata_sr_3_BRB1 minisoc_ddrphy_rddata_sr_3_BRB2 minisoc_ddrphy_rddata_sr_3_BRB4 minisoc_ddrphy_rddata_sr_3_BRB5 minisoc_ddrphy_rddata_sr_3_BRB6 minisoc_ddrphy_rddata_sr_3_BRB7.
+	Register(s) minisoc_ddrphy_rddata_sr_4 has(ve) been backward balanced into : minisoc_ddrphy_rddata_sr_4_BRB0 minisoc_ddrphy_rddata_sr_4_BRB1 minisoc_ddrphy_rddata_sr_4_BRB2 minisoc_ddrphy_rddata_sr_4_BRB4 minisoc_ddrphy_rddata_sr_4_BRB5 minisoc_ddrphy_rddata_sr_4_BRB6 minisoc_ddrphy_rddata_sr_4_BRB7.
 	Register(s) minisoc_ddrphy_record0_cke has(ve) been backward balanced into : minisoc_ddrphy_record0_cke_BRB0 .
 	Register(s) minisoc_ddrphy_record0_odt has(ve) been backward balanced into : minisoc_ddrphy_record0_odt_BRB0 minisoc_ddrphy_record0_odt_BRB1.
 	Register(s) minisoc_minisoc_sdram_dfi_p0_rddata_en has(ve) been backward balanced into : minisoc_minisoc_sdram_dfi_p0_rddata_en_BRB0 minisoc_minisoc_sdram_dfi_p0_rddata_en_BRB1 minisoc_minisoc_sdram_dfi_p0_rddata_en_BRB2.
-	Register(s) new_master_dat_r_ack0 has(ve) been backward balanced into : new_master_dat_r_ack0_BRB0 new_master_dat_r_ack0_BRB1 new_master_dat_r_ack0_BRB2 new_master_dat_r_ack0_BRB4 new_master_dat_r_ack0_BRB5 new_master_dat_r_ack0_BRB6 new_master_dat_r_ack0_BRB7 new_master_dat_r_ack0_BRB8 new_master_dat_r_ack0_BRB9 new_master_dat_r_ack0_BRB10 new_master_dat_r_ack0_BRB11 new_master_dat_r_ack0_BRB12 new_master_dat_r_ack0_BRB13 new_master_dat_r_ack0_BRB14 new_master_dat_r_ack0_BRB15 new_master_dat_r_ack0_BRB16 new_master_dat_r_ack0_BRB17 new_master_dat_r_ack0_BRB18 new_master_dat_r_ack0_BRB19 new_master_dat_r_ack0_BRB20 new_master_dat_r_ack0_BRB21 new_master_dat_r_ack0_BRB22 new_master_dat_r_ack0_BRB23 new_master_dat_r_ack0_BRB24.
-	Register(s) new_master_dat_r_ack1 has(ve) been backward balanced into : new_master_dat_r_ack1_BRB0 new_master_dat_r_ack1_BRB1 new_master_dat_r_ack1_BRB2 new_master_dat_r_ack1_BRB4 new_master_dat_r_ack1_BRB5 new_master_dat_r_ack1_BRB6 new_master_dat_r_ack1_BRB7 new_master_dat_r_ack1_BRB8 new_master_dat_r_ack1_BRB9 new_master_dat_r_ack1_BRB10 new_master_dat_r_ack1_BRB11 new_master_dat_r_ack1_BRB12 new_master_dat_r_ack1_BRB13 new_master_dat_r_ack1_BRB14 new_master_dat_r_ack1_BRB15 new_master_dat_r_ack1_BRB16 new_master_dat_r_ack1_BRB17 new_master_dat_r_ack1_BRB18 new_master_dat_r_ack1_BRB19 new_master_dat_r_ack1_BRB20 new_master_dat_r_ack1_BRB21 new_master_dat_r_ack1_BRB22 new_master_dat_r_ack1_BRB23 new_master_dat_r_ack1_BRB24.
-	Register(s) new_master_dat_r_ack2 has(ve) been backward balanced into : new_master_dat_r_ack2_BRB0 new_master_dat_r_ack2_BRB1 new_master_dat_r_ack2_BRB2 new_master_dat_r_ack2_BRB4 new_master_dat_r_ack2_BRB5 new_master_dat_r_ack2_BRB6 new_master_dat_r_ack2_BRB7 new_master_dat_r_ack2_BRB8 new_master_dat_r_ack2_BRB9 new_master_dat_r_ack2_BRB10 new_master_dat_r_ack2_BRB11 new_master_dat_r_ack2_BRB12 new_master_dat_r_ack2_BRB13 new_master_dat_r_ack2_BRB14 new_master_dat_r_ack2_BRB15 new_master_dat_r_ack2_BRB16 new_master_dat_r_ack2_BRB17 new_master_dat_r_ack2_BRB18 new_master_dat_r_ack2_BRB19 new_master_dat_r_ack2_BRB20 new_master_dat_r_ack2_BRB21 new_master_dat_r_ack2_BRB22 new_master_dat_r_ack2_BRB23 new_master_dat_r_ack2_BRB24.
-	Register(s) new_master_dat_r_ack3 has(ve) been backward balanced into : new_master_dat_r_ack3_BRB0 new_master_dat_r_ack3_BRB1 new_master_dat_r_ack3_BRB2 new_master_dat_r_ack3_BRB4 new_master_dat_r_ack3_BRB5 new_master_dat_r_ack3_BRB6 new_master_dat_r_ack3_BRB7 new_master_dat_r_ack3_BRB8 new_master_dat_r_ack3_BRB9 new_master_dat_r_ack3_BRB10 new_master_dat_r_ack3_BRB11 new_master_dat_r_ack3_BRB12 new_master_dat_r_ack3_BRB13 new_master_dat_r_ack3_BRB14 new_master_dat_r_ack3_BRB15 new_master_dat_r_ack3_BRB16 new_master_dat_r_ack3_BRB17 new_master_dat_r_ack3_BRB18 new_master_dat_r_ack3_BRB19 new_master_dat_r_ack3_BRB20 new_master_dat_r_ack3_BRB21 new_master_dat_r_ack3_BRB22 new_master_dat_r_ack3_BRB23 new_master_dat_r_ack3_BRB24.
-	Register(s) new_master_dat_r_ack4 has(ve) been backward balanced into : new_master_dat_r_ack4_BRB0 new_master_dat_r_ack4_BRB1 new_master_dat_r_ack4_BRB2 new_master_dat_r_ack4_BRB3.
+	Register(s) new_master_dat_r_ack1 has(ve) been backward balanced into : new_master_dat_r_ack1_BRB0 new_master_dat_r_ack1_BRB1 new_master_dat_r_ack1_BRB2.
+	Register(s) new_master_dat_r_ack2 has(ve) been backward balanced into : new_master_dat_r_ack2_BRB0 new_master_dat_r_ack2_BRB1 new_master_dat_r_ack2_BRB2.
+	Register(s) new_master_dat_r_ack3 has(ve) been backward balanced into : new_master_dat_r_ack3_BRB0 new_master_dat_r_ack3_BRB1 new_master_dat_r_ack3_BRB2.
 Unit <top> processed.
 FlipFlop ethmac_tx_converter_unpack_mux_0 has been replicated 1 time(s)
 FlipFlop lm32_cpu/exception_m has been replicated 1 time(s)
 FlipFlop lm32_cpu/instruction_unit/i_cyc_o has been replicated 1 time(s)
-FlipFlop lm32_cpu/instruction_unit/icache/state_FSM_FFd1 has been replicated 1 time(s)
 FlipFlop lm32_cpu/load_store_unit/dcache/state_FSM_FFd1 has been replicated 1 time(s)
 FlipFlop minisoc_minisoc_minisoc_interface_adr_0 has been replicated 2 time(s)
-FlipFlop minisoc_minisoc_minisoc_interface_adr_1 has been replicated 1 time(s)
+FlipFlop minisoc_minisoc_minisoc_interface_adr_1 has been replicated 2 time(s)
 FlipFlop minisoc_minisoc_minisoc_interface_adr_2 has been replicated 2 time(s)
 FlipFlop minisoc_minisoc_minisoc_interface_adr_3 has been replicated 1 time(s)
 FlipFlop minisoc_minisoc_minisoc_interface_adr_4 has been replicated 1 time(s)
+FlipFlop minisoc_minisoc_minisoc_interface_adr_5 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -3887,36 +3891,12 @@ Processing Unit <top> :
 	Found 4-bit shift register for signal <minisoc_ddrphy_rddata_sr_1_BRB1>.
 	Found 4-bit shift register for signal <minisoc_ddrphy_rddata_sr_1_BRB2>.
 	Found 4-bit shift register for signal <minisoc_ddrphy_rddata_sr_1_BRB4>.
-	Found 3-bit shift register for signal <minisoc_ddrphy_rddata_sr_2_BRB6>.
-	Found 3-bit shift register for signal <minisoc_ddrphy_rddata_sr_2_BRB7>.
-	Found 3-bit shift register for signal <minisoc_ddrphy_rddata_sr_2_BRB8>.
-	Found 4-bit shift register for signal <minisoc_ddrphy_rddata_sr_2_BRB3>.
-	Found 4-bit shift register for signal <minisoc_ddrphy_rddata_sr_2_BRB9>.
-	Found 4-bit shift register for signal <minisoc_ddrphy_rddata_sr_2_BRB10>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB4>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB5>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB6>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB7>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB8>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB9>.
 	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB0>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB10>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB11>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB12>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB13>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB14>.
 	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB1>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB15>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB16>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB17>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB18>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB19>.
 	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB2>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB20>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB21>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB22>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB23>.
-	Found 4-bit shift register for signal <new_master_dat_r_ack3_BRB24>.
+	Found 3-bit shift register for signal <minisoc_ddrphy_rddata_sr_2_BRB5>.
+	Found 2-bit shift register for signal <minisoc_ddrphy_rddata_sr_2_BRB6>.
+	Found 3-bit shift register for signal <minisoc_ddrphy_rddata_sr_2_BRB7>.
 INFO:Xst:741 - HDL ADVISOR - A 4-bit shift register was found for signal <minisoc_ddrphy_rddata_sr_1_BRB0> and currently occupies 4 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
 Unit <top> processed.
 
@@ -3924,12 +3904,12 @@ Unit <top> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 2861
- Flip-Flops                                            : 2861
-# Shift Registers                                      : 34
- 2-bit shift register                                  : 1
- 3-bit shift register                                  : 3
- 4-bit shift register                                  : 30
+# Registers                                            : 2858
+ Flip-Flops                                            : 2858
+# Shift Registers                                      : 10
+ 2-bit shift register                                  : 2
+ 3-bit shift register                                  : 2
+ 4-bit shift register                                  : 6
 
 =========================================================================
 
@@ -3952,26 +3932,26 @@ Top Level Output File Name         : atlys_base-minisoc-atlys.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 5643
+# BELS                             : 5682
 #      GND                         : 1
-#      INV                         : 115
+#      INV                         : 122
 #      LUT1                        : 95
-#      LUT2                        : 623
-#      LUT3                        : 713
-#      LUT4                        : 419
-#      LUT5                        : 729
-#      LUT6                        : 1956
+#      LUT2                        : 644
+#      LUT3                        : 723
+#      LUT4                        : 439
+#      LUT5                        : 738
+#      LUT6                        : 1929
 #      MUXCY                       : 496
-#      MUXF7                       : 88
+#      MUXF7                       : 87
 #      VCC                         : 1
 #      XORCY                       : 407
-# FlipFlops/Latches                : 2912
-#      FD                          : 204
-#      FDE                         : 119
+# FlipFlops/Latches                : 2877
+#      FD                          : 197
+#      FDE                         : 95
 #      FDP                         : 10
 #      FDPE                        : 2
-#      FDR                         : 729
-#      FDRE                        : 1720
+#      FDR                         : 731
+#      FDRE                        : 1714
 #      FDS                         : 17
 #      FDSE                        : 106
 #      ODDR2                       : 5
@@ -3980,8 +3960,8 @@ Primitive and Black Box Usage:
 #      RAM32X1D                    : 64
 #      RAMB16BWER                  : 56
 #      RAMB8BWER                   : 18
-# Shift Registers                  : 34
-#      SRLC16E                     : 34
+# Shift Registers                  : 10
+#      SRLC16E                     : 10
 # Clock Buffers                    : 6
 #      BUFG                        : 4
 #      BUFGP                       : 2
@@ -4011,19 +3991,19 @@ Selected Device : 6slx45csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            2912  out of  54576     5%  
- Number of Slice LUTs:                 5602  out of  27288    20%  
-    Number used as Logic:              4650  out of  27288    17%  
-    Number used as Memory:              952  out of   6408    14%  
+ Number of Slice Registers:            2877  out of  54576     5%  
+ Number of Slice LUTs:                 5618  out of  27288    20%  
+    Number used as Logic:              4690  out of  27288    17%  
+    Number used as Memory:              928  out of   6408    14%  
        Number used as RAM:              918
-       Number used as SRL:               34
+       Number used as SRL:               10
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   6524
-   Number with an unused Flip Flop:    3612  out of   6524    55%  
-   Number with an unused LUT:           922  out of   6524    14%  
-   Number of fully used LUT-FF pairs:  1990  out of   6524    30%  
-   Number of unique control sets:       149
+ Number of LUT Flip Flop pairs used:   6534
+   Number with an unused Flip Flop:    3657  out of   6534    55%  
+   Number with an unused LUT:           916  out of   6534    14%  
+   Number of fully used LUT-FF pairs:  1961  out of   6534    30%  
+   Number of unique control sets:       159
 
 IO Utilization: 
  Number of IOs:                          78
@@ -4058,7 +4038,7 @@ Clock Information:
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
 eth_clocks_rx                      | BUFGP                  | 149   |
-clk100                             | PLL_ADV:CLKOUT5        | 3132  |
+clk100                             | PLL_ADV:CLKOUT5        | 3073  |
 eth_clocks_tx                      | BUFGP                  | 127   |
 clk100                             | PLL_ADV:CLKOUT2        | 75    |
 base50_clk                         | BUFG                   | 2     |
@@ -4074,7 +4054,7 @@ Timing Summary:
 Speed Grade: -3
 
    Minimum period: 8.914ns (Maximum Frequency: 112.187MHz)
-   Minimum input arrival time before clock: 3.053ns
+   Minimum input arrival time before clock: 4.018ns
    Maximum output required time after clock: 5.617ns
    Maximum combinational path delay: 3.150ns
 
@@ -4084,34 +4064,35 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'eth_clocks_rx'
-  Clock period: 6.399ns (frequency: 156.285MHz)
-  Total number of paths / destination ports: 2645 / 511
+  Clock period: 6.575ns (frequency: 152.088MHz)
+  Total number of paths / destination ports: 2646 / 511
 -------------------------------------------------------------------------
-Delay:               6.399ns (Levels of Logic = 5)
+Delay:               6.575ns (Levels of Logic = 6)
   Source:            xilinxmultiregimpl4_regs1_0 (FF)
-  Destination:       liteethphymiirx_pack_source_eop (FF)
+  Destination:       liteethphymiirx_pack_demux_0 (FF)
   Source Clock:      eth_clocks_rx rising
   Destination Clock: eth_clocks_rx rising
 
-  Data Path: xilinxmultiregimpl4_regs1_0 to liteethphymiirx_pack_source_eop
+  Data Path: xilinxmultiregimpl4_regs1_0 to liteethphymiirx_pack_demux_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FD:C->Q               1   0.447   0.827  xilinxmultiregimpl4_regs1_0 (xilinxmultiregimpl4_regs1_0)
      LUT4:I0->O            2   0.203   0.617  ethmac_rx_cdc_asyncfifo_writable_SW0 (N2329)
      LUT5:I4->O           14   0.205   0.958  ethmac_rx_cdc_asyncfifo_writable (ethmac_rx_cdc_asyncfifo_writable)
-     LUT6:I5->O            8   0.205   0.907  ethmac_crc32_checker_fifo_full_ethmac_crc32_checker_fifo_out_OR_329_o1 (ethmac_crc32_checker_fifo_full_ethmac_crc32_checker_fifo_out_OR_329_o)
-     LUT4:I2->O            4   0.203   0.684  Mmux_ethmac_rx_gap_checker_sink_ack11 (ethmac_rx_gap_checker_sink_ack)
-     LUT4:I3->O            2   0.205   0.616  _n8529_inv11 (_n8529_inv1)
-     FDRE:CE                   0.322          liteethphymiirx_pack_source_eop
+     LUT6:I5->O            8   0.205   0.803  ethmac_crc32_checker_fifo_full_ethmac_crc32_checker_fifo_out_OR_329_o1 (ethmac_crc32_checker_fifo_full_ethmac_crc32_checker_fifo_out_OR_329_o)
+     LUT5:I4->O            4   0.205   0.912  liteethphymiirx_pack_load_part1 (liteethphymiirx_pack_load_part)
+     LUT3:I0->O            1   0.205   0.684  liteethphymiirx_pack_demux_0_rstpot (liteethphymiirx_pack_demux_0_rstpot)
+     LUT2:I0->O            1   0.203   0.000  liteethphymiirx_pack_demux_0_rstpot1 (liteethphymiirx_pack_demux_0_rstpot1)
+     FD:D                      0.102          liteethphymiirx_pack_demux_0
     ----------------------------------------
-    Total                      6.399ns (1.790ns logic, 4.609ns route)
-                                       (28.0% logic, 72.0% route)
+    Total                      6.575ns (1.775ns logic, 4.800ns route)
+                                       (27.0% logic, 73.0% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'eth_clocks_tx'
   Clock period: 8.588ns (frequency: 116.439MHz)
-  Total number of paths / destination ports: 14324 / 261
+  Total number of paths / destination ports: 14344 / 261
 -------------------------------------------------------------------------
 Delay:               8.588ns (Levels of Logic = 8)
   Source:            xilinxmultiregimpl1_regs1_3 (FF)
@@ -4140,7 +4121,7 @@ Delay:               8.588ns (Levels of Logic = 8)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk100'
   Clock period: 8.914ns (frequency: 112.187MHz)
-  Total number of paths / destination ports: 874043 / 12602
+  Total number of paths / destination ports: 842892 / 12541
 -------------------------------------------------------------------------
 Delay:               11.885ns (Levels of Logic = 1)
   Source:            lm32_cpu/multiplier/Mmult_n0023 (DSP)
@@ -4184,21 +4165,23 @@ Delay:               1.128ns (Levels of Logic = 0)
 Timing constraint: Default OFFSET IN BEFORE for Clock 'eth_clocks_rx'
   Total number of paths / destination ports: 9 / 9
 -------------------------------------------------------------------------
-Offset:              2.823ns (Levels of Logic = 2)
+Offset:              4.018ns (Levels of Logic = 4)
   Source:            eth_dv (PAD)
-  Destination:       liteethphymiirx_sop_set (FF)
+  Destination:       liteethphymiirx_pack_demux_0 (FF)
   Destination Clock: eth_clocks_rx rising
 
-  Data Path: eth_dv to liteethphymiirx_sop_set
+  Data Path: eth_dv to liteethphymiirx_pack_demux_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             5   1.222   0.714  eth_dv_IBUF (eth_dv_IBUF)
-     INV:I->O              1   0.206   0.579  liteethphymiirx_sink_sink_eop1_INV_0 (liteethphymiirx_sink_sink_eop)
-     FDR:D                     0.102          liteethphymiirx_sop_set
+     IBUF:I->O             5   1.222   0.819  eth_dv_IBUF (eth_dv_IBUF)
+     LUT2:I0->O            1   0.203   0.580  Mcount_liteethphymiirx_pack_demux_xor<0>11 (Mcount_liteethphymiirx_pack_demux)
+     LUT3:I2->O            1   0.205   0.684  liteethphymiirx_pack_demux_0_rstpot (liteethphymiirx_pack_demux_0_rstpot)
+     LUT2:I0->O            1   0.203   0.000  liteethphymiirx_pack_demux_0_rstpot1 (liteethphymiirx_pack_demux_0_rstpot1)
+     FD:D                      0.102          liteethphymiirx_pack_demux_0
     ----------------------------------------
-    Total                      2.823ns (1.530ns logic, 1.293ns route)
-                                       (54.2% logic, 45.8% route)
+    Total                      4.018ns (1.935ns logic, 2.083ns route)
+                                       (48.2% logic, 51.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk100'
@@ -4254,7 +4237,7 @@ Offset:              5.617ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDRE:C->Q             3   0.447   0.995  crg_counter_0 (crg_counter_0)
-     LUT5:I0->O            2   0.203   0.617  crg_reset0_SW0 (N2505)
+     LUT5:I0->O            2   0.203   0.617  crg_reset0_SW0 (N2513)
      LUT6:I5->O            1   0.205   0.579  eth_rst_n1 (eth_rst_n_OBUF)
      OBUF:I->O                 2.571          eth_rst_n_OBUF (eth_rst_n)
     ----------------------------------------
@@ -4309,7 +4292,7 @@ Clock to Setup on destination clock base50_clk
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 base50_clk     |    1.128|         |         |         |
-clk100         |    4.247|         |         |         |
+clk100         |    4.244|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk100
@@ -4328,7 +4311,7 @@ Clock to Setup on destination clock eth_clocks_rx
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 clk100         |    5.408|         |         |         |
-eth_clocks_rx  |    6.399|         |         |         |
+eth_clocks_rx  |    6.575|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock eth_clocks_tx
@@ -4343,17 +4326,17 @@ eth_clocks_tx  |    8.588|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 85.00 secs
-Total CPU time to Xst completion: 85.22 secs
+Total REAL time to Xst completion: 63.00 secs
+Total CPU time to Xst completion: 62.64 secs
  
 --> 
 
 
-Total memory usage is 501752 kilobytes
+Total memory usage is 487580 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  544 (   0 filtered)
-Number of infos    :  134 (   0 filtered)
+Number of infos    :  140 (   0 filtered)
 
 Release 14.7 - ngdbuild P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
@@ -4432,7 +4415,7 @@ NGDBUILD Design Results Summary:
 
 Writing NGD file "atlys_base-minisoc-atlys.ngd" ...
 Total REAL time to NGDBUILD completion:  8 sec
-Total CPU time to NGDBUILD completion:   8 sec
+Total CPU time to NGDBUILD completion:   7 sec
 
 Writing NGDBUILD log file "atlys_base-minisoc-atlys.bld"...
 
@@ -4456,57 +4439,57 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 25 secs 
-Total CPU  time at the beginning of Placer: 25 secs 
+Total REAL time at the beginning of Placer: 23 secs 
+Total CPU  time at the beginning of Placer: 23 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:48bf0a4f) REAL time: 27 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:cd7d0a80) REAL time: 25 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:48bf0a4f) REAL time: 28 secs 
+Phase 2.7  Design Feasibility Check (Checksum:cd7d0a80) REAL time: 26 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:157ff56f) REAL time: 28 secs 
+Phase 3.31  Local Placement Optimization (Checksum:8a633320) REAL time: 26 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:796ebf93) REAL time: 56 secs 
+(Checksum:240c87cc) REAL time: 52 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:796ebf93) REAL time: 56 secs 
+Phase 5.36  Local Placement Optimization (Checksum:240c87cc) REAL time: 52 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:796ebf93) REAL time: 56 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:240c87cc) REAL time: 52 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:796ebf93) REAL time: 56 secs 
+Phase 7.3  Local Placement Optimization (Checksum:240c87cc) REAL time: 52 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:796ebf93) REAL time: 57 secs 
+Phase 8.5  Local Placement Optimization (Checksum:240c87cc) REAL time: 52 secs 
 
 Phase 9.8  Global Placement
-......................
-.............................
-...............................................
-...............................................
-....................
-Phase 9.8  Global Placement (Checksum:8f8fc163) REAL time: 3 mins 2 secs 
+........................
+.................................
+...........................................................................................................................
+.....................................................................
+........................................................
+Phase 9.8  Global Placement (Checksum:6f9e21d7) REAL time: 2 mins 21 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:8f8fc163) REAL time: 3 mins 2 secs 
+Phase 10.5  Local Placement Optimization (Checksum:6f9e21d7) REAL time: 2 mins 21 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:f4ec12e2) REAL time: 3 mins 13 secs 
+Phase 11.18  Placement Optimization (Checksum:eaea4aa5) REAL time: 2 mins 37 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:f4ec12e2) REAL time: 3 mins 13 secs 
+Phase 12.5  Local Placement Optimization (Checksum:eaea4aa5) REAL time: 2 mins 37 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:84e04d84) REAL time: 3 mins 14 secs 
+Phase 13.34  Placement Validation (Checksum:e4546511) REAL time: 2 mins 38 secs 
 
-Total REAL time to Placer completion: 3 mins 20 secs 
-Total CPU  time to Placer completion: 3 mins 20 secs 
+Total REAL time to Placer completion: 2 mins 45 secs 
+Total CPU  time to Placer completion: 2 mins 45 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -4514,42 +4497,42 @@ Design Summary:
 Number of errors:      0
 Number of warnings:    5
 Slice Logic Utilization:
-  Number of Slice Registers:                 2,906 out of  54,576    5%
-    Number used as Flip Flops:               2,903
+  Number of Slice Registers:                 2,871 out of  54,576    5%
+    Number used as Flip Flops:               2,868
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                3
-  Number of Slice LUTs:                      4,483 out of  27,288   16%
-    Number used as logic:                    3,945 out of  27,288   14%
-      Number using O6 output only:           3,022
+  Number of Slice LUTs:                      4,485 out of  27,288   16%
+    Number used as logic:                    3,962 out of  27,288   14%
+      Number using O6 output only:           3,044
       Number using O5 output only:              93
-      Number using O5 and O6:                  830
+      Number using O5 and O6:                  825
       Number used as ROM:                        0
-    Number used as Memory:                     503 out of   6,408    7%
+    Number used as Memory:                     491 out of   6,408    7%
       Number used as Dual Port RAM:            482
         Number using O6 output only:             6
         Number using O5 output only:            40
         Number using O5 and O6:                436
       Number used as Single Port RAM:            0
-      Number used as Shift Register:            21
+      Number used as Shift Register:             9
         Number using O6 output only:             8
         Number using O5 output only:             0
-        Number using O5 and O6:                 13
-    Number used exclusively as route-thrus:     35
-      Number with same-slice register load:     32
+        Number using O5 and O6:                  1
+    Number used exclusively as route-thrus:     32
+      Number with same-slice register load:     29
       Number with same-slice carry load:         3
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 1,740 out of   6,822   25%
+  Number of occupied Slices:                 1,714 out of   6,822   25%
   Number of MUXCYs used:                       564 out of  13,644    4%
-  Number of LUT Flip Flop pairs used:        5,194
-    Number with an unused Flip Flop:         2,625 out of   5,194   50%
-    Number with an unused LUT:                 711 out of   5,194   13%
-    Number of fully used LUT-FF pairs:       1,858 out of   5,194   35%
-    Number of unique control sets:             161
+  Number of LUT Flip Flop pairs used:        5,144
+    Number with an unused Flip Flop:         2,595 out of   5,144   50%
+    Number with an unused LUT:                 659 out of   5,144   12%
+    Number of fully used LUT-FF pairs:       1,890 out of   5,144   36%
+    Number of unique control sets:             171
     Number of slice register sites lost
-      to control set restrictions:             505 out of  54,576    1%
+      to control set restrictions:             572 out of  54,576    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -4595,9 +4578,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                3.70
 
-Peak Memory Usage:  880 MB
-Total REAL time to MAP completion:  3 mins 28 secs 
-Total CPU time to MAP completion:   3 mins 27 secs 
+Peak Memory Usage:  881 MB
+Total REAL time to MAP completion:  2 mins 50 secs 
+Total CPU time to MAP completion:   2 mins 50 secs 
 
 Mapping completed.
 See MAP report file "atlys_base-minisoc-atlys_map.mrp" for details.
@@ -4622,39 +4605,39 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                 2,906 out of  54,576    5%
-    Number used as Flip Flops:               2,903
+  Number of Slice Registers:                 2,871 out of  54,576    5%
+    Number used as Flip Flops:               2,868
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                3
-  Number of Slice LUTs:                      4,483 out of  27,288   16%
-    Number used as logic:                    3,945 out of  27,288   14%
-      Number using O6 output only:           3,022
+  Number of Slice LUTs:                      4,485 out of  27,288   16%
+    Number used as logic:                    3,962 out of  27,288   14%
+      Number using O6 output only:           3,044
       Number using O5 output only:              93
-      Number using O5 and O6:                  830
+      Number using O5 and O6:                  825
       Number used as ROM:                        0
-    Number used as Memory:                     503 out of   6,408    7%
+    Number used as Memory:                     491 out of   6,408    7%
       Number used as Dual Port RAM:            482
         Number using O6 output only:             6
         Number using O5 output only:            40
         Number using O5 and O6:                436
       Number used as Single Port RAM:            0
-      Number used as Shift Register:            21
+      Number used as Shift Register:             9
         Number using O6 output only:             8
         Number using O5 output only:             0
-        Number using O5 and O6:                 13
-    Number used exclusively as route-thrus:     35
-      Number with same-slice register load:     32
+        Number using O5 and O6:                  1
+    Number used exclusively as route-thrus:     32
+      Number with same-slice register load:     29
       Number with same-slice carry load:         3
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 1,740 out of   6,822   25%
+  Number of occupied Slices:                 1,714 out of   6,822   25%
   Number of MUXCYs used:                       564 out of  13,644    4%
-  Number of LUT Flip Flop pairs used:        5,194
-    Number with an unused Flip Flop:         2,625 out of   5,194   50%
-    Number with an unused LUT:                 711 out of   5,194   13%
-    Number of fully used LUT-FF pairs:       1,858 out of   5,194   35%
+  Number of LUT Flip Flop pairs used:        5,144
+    Number with an unused Flip Flop:         2,595 out of   5,144   50%
+    Number with an unused LUT:                 659 out of   5,144   12%
+    Number of fully used LUT-FF pairs:       1,890 out of   5,144   36%
     Number of slice register sites lost
       to control set restrictions:               0 out of  54,576    0%
 
@@ -4704,8 +4687,8 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 10 secs 
-Finished initial Timing Analysis.  REAL time: 10 secs 
+Starting initial Timing Analysis.  REAL time: 11 secs 
+Finished initial Timing Analysis.  REAL time: 11 secs 
 
 WARNING:Par:288 - The signal eth_col_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal eth_mdc_IBUF has no load.  PAR will not attempt to route this signal.
@@ -4721,29 +4704,29 @@ WARNING:Par:288 - The signal eth_clocks_gtx_IBUF has no load.  PAR will not atte
 Starting Router
 
 
-Phase  1  : 32029 unrouted;      REAL time: 12 secs 
+Phase  1  : 31959 unrouted;      REAL time: 12 secs 
 
-Phase  2  : 27378 unrouted;      REAL time: 16 secs 
+Phase  2  : 27346 unrouted;      REAL time: 15 secs 
 
-Phase  3  : 12144 unrouted;      REAL time: 35 secs 
+Phase  3  : 12568 unrouted;      REAL time: 27 secs 
 
-Phase  4  : 12156 unrouted; (Setup:0, Hold:13869, Component Switching Limit:0)     REAL time: 38 secs 
+Phase  4  : 12568 unrouted; (Setup:0, Hold:4896, Component Switching Limit:0)     REAL time: 28 secs 
 
 Updating file: atlys_base-minisoc-atlys.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:13528, Component Switching Limit:0)     REAL time: 1 mins 1 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:4318, Component Switching Limit:0)     REAL time: 50 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:13528, Component Switching Limit:0)     REAL time: 1 mins 1 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:4318, Component Switching Limit:0)     REAL time: 50 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:13528, Component Switching Limit:0)     REAL time: 1 mins 1 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:4318, Component Switching Limit:0)     REAL time: 50 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:13528, Component Switching Limit:0)     REAL time: 1 mins 1 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:4318, Component Switching Limit:0)     REAL time: 50 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 1 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 51 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 4 secs 
-Total REAL time to Router completion: 1 mins 4 secs 
-Total CPU time to Router completion: 1 mins 8 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 53 secs 
+Total REAL time to Router completion: 53 secs 
+Total CPU time to Router completion: 56 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -4761,18 +4744,18 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-| eth_clocks_tx_BUFGP |  BUFGMUX_X3Y5| No   |   46 |  0.039     |  1.250      |
+| eth_clocks_tx_BUFGP |  BUFGMUX_X3Y5| No   |   46 |  0.034     |  1.248      |
 +---------------------+--------------+------+------+------------+-------------+
-|             sys_clk |  BUFGMUX_X2Y4| No   | 1027 |  0.170     |  1.381      |
+|             sys_clk |  BUFGMUX_X2Y4| No   | 1028 |  0.170     |  1.381      |
 +---------------------+--------------+------+------+------------+-------------+
-| eth_clocks_rx_BUFGP |  BUFGMUX_X2Y3| No   |   51 |  0.046     |  1.270      |
+| eth_clocks_rx_BUFGP |  BUFGMUX_X2Y3| No   |   51 |  0.015     |  1.252      |
 +---------------------+--------------+------+------+------------+-------------+
-|      sdram_half_clk |  BUFGMUX_X2Y2| No   |   22 |  0.532     |  1.774      |
+|      sdram_half_clk |  BUFGMUX_X2Y2| No   |   22 |  0.514     |  1.774      |
 +---------------------+--------------+------+------+------------+-------------+
 |minisoc_crg_clk_sdra |              |      |      |            |             |
 |      m_half_shifted | BUFGMUX_X3Y13| No   |    4 |  0.000     |  1.743      |
 +---------------------+--------------+------+------+------------+-------------+
-|  minisoc_dna_cnt<0> |         Local|      |    6 |  0.000     |  2.797      |
+|  minisoc_dna_cnt<0> |         Local|      |    6 |  0.000     |  0.575      |
 +---------------------+--------------+------+------+------------+-------------+
 |   sdram_full_wr_clk |         Local|      |   34 |  0.028     |  1.533      |
 +---------------------+--------------+------+------+------------+-------------+
@@ -4796,12 +4779,12 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_minisoc_crg_pll_5_ = PERIOD TIMEGRP "m | SETUP       |     0.159ns|    12.978ns|       0|           0
-  inisoc_crg_pll_5_"         TS_minisoc_crg | HOLD        |     0.048ns|            |       0|           0
+  TS_minisoc_crg_pll_5_ = PERIOD TIMEGRP "m | SETUP       |     0.036ns|    13.297ns|       0|           0
+  inisoc_crg_pll_5_"         TS_minisoc_crg | HOLD        |     0.030ns|            |       0|           0
   _clk100b / 0.75 HIGH 50%                  |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_minisoc_crg_pll_2_ = PERIOD TIMEGRP "m | SETUP       |     0.159ns|     6.454ns|       0|           0
-  inisoc_crg_pll_2_"         TS_minisoc_crg | HOLD        |     0.434ns|            |       0|           0
+  TS_minisoc_crg_pll_2_ = PERIOD TIMEGRP "m | SETUP       |     0.967ns|     5.376ns|       0|           0
+  inisoc_crg_pll_2_"         TS_minisoc_crg | HOLD        |     0.364ns|            |       0|           0
   _clk100b / 1.5 PHASE 5 ns HIGH 50%        |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_minisoc_crg_clk100b = PERIOD TIMEGRP " | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
@@ -4816,16 +4799,16 @@ Asterisk (*) preceding a constraint indicates it was not met.
   TSclk100 = PERIOD TIMEGRP "GRPclk100" 10  | MINPERIOD   |     9.075ns|     0.925ns|       0|           0
   ns HIGH 50%                               |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TSeth_clocks_rx = PERIOD TIMEGRP "GRPeth_ | SETUP       |    32.224ns|     7.776ns|       0|           0
-  clocks_rx" 40 ns HIGH 50%                 | HOLD        |     0.220ns|            |       0|           0
+  TSeth_clocks_rx = PERIOD TIMEGRP "GRPeth_ | SETUP       |    33.225ns|     6.775ns|       0|           0
+  clocks_rx" 40 ns HIGH 50%                 | HOLD        |     0.308ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks1_path" TIG              | MAXDELAY    |         N/A|     8.242ns|     N/A|           0
+  PATH "TSise_sucks1_path" TIG              | MAXDELAY    |         N/A|     9.020ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks2_path" TIG              | SETUP       |         N/A|     7.466ns|     N/A|           0
+  PATH "TSise_sucks2_path" TIG              | SETUP       |         N/A|     7.550ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks3_path" TIG              | SETUP       |         N/A|     1.612ns|     N/A|           0
+  PATH "TSise_sucks3_path" TIG              | SETUP       |         N/A|     1.458ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TSise_sucks4_path" TIG              | SETUP       |         N/A|     6.629ns|     N/A|           0
+  PATH "TSise_sucks4_path" TIG              | SETUP       |         N/A|     6.694ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
   TS_minisoc_crg_pll_0_ = PERIOD TIMEGRP "m | N/A         |         N/A|         N/A|     N/A|         N/A
   inisoc_crg_pll_0_"         TS_minisoc_crg |             |            |            |        |            
@@ -4843,12 +4826,12 @@ Derived Constraints for TSclk100
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSclk100                       |     10.000ns|      0.925ns|      9.734ns|            0|            0|            0|       905467|
-| TS_minisoc_crg_clk100b        |     10.000ns|      3.334ns|      9.734ns|            0|            0|            0|       905467|
+|TSclk100                       |     10.000ns|      0.925ns|      9.973ns|            0|            0|            0|       874887|
+| TS_minisoc_crg_clk100b        |     10.000ns|      3.334ns|      9.973ns|            0|            0|            0|       874887|
 |  TS_minisoc_crg_pll_3_        |      6.667ns|      1.730ns|          N/A|            0|            0|            0|            0|
-|  TS_minisoc_crg_pll_5_        |     13.333ns|     12.978ns|          N/A|            0|            0|       905196|            0|
+|  TS_minisoc_crg_pll_5_        |     13.333ns|     13.297ns|          N/A|            0|            0|       874613|            0|
 |  TS_minisoc_crg_pll_0_        |      3.333ns|          N/A|          N/A|            0|            0|            0|            0|
-|  TS_minisoc_crg_pll_2_        |      6.667ns|      6.454ns|          N/A|            0|            0|          271|            0|
+|  TS_minisoc_crg_pll_2_        |      6.667ns|      5.376ns|          N/A|            0|            0|          274|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -4865,10 +4848,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 11 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 1 mins 6 secs 
-Total CPU time to PAR completion: 1 mins 11 secs 
+Total REAL time to PAR completion: 58 secs 
+Total CPU time to PAR completion: 1 mins 
 
-Peak Memory Usage:  803 MB
+Peak Memory Usage:  799 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
@@ -4891,7 +4874,7 @@ Loading device for application Rf_Device from file '6slx45.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45, package csg324, speed -3
 Opened constraints file atlys_base-minisoc-atlys.pcf.
 
-Wed Jan 27 07:23:38 2016
+Wed Jan 27 07:41:55 2016
 
 INFO:Bitgen:341 - This design is using one or more 9K Block RAMs (RAMB8BWER). 
    9K Block RAM initialization data, both user defined and default, requires a
