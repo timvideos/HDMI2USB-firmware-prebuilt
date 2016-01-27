@@ -245,8 +245,8 @@ WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/pipistrello_base-videomixersoc-pipistrello.v" Line 3916: Assignment to abstractactor_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/pipistrello_base-videomixersoc-pipistrello.v" Line 3917: Assignment to dma_out_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/pipistrello_base-videomixersoc-pipistrello.v" Line 3918: Assignment to compositeactor_busy1 ignored, since the identifier is never used
-WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/pipistrello_base-videomixersoc-pipistrello.v" Line 3940: Result of 26-bit expression is truncated to fit in 23-bit target.
-WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/pipistrello_base-videomixersoc-pipistrello.v" Line 3941: Result of 26-bit expression is truncated to fit in 23-bit target.
+WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/pipistrello_base-videomixersoc-pipistrello.v" Line 3937: Result of 26-bit expression is truncated to fit in 23-bit target.
+WARNING:HDLCompiler:413 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/pipistrello_base-videomixersoc-pipistrello.v" Line 3938: Result of 26-bit expression is truncated to fit in 23-bit target.
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/pipistrello_base-videomixersoc-pipistrello.v" Line 4226: Assignment to chroma_upsampler_sink_ack ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/pipistrello_base-videomixersoc-pipistrello.v" Line 4228: Assignment to chroma_upsampler_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/travis/build/timvideos/HDMI2USB-misoc-firmware/third_party/misoc/build/pipistrello_base-videomixersoc-pipistrello.v" Line 4240: Assignment to ycbcr2rgb_source_stb ignored, since the identifier is never used
@@ -3671,13 +3671,13 @@ clocking_clk_pix_unbuffered|    8.163|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 69.00 secs
-Total CPU time to Xst completion: 68.20 secs
+Total REAL time to Xst completion: 63.00 secs
+Total CPU time to Xst completion: 62.96 secs
  
 --> 
 
 
-Total memory usage is 497872 kilobytes
+Total memory usage is 497376 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  498 (   0 filtered)
@@ -3815,11 +3815,11 @@ WARNING:Timing:3159 - The DCM, DCM_CLKGEN, has the attribute DFS_OSCILLATOR_MODE
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 18 secs 
-Total CPU  time at the beginning of Placer: 18 secs 
+Total REAL time at the beginning of Placer: 19 secs 
+Total CPU  time at the beginning of Placer: 19 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:c25e46a) REAL time: 20 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:c25e46a) REAL time: 21 secs 
 
 Phase 2.7  Design Feasibility Check
 WARNING:Place:1137 - This design is not guaranteed to be routable! This design
@@ -3841,27 +3841,27 @@ WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
    <hdmi_out_pix_bufg.O> allowing your design to continue. This constraint
    disables all clock placer rules related to the specified COMP.PIN.
-Phase 2.7  Design Feasibility Check (Checksum:c25e46a) REAL time: 21 secs 
+Phase 2.7  Design Feasibility Check (Checksum:c25e46a) REAL time: 22 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:d155148a) REAL time: 21 secs 
+Phase 3.31  Local Placement Optimization (Checksum:d155148a) REAL time: 22 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:266dddd6) REAL time: 47 secs 
+(Checksum:266dddd6) REAL time: 50 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:266dddd6) REAL time: 47 secs 
+Phase 5.36  Local Placement Optimization (Checksum:266dddd6) REAL time: 50 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:266dddd6) REAL time: 47 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:266dddd6) REAL time: 50 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:266dddd6) REAL time: 47 secs 
+Phase 7.3  Local Placement Optimization (Checksum:266dddd6) REAL time: 50 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:266dddd6) REAL time: 47 secs 
+Phase 8.5  Local Placement Optimization (Checksum:266dddd6) REAL time: 50 secs 
 
 Phase 9.8  Global Placement
 ..........................
@@ -3869,22 +3869,22 @@ Phase 9.8  Global Placement
 ............................................................
 ........................................................................................
 ...........
-Phase 9.8  Global Placement (Checksum:7a88cd4b) REAL time: 3 mins 12 secs 
+Phase 9.8  Global Placement (Checksum:7a88cd4b) REAL time: 2 mins 59 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:7a88cd4b) REAL time: 3 mins 12 secs 
+Phase 10.5  Local Placement Optimization (Checksum:7a88cd4b) REAL time: 2 mins 59 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:ed40b54f) REAL time: 3 mins 25 secs 
+Phase 11.18  Placement Optimization (Checksum:ed40b54f) REAL time: 3 mins 14 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:ed40b54f) REAL time: 3 mins 25 secs 
+Phase 12.5  Local Placement Optimization (Checksum:ed40b54f) REAL time: 3 mins 14 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:b2aec463) REAL time: 3 mins 25 secs 
+Phase 13.34  Placement Validation (Checksum:b2aec463) REAL time: 3 mins 15 secs 
 
-Total REAL time to Placer completion: 3 mins 33 secs 
-Total CPU  time to Placer completion: 3 mins 32 secs 
+Total REAL time to Placer completion: 3 mins 22 secs 
+Total CPU  time to Placer completion: 3 mins 21 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -3978,8 +3978,8 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                3.57
 
 Peak Memory Usage:  879 MB
-Total REAL time to MAP completion:  3 mins 38 secs 
-Total CPU time to MAP completion:   3 mins 38 secs 
+Total REAL time to MAP completion:  3 mins 26 secs 
+Total CPU time to MAP completion:   3 mins 26 secs 
 
 Mapping completed.
 See MAP report file "pipistrello_base-videomixersoc-pipistrello_map.mrp" for
@@ -4117,19 +4117,19 @@ Phase  4  : 11424 unrouted; (Setup:19837, Hold:6649, Component Switching Limit:0
 
 Updating file: pipistrello_base-videomixersoc-pipistrello.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:19816, Hold:5975, Component Switching Limit:0)     REAL time: 46 secs 
+Phase  5  : 0 unrouted; (Setup:19816, Hold:5975, Component Switching Limit:0)     REAL time: 45 secs 
 
-Phase  6  : 0 unrouted; (Setup:19816, Hold:5975, Component Switching Limit:0)     REAL time: 47 secs 
+Phase  6  : 0 unrouted; (Setup:19816, Hold:5975, Component Switching Limit:0)     REAL time: 46 secs 
 
-Phase  7  : 0 unrouted; (Setup:19816, Hold:5975, Component Switching Limit:0)     REAL time: 1 mins 
+Phase  7  : 0 unrouted; (Setup:19816, Hold:5975, Component Switching Limit:0)     REAL time: 1 mins 1 secs 
 
-Phase  8  : 0 unrouted; (Setup:19816, Hold:5975, Component Switching Limit:0)     REAL time: 1 mins 
+Phase  8  : 0 unrouted; (Setup:19816, Hold:5975, Component Switching Limit:0)     REAL time: 1 mins 1 secs 
 
-Phase  9  : 0 unrouted; (Setup:19816, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 1 secs 
+Phase  9  : 0 unrouted; (Setup:19816, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 2 secs 
 
-Phase 10  : 0 unrouted; (Setup:19816, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 3 secs 
-Total REAL time to Router completion: 1 mins 3 secs 
-Total CPU time to Router completion: 1 mins 7 secs 
+Phase 10  : 0 unrouted; (Setup:19816, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Total REAL time to Router completion: 1 mins 5 secs 
+Total CPU time to Router completion: 1 mins 10 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -4283,8 +4283,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 3 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 1 mins 5 secs 
-Total CPU time to PAR completion: 1 mins 9 secs 
+Total REAL time to PAR completion: 1 mins 8 secs 
+Total CPU time to PAR completion: 1 mins 12 secs 
 
 Peak Memory Usage:  842 MB
 
@@ -4309,7 +4309,7 @@ Loading device for application Rf_Device from file '6slx45.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45, package csg324, speed -3
 Opened constraints file pipistrello_base-videomixersoc-pipistrello.pcf.
 
-Wed Jan 27 06:19:32 2016
+Wed Jan 27 07:13:08 2016
 
 INFO:Bitgen:341 - This design is using one or more 9K Block RAMs (RAMB8BWER). 
    9K Block RAM initialization data, both user defined and default, requires a
