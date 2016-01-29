@@ -4325,13 +4325,13 @@ eth_clocks_tx  |    8.588|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 56.00 secs
-Total CPU time to Xst completion: 55.62 secs
+Total REAL time to Xst completion: 85.00 secs
+Total CPU time to Xst completion: 83.50 secs
  
 --> 
 
 
-Total memory usage is 483336 kilobytes
+Total memory usage is 487216 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  544 (   0 filtered)
@@ -4413,8 +4413,8 @@ NGDBUILD Design Results Summary:
   Number of warnings:   2
 
 Writing NGD file "atlys_base-minisoc-atlys.ngd" ...
-Total REAL time to NGDBUILD completion:  7 sec
-Total CPU time to NGDBUILD completion:   7 sec
+Total REAL time to NGDBUILD completion:  11 sec
+Total CPU time to NGDBUILD completion:   11 sec
 
 Writing NGDBUILD log file "atlys_base-minisoc-atlys.bld"...
 
@@ -4438,34 +4438,34 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 20 secs 
-Total CPU  time at the beginning of Placer: 20 secs 
+Total REAL time at the beginning of Placer: 25 secs 
+Total CPU  time at the beginning of Placer: 25 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:5da02f6f) REAL time: 22 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:5da02f6f) REAL time: 27 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:5da02f6f) REAL time: 23 secs 
+Phase 2.7  Design Feasibility Check (Checksum:5da02f6f) REAL time: 28 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:19ae502f) REAL time: 23 secs 
+Phase 3.31  Local Placement Optimization (Checksum:19ae502f) REAL time: 28 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:872192a1) REAL time: 46 secs 
+(Checksum:872192a1) REAL time: 56 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:872192a1) REAL time: 46 secs 
+Phase 5.36  Local Placement Optimization (Checksum:872192a1) REAL time: 56 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:872192a1) REAL time: 46 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:872192a1) REAL time: 56 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:872192a1) REAL time: 47 secs 
+Phase 7.3  Local Placement Optimization (Checksum:872192a1) REAL time: 56 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:872192a1) REAL time: 47 secs 
+Phase 8.5  Local Placement Optimization (Checksum:872192a1) REAL time: 56 secs 
 
 Phase 9.8  Global Placement
 ........................
@@ -4473,22 +4473,22 @@ Phase 9.8  Global Placement
 ........................................................................................................
 .............................................................................................................................
 ......................................................
-Phase 9.8  Global Placement (Checksum:d205138d) REAL time: 2 mins 7 secs 
+Phase 9.8  Global Placement (Checksum:d205138d) REAL time: 2 mins 19 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:d205138d) REAL time: 2 mins 8 secs 
+Phase 10.5  Local Placement Optimization (Checksum:d205138d) REAL time: 2 mins 19 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:fcd2e17) REAL time: 2 mins 20 secs 
+Phase 11.18  Placement Optimization (Checksum:fcd2e17) REAL time: 2 mins 32 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:fcd2e17) REAL time: 2 mins 20 secs 
+Phase 12.5  Local Placement Optimization (Checksum:fcd2e17) REAL time: 2 mins 32 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:d3f7a04b) REAL time: 2 mins 20 secs 
+Phase 13.34  Placement Validation (Checksum:d3f7a04b) REAL time: 2 mins 33 secs 
 
-Total REAL time to Placer completion: 2 mins 27 secs 
-Total CPU  time to Placer completion: 2 mins 27 secs 
+Total REAL time to Placer completion: 2 mins 39 secs 
+Total CPU  time to Placer completion: 2 mins 39 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -4578,8 +4578,8 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                3.69
 
 Peak Memory Usage:  881 MB
-Total REAL time to MAP completion:  2 mins 32 secs 
-Total CPU time to MAP completion:   2 mins 31 secs 
+Total REAL time to MAP completion:  2 mins 44 secs 
+Total CPU time to MAP completion:   2 mins 44 secs 
 
 Mapping completed.
 See MAP report file "atlys_base-minisoc-atlys_map.mrp" for details.
@@ -4707,25 +4707,25 @@ Phase  1  : 31905 unrouted;      REAL time: 11 secs
 
 Phase  2  : 27319 unrouted;      REAL time: 13 secs 
 
-Phase  3  : 12796 unrouted;      REAL time: 28 secs 
+Phase  3  : 12796 unrouted;      REAL time: 27 secs 
 
-Phase  4  : 12804 unrouted; (Setup:0, Hold:10248, Component Switching Limit:0)     REAL time: 31 secs 
+Phase  4  : 12804 unrouted; (Setup:0, Hold:10248, Component Switching Limit:0)     REAL time: 30 secs 
 
 Updating file: atlys_base-minisoc-atlys.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:9620, Component Switching Limit:0)     REAL time: 54 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:9620, Component Switching Limit:0)     REAL time: 53 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:9620, Component Switching Limit:0)     REAL time: 54 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:9620, Component Switching Limit:0)     REAL time: 53 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:9620, Component Switching Limit:0)     REAL time: 54 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:9620, Component Switching Limit:0)     REAL time: 53 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:9620, Component Switching Limit:0)     REAL time: 54 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:9620, Component Switching Limit:0)     REAL time: 53 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 55 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 53 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 57 secs 
-Total REAL time to Router completion: 57 secs 
-Total CPU time to Router completion: 1 mins 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 56 secs 
+Total REAL time to Router completion: 56 secs 
+Total CPU time to Router completion: 58 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -4847,8 +4847,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 11 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 59 secs 
-Total CPU time to PAR completion: 1 mins 2 secs 
+Total REAL time to PAR completion: 58 secs 
+Total CPU time to PAR completion: 1 mins 1 secs 
 
 Peak Memory Usage:  802 MB
 
@@ -4873,7 +4873,7 @@ Loading device for application Rf_Device from file '6slx45.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45, package csg324, speed -3
 Opened constraints file atlys_base-minisoc-atlys.pcf.
 
-Fri Jan 29 05:39:09 2016
+Fri Jan 29 06:49:44 2016
 
 INFO:Bitgen:341 - This design is using one or more 9K Block RAMs (RAMB8BWER). 
    9K Block RAM initialization data, both user defined and default, requires a
