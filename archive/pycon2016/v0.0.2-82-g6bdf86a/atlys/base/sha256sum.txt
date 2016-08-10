@@ -1,0 +1,3 @@
+b15ba20ae498aec4889542e58cdc0844b59a65a663d04e99cd8945d1a310e742  atlys_base-basesoc-atlys.bin
+68e00f1a45ddbc7b4a76eae2024dd39f67f7aa62c533e6616c75b0feff357822  atlys_base-basesoc-atlys.bit
+5f6b692d61580985d29e4639477a402ec2a61c80b0128c3f5da543efe81d34fc  output.log
