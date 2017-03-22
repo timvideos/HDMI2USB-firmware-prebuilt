@@ -1,0 +1,6 @@
+623cdfc73abade512c10e56f0a02eddb748efa97c12da90bfccb25c458901ae8  ./gateware.bit
+fef3d8af9db5c5cf1d057a0cc5f38c12ce077f9e879f42878e3d160558aa7143  ./gateware.bin
+ab17fbd53545cadbb61c88e6a7a1c44dc6d0868893050b8a1c8f1b6faddc15b0  ./bios.bin
+739ffdeb19b49de0925e0150176c7813470c028a5b4bcda596922ed6fc56ba59  ./firmware.fbi
+30c3cfcf90ca496f7a73d92bba47f33d0046c071b86c0a1856a7168925e25dfa  ./logs/version_data.c
+ac0dffd4fb04fcec00f2afb6955ac9ffe3707a7a60a8b9f6f46ea5d7eb1442ad  ./logs/output.20170322-105216.log
