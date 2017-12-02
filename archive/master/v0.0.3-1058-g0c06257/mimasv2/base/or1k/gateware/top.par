@@ -1,8 +1,8 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-travis-job-timvideos-hdmi2usb-litex-297702967.travisci.net::  Sat Dec 02
-07:54:52 2017
+travis-job-timvideos-hdmi2usb-litex-297702977.travisci.net::  Sat Dec 02
+07:56:33 2017
 
 par -ol high -w top_map.ncd top.ncd top.pcf 
 
@@ -23,39 +23,39 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                 2,609 out of  11,440   22%
-    Number used as Flip Flops:               2,606
+  Number of Slice Registers:                 3,131 out of  11,440   27%
+    Number used as Flip Flops:               3,128
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                3
-  Number of Slice LUTs:                      3,248 out of   5,720   56%
-    Number used as logic:                    3,028 out of   5,720   52%
-      Number using O6 output only:           2,205
-      Number using O5 output only:              84
-      Number using O5 and O6:                  739
+  Number of Slice LUTs:                      4,612 out of   5,720   80%
+    Number used as logic:                    4,465 out of   5,720   78%
+      Number using O6 output only:           3,455
+      Number using O5 output only:              89
+      Number using O5 and O6:                  921
       Number used as ROM:                        0
-    Number used as Memory:                     204 out of   1,440   14%
-      Number used as Dual Port RAM:            188
-        Number using O6 output only:             4
-        Number using O5 output only:            36
-        Number using O5 and O6:                148
+    Number used as Memory:                     123 out of   1,440    8%
+      Number used as Dual Port RAM:            112
+        Number using O6 output only:             0
+        Number using O5 output only:            16
+        Number using O5 and O6:                 96
       Number used as Single Port RAM:            0
-      Number used as Shift Register:            16
-        Number using O6 output only:             8
+      Number used as Shift Register:            11
+        Number using O6 output only:             7
         Number using O5 output only:             0
-        Number using O5 and O6:                  8
-    Number used exclusively as route-thrus:     16
-      Number with same-slice register load:     14
-      Number with same-slice carry load:         2
+        Number using O5 and O6:                  4
+    Number used exclusively as route-thrus:     24
+      Number with same-slice register load:     19
+      Number with same-slice carry load:         5
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 1,166 out of   1,430   81%
-  Number of MUXCYs used:                       580 out of   2,860   20%
-  Number of LUT Flip Flop pairs used:        3,770
-    Number with an unused Flip Flop:         1,457 out of   3,770   38%
-    Number with an unused LUT:                 522 out of   3,770   13%
-    Number of fully used LUT-FF pairs:       1,791 out of   3,770   47%
+  Number of occupied Slices:                 1,412 out of   1,430   98%
+  Number of MUXCYs used:                       728 out of   2,860   25%
+  Number of LUT Flip Flop pairs used:        4,980
+    Number with an unused Flip Flop:         2,135 out of   4,980   42%
+    Number with an unused LUT:                 368 out of   4,980    7%
+    Number of fully used LUT-FF pairs:       2,477 out of   4,980   49%
     Number of slice register sites lost
       to control set restrictions:               0 out of  11,440    0%
 
@@ -72,7 +72,7 @@ IO Utilization:
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                        17 out of      32   53%
-  Number of RAMB8BWERs:                          3 out of      64    4%
+  Number of RAMB8BWERs:                          8 out of      64   12%
   Number of BUFIO2/BUFIO2_2CLKs:                 1 out of      32    3%
     Number used as BUFIO2s:                      1
     Number used as BUFIO2_2CLKs:                 0
@@ -107,35 +107,35 @@ Router effort level (-rl):    High
 
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 10 secs 
-Finished initial Timing Analysis.  REAL time: 10 secs 
+Starting initial Timing Analysis.  REAL time: 9 secs 
+Finished initial Timing Analysis.  REAL time: 9 secs 
 
 Starting Router
 
 
-Phase  1  : 22023 unrouted;      REAL time: 11 secs 
+Phase  1  : 29786 unrouted;      REAL time: 10 secs 
 
-Phase  2  : 19215 unrouted;      REAL time: 12 secs 
+Phase  2  : 26542 unrouted;      REAL time: 11 secs 
 
-Phase  3  : 10204 unrouted;      REAL time: 22 secs 
+Phase  3  : 14430 unrouted;      REAL time: 24 secs 
 
-Phase  4  : 10214 unrouted; (Setup:483, Hold:8879, Component Switching Limit:0)     REAL time: 25 secs 
+Phase  4  : 15462 unrouted; (Setup:10928, Hold:15906, Component Switching Limit:0)     REAL time: 30 secs 
 
 Updating file: top.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:483, Hold:8385, Component Switching Limit:0)     REAL time: 53 secs 
+Phase  5  : 0 unrouted; (Setup:9004, Hold:15004, Component Switching Limit:0)     REAL time: 2 mins 37 secs 
 
-Phase  6  : 0 unrouted; (Setup:483, Hold:8385, Component Switching Limit:0)     REAL time: 54 secs 
+Phase  6  : 0 unrouted; (Setup:9004, Hold:15004, Component Switching Limit:0)     REAL time: 4 mins 1 secs 
 
-Phase  7  : 0 unrouted; (Setup:483, Hold:8385, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Phase  7  : 0 unrouted; (Setup:9004, Hold:15004, Component Switching Limit:0)     REAL time: 4 mins 36 secs 
 
-Phase  8  : 0 unrouted; (Setup:483, Hold:8385, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Phase  8  : 0 unrouted; (Setup:9004, Hold:15004, Component Switching Limit:0)     REAL time: 4 mins 36 secs 
 
-Phase  9  : 0 unrouted; (Setup:483, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 6 secs 
+Phase  9  : 0 unrouted; (Setup:9004, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 37 secs 
 
-Phase 10  : 0 unrouted; (Setup:483, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 8 secs 
-Total REAL time to Router completion: 1 mins 8 secs 
-Total CPU time to Router completion: 1 mins 15 secs 
+Phase 10  : 0 unrouted; (Setup:1334, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 40 secs 
+Total REAL time to Router completion: 4 mins 40 secs 
+Total CPU time to Router completion: 4 mins 50 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -153,14 +153,14 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|             sys_clk |  BUFGMUX_X2Y3| No   |  902 |  0.184     |  1.575      |
+|             sys_clk |  BUFGMUX_X2Y3| No   | 1139 |  0.184     |  1.575      |
 +---------------------+--------------+------+------+------------+-------------+
-|      sdram_half_clk |  BUFGMUX_X2Y2| No   |   19 |  0.743     |  2.134      |
+|      sdram_half_clk |  BUFGMUX_X2Y2| No   |   18 |  0.699     |  2.134      |
 +---------------------+--------------+------+------+------------+-------------+
 |crg_clk_sdram_half_s |              |      |      |            |             |
 |              hifted | BUFGMUX_X3Y13| No   |    4 |  0.000     |  2.017      |
 +---------------------+--------------+------+------+------------+-------------+
-|          dna_cnt<0> |         Local|      |    6 |  0.000     |  1.854      |
+|          dna_cnt<0> |         Local|      |    6 |  0.000     |  1.291      |
 +---------------------+--------------+------+------+------------+-------------+
 |   sdram_full_wr_clk |         Local|      |   34 |  0.028     |  1.610      |
 +---------------------+--------------+------+------+------------+-------------+
@@ -173,7 +173,7 @@ the minimum and maximum path delays which includes logic delays.
 * The fanout is the number of component pins not the individual BEL loads,
 for example SLICE loads not FF loads.
 
-Timing Score: 483 (Setup: 483, Hold: 0, Component Switching Limit: 0)
+Timing Score: 1334 (Setup: 1334, Hold: 0, Component Switching Limit: 0)
 
 WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
 
@@ -200,12 +200,12 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-* TS_crg_unbuf_sys = PERIOD TIMEGRP "crg_un | SETUP       |    -0.483ns|    15.864ns|       1|         483
-  buf_sys" TS_crg_clk100b / 0.833333333     | HOLD        |     0.315ns|            |       0|           0
+* TS_crg_unbuf_sys = PERIOD TIMEGRP "crg_un | SETUP       |    -0.465ns|    15.720ns|       4|        1334
+  buf_sys" TS_crg_clk100b / 0.833333333     | HOLD        |     0.388ns|            |       0|           0
        HIGH 50%                             |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_crg_unbuf_sdram_half_a = PERIOD TIMEGR | SETUP       |     0.014ns|     5.980ns|       0|           0
-  P "crg_unbuf_sdram_half_a"         TS_crg | HOLD        |     0.427ns|            |       0|           0
+  TS_crg_unbuf_sdram_half_a = PERIOD TIMEGR | SETUP       |     0.006ns|     5.990ns|       0|           0
+  P "crg_unbuf_sdram_half_a"         TS_crg | HOLD        |     0.365ns|            |       0|           0
   _clk100b / 1.66666667 PHASE 4.5 ns HIGH 5 |             |            |            |        |            
   0%                                        |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
@@ -217,7 +217,7 @@ Asterisk (*) preceding a constraint indicates it was not met.
   _clk100b / 1.66666667 PHASE 4.5 ns HIGH 5 |             |            |            |        |            
   0%                                        |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TSsys_clk = PERIOD TIMEGRP "PRDsys_clk" 1 | MINPERIOD   |     7.148ns|     4.852ns|       0|           0
+  TSsys_clk = PERIOD TIMEGRP "PRDsys_clk" 1 | MINPERIOD   |     8.430ns|     3.570ns|       0|           0
   2 ns HIGH 50%                             |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TSclk100 = PERIOD TIMEGRP "PRDclk100" 10  | MINPERIOD   |     8.948ns|     1.052ns|       0|           0
@@ -239,12 +239,12 @@ Derived Constraints for TSclk100
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TSclk100                       |     10.000ns|      1.052ns|     13.220ns|            0|            1|            0|       503604|
-| TS_crg_clk100b                |     10.000ns|      3.334ns|     13.220ns|            0|            1|            0|       503604|
+|TSclk100                       |     10.000ns|      1.052ns|     13.100ns|            0|            4|            0|      1261381|
+| TS_crg_clk100b                |     10.000ns|      3.334ns|     13.100ns|            0|            4|            0|      1261381|
 |  TS_crg_unbuf_sdram_half_b    |      6.000ns|      2.666ns|          N/A|            0|            0|            0|            0|
-|  TS_crg_unbuf_sys             |     12.000ns|     15.864ns|          N/A|            1|            0|       503351|            0|
+|  TS_crg_unbuf_sys             |     12.000ns|     15.720ns|          N/A|            4|            0|      1261144|            0|
 |  TS_crg_unbuf_sdram_full      |      3.000ns|          N/A|          N/A|            0|            0|            0|            0|
-|  TS_crg_unbuf_sdram_half_a    |      6.000ns|      5.980ns|          N/A|            0|            0|          253|            0|
+|  TS_crg_unbuf_sdram_half_a    |      6.000ns|      5.990ns|          N/A|            0|            0|          237|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 1 constraint not met.
@@ -259,14 +259,14 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 1 mins 11 secs 
-Total CPU time to PAR completion: 1 mins 18 secs 
+Total REAL time to PAR completion: 4 mins 45 secs 
+Total CPU time to PAR completion: 4 mins 54 secs 
 
-Peak Memory Usage:  734 MB
+Peak Memory Usage:  759 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
-Timing: Completed - 1 errors found.
+Timing: Completed - 4 errors found.
 
 Number of error messages: 0
 Number of warning messages: 1
