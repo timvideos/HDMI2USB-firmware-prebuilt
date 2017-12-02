@@ -5974,8 +5974,8 @@ always @(*) begin
 	ethmac_crc32_inserter_source_payload_error <= 1'd0;
 	ethmac_crc32_inserter_data0 <= 8'd0;
 	ethmac_crc32_inserter_is_ongoing0 <= 1'd0;
-	clockdomainsrenamer4_next_state <= 2'd0;
 	ethmac_crc32_inserter_sink_ready <= 1'd0;
+	clockdomainsrenamer4_next_state <= 2'd0;
 	ethmac_crc32_inserter_is_ongoing1 <= 1'd0;
 	ethmac_crc32_inserter_ce <= 1'd0;
 	ethmac_crc32_inserter_reset <= 1'd0;
