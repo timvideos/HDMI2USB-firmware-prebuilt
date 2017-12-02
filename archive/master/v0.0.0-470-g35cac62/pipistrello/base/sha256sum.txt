@@ -1,2 +1,0 @@
-729b33d1079750ca747fc3ab377987bd0087908cfb06fee8fc90e831962fd3cd  output.2015_12_02.log
-215a7e068bac9af600f5ff95f460744870fc2345545c2eec065e6e919b99289a  pipistrello_base-videomixersoc-pipistrello.bit

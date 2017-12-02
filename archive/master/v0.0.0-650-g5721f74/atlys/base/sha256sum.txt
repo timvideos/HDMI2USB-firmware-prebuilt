@@ -1,3 +1,0 @@
-953bfca2950edc23ea9b92e130ecadc9c329aeea20cc222d3db1492238655df6  atlys_base-minisoc-atlys.bin
-6dba3047e245c73d3f21876ea6e834943b3553d73de0783f533d94f35557b194  atlys_base-minisoc-atlys.bit
-aa24587a2ffd1f888c172000ef23aa24e5d762dfba0c57ddb151f2e0f088d0bb  output.log

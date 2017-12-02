@@ -1,3 +1,0 @@
-f3444c8299d724b4063bced4a5959fa5e7ad795aab5866e7b09bb550fd42e59b  atlys_hdmi2usb-hdmi2usbsoc-atlys.bit
-93ddc1b400eefbc8e2c2588ba8cd26f2fc17cf1788fec59b6be34d949e1b3524  hdmi2usb.hex
-d5bf7cc7b7c1e54bad8a5e6aa035ba69a4a4cbf3b0afd7964cd2f5f2b876c8a4  output.2015_10_26.log

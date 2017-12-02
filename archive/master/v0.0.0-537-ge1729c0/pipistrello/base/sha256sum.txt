@@ -1,2 +1,0 @@
-1827a11a7acef3438b879947a11441061c5937f796e7c6c02b4b200b297f6871  output.2016_01_24.log
-3072cdbced02239ba8e6ef32a9e7e1334974bd0433aafa973f41f85cd16d1b8c  pipistrello_base-videomixersoc-pipistrello.bit

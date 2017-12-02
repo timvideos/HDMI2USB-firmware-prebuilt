@@ -1,2 +1,0 @@
-7a20e903dc221e078f11469a9dbfa0790aafbce52d86b43294c1f99737402e02  atlys_hdmi2eth-hdmi2ethsoc-atlys.bit
-d490e8c2603ed3f0c4faae0e36b93ed77a69f78b93f79fb7a89ec1af1b7c55b6  output.2015_10_26.log
