@@ -1,0 +1,936 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Sat Dec 30 20:26:30 2017
+| Host         : travis-job-timvideos-hdmi2usb-litex-323222545.travisci.net running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_timing_summary -file top_timing_synth.rpt
+| Design       : top
+| Device       : 7a50t-csg325
+| Speed File   : -2  PRODUCTION 1.19 2017-08-11
+--------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  false
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock
+2. checking constant_clock
+3. checking pulse_width_clock
+4. checking unconstrained_internal_endpoints
+5. checking no_input_delay
+6. checking no_output_delay
+7. checking multiple_clock
+8. checking generated_clocks
+9. checking loops
+10. checking partial_input_delay
+11. checking partial_output_delay
+12. checking latch_loops
+
+1. checking no_clock
+--------------------
+ There is 1 register/latch pin with no clock driven by root clock pin: videooutsoc_dna_cnt_reg[0]/Q (HIGH)
+
+
+2. checking constant_clock
+--------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock
+-----------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints
+--------------------------------------------
+ There are 2 pins that are not constrained for maximum delay. (HIGH)
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay
+--------------------------
+ There are 33 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay
+---------------------------
+ There are 71 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock
+--------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks
+----------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops
+-----------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay
+--------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay
+---------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops
+------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      1.084        0.000                      0                14841       -3.666      -41.700                     98                14841       -0.259       -1.360                       9                  5033  
+
+
+Timing constraints are not met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock                                             Waveform(ns)         Period(ns)      Frequency(MHz)
+-----                                             ------------         ----------      --------------
+clk50                                             {0.000 10.000}       20.000          50.000          
+  videooutsoc_crg_pll_clk200                      {0.000 2.500}        5.000           200.000         
+  videooutsoc_crg_pll_fb                          {0.000 10.000}       20.000          50.000          
+  videooutsoc_crg_pll_sys                         {0.000 5.000}        10.000          100.000         
+    hdmi_out0_driver_s7hdmioutclocking_mmcm_clk0  {0.000 3.333}        6.667           150.000         
+    hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1  {0.000 0.667}        1.333           749.999         
+    hdmi_out0_driver_s7hdmioutclocking_mmcm_fb    {0.000 10.000}       20.000          50.000          
+  videooutsoc_crg_pll_sys4x                       {0.000 1.250}        2.500           400.000         
+  videooutsoc_crg_pll_sys4x_dqs                   {0.625 1.875}        2.500           400.000         
+pix_clk                                           {0.000 5.000}        10.000          100.000         
+sys_clk                                           {0.000 5.000}        10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock                                                 WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----                                                 -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+clk50                                                                                                                                                                                               7.000        0.000                       0                     1  
+  videooutsoc_crg_pll_clk200                            1.243        0.000                      0                   14       -0.001       -0.001                      1                   14        0.264        0.000                       0                    10  
+  videooutsoc_crg_pll_fb                                                                                                                                                                           18.751        0.000                       0                     2  
+  videooutsoc_crg_pll_sys                                                                                                                                                                           3.000        0.000                       0                     4  
+    hdmi_out0_driver_s7hdmioutclocking_mmcm_clk0                                                                                                                                                    5.074        0.000                       0                     2  
+    hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1                                                                                                                                                   -0.259       -1.360                       9                    10  
+    hdmi_out0_driver_s7hdmioutclocking_mmcm_fb                                                                                                                                                     18.751        0.000                       0                     2  
+  videooutsoc_crg_pll_sys4x                                                                                                                                                                         0.908        0.000                       0                   127  
+  videooutsoc_crg_pll_sys4x_dqs                                                                                                                                                                     0.908        0.000                       0                     6  
+pix_clk                                                 3.468        0.000                      0                 1449       -0.001       -0.012                     11                 1449        3.870        0.000                       0                   843  
+sys_clk                                                 1.243        0.000                      0                13370       -0.190      -12.355                     78                13370        2.500        0.000                       0                  4026  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock                                    To Clock                                          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------                                    --------                                          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+pix_clk                                       hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1        1.084        0.000                      0                    8       -3.666      -29.331                      8                    8  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk50
+  To Clock:  clk50
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack        7.000ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk50
+Waveform(ns):       { 0.000 10.000 }
+Period(ns):         20.000
+Sources:            { clk50 }
+
+Check Type        Corner  Lib Pin           Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     PLLE2_ADV/CLKIN1  n/a            1.249         20.000      18.751               PLLE2_BASE/CLKIN1
+Max Period        n/a     PLLE2_ADV/CLKIN1  n/a            52.633        20.000      32.633               PLLE2_BASE/CLKIN1
+Low Pulse Width   Fast    PLLE2_ADV/CLKIN1  n/a            3.000         10.000      7.000                PLLE2_BASE/CLKIN1
+High Pulse Width  Slow    PLLE2_ADV/CLKIN1  n/a            3.000         10.000      7.000                PLLE2_BASE/CLKIN1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  videooutsoc_crg_pll_clk200
+  To Clock:  videooutsoc_crg_pll_clk200
+
+Setup :            0  Failing Endpoints,  Worst Slack        1.243ns,  Total Violation        0.000ns
+Hold  :            1  Failing Endpoint ,  Worst Slack       -0.001ns,  Total Violation       -0.001ns
+PW    :            0  Failing Endpoints,  Worst Slack        0.264ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             1.243ns  (required time - arrival time)
+  Source:                 FDPE_2/C
+                            (rising edge-triggered cell FDPE clocked by videooutsoc_crg_pll_clk200  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            FDPE_3/D
+                            (rising edge-triggered cell FDPE clocked by videooutsoc_crg_pll_clk200  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             videooutsoc_crg_pll_clk200
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            2.000ns  (MaxDelay Path 2.000ns)
+  Data Path Delay:        0.526ns  (logic 0.379ns (72.053%)  route 0.147ns (27.947%))
+  Logic Levels:           0  
+  Clock Path Skew:        -0.145ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.973ns
+    Source Clock Delay      (SCD):    3.369ns
+    Clock Pessimism Removal (CPR):    0.251ns
+  Clock Uncertainty:      0.039ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.031ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       MaxDelay Path 2.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock videooutsoc_crg_pll_clk200 rise edge)
+                                                      0.000     0.000 r  
+    R2                                                0.000     0.000 r  clk50 (IN)
+                         net (fo=0)                   0.000     0.000    clk50
+    R2                   IBUF (Prop_ibuf_I_O)         1.398     1.398 r  clk50_IBUF_inst/O
+                         net (fo=1, unplaced)         0.584     1.982    clk50_IBUF
+                         PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT3)
+                                                      0.077     2.059 r  PLLE2_BASE/CLKOUT3
+                         net (fo=1, unplaced)         0.646     2.704    videooutsoc_crg_pll_clk200
+                         BUFG (Prop_bufg_I_O)         0.081     2.785 r  BUFG_2/O
+                         net (fo=8, unplaced)         0.584     3.369    clk200_clk
+                         FDPE                                         r  FDPE_2/C
+  -------------------------------------------------------------------    -------------------
+                         FDPE (Prop_fdpe_C_Q)         0.379     3.748 r  FDPE_2/Q
+                         net (fo=1, unplaced)         0.147     3.895    xilinxasyncresetsynchronizerimpl1_rst_meta
+                         FDPE                                         r  FDPE_3/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                    2.000     2.000    
+    R2                                                0.000     2.000 r  clk50 (IN)
+                         net (fo=0)                   0.000     2.000    clk50
+    R2                   IBUF (Prop_ibuf_I_O)         1.332     3.332 r  clk50_IBUF_inst/O
+                         net (fo=1, unplaced)         0.439     3.771    clk50_IBUF
+                         PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT3)
+                                                      0.073     3.844 r  PLLE2_BASE/CLKOUT3
+                         net (fo=1, unplaced)         0.613     4.457    videooutsoc_crg_pll_clk200
+                         BUFG (Prop_bufg_I_O)         0.077     4.534 r  BUFG_2/O
+                         net (fo=8, unplaced)         0.439     4.973    clk200_clk
+                         FDPE                                         r  FDPE_3/C
+                         clock pessimism              0.251     5.224    
+                         clock uncertainty           -0.039     5.186    
+                         FDPE (Setup_fdpe_C_D)       -0.047     5.139    FDPE_3
+  -------------------------------------------------------------------
+                         required time                          5.139    
+                         arrival time                          -3.895    
+  -------------------------------------------------------------------
+                         slack                                  1.243    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (VIOLATED) :        -0.001ns  (arrival time - required time)
+  Source:                 FDPE_2/C
+                            (rising edge-triggered cell FDPE clocked by videooutsoc_crg_pll_clk200  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            FDPE_3/D
+                            (rising edge-triggered cell FDPE clocked by videooutsoc_crg_pll_clk200  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             videooutsoc_crg_pll_clk200
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (videooutsoc_crg_pll_clk200 rise@0.000ns - videooutsoc_crg_pll_clk200 rise@0.000ns)
+  Data Path Delay:        0.214ns  (logic 0.141ns (65.919%)  route 0.073ns (34.081%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.145ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.360ns
+    Source Clock Delay      (SCD):    0.859ns
+    Clock Pessimism Removal (CPR):    0.356ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock videooutsoc_crg_pll_clk200 rise edge)
+                                                      0.000     0.000 r  
+    R2                                                0.000     0.000 r  clk50 (IN)
+                         net (fo=0)                   0.000     0.000    clk50
+    R2                   IBUF (Prop_ibuf_I_O)         0.235     0.235 r  clk50_IBUF_inst/O
+                         net (fo=1, unplaced)         0.114     0.349    clk50_IBUF
+                         PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT3)
+                                                      0.050     0.399 r  PLLE2_BASE/CLKOUT3
+                         net (fo=1, unplaced)         0.320     0.719    videooutsoc_crg_pll_clk200
+                         BUFG (Prop_bufg_I_O)         0.026     0.745 r  BUFG_2/O
+                         net (fo=8, unplaced)         0.114     0.859    clk200_clk
+                         FDPE                                         r  FDPE_2/C
+  -------------------------------------------------------------------    -------------------
+                         FDPE (Prop_fdpe_C_Q)         0.141     1.000 r  FDPE_2/Q
+                         net (fo=1, unplaced)         0.073     1.073    xilinxasyncresetsynchronizerimpl1_rst_meta
+                         FDPE                                         r  FDPE_3/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock videooutsoc_crg_pll_clk200 rise edge)
+                                                      0.000     0.000 r  
+    R2                                                0.000     0.000 r  clk50 (IN)
+                         net (fo=0)                   0.000     0.000    clk50
+    R2                   IBUF (Prop_ibuf_I_O)         0.423     0.423 r  clk50_IBUF_inst/O
+                         net (fo=1, unplaced)         0.259     0.682    clk50_IBUF
+                         PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT3)
+                                                      0.053     0.735 r  PLLE2_BASE/CLKOUT3
+                         net (fo=1, unplaced)         0.337     1.072    videooutsoc_crg_pll_clk200
+                         BUFG (Prop_bufg_I_O)         0.029     1.101 r  BUFG_2/O
+                         net (fo=8, unplaced)         0.259     1.360    clk200_clk
+                         FDPE                                         r  FDPE_3/C
+                         clock pessimism             -0.356     1.004    
+                         FDPE (Hold_fdpe_C_D)         0.070     1.074    FDPE_3
+  -------------------------------------------------------------------
+                         required time                         -1.074    
+                         arrival time                           1.073    
+  -------------------------------------------------------------------
+                         slack                                 -0.001    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         videooutsoc_crg_pll_clk200
+Waveform(ns):       { 0.000 2.500 }
+Period(ns):         5.000
+Sources:            { PLLE2_BASE/CLKOUT3 }
+
+Check Type        Corner  Lib Pin            Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     IDELAYCTRL/REFCLK  n/a            2.438         5.000       2.562                IDELAYCTRL/REFCLK
+Max Period        n/a     IDELAYCTRL/REFCLK  n/a            5.264         5.000       0.264                IDELAYCTRL/REFCLK
+Low Pulse Width   Slow    FDPE/C             n/a            0.500         2.500       2.000                FDPE_2/C
+High Pulse Width  Fast    FDPE/C             n/a            0.500         2.500       2.000                FDPE_2/C
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  videooutsoc_crg_pll_fb
+  To Clock:  videooutsoc_crg_pll_fb
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack       18.751ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         videooutsoc_crg_pll_fb
+Waveform(ns):       { 0.000 10.000 }
+Period(ns):         20.000
+Sources:            { PLLE2_BASE/CLKFBOUT }
+
+Check Type  Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period  n/a     PLLE2_ADV/CLKFBOUT  n/a            1.249         20.000      18.751               PLLE2_BASE/CLKFBOUT
+Max Period  n/a     PLLE2_ADV/CLKFBIN   n/a            52.633        20.000      32.633               PLLE2_BASE/CLKFBIN
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  videooutsoc_crg_pll_sys
+  To Clock:  videooutsoc_crg_pll_sys
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack        3.000ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         videooutsoc_crg_pll_sys
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { PLLE2_BASE/CLKOUT0 }
+
+Check Type        Corner  Lib Pin            Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     BUFG/I             n/a            1.592         10.000      8.408                BUFG/I
+Max Period        n/a     MMCME2_ADV/CLKIN1  n/a            100.000       10.000      90.000               MMCME2_ADV/CLKIN1
+Low Pulse Width   Slow    MMCME2_ADV/CLKIN1  n/a            2.000         5.000       3.000                MMCME2_ADV/CLKIN1
+High Pulse Width  Fast    MMCME2_ADV/CLKIN1  n/a            2.000         5.000       3.000                MMCME2_ADV/CLKIN1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  hdmi_out0_driver_s7hdmioutclocking_mmcm_clk0
+  To Clock:  hdmi_out0_driver_s7hdmioutclocking_mmcm_clk0
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack        5.074ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         hdmi_out0_driver_s7hdmioutclocking_mmcm_clk0
+Waveform(ns):       { 0.000 3.333 }
+Period(ns):         6.667
+Sources:            { MMCME2_ADV/CLKOUT0 }
+
+Check Type  Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period  n/a     BUFG/I              n/a            1.592         6.667       5.074                BUFG_5/I
+Max Period  n/a     MMCME2_ADV/CLKOUT0  n/a            213.360       6.667       206.693              MMCME2_ADV/CLKOUT0
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1
+  To Clock:  hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            9  Failing Endpoints,  Worst Slack       -0.259ns,  Total Violation       -1.360ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1
+Waveform(ns):       { 0.000 0.667 }
+Period(ns):         1.333
+Sources:            { MMCME2_ADV/CLKOUT1 }
+
+Check Type  Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period  n/a     BUFG/I              n/a            1.592         1.333       -0.259               BUFG_6/I
+Max Period  n/a     MMCME2_ADV/CLKOUT1  n/a            213.360       1.333       212.027              MMCME2_ADV/CLKOUT1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  hdmi_out0_driver_s7hdmioutclocking_mmcm_fb
+  To Clock:  hdmi_out0_driver_s7hdmioutclocking_mmcm_fb
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack       18.751ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         hdmi_out0_driver_s7hdmioutclocking_mmcm_fb
+Waveform(ns):       { 0.000 10.000 }
+Period(ns):         20.000
+Sources:            { MMCME2_ADV/CLKFBOUT }
+
+Check Type  Corner  Lib Pin              Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period  n/a     MMCME2_ADV/CLKFBOUT  n/a            1.249         20.000      18.751               MMCME2_ADV/CLKFBOUT
+Max Period  n/a     MMCME2_ADV/CLKFBIN   n/a            100.000       20.000      80.000               MMCME2_ADV/CLKFBIN
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  videooutsoc_crg_pll_sys4x
+  To Clock:  videooutsoc_crg_pll_sys4x
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack        0.908ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         videooutsoc_crg_pll_sys4x
+Waveform(ns):       { 0.000 1.250 }
+Period(ns):         2.500
+Sources:            { PLLE2_BASE/CLKOUT1 }
+
+Check Type  Corner  Lib Pin            Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period  n/a     BUFG/I             n/a            1.592         2.500       0.908                BUFG_3/I
+Max Period  n/a     PLLE2_ADV/CLKOUT1  n/a            160.000       2.500       157.500              PLLE2_BASE/CLKOUT1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  videooutsoc_crg_pll_sys4x_dqs
+  To Clock:  videooutsoc_crg_pll_sys4x_dqs
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack        0.908ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         videooutsoc_crg_pll_sys4x_dqs
+Waveform(ns):       { 0.625 1.875 }
+Period(ns):         2.500
+Sources:            { PLLE2_BASE/CLKOUT2 }
+
+Check Type  Corner  Lib Pin            Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period  n/a     BUFG/I             n/a            1.592         2.500       0.908                BUFG_4/I
+Max Period  n/a     PLLE2_ADV/CLKOUT2  n/a            160.000       2.500       157.500              PLLE2_BASE/CLKOUT2
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  pix_clk
+  To Clock:  pix_clk
+
+Setup :            0  Failing Endpoints,  Worst Slack        3.468ns,  Total Violation        0.000ns
+Hold  :           11  Failing Endpoints,  Worst Slack       -0.001ns,  Total Violation       -0.012ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.870ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             3.468ns  (required time - arrival time)
+  Source:                 cmd_buffer_consume_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by pix_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            storage_11_reg_0/ADDRARDADDR[6]
+                            (rising edge-triggered cell RAMB36E1 clocked by pix_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             pix_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (pix_clk rise@10.000ns - pix_clk rise@0.000ns)
+  Data Path Delay:        5.834ns  (logic 1.346ns (23.073%)  route 4.488ns (76.927%))
+  Logic Levels:           8  (LUT2=2 LUT3=1 LUT4=1 LUT5=1 LUT6=2 RAMD32=1)
+  Clock Path Skew:        -0.145ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.501ns = ( 10.501 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.646ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.063ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.104ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock pix_clk rise edge)    0.000     0.000 r  
+                         BUFG                         0.000     0.000 r  BUFG_5/O
+                         net (fo=843, unplaced)       0.646     0.646    pix_clk
+                         FDRE                                         r  cmd_buffer_consume_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+                         FDRE (Prop_fdre_C_Q)         0.379     1.025 r  cmd_buffer_consume_reg[0]/Q
+                         net (fo=14, unplaced)        0.830     1.855    storage_12_reg_0_3_6_11/ADDRB0
+                         RAMD32 (Prop_ramd32_RADR0_O)
+                                                      0.232     2.087 r  storage_12_reg_0_3_6_11/RAMB_D1/O
+                         net (fo=2, unplaced)         0.593     2.680    cmd_buffer_fifo_out_payload_sel[9]
+                         LUT4 (Prop_lut4_I1_O)        0.105     2.785 r  storage_11_reg_0_i_88/O
+                         net (fo=1, unplaced)         0.347     3.132    storage_11_reg_0_i_88_n_0
+                         LUT6 (Prop_lut6_I1_O)        0.105     3.237 f  storage_11_reg_0_i_84/O
+                         net (fo=1, unplaced)         0.582     3.819    storage_11_reg_0_i_84_n_0
+                         LUT3 (Prop_lut3_I0_O)        0.105     3.924 f  storage_11_reg_0_i_82/O
+                         net (fo=2, unplaced)         0.358     4.282    storage_11_reg_0_i_82_n_0
+                         LUT5 (Prop_lut5_I3_O)        0.105     4.387 f  storage_11_reg_0_i_79/O
+                         net (fo=3, unplaced)         0.365     4.752    storage_11_reg_0_i_79_n_0
+                         LUT6 (Prop_lut6_I4_O)        0.105     4.857 f  storage_11_reg_0_i_1/O
+                         net (fo=6, unplaced)         0.379     5.236    storage_11_reg_0_i_1_n_0
+                         LUT2 (Prop_lut2_I1_O)        0.105     5.341 r  storage_11_reg_0_i_80/O
+                         net (fo=9, unplaced)         0.388     5.729    storage_11_reg_0_i_80_n_0
+                         LUT2 (Prop_lut2_I1_O)        0.105     5.834 r  storage_11_reg_0_i_5/O
+                         net (fo=5, unplaced)         0.646     6.479    storage_11_reg_0_i_5_n_0
+                         RAMB36E1                                     r  storage_11_reg_0/ADDRARDADDR[6]
+  -------------------------------------------------------------------    -------------------
+
+                         (clock pix_clk rise edge)   10.000    10.000 r  
+                         BUFG                         0.000    10.000 r  BUFG_5/O
+                         net (fo=843, unplaced)       0.501    10.501    pix_clk
+                         RAMB36E1                                     r  storage_11_reg_0/CLKARDCLK
+                         clock pessimism              0.000    10.501    
+                         clock uncertainty           -0.063    10.438    
+                         RAMB36E1 (Setup_ramb36e1_CLKARDCLK_ADDRARDADDR[6])
+                                                     -0.490     9.948    storage_11_reg_0
+  -------------------------------------------------------------------
+                         required time                          9.948    
+                         arrival time                          -6.479    
+  -------------------------------------------------------------------
+                         slack                                  3.468    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (VIOLATED) :        -0.001ns  (arrival time - required time)
+  Source:                 xilinxmultiregimpl2_regs0_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by pix_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            xilinxmultiregimpl2_regs1_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by pix_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             pix_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (pix_clk rise@0.000ns - pix_clk rise@0.000ns)
+  Data Path Delay:        0.214ns  (logic 0.141ns (65.919%)  route 0.073ns (34.081%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.145ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.337ns
+    Source Clock Delay      (SCD):    0.192ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock pix_clk rise edge)    0.000     0.000 r  
+                         BUFG                         0.000     0.000 r  BUFG_5/O
+                         net (fo=843, unplaced)       0.192     0.192    pix_clk
+                         FDRE                                         r  xilinxmultiregimpl2_regs0_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+                         FDRE (Prop_fdre_C_Q)         0.141     0.333 r  xilinxmultiregimpl2_regs0_reg[0]/Q
+                         net (fo=1, unplaced)         0.073     0.406    xilinxmultiregimpl2_regs0[0]
+                         FDRE                                         r  xilinxmultiregimpl2_regs1_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock pix_clk rise edge)    0.000     0.000 r  
+                         BUFG                         0.000     0.000 r  BUFG_5/O
+                         net (fo=843, unplaced)       0.337     0.337    pix_clk
+                         FDRE                                         r  xilinxmultiregimpl2_regs1_reg[0]/C
+                         clock pessimism              0.000     0.337    
+                         FDRE (Hold_fdre_C_D)         0.070     0.407    xilinxmultiregimpl2_regs1_reg[0]
+  -------------------------------------------------------------------
+                         required time                         -0.407    
+                         arrival time                           0.406    
+  -------------------------------------------------------------------
+                         slack                                 -0.001    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         pix_clk
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { BUFG_5/O }
+
+Check Type        Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     RAMB18E1/CLKARDCLK  n/a            2.472         10.000      7.528                storage_14_reg/CLKARDCLK
+Low Pulse Width   Slow    RAMD32/CLK          n/a            1.130         5.000       3.870                storage_12_reg_0_3_12_15/RAMA/CLK
+High Pulse Width  Slow    RAMD32/CLK          n/a            1.130         5.000       3.870                storage_12_reg_0_3_12_15/RAMA/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  sys_clk
+  To Clock:  sys_clk
+
+Setup :            0  Failing Endpoints,  Worst Slack        1.243ns,  Total Violation        0.000ns
+Hold  :           78  Failing Endpoints,  Worst Slack       -0.190ns,  Total Violation      -12.355ns
+PW    :            0  Failing Endpoints,  Worst Slack        2.500ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             1.243ns  (required time - arrival time)
+  Source:                 FDPE/C
+                            (rising edge-triggered cell FDPE clocked by sys_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            FDPE_1/D
+                            (rising edge-triggered cell FDPE clocked by sys_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            2.000ns  (MaxDelay Path 2.000ns)
+  Data Path Delay:        0.526ns  (logic 0.379ns (72.053%)  route 0.147ns (27.947%))
+  Logic Levels:           0  
+  Clock Path Skew:        -0.145ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.501ns
+    Source Clock Delay      (SCD):    0.646ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.039ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.035ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       MaxDelay Path 2.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk rise edge)    0.000     0.000 r  
+                         BUFG                         0.000     0.000 r  BUFG/O
+                         net (fo=4027, unplaced)      0.646     0.646    sys_clk
+                         FDPE                                         r  FDPE/C
+  -------------------------------------------------------------------    -------------------
+                         FDPE (Prop_fdpe_C_Q)         0.379     1.025 r  FDPE/Q
+                         net (fo=1, unplaced)         0.147     1.172    xilinxasyncresetsynchronizerimpl0_rst_meta
+                         FDPE                                         r  FDPE_1/D
+  -------------------------------------------------------------------    -------------------
+
+                         max delay                    2.000     2.000    
+                         BUFG                         0.000     2.000 r  BUFG/O
+                         net (fo=4027, unplaced)      0.501     2.501    sys_clk
+                         FDPE                                         r  FDPE_1/C
+                         clock pessimism              0.000     2.501    
+                         clock uncertainty           -0.039     2.461    
+                         FDPE (Setup_fdpe_C_D)       -0.047     2.414    FDPE_1
+  -------------------------------------------------------------------
+                         required time                          2.414    
+                         arrival time                          -1.172    
+  -------------------------------------------------------------------
+                         slack                                  1.243    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (VIOLATED) :        -0.190ns  (arrival time - required time)
+  Source:                 FDPE_1/C
+                            (rising edge-triggered cell FDPE clocked by sys_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            OSERDESE2/RST
+                            (rising edge-triggered cell OSERDESE2 clocked by sys_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk rise@0.000ns - sys_clk rise@0.000ns)
+  Data Path Delay:        0.461ns  (logic 0.141ns (30.576%)  route 0.320ns (69.424%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.145ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.337ns
+    Source Clock Delay      (SCD):    0.192ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk rise edge)    0.000     0.000 r  
+                         BUFG                         0.000     0.000 r  BUFG/O
+                         net (fo=4027, unplaced)      0.192     0.192    sys_clk
+                         FDPE                                         r  FDPE_1/C
+  -------------------------------------------------------------------    -------------------
+                         FDPE (Prop_fdpe_C_Q)         0.141     0.333 r  FDPE_1/Q
+                         net (fo=2816, unplaced)      0.320     0.653    sys_rst
+    OLOGIC_X0Y26         OSERDESE2                                    r  OSERDESE2/RST
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk rise edge)    0.000     0.000 r  
+                         BUFG                         0.000     0.000 r  BUFG/O
+                         net (fo=4027, unplaced)      0.337     0.337    sys_clk
+    OLOGIC_X0Y26         OSERDESE2                                    r  OSERDESE2/CLKDIV
+                         clock pessimism              0.000     0.337    
+    OLOGIC_X0Y26         OSERDESE2 (Hold_oserdese2_CLKDIV_RST)
+                                                      0.506     0.843    OSERDESE2
+  -------------------------------------------------------------------
+                         required time                         -0.843    
+                         arrival time                           0.653    
+  -------------------------------------------------------------------
+                         slack                                 -0.190    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         sys_clk
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { BUFG/O }
+
+Check Type        Corner  Lib Pin          Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     MMCME2_ADV/DCLK  n/a            4.999         10.000      5.001                MMCME2_ADV/DCLK
+Low Pulse Width   Slow    MMCME2_ADV/DCLK  n/a            2.500         5.000       2.500                MMCME2_ADV/DCLK
+High Pulse Width  Slow    MMCME2_ADV/DCLK  n/a            2.500         5.000       2.501                MMCME2_ADV/DCLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  pix_clk
+  To Clock:  hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1
+
+Setup :            0  Failing Endpoints,  Worst Slack        1.084ns,  Total Violation        0.000ns
+Hold  :            8  Failing Endpoints,  Worst Slack       -3.666ns,  Total Violation      -29.331ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             1.084ns  (required time - arrival time)
+  Source:                 hdmi_out0_driver_s7hdmioutclocking_ce_reg/C
+                            (rising edge-triggered cell FDRE clocked by pix_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            OSERDESE2_65/OCE
+                            (rising edge-triggered cell OSERDESE2 clocked by hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1  {rise@0.000ns fall@0.667ns period=1.333ns})
+  Path Group:             hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1
+  Path Type:              Setup (Max at Fast Process Corner)
+  Requirement:            0.667ns  (hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1 rise@10.667ns - pix_clk rise@10.000ns)
+  Data Path Delay:        0.512ns  (logic 0.175ns (34.180%)  route 0.337ns (65.820%))
+  Logic Levels:           0  
+  Clock Path Skew:        1.238ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.575ns = ( 12.242 - 10.667 ) 
+    Source Clock Delay      (SCD):    0.337ns = ( 10.337 - 10.000 ) 
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.182ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.101ns
+    Phase Error              (PE):    0.120ns
+  Clock Domain Crossing:  Inter clock paths are considered valid unless explicitly excluded by timing constraints such as set_clock_groups or set_false_path.
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock pix_clk rise edge)   10.000    10.000 r  
+                         BUFG                         0.000    10.000 r  BUFG_5/O
+                         net (fo=843, unplaced)       0.337    10.337    pix_clk
+                         FDRE                                         r  hdmi_out0_driver_s7hdmioutclocking_ce_reg/C
+  -------------------------------------------------------------------    -------------------
+                         FDRE (Prop_fdre_C_Q)         0.175    10.512 r  hdmi_out0_driver_s7hdmioutclocking_ce_reg/Q
+                         net (fo=8, unplaced)         0.337    10.849    hdmi_out0_driver_s7hdmioutclocking_ce
+    OLOGIC_X1Y22         OSERDESE2                                    r  OSERDESE2_65/OCE
+  -------------------------------------------------------------------    -------------------
+
+                         (clock hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1 rise edge)
+                                                     10.667    10.667 r  
+    R2                                                0.000    10.667 r  clk50 (IN)
+                         net (fo=0)                   0.000    10.667    clk50
+    R2                   IBUF (Prop_ibuf_I_O)         0.235    10.902 r  clk50_IBUF_inst/O
+                         net (fo=1, unplaced)         0.114    11.016    clk50_IBUF
+                         PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT0)
+                                                      0.050    11.066 r  PLLE2_BASE/CLKOUT0
+                         net (fo=2, unplaced)         0.320    11.386    videooutsoc_crg_pll_sys
+                         BUFG (Prop_bufg_I_O)         0.026    11.412 r  BUFG_1/O
+                         net (fo=1, unplaced)         0.114    11.526    clk100_clk
+                         MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                      0.050    11.576 r  MMCME2_ADV/CLKOUT1
+                         net (fo=1, unplaced)         0.320    11.896    hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1
+                         BUFG (Prop_bufg_I_O)         0.026    11.922 r  BUFG_6/O
+                         net (fo=8, unplaced)         0.320    12.242    pix5x_clk
+    OLOGIC_X1Y22         OSERDESE2                                    r  OSERDESE2_65/CLK
+                         clock pessimism              0.000    12.242    
+                         clock uncertainty           -0.182    12.060    
+    OLOGIC_X1Y22         OSERDESE2 (Setup_oserdese2_CLK_OCE)
+                                                     -0.127    11.933    OSERDESE2_65
+  -------------------------------------------------------------------
+                         required time                         11.933    
+                         arrival time                         -10.849    
+  -------------------------------------------------------------------
+                         slack                                  1.084    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (VIOLATED) :        -3.666ns  (arrival time - required time)
+  Source:                 hdmi_out0_driver_s7hdmioutclocking_ce_reg/C
+                            (rising edge-triggered cell FDRE clocked by pix_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            OSERDESE2_65/OCE
+                            (rising edge-triggered cell OSERDESE2 clocked by hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1  {rise@0.000ns fall@0.667ns period=1.333ns})
+  Path Group:             hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1 rise@0.000ns - pix_clk rise@0.000ns)
+  Data Path Delay:        0.917ns  (logic 0.304ns (33.141%)  route 0.613ns (66.859%))
+  Logic Levels:           0  
+  Clock Path Skew:        4.318ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    4.819ns
+    Source Clock Delay      (SCD):    0.501ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.182ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.101ns
+    Phase Error              (PE):    0.120ns
+  Clock Domain Crossing:  Inter clock paths are considered valid unless explicitly excluded by timing constraints such as set_clock_groups or set_false_path.
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock pix_clk rise edge)    0.000     0.000 r  
+                         BUFG                         0.000     0.000 r  BUFG_5/O
+                         net (fo=843, unplaced)       0.501     0.501    pix_clk
+                         FDRE                                         r  hdmi_out0_driver_s7hdmioutclocking_ce_reg/C
+  -------------------------------------------------------------------    -------------------
+                         FDRE (Prop_fdre_C_Q)         0.304     0.805 r  hdmi_out0_driver_s7hdmioutclocking_ce_reg/Q
+                         net (fo=8, unplaced)         0.613     1.418    hdmi_out0_driver_s7hdmioutclocking_ce
+    OLOGIC_X1Y22         OSERDESE2                                    r  OSERDESE2_65/OCE
+  -------------------------------------------------------------------    -------------------
+
+                         (clock hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1 rise edge)
+                                                      0.000     0.000 r  
+    R2                                                0.000     0.000 r  clk50 (IN)
+                         net (fo=0)                   0.000     0.000    clk50
+    R2                   IBUF (Prop_ibuf_I_O)         1.398     1.398 r  clk50_IBUF_inst/O
+                         net (fo=1, unplaced)         0.584     1.982    clk50_IBUF
+                         PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT0)
+                                                      0.077     2.059 r  PLLE2_BASE/CLKOUT0
+                         net (fo=2, unplaced)         0.646     2.704    videooutsoc_crg_pll_sys
+                         BUFG (Prop_bufg_I_O)         0.081     2.785 r  BUFG_1/O
+                         net (fo=1, unplaced)         0.584     3.369    clk100_clk
+                         MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                      0.077     3.446 r  MMCME2_ADV/CLKOUT1
+                         net (fo=1, unplaced)         0.646     4.092    hdmi_out0_driver_s7hdmioutclocking_mmcm_clk1
+                         BUFG (Prop_bufg_I_O)         0.081     4.173 r  BUFG_6/O
+                         net (fo=8, unplaced)         0.646     4.819    pix5x_clk
+    OLOGIC_X1Y22         OSERDESE2                                    r  OSERDESE2_65/CLK
+                         clock pessimism              0.000     4.819    
+                         clock uncertainty            0.182     5.000    
+    OLOGIC_X1Y22         OSERDESE2 (Hold_oserdese2_CLK_OCE)
+                                                      0.084     5.084    OSERDESE2_65
+  -------------------------------------------------------------------
+                         required time                         -5.084    
+                         arrival time                           1.418    
+  -------------------------------------------------------------------
+                         slack                                 -3.666    
+
+
+
+
+
