@@ -1,0 +1,9 @@
+run
+-ifn top.prj
+-top top
+-ifmt MIXED
+-use_new_parser yes
+-opt_mode SPEED
+-register_balancing yes
+-ofn top.ngc
+-p xc6slx45-csg324-3
