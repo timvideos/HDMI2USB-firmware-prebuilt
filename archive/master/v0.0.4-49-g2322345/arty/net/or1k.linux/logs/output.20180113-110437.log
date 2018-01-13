@@ -1,0 +1,27 @@
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/libcompiler_rt'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/libcompiler_rt'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/libbase'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/libbase'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/libnet'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/libnet'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/bios'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/bios'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/uip'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/uip'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/firmware'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+bash /home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/version_data.sh
+# Check the version files exist
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/include/../..//software/firmware/version_data.h ]
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/include/../..//software/firmware/version_data.c ]
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_or1k.linux/software/firmware'
