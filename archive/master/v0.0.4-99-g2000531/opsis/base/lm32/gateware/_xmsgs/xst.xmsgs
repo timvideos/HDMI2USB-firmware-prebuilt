@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2838" delta="new" >Path definition &apos;<arg fmt="%s" index="1">$XILINX/vhdl/xst/lin64/ieee_proposed</arg>&apos; in file <arg fmt="%s" index="2">/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/xst/lin64/hdc.ini</arg> is invalid and being ignored.  Check the path and ensure that any environment variable specification is legal.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1591" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/lm32_config.v" Line 186: Root scope declaration is not allowed in verilog 95/2K mode
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="924" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v" Line 653: Attribute target identifier <arg fmt="%s" index="1">preserve_driver</arg> not found in this scope
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="924" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v" Line 652: Attribute target identifier <arg fmt="%s" index="1">preserve_signal</arg> not found in this scope
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9041: Port <arg fmt="%s" index="1">I_LOCK_O</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9118: Port <arg fmt="%s" index="1">IOCLK</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9127: Port <arg fmt="%s" index="1">CLKFBDCM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9188: Port <arg fmt="%s" index="1">LOCK</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9229: Port <arg fmt="%s" index="1">CLKFX180</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9366: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9397: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9425: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9456: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9484: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9515: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9543: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9574: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9602: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9633: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9661: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9692: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9720: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9751: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9779: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9810: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9838: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9869: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9897: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9928: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9956: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9987: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10015: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10046: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10074: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10105: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10133: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10164: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10192: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10223: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10251: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10282: Port <arg fmt="%s" index="1">CFB0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10310: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10336: Port <arg fmt="%s" index="1">SHIFTOUT1</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 67: Using initial value of <arg fmt="%s" index="1">basesoc_rom_bus_err</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 80: Using initial value of <arg fmt="%s" index="1">basesoc_sram_bus_err</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 99: Using initial value of <arg fmt="%s" index="1">basesoc_bus_wishbone_err</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 112: Using initial value of <arg fmt="%s" index="1">basesoc_update_value_w</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 140: Using initial value of <arg fmt="%s" index="1">interface0_wb_sdram_err</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 146: Using initial value of <arg fmt="%s" index="1">sdram_half_rst</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 248: Using initial value of <arg fmt="%s" index="1">phy_storage</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 261: Using initial value of <arg fmt="%s" index="1">phy_source_first</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 262: Using initial value of <arg fmt="%s" index="1">phy_source_last</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 298: Using initial value of <arg fmt="%s" index="1">uart_tx_fifo_sink_first</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 299: Using initial value of <arg fmt="%s" index="1">uart_tx_fifo_sink_last</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 313: Using initial value of <arg fmt="%s" index="1">uart_tx_fifo_replace</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 346: Using initial value of <arg fmt="%s" index="1">uart_rx_fifo_replace</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 372: Using initial value of <arg fmt="%s" index="1">spiflash_bus_err</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 410: Using initial value of <arg fmt="%s" index="1">half_rate_phy_dfi_p0_wrdata_en</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 743: Using initial value of <arg fmt="%s" index="1">sdram_phaseinjector0_command_issue_w</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 759: Using initial value of <arg fmt="%s" index="1">sdram_phaseinjector1_command_issue_w</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 775: Using initial value of <arg fmt="%s" index="1">sdram_phaseinjector2_command_issue_w</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 791: Using initial value of <arg fmt="%s" index="1">sdram_phaseinjector3_command_issue_w</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 929: Using initial value of <arg fmt="%s" index="1">sdram_cmd_payload_is_read</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 930: Using initial value of <arg fmt="%s" index="1">sdram_cmd_payload_is_write</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 958: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine0_sink_first</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 959: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine0_sink_last</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 975: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine0_replace</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1023: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine1_sink_first</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1024: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine1_sink_last</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1040: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine1_replace</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1088: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine2_sink_first</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1089: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine2_sink_last</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1105: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine2_replace</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1153: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine3_sink_first</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1154: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine3_sink_last</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1170: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine3_replace</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1218: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine4_sink_first</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1219: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine4_sink_last</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1235: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine4_replace</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1283: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine5_sink_first</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1284: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine5_sink_last</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1300: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine5_replace</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1348: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine6_sink_first</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1349: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine6_sink_last</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1365: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine6_replace</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1413: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine7_sink_first</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1414: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine7_sink_last</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1430: Using initial value of <arg fmt="%s" index="1">sdram_bankmachine7_replace</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1457: Using initial value of <arg fmt="%s" index="1">sdram_choose_cmd_want_reads</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1458: Using initial value of <arg fmt="%s" index="1">sdram_choose_cmd_want_writes</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1459: Using initial value of <arg fmt="%s" index="1">sdram_choose_cmd_want_cmds</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1476: Using initial value of <arg fmt="%s" index="1">sdram_choose_req_want_cmds</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1491: Using initial value of <arg fmt="%s" index="1">sdram_nop_a</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1492: Using initial value of <arg fmt="%s" index="1">sdram_nop_ba</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1493: Using initial value of <arg fmt="%s" index="1">sdram_nop_cas</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1494: Using initial value of <arg fmt="%s" index="1">sdram_nop_ras</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1495: Using initial value of <arg fmt="%s" index="1">sdram_nop_we</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1511: Using initial value of <arg fmt="%s" index="1">sdram_bandwidth_update_w</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 1514: Using initial value of <arg fmt="%s" index="1">sdram_bandwidth_data_width_status</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9082: Signal &lt;<arg fmt="%s" index="1">mem</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2310: Assignment to <arg fmt="%s" index="1">opsis_i2c_i2cpads0_scl_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2350: Assignment to <arg fmt="%s" index="1">opsis_i2c_sda_o</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2355: Assignment to <arg fmt="%s" index="1">opsis_i2c_sda_rising</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2573: Assignment to <arg fmt="%s" index="1">phy_sink_first</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2574: Assignment to <arg fmt="%s" index="1">phy_sink_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2578: Assignment to <arg fmt="%s" index="1">phy_source_ready</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2646: Assignment to <arg fmt="%s" index="1">uart_rx_fifo_source_first</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2647: Assignment to <arg fmt="%s" index="1">uart_rx_fifo_source_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2779: Assignment to <arg fmt="%s" index="1">half_rate_phy_record0_wrdata</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2780: Assignment to <arg fmt="%s" index="1">half_rate_phy_record0_wrdata_mask</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2783: Assignment to <arg fmt="%s" index="1">half_rate_phy_record1_wrdata</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2784: Assignment to <arg fmt="%s" index="1">half_rate_phy_record1_wrdata_mask</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2806: Assignment to <arg fmt="%s" index="1">dfi_dfi_p0_wrdata_en</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2836: Assignment to <arg fmt="%s" index="1">dfi_dfi_p2_wrdata_en</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2851: Assignment to <arg fmt="%s" index="1">dfi_dfi_p3_wrdata_en</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2870: Assignment to <arg fmt="%s" index="1">sdram_dfi_p0_rddata_valid</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2885: Assignment to <arg fmt="%s" index="1">sdram_dfi_p1_rddata_valid</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2900: Assignment to <arg fmt="%s" index="1">sdram_dfi_p2_rddata_valid</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 2915: Assignment to <arg fmt="%s" index="1">sdram_dfi_p3_rddata_valid</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3326: Assignment to <arg fmt="%s" index="1">sdram_bankmachine0_source_first</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3327: Assignment to <arg fmt="%s" index="1">sdram_bankmachine0_source_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3456: Assignment to <arg fmt="%s" index="1">sdram_bankmachine1_source_first</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3457: Assignment to <arg fmt="%s" index="1">sdram_bankmachine1_source_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3586: Assignment to <arg fmt="%s" index="1">sdram_bankmachine2_source_first</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3587: Assignment to <arg fmt="%s" index="1">sdram_bankmachine2_source_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3716: Assignment to <arg fmt="%s" index="1">sdram_bankmachine3_source_first</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3717: Assignment to <arg fmt="%s" index="1">sdram_bankmachine3_source_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3846: Assignment to <arg fmt="%s" index="1">sdram_bankmachine4_source_first</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3847: Assignment to <arg fmt="%s" index="1">sdram_bankmachine4_source_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3976: Assignment to <arg fmt="%s" index="1">sdram_bankmachine5_source_first</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 3977: Assignment to <arg fmt="%s" index="1">sdram_bankmachine5_source_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4106: Assignment to <arg fmt="%s" index="1">sdram_bankmachine6_source_first</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4107: Assignment to <arg fmt="%s" index="1">sdram_bankmachine6_source_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4236: Assignment to <arg fmt="%s" index="1">sdram_bankmachine7_source_first</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4237: Assignment to <arg fmt="%s" index="1">sdram_bankmachine7_source_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4373: Assignment to <arg fmt="%s" index="1">sdram_choose_cmd_cmd_payload_is_cmd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4410: Assignment to <arg fmt="%s" index="1">sdram_choose_req_cmd_payload_is_cmd</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4595: Assignment to <arg fmt="%s" index="1">roundrobin0_request</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4596: Assignment to <arg fmt="%s" index="1">roundrobin0_ce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4600: Assignment to <arg fmt="%s" index="1">roundrobin1_request</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4601: Assignment to <arg fmt="%s" index="1">roundrobin1_ce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4605: Assignment to <arg fmt="%s" index="1">roundrobin2_request</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4606: Assignment to <arg fmt="%s" index="1">roundrobin2_ce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4610: Assignment to <arg fmt="%s" index="1">roundrobin3_request</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4611: Assignment to <arg fmt="%s" index="1">roundrobin3_ce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4615: Assignment to <arg fmt="%s" index="1">roundrobin4_request</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4616: Assignment to <arg fmt="%s" index="1">roundrobin4_ce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4620: Assignment to <arg fmt="%s" index="1">roundrobin5_request</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4621: Assignment to <arg fmt="%s" index="1">roundrobin5_ce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4625: Assignment to <arg fmt="%s" index="1">roundrobin6_request</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4626: Assignment to <arg fmt="%s" index="1">roundrobin6_ce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4630: Assignment to <arg fmt="%s" index="1">roundrobin7_request</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4631: Assignment to <arg fmt="%s" index="1">roundrobin7_ce</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4698: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">30</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4699: Assignment to <arg fmt="%s" index="1">word_clr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4766: Result of <arg fmt="%d" index="1">30</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">24</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4770: Assignment to <arg fmt="%s" index="1">port_rdata_ready</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4817: Assignment to <arg fmt="%s" index="1">interface0_wb_sdram_cti</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4818: Assignment to <arg fmt="%s" index="1">interface0_wb_sdram_bte</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4822: Assignment to <arg fmt="%s" index="1">wb_sdram_con_request</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4848: Assignment to <arg fmt="%s" index="1">basesoc_rom_bus_dat_w</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4849: Assignment to <arg fmt="%s" index="1">basesoc_rom_bus_sel</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4851: Assignment to <arg fmt="%s" index="1">basesoc_rom_bus_we</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4852: Assignment to <arg fmt="%s" index="1">basesoc_rom_bus_cti</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4853: Assignment to <arg fmt="%s" index="1">basesoc_rom_bus_bte</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4859: Assignment to <arg fmt="%s" index="1">basesoc_sram_bus_cti</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4860: Assignment to <arg fmt="%s" index="1">basesoc_sram_bus_bte</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4863: Assignment to <arg fmt="%s" index="1">basesoc_bus_wishbone_sel</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4866: Assignment to <arg fmt="%s" index="1">basesoc_bus_wishbone_cti</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4867: Assignment to <arg fmt="%s" index="1">basesoc_bus_wishbone_bte</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4869: Assignment to <arg fmt="%s" index="1">spiflash_bus_dat_w</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4870: Assignment to <arg fmt="%s" index="1">spiflash_bus_sel</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4872: Assignment to <arg fmt="%s" index="1">spiflash_bus_we</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4873: Assignment to <arg fmt="%s" index="1">spiflash_bus_cti</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4874: Assignment to <arg fmt="%s" index="1">spiflash_bus_bte</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4891: Assignment to <arg fmt="%s" index="1">basesoc_csrbank0_switches_in_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4892: Assignment to <arg fmt="%s" index="1">basesoc_csrbank0_switches_in_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4907: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id7_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4908: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id7_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4909: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id6_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4910: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id6_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4911: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id5_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4912: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id5_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4913: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id4_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4914: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id4_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4915: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id3_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4916: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id3_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4917: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4918: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4919: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4920: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4921: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4922: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_dna_id0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4923: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit19_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4924: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit19_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4925: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit18_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4926: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit18_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4927: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit17_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4928: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit17_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4929: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit16_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4930: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit16_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4931: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit15_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4932: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit15_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4933: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit14_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4934: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit14_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4935: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit13_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4936: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit13_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4937: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit12_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4938: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit12_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4939: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit11_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4940: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit11_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4941: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit10_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4942: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit10_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4943: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit9_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4944: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit9_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4945: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit8_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4946: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit8_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4947: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit7_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4948: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit7_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4949: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit6_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4950: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit6_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4951: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit5_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4952: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit5_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4953: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit4_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4954: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit4_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4955: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit3_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4956: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit3_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4957: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4958: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4959: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4960: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4961: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4962: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_git_commit0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4963: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform7_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4964: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform7_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4965: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform6_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4966: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform6_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4967: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform5_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4968: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform5_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4969: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform4_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4970: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform4_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4971: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform3_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4972: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform3_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4973: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4974: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4975: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4976: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4977: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4978: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_platform0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4979: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target7_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4980: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target7_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4981: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target6_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4982: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target6_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4983: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target5_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4984: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target5_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4985: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target4_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4986: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target4_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4987: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target3_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4988: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target3_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4989: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4990: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4991: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4992: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4993: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 4994: Assignment to <arg fmt="%s" index="1">basesoc_csrbank1_platform_target0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5042: Assignment to <arg fmt="%s" index="1">basesoc_csrbank2_master_r_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5043: Assignment to <arg fmt="%s" index="1">basesoc_csrbank2_master_r_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5072: Assignment to <arg fmt="%s" index="1">sdram_phaseinjector0_command_issue_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5088: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi0_rddata3_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5089: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi0_rddata3_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5090: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi0_rddata2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5091: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi0_rddata2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5092: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi0_rddata1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5093: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi0_rddata1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5094: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi0_rddata0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5095: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi0_rddata0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5098: Assignment to <arg fmt="%s" index="1">sdram_phaseinjector1_command_issue_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5114: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi1_rddata3_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5115: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi1_rddata3_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5116: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi1_rddata2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5117: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi1_rddata2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5118: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi1_rddata1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5119: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi1_rddata1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5120: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi1_rddata0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5121: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi1_rddata0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5124: Assignment to <arg fmt="%s" index="1">sdram_phaseinjector2_command_issue_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5140: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi2_rddata3_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5141: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi2_rddata3_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5142: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi2_rddata2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5143: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi2_rddata2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5144: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi2_rddata1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5145: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi2_rddata1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5146: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi2_rddata0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5147: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi2_rddata0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5150: Assignment to <arg fmt="%s" index="1">sdram_phaseinjector3_command_issue_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5166: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi3_rddata3_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5167: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi3_rddata3_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5168: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi3_rddata2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5169: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi3_rddata2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5170: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi3_rddata1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5171: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi3_rddata1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5172: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi3_rddata0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5173: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_dfii_pi3_rddata0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5174: Assignment to <arg fmt="%s" index="1">sdram_bandwidth_update_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5176: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nreads2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5177: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nreads2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5178: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nreads1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5179: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nreads1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5180: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nreads0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5181: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nreads0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5182: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nwrites2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5183: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nwrites2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5184: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nwrites1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5185: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nwrites1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5186: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nwrites0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5187: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_nwrites0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5188: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_data_width_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5189: Assignment to <arg fmt="%s" index="1">basesoc_csrbank3_controller_bandwidth_data_width_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5266: Assignment to <arg fmt="%s" index="1">basesoc_csrbank4_miso_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5267: Assignment to <arg fmt="%s" index="1">basesoc_csrbank4_miso_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5294: Assignment to <arg fmt="%s" index="1">basesoc_update_value_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5296: Assignment to <arg fmt="%s" index="1">basesoc_csrbank5_value3_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5297: Assignment to <arg fmt="%s" index="1">basesoc_csrbank5_value3_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5298: Assignment to <arg fmt="%s" index="1">basesoc_csrbank5_value2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5299: Assignment to <arg fmt="%s" index="1">basesoc_csrbank5_value2_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5300: Assignment to <arg fmt="%s" index="1">basesoc_csrbank5_value1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5301: Assignment to <arg fmt="%s" index="1">basesoc_csrbank5_value1_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5302: Assignment to <arg fmt="%s" index="1">basesoc_csrbank5_value0_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5303: Assignment to <arg fmt="%s" index="1">basesoc_csrbank5_value0_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5304: Assignment to <arg fmt="%s" index="1">basesoc_eventmanager_status_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5305: Assignment to <arg fmt="%s" index="1">basesoc_eventmanager_status_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5331: Assignment to <arg fmt="%s" index="1">basesoc_csrbank6_txfull_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5332: Assignment to <arg fmt="%s" index="1">basesoc_csrbank6_txfull_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5333: Assignment to <arg fmt="%s" index="1">basesoc_csrbank6_rxempty_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5334: Assignment to <arg fmt="%s" index="1">basesoc_csrbank6_rxempty_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5335: Assignment to <arg fmt="%s" index="1">uart_status_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5336: Assignment to <arg fmt="%s" index="1">uart_status_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5360: Assignment to <arg fmt="%s" index="1">basesoc_sram_bus_we1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 5368: Assignment to <arg fmt="%s" index="1">basesoc_sram_bus_dat_w1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 6924: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 6925: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 6890: Assignment to <arg fmt="%s" index="1">half_rate_phy_record0_cs_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 6967: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 6968: Result of <arg fmt="%d" index="1">30</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 7008: Result of <arg fmt="%d" index="1">58</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">57</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 7191: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">24</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 6957: Assignment to <arg fmt="%s" index="1">front_panel_leds_re</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v" Line 910: Assignment to <arg fmt="%s" index="1">pc_x</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v" Line 912: Assignment to <arg fmt="%s" index="1">pc_w</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_decoder.v" Line 392: Assignment to <arg fmt="%s" index="1">op_user</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_decoder.v" Line 419: Assignment to <arg fmt="%s" index="1">multiply</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_decoder.v" Line 597: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">30</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_shifter.v" Line 149: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v" Line 166: Result of <arg fmt="%d" index="1">2</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v" Line 166: Assignment to <arg fmt="%s" index="1">ie_csr_read_data</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v" Line 175: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v" Line 175: Assignment to <arg fmt="%s" index="1">ip_csr_read_data</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v" Line 176: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v" Line 176: Assignment to <arg fmt="%s" index="1">im_csr_read_data</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v" Line 2678: Assignment to <arg fmt="%s" index="1">x_result_sel_logic_x</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9161: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DADDR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9164: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DI</arg>&gt;. Formal port size is <arg fmt="%d" index="2">16</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9259: Assignment to <arg fmt="%s" index="1">opsis_i2c_fx2_reset_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9272: Assignment to <arg fmt="%s" index="1">uart_tx_fifo_wrport_dat_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 9286: Assignment to <arg fmt="%s" index="1">uart_rx_fifo_wrport_dat_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10373: Assignment to <arg fmt="%s" index="1">sdram_bankmachine0_wrport_dat_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10387: Assignment to <arg fmt="%s" index="1">sdram_bankmachine1_wrport_dat_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10401: Assignment to <arg fmt="%s" index="1">sdram_bankmachine2_wrport_dat_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10415: Assignment to <arg fmt="%s" index="1">sdram_bankmachine3_wrport_dat_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10429: Assignment to <arg fmt="%s" index="1">sdram_bankmachine4_wrport_dat_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10443: Assignment to <arg fmt="%s" index="1">sdram_bankmachine5_wrport_dat_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10457: Assignment to <arg fmt="%s" index="1">sdram_bankmachine6_wrport_dat_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10471: Assignment to <arg fmt="%s" index="1">sdram_bankmachine7_wrport_dat_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10607: Assignment to <arg fmt="%s" index="1">base50_rst</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v" Line 10627: Assignment to <arg fmt="%s" index="1">encoder_rst</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v</arg>&quot; line <arg fmt="%s" index="2">9043</arg>: Output port &lt;<arg fmt="%s" index="3">I_CTI_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm32_cpu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v</arg>&quot; line <arg fmt="%s" index="2">9043</arg>: Output port &lt;<arg fmt="%s" index="3">I_BTE_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm32_cpu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v</arg>&quot; line <arg fmt="%s" index="2">9043</arg>: Output port &lt;<arg fmt="%s" index="3">D_CTI_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm32_cpu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v</arg>&quot; line <arg fmt="%s" index="2">9043</arg>: Output port &lt;<arg fmt="%s" index="3">D_BTE_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm32_cpu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v</arg>&quot; line <arg fmt="%s" index="2">9043</arg>: Output port &lt;<arg fmt="%s" index="3">I_LOCK_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm32_cpu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_base_lm32/gateware/top.v</arg>&quot; line <arg fmt="%s" index="2">9043</arg>: Output port &lt;<arg fmt="%s" index="3">D_LOCK_O</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">lm32_cpu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="new" >Signal &apos;<arg fmt="%s" index="1">mem</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">top</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="new" >Signal &apos;<arg fmt="%s" index="1">mem_2</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">top</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_cmd_payload_ba</arg>&lt;<arg fmt="%d" index="2">2</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_cmd_payload_a</arg>&lt;<arg fmt="%d" index="2">1</arg>:<arg fmt="%d" index="3">3</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_cmd_payload_a</arg>&lt;<arg fmt="%d" index="2">4</arg>:<arg fmt="%d" index="3">13</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p2_address</arg>&lt;<arg fmt="%d" index="2">13</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p2_bank</arg>&lt;<arg fmt="%d" index="2">2</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p2_rddata_en</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p3_address</arg>&lt;<arg fmt="%d" index="2">13</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p3_bank</arg>&lt;<arg fmt="%d" index="2">2</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p3_rddata_en</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p3_ras_n</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">1</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p3_cas_n</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">1</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p2_cas_n</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">1</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p2_ras_n</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">1</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p2_we_n</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">1</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">sdram_dfi_p3_we_n</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">1</arg> in block &lt;<arg fmt="%s" index="5">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">I_RTY_I</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v</arg>&quot; line <arg fmt="%s" index="2">845</arg>: Output port &lt;<arg fmt="%s" index="3">pc_x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">instruction_unit</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v</arg>&quot; line <arg fmt="%s" index="2">845</arg>: Output port &lt;<arg fmt="%s" index="3">pc_w</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">instruction_unit</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v</arg>&quot; line <arg fmt="%s" index="2">953</arg>: Output port &lt;<arg fmt="%s" index="3">x_result_sel_logic</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">decoder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">address_a&lt;31:12&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">load_x</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">store_x</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">store_q_x</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">d_rty_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">address_x&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">address_x&lt;31:12&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">operand_1_x&lt;31:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_registers</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_registers1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2385" delta="new" >HDL ADVISOR - You can improve the performance of the multiplier <arg fmt="%s" index="1">Mmult_n0023</arg> by adding <arg fmt="%d" index="2">6</arg> register level(s).
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_mem</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_mem</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_data_mem</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_tag_mem</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_mem_1</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_storage</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_mem_2</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_mem</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_storage_1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_storage_2</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_storage_3</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_storage_4</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_storage_5</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_storage_6</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_storage_7</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_storage_8</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_storage_9</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">basesoc_interface_adr_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">basesoc_interface_adr_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">basesoc_interface_adr_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">sdram_cmd_payload_a</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">top</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_bus_wishbone_dat_r_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">i_cyc_o</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">lm32_instruction_unit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;i_stb_o&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface_adr_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;adr_offset_r_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface_adr_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;adr_offset_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rddata_valid_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rddata_valid_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dfi_dfi_p0_rddata_valid</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dfi_dfi_p1_rddata_valid&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_bus_error_seen</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">lm32_cpu</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_bus_error_exception_m</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">lm32_cpu</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">bus_error_f</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">lm32_instruction_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">bus_error_d</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">lm32_instruction_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mmult_n00233</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_multiplier</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">memdat_1_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_110</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_223</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_224</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_323</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_324</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_424</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_423</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_523</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_524</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_823</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_824</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_624</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_623</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_723</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_724</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_923</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Mram_storage_924</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memop_pc_w_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">lm32_cpu</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">i_adr_o_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">lm32_instruction_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">i_adr_o_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">lm32_instruction_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">i_cti_o_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">lm32_instruction_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">d_cti_o_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">lm32_load_store_unit</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface0_bank_bus_dat_r_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface0_bank_bus_dat_r_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface0_bank_bus_dat_r_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface0_bank_bus_dat_r_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface0_bank_bus_dat_r_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface0_bank_bus_dat_r_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface4_bank_bus_dat_r_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface4_bank_bus_dat_r_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface4_bank_bus_dat_r_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">basesoc_interface4_bank_bus_dat_r_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">half_rate_phy_record0_address_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">half_rate_phy_record1_address_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ddram_a_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">phy_phase_accumulator_tx_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">phy_phase_accumulator_tx_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">phy_phase_accumulator_rx_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">phy_phase_accumulator_rx_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">half_rate_phy_record2_wrdata_mask_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;half_rate_phy_record2_wrdata_mask_1&gt; &lt;half_rate_phy_record2_wrdata_mask_2&gt; &lt;half_rate_phy_record2_wrdata_mask_3&gt; &lt;half_rate_phy_record3_wrdata_mask_0&gt; &lt;half_rate_phy_record3_wrdata_mask_1&gt; &lt;half_rate_phy_record3_wrdata_mask_2&gt; &lt;half_rate_phy_record3_wrdata_mask_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">i_cti_o_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">lm32_instruction_unit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;i_cti_o_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">d_cti_o_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">lm32_load_store_unit</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;d_cti_o_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/bus_error_x</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">lm32_cpu/instruction_unit/i_cti_o_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/d_cti_o_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/d_adr_o_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/d_adr_o_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/refill_address_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/refill_address_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/refill_address_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/refill_address_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">half_rate_phy_bitslip_inc</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sdram_dfi_p1_rddata_en</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">half_rate_phy_bitslip_cnt_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">half_rate_phy_bitslip_cnt_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">half_rate_phy_bitslip_cnt_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">half_rate_phy_bitslip_cnt_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">spiflash_clk</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;opsis_i2c_samp_count_0&gt; &lt;sdram_bandwidth_counter_0&gt; &lt;spiflash_i1_1&gt; &lt;lm32_cpu/cc_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">opsis_i2c_samp_count_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;sdram_bandwidth_counter_1&gt; &lt;lm32_cpu/cc_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/memories[0].way_0_tag_ram/ra_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/ra_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/memories[0].way_0_tag_ram/ra_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/ra_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/memories[0].way_0_tag_ram/ra_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/ra_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/memories[0].way_0_tag_ram/ra_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/ra_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/memories[0].way_0_tag_ram/ra_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/ra_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/memories[0].way_0_tag_ram/ra_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/ra_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/memories[0].way_0_tag_ram/ra_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/ra_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/dcache/memories[0].way_0_tag_ram/ra_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/ra_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sdram_bandwidth_counter_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/cc_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/direction_x</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/logic_op_x_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/condition_x_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/logic_op_x_0&gt; &lt;lm32_cpu/size_x_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/condition_x_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/logic_op_x_1&gt; &lt;lm32_cpu/size_x_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/condition_x_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/logic_op_x_2&gt; &lt;lm32_cpu/sign_extend_x&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/ra_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/ra_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">opsis_i2c_samp_carry</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;sdram_bandwidth_period&gt; &lt;spiflash_i1_0&gt; &lt;lm32_cpu/cc_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/load_store_unit/d_cyc_o</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/load_store_unit/d_stb_o&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/load_x</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/w_result_sel_load_x&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lm32_cpu/direction_x</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;lm32_cpu/m_result_sel_compare_x_BRB0&gt; &lt;lm32_cpu/m_bypass_enable_x_BRB5&gt; </arg>
+</msg>
+
+</messages>
+
