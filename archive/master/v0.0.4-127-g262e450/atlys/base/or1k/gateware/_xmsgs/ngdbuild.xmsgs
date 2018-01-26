@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDclk100</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TSclk100</arg>&apos;, was traced into <arg fmt="%s" index="4">BUFIO2</arg> instance <arg fmt="%s" index="5">BUFIO2</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">BUFIO2</arg> output(s): 
+<arg fmt="%s" index="7">DIVCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_clk100b = PERIOD &quot;crg_clk100b&quot; TSclk100 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDclk100</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TSclk100</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_CLKGEN</arg> instance <arg fmt="%s" index="5">crg_periph_dcm_clkgen</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_CLKGEN</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_base50_clk = PERIOD &quot;base50_clk&quot; TSclk100 / 0.5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">crg_clk100b</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_crg_clk100b</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">crg_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT3</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_unbuf_sdram_half_b = PERIOD &quot;crg_unbuf_sdram_half_b&quot; TS_crg_clk100b / 1.5 PHASE 4.62962963 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">crg_clk100b</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_crg_clk100b</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">crg_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_unbuf_encoder = PERIOD &quot;crg_unbuf_encoder&quot; TS_crg_clk100b / 0.666666667 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">crg_clk100b</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_crg_clk100b</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">crg_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT5</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_unbuf_sys = PERIOD &quot;crg_unbuf_sys&quot; TS_crg_clk100b / 0.75 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">crg_clk100b</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_crg_clk100b</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">crg_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_unbuf_sdram_full = PERIOD &quot;crg_unbuf_sdram_full&quot; TS_crg_clk100b / 3 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">crg_clk100b</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_crg_clk100b</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">crg_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_unbuf_sdram_half_a = PERIOD &quot;crg_unbuf_sdram_half_a&quot; TS_crg_clk100b / 1.5 PHASE 5 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1345" delta="new" >The constraint <arg fmt="%s" index="1">&lt;TIMESPEC &quot;TSclk100&quot; = PERIOD &quot;PRDclk100&quot; 10.0 ns HIGH 50%;&gt; [top.ucf(71)]</arg> is overridden by the constraint <arg fmt="%s" index="2">&lt;TIMESPEC &quot;TSclk100&quot; = PERIOD &quot;PRDclk100&quot; 10.0 ns HIGH 50%;&gt; [top.ucf(76)]</arg>. The overriden constraint usually comes from the input netlist or ncf files. Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an error.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="new" >FF primitive &apos;<arg fmt="%s" index="1">FDPE_5</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="new" >FF primitive &apos;<arg fmt="%s" index="1">FDPE_7</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+
