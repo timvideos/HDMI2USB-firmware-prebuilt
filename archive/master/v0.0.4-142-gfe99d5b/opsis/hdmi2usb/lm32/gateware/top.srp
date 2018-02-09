@@ -13244,8 +13244,8 @@ hdmi_out0_driver_clocking_clk_pix_unbuffered|    7.986|         |         |     
 =========================================================================
 
 
-Total REAL time to Xst completion: 311.00 secs
-Total CPU time to Xst completion: 307.55 secs
+Total REAL time to Xst completion: 304.00 secs
+Total CPU time to Xst completion: 296.57 secs
  
 --> 
 

@@ -2,7 +2,7 @@ Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 travis-job-timvideos-hdmi2usb-litex-339340223.travisci.net::  Fri Feb 09
-09:37:29 2018
+22:52:23 2018
 
 par -ol high -w top_map.ncd top.ncd top.pcf 
 
@@ -126,8 +126,8 @@ WARNING:Timing:3159 - The DCM, crg_periph_dcm_clkgen, has the attribute DFS_OSCI
    constrained using FROM/TO constraints.
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 33 secs 
-Finished initial Timing Analysis.  REAL time: 34 secs 
+Starting initial Timing Analysis.  REAL time: 41 secs 
+Finished initial Timing Analysis.  REAL time: 42 secs 
 
 WARNING:Par:288 - The signal hdmi_out0_hpd_notif_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal fx2_flaga_IBUF has no load.  PAR will not attempt to route this signal.
@@ -145,29 +145,29 @@ WARNING:Par:288 - The signal fx2_data<15>_IBUF has no load.  PAR will not attemp
 Starting Router
 
 
-Phase  1  : 106031 unrouted;      REAL time: 36 secs 
+Phase  1  : 106031 unrouted;      REAL time: 44 secs 
 
-Phase  2  : 88355 unrouted;      REAL time: 43 secs 
+Phase  2  : 88355 unrouted;      REAL time: 50 secs 
 
-Phase  3  : 42520 unrouted;      REAL time: 1 mins 40 secs 
+Phase  3  : 42520 unrouted;      REAL time: 1 mins 44 secs 
 
-Phase  4  : 42520 unrouted; (Setup:0, Hold:13189, Component Switching Limit:0)     REAL time: 1 mins 47 secs 
+Phase  4  : 42520 unrouted; (Setup:0, Hold:13189, Component Switching Limit:0)     REAL time: 1 mins 51 secs 
 
 Updating file: top.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:12475, Component Switching Limit:0)     REAL time: 3 mins 54 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:12475, Component Switching Limit:0)     REAL time: 3 mins 56 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:12475, Component Switching Limit:0)     REAL time: 3 mins 54 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:12475, Component Switching Limit:0)     REAL time: 3 mins 56 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:12475, Component Switching Limit:0)     REAL time: 3 mins 54 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:12475, Component Switching Limit:0)     REAL time: 3 mins 56 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:12475, Component Switching Limit:0)     REAL time: 3 mins 54 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:12475, Component Switching Limit:0)     REAL time: 3 mins 56 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 mins 56 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 mins 59 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 6 secs 
-Total REAL time to Router completion: 4 mins 6 secs 
-Total CPU time to Router completion: 4 mins 17 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 12 secs 
+Total REAL time to Router completion: 4 mins 12 secs 
+Total CPU time to Router completion: 4 mins 23 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -504,8 +504,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 13 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 4 mins 15 secs 
-Total CPU time to PAR completion: 4 mins 27 secs 
+Total REAL time to PAR completion: 4 mins 23 secs 
+Total CPU time to PAR completion: 4 mins 34 secs 
 
 Peak Memory Usage:  1122 MB
 
