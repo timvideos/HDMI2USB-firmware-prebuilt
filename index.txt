@@ -1,8 +1,8 @@
 13d2e05169888208542bbf712913f25b497df90e9217c94b579d59a0cb892616  ./README.md
-e1c2beb260c59bc63a1407df437213443afd3d9e59df68189506581f3392945e  ./arty/base/lm32/channels.txt
+87721bb749d1de88cb689b121c67df4da1c3e81d11352080ddc31fe9c477dfdf  ./arty/base/lm32/channels.txt
 2dbc5895e559bf1f9c341865d65f0973e7f5ee23122fc7cde62ed4ce342ed117  ./arty/base/lm32/stable.sha256sum
 dcd4734291477db9da26063d09b20af67fa7d29b52ebb8bed2a0116c8d45a175  ./arty/base/lm32/testing.sha256sum
-ba941e484356750a4048b1f9e1c593621ba08cb2e0947b7b479449efcd89db69  ./arty/base/lm32/unstable.sha256sum
+6aeb200d0f44a67680ae7fb134a33f1f67a006e90b37fcb0f2fda9e42f562ded  ./arty/base/lm32/unstable.sha256sum
 c83b6b6cc0d091c5ec31b367c8536dc7732d086300ca446d353305ab5ae748e2  ./arty/base/or1k/channels.txt
 a9d39880231e32223b1745994d34c204cf038e96c522ba488b98dba56e9b9fa3  ./arty/base/or1k/stable.sha256sum
 6661fa201d8867040e7baf434ff05cad5a2bfa3b4d5293fa1ff5dbe0f98c8b56  ./arty/base/or1k/testing.sha256sum
