@@ -1,0 +1,3 @@
+stable v0.0.3-1045-gccb30b9 https://github.com/mithro/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.3-1045-gccb30b9/atlys/net/lm32/
+testing v0.0.4-44-g0cd842f https://github.com/mithro/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-44-g0cd842f/atlys/net/lm32/
+unstable v0.0.4-140-g6f75670 https://github.com/mithro/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-140-g6f75670/atlys/net/lm32/
