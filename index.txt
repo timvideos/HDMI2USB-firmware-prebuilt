@@ -34,10 +34,10 @@ eeab9216fe21c305cee10adb6803fd03ec626df7bd1155382575ae5850a022a5  ./atlys/net/lm
 2e9ad284cd6e4dcc22fd58b304b1fc90c105b5ffdb153d78e27d8c2735a7c02d  ./atlys/net/or1k/stable.sha256sum
 70be2c1e6c0af6b886aa0f25a4fdd78b598ffe487733841627e52c82ef19fc8e  ./atlys/net/or1k/testing.sha256sum
 cba57b5c5b74237e64602f3982107eea1097861d67e9b1164eeddf769e91414a  ./atlys/net/or1k/unstable.sha256sum
-40902b6384ecab856b10f74bb45a75b29dfaa336e341de5118b8341cd5d921ce  ./mimasv2/base/lm32/channels.txt
-dde95f9480d32da848ebb73b867d0f18c18c9d2ddd889006f0b3ceee81af91c6  ./mimasv2/base/lm32/stable.sha256sum
-be328d3225f546205e477211f06eaaf46d07b30625b691076323f9cb4c93d669  ./mimasv2/base/lm32/testing.sha256sum
-cc21e9601a55dce29ebba4768887fed73956d77ab28b6a4f5969c4d9d9b628f3  ./mimasv2/base/lm32/unstable.sha256sum
+b95a5f162aeecf42e1ab8860b1c4638566ceb3874c51ee00c4c76eeb64608435  ./mimasv2/base/lm32/channels.txt
+44368af1c6a39f6aa3892126f1ee3b12a9db5f06151d6e0bbfcea02db27fcc1a  ./mimasv2/base/lm32/stable.sha256sum
+ddf9c0b5723871e0728c63709fa43522a88d62004bd75da4e69d61710e014c27  ./mimasv2/base/lm32/testing.sha256sum
+16eeae6a5ac9fa4561e15c07201a4b35ee46d46dccb2dd52d31744997f584663  ./mimasv2/base/lm32/unstable.sha256sum
 bd1008ac3ab8bbda5e4d1508914845340417ed232681c1c2d4260135a4cb0fe0  ./mimasv2/base/or1k/channels.txt
 699ce02d74183cc38ec696029eabde0400b0dfbf4c2ed968a7a2c8a72332ce3b  ./mimasv2/base/or1k/stable.sha256sum
 d070178ea963bad8dc3ad9b079896f78895e31cf7494901dd2f1d0ac7847c4ef  ./mimasv2/base/or1k/testing.sha256sum
@@ -92,4 +92,4 @@ ff8359465272f6d404c02252ae82c82dac391f20c65fd2c4df9a4c70c0c605e5  ./pipistrello/
 c128470c72b21bbdedbb9a068cf20b5f8930e283e5b890ee186f5ddfa6423985  ./pipistrello/base/or1k/channels.txt
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 9dfbab9bd68c26f18afb7366d8d0d9a45992497cc2feaf87cda70fe7f6aad6d7  ./pipistrello/base/or1k/unstable.sha256sum
-d0f1301004bea69e74dd84b14825a7cd24ae6138d46e7d433bc3627de8398b07  ./revs.txt
+966f71f124a7241c70535dffb6a0a4ee1618c28efb8701bcb85328dfc028309b  ./revs.txt
