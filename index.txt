@@ -93,10 +93,10 @@ a4bc47549c23dfceb52eb43f1f0ba9406cae847cdcfe7527d1d2600dcc7190f8  ./opsis/net/lm
 88bfef396a300b116bc2547bfb287a110a9f39eb14b0d8b8a779908641cae3af  ./opsis/net/or1k/stable.sha256sum
 b001f123d08655920595aa2f01b2727c74e7d1b7b1b08386100ca130adc13b14  ./opsis/net/or1k/testing.sha256sum
 c3b6bd554533a8a0f6f89cfcbb35bf157756c4eda5357a86e14c2a9940c9763a  ./opsis/net/or1k/unstable.sha256sum
-eab51dcee1fc964d26591bf47a0deef704872eea17f9a06144ed1bc940a357f2  ./opsis/video/lm32/channels.txt
+764adc48f1431926f4afc7b2b6424b9f8f38dc66a4866382814c53f3fe3f8269  ./opsis/video/lm32/channels.txt
 8c5e779c5d576dd6adef471e368b960aeb2eb8f148f8ff3acad4bbce70c1f4d9  ./opsis/video/lm32/stable.sha256sum
 cc0ba4bd45ec3107ceb286795820f3b8b12aab130d92db6ab69aa1ac73c4215a  ./opsis/video/lm32/testing.sha256sum
-518d30532bc049bacde395c7ab0895fd0f929efec1e0686bbbbf74a679935cc6  ./opsis/video/lm32/unstable.sha256sum
+e3c109401ae67c66ed9ffd50e7dbcc34f4f7aed2e4003abf75d1cb8983bfdb90  ./opsis/video/lm32/unstable.sha256sum
 531bbb1c82756b6e3d474edb899ddd92de865cb8e982004c865187b85689ec1b  ./pipistrello/base/lm32/channels.txt
 46a59d7e9a1af1a74419f6db2666fc224aedf397f814f520dacb88750bebdba3  ./pipistrello/base/lm32/testing.sha256sum
 0539a54db252d5f40b8ff53a9c0ad8fbaf3461480b2fe236c0d0342da125d228  ./pipistrello/base/lm32/unstable.sha256sum
