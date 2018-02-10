@@ -1,3 +1,3 @@
 stable v0.0.3-1045-gccb30b9 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.3-1045-gccb30b9/netv2/video/lm32/
 testing v0.0.4-44-g0cd842f https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-44-g0cd842f/netv2/video/lm32/
-unstable v0.0.4-138-gefd401a https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-138-gefd401a/netv2/video/lm32/
+unstable v0.0.4-142-gfe99d5b https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-142-gfe99d5b/netv2/video/lm32/
