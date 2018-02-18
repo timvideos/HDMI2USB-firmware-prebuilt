@@ -100,7 +100,7 @@ cc0ba4bd45ec3107ceb286795820f3b8b12aab130d92db6ab69aa1ac73c4215a  ./opsis/video/
 2429534773af7788c83bda1d480d06578e098f4b4e2e025a1b9110710c4097e2  ./pipistrello/base/lm32/channels.txt
 46a59d7e9a1af1a74419f6db2666fc224aedf397f814f520dacb88750bebdba3  ./pipistrello/base/lm32/testing.sha256sum
 deb24f6aa00a807f2f678b19cdb8234cfc930eafbfa0d243b0e61640e995bd13  ./pipistrello/base/lm32/unstable.sha256sum
-87c8c04d0de7df28e7e252a2d4be751befa179797582ff98067f4ea57db87c7e  ./pipistrello/base/or1k/channels.txt
+347ef35ef2b8a7abcb90cf715f421000fccd960d0406eae3d0aeb266bef561a8  ./pipistrello/base/or1k/channels.txt
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
-7bc40cae8d1552f244abd8cbf0718a6cfe45a254b855723c936202216f847eb4  ./pipistrello/base/or1k/unstable.sha256sum
+94c830f5af9f895604dfe842f7cf0dfd553d956f0b4569ae0769aa0fd58e2709  ./pipistrello/base/or1k/unstable.sha256sum
 1e77af87e0caea6e7301c21fa03dce306b3c61967eca37b6beb6a86b5b3f99c2  ./revs.txt
