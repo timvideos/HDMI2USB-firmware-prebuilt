@@ -49,10 +49,10 @@ ae2f25b45302751603f61d2180738f78020fb2a21fbb804b52387ab6f9e556a8  ./mimasv2/base
 699ce02d74183cc38ec696029eabde0400b0dfbf4c2ed968a7a2c8a72332ce3b  ./mimasv2/base/or1k/stable.sha256sum
 d070178ea963bad8dc3ad9b079896f78895e31cf7494901dd2f1d0ac7847c4ef  ./mimasv2/base/or1k/testing.sha256sum
 34bfdee0f4848c85706a94de1a81617ac75a5ba4ed61e1997de8afbe167c1f2b  ./mimasv2/base/or1k/unstable.sha256sum
-261bc7c13523c0df64f494cfd672955c0f4a9173cf3d8c415502e1c9648901c3  ./minispartan6/base/lm32/channels.txt
+c6537e0ea335b5f90fe55622ba19fc0dc1471028af2d178080cdee99ffa6d162  ./minispartan6/base/lm32/channels.txt
 bae74e6b6a657f49cd45959796f56c8abaaf0bd4dd0b2867d50adb9d6ab5ca48  ./minispartan6/base/lm32/stable.sha256sum
 ada3106fc88558a3d2906ae72083cc930e88e3dba87a801026d7b8a5dfa670aa  ./minispartan6/base/lm32/testing.sha256sum
-c596aace5795f93f7812ff900161f899717c119a120f7052d013bbcb7222930e  ./minispartan6/base/lm32/unstable.sha256sum
+31c1d5f4c7b83ef66d3dd7cb8bbfafed44fc124429ba44c6301adf5bf3ac6a56  ./minispartan6/base/lm32/unstable.sha256sum
 f5587a5ba2bbf4f09ecf735ab9cdba63b2f3d3ed166cd578f4baf636b457669f  ./netv2/base/lm32/channels.txt
 d65cbe064bd2d9d1a21101a076c3936062a0a025d921d67ddb8ada1bbf57d03f  ./netv2/base/lm32/stable.sha256sum
 e0ab5c4bb588033806b365a35bf6b41d1b1c560a651826be9396db3d5bd8dd19  ./netv2/base/lm32/testing.sha256sum
@@ -103,4 +103,4 @@ deb24f6aa00a807f2f678b19cdb8234cfc930eafbfa0d243b0e61640e995bd13  ./pipistrello/
 347ef35ef2b8a7abcb90cf715f421000fccd960d0406eae3d0aeb266bef561a8  ./pipistrello/base/or1k/channels.txt
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 94c830f5af9f895604dfe842f7cf0dfd553d956f0b4569ae0769aa0fd58e2709  ./pipistrello/base/or1k/unstable.sha256sum
-1e77af87e0caea6e7301c21fa03dce306b3c61967eca37b6beb6a86b5b3f99c2  ./revs.txt
+71a02deb8739d9c094add322f51c1cc89db68524358f6c63fd7a5c8a05b3a328  ./revs.txt
