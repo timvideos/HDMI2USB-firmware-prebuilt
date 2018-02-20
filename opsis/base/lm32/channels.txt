@@ -1,3 +1,3 @@
 stable v0.0.3-1045-gccb30b9 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.3-1045-gccb30b9/opsis/base/lm32/
 testing v0.0.4-44-g0cd842f https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-44-g0cd842f/opsis/base/lm32/
-unstable v0.0.4-148-g8810a57 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-148-g8810a57/opsis/base/lm32/
+unstable v0.0.4-157-ga112978 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-157-ga112978/opsis/base/lm32/
