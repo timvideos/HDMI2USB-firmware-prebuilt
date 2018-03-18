@@ -1,3 +1,1 @@
-stable v0.0.3-1045-gccb30b9 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.3-1045-gccb30b9/nexys_video/base/lm32/
-testing v0.0.4-44-g0cd842f https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-44-g0cd842f/nexys_video/base/lm32/
-unstable v0.0.4-157-ga112978 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-157-ga112978/nexys_video/base/lm32/
+unstable v0.0.4-190-gcacbf40 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-190-gcacbf40/nexys_video/base/lm32/
