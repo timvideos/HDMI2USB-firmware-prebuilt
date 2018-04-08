@@ -1,3 +1,1 @@
-stable v0.0.3-1045-gccb30b9 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.3-1045-gccb30b9/atlys/net/or1k/
-testing v0.0.4-122-gbc7feb5 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-122-gbc7feb5/atlys/net/or1k/
-unstable v0.0.4-192-g7a70488 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-192-g7a70488/atlys/net/or1k/
+unstable v0.0.4-197-gdaf33bc https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-197-gdaf33bc/atlys/net/or1k/
