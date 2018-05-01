@@ -1,1 +1,1 @@
-unstable v0.0.4-201-g6a0235a https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-201-g6a0235a/nexys_video/net/lm32/
+unstable v0.0.4-203-g5f07955 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-203-g5f07955/nexys_video/net/lm32/
