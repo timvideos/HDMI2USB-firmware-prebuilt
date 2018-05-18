@@ -105,3 +105,5 @@ d9ffd936198adcbbec4836fc3cb01570f0d1f3ad0c0863407328f83ced6e5b01  ./pipistrello/
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 91a9c78fe56e176fe5a66b4e198f9d23fe390729c91c1950fc943dd0a9065d49  ./pipistrello/base/or1k/unstable.sha256sum
 6e6e161ee04b40a448c12f50110b7f466a1391035f4bd2deabe4acde7b9de865  ./revs.txt
+fc9f81cc725b1f46b13b5207877d15e4b2003d6a92decc763e78b20e78bb1e02  ./saturn/base/lm32/channels.txt
+429b0687d13a740ef66f04d16542c97f3470df489436a33feef4a1daa2844b09  ./saturn/base/lm32/unstable.sha256sum
