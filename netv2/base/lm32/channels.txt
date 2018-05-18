@@ -1,1 +1,1 @@
-unstable v0.0.4-203-g5f07955 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-203-g5f07955/netv2/base/lm32/
+unstable v0.0.4-235-g632391d https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-235-g632391d/netv2/base/lm32/
