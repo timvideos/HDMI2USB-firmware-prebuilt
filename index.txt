@@ -22,10 +22,10 @@ f18401c48734312126b952a171f8d3d96a053e1cea894b5947a4ed41f24ac36b  ./arty/net/or1
 4ddaa0ad59768ffc91e7b413977eec13924d6fd64af0d1ae9e3b028758722ed8  ./atlys/base/lm32/stable.sha256sum
 696b4c5f0484141cbacf8c782a9879b7e5e5b3e940bd3aa916d8d3a8de4d7b42  ./atlys/base/lm32/testing.sha256sum
 fb30fed4a5ee2c8708734a11d0868e37ebc89f47d036a02c9a310a1d0ae31988  ./atlys/base/lm32/unstable.sha256sum
-878e14fd8376c0837eba0b47a27f8a7091ca3b8389b05ce74a54ced7a546ac76  ./atlys/base/or1k/channels.txt
+e94ae9f54aae7386180d80ff07756fd2f41b33c972513a8b5a626d2b74ef394b  ./atlys/base/or1k/channels.txt
 043ed8e24d0bb06cab7ebd7529ad509a58a0fc51a6543a0a70ce6797eee5033e  ./atlys/base/or1k/stable.sha256sum
 aafdab224509f0d854f8c114885c2de76c2b445574caecc997d2de8cba1f8948  ./atlys/base/or1k/testing.sha256sum
-98d251697c0a94da80ccc1d0ef9a6fe2ea153e6f7e4f315066d7db02eed23f15  ./atlys/base/or1k/unstable.sha256sum
+4530d7200d159e23ab8113ad79ff9d03519af436be7a43b2b5ca6da3b5439d8d  ./atlys/base/or1k/unstable.sha256sum
 f6f8af1c4d32fda0b4fde506186700503a34093a365135003d914ae34aa83f8b  ./atlys/hdmi2usb/lm32/channels.txt
 8067b059ddfa3be41b2976a9390f54fc26df8fc7c0f5a207cf59f77289b60825  ./atlys/hdmi2usb/lm32/stable.sha256sum
 538490daf742bf417578cd14e4bbd0909ff701f3c5ae45d299619cf98345441b  ./atlys/hdmi2usb/lm32/testing.sha256sum
