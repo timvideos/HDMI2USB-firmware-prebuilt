@@ -1,1 +1,1 @@
-unstable v0.0.4-243-g72bbff8 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-243-g72bbff8/mimasv2/base/or1k/
+unstable v0.0.4-245-g202fd35 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-245-g202fd35/mimasv2/base/or1k/
