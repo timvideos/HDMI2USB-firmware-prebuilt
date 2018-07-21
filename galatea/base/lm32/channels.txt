@@ -1,1 +1,1 @@
-unstable v0.0.4-245-g202fd35 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-245-g202fd35/galatea/base/lm32/
+unstable v0.0.4-248-g1dd89e6 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-248-g1dd89e6/galatea/base/lm32/
