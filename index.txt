@@ -76,10 +76,10 @@ c76c1023866d1fc0a152e4e95756bba27aa8396e91e0d826541ab1cb641ed1b5  ./nexys_video/
 0b24a89e390d2327ba862148a2ab2f64266f9c911eb9f0a565a5e684b1a2fd25  ./nexys_video/video/lm32/stable.sha256sum
 04254e4147226fcca8bc9217e8d4709bf07839b7090c4fac64d098f71ff4dd40  ./nexys_video/video/lm32/testing.sha256sum
 78d82ad836a3afa511788fbeb6bbdf89f0aebbe0cb3ac7b4cdddc758af66a344  ./nexys_video/video/lm32/unstable.sha256sum
-d8d2b2b18cef8d13a4ea998d23208be39715ba6d9a5aa5525905f140c2328425  ./opsis/base/lm32/channels.txt
+edb159c5c014c061f8aca89d5ed8155b6b2736fa3cfdaf7e31e33943a4aa36a4  ./opsis/base/lm32/channels.txt
 ae9c4354d398df8cb688c438c52a93e9377738fb094bdadd40abc72443bcce6a  ./opsis/base/lm32/stable.sha256sum
 a15b321a7fe62bb5a631280d1b5c3a4f32bc8ab2a461e6993a7ed7a5caed6112  ./opsis/base/lm32/testing.sha256sum
-5dc1105d7014f942d7c256e420b50aad75fef9146d9801530dfd0e272beb536a  ./opsis/base/lm32/unstable.sha256sum
+1d175febb40027dce8448cd2d5b54c620a3dd66af2a6009e6e10429dbecd2274  ./opsis/base/lm32/unstable.sha256sum
 639169ad62cc83979c531999b5cd15633369e65199e76865d0ad8f383dcb14ad  ./opsis/base/or1k/channels.txt
 6fa94b111272e3c695ce95c60302e13e83b219f51396176fc92f68caf317ff57  ./opsis/base/or1k/stable.sha256sum
 883dd3d8b80801d22c13b0bc2c918668fbc7497b93739214741a00d5e02c9d9b  ./opsis/base/or1k/testing.sha256sum
