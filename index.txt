@@ -109,5 +109,5 @@ a8fa1efd4487ce6195f92a02a123f51b3eba67b8cb1c42e5531cf2540b264b19  ./pipistrello/
 f5f0cddca2cf72b498469b2f296895f746630573444d3e6cb6a63585404957cc  ./revs.txt
 e0cb0a66222eb34804d97cd73da5d506ddf764876677eb328d23001c9dbd1db3  ./saturn/base/lm32/channels.txt
 874267f26e2644412233fe0a6591ea0b9860b515b9b23a27f7cf11999069239a  ./saturn/base/lm32/unstable.sha256sum
-36a8245d1553d248991583bc0a83656110b3ca20dcb39be1b7b45a4a4eb0af9e  ./waxwing/base/lm32/channels.txt
-303b6c38bdf169f4aba8a1b33411952748df8122138a3f77a762a16c5b19823e  ./waxwing/base/lm32/unstable.sha256sum
+ee4e32b51a5b43781efecae2c5afc5c0236bba13f6a7c7dac53c56ec0a05fc10  ./waxwing/base/lm32/channels.txt
+5e7c89b92b64d31e933ebb4ea9baf78466f373ec2cc483f7de637c955c4f3842  ./waxwing/base/lm32/unstable.sha256sum
