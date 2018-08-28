@@ -92,10 +92,10 @@ e019f75ae0c8583348c2d17d4f6a78595a5ffc2b67fa745fd5b5b0c8bd720762  ./opsis/net/lm
 f0920a15f6fd3174a17170c4f115b1e625aec62a88c1df6a1093816f556ed22e  ./opsis/net/lm32/stable.sha256sum
 9bb903369d50b548424dcd3b7fcfd47328c0d6403ed389abb9a431a68be44f39  ./opsis/net/lm32/testing.sha256sum
 8881de6fba1a85cd926c99c5d2c1a1ca746742d69104fd51d198aac481c33003  ./opsis/net/lm32/unstable.sha256sum
-1705c5e6e788c4e5589d2b303883b0af04db8a6e53b3f089327ecc8f2aacbc1e  ./opsis/net/or1k/channels.txt
+8aa761146565271e3aba7869fa24012381eeb5a9c464827069721fc56a35a4da  ./opsis/net/or1k/channels.txt
 88bfef396a300b116bc2547bfb287a110a9f39eb14b0d8b8a779908641cae3af  ./opsis/net/or1k/stable.sha256sum
 b001f123d08655920595aa2f01b2727c74e7d1b7b1b08386100ca130adc13b14  ./opsis/net/or1k/testing.sha256sum
-fa38c9286eb8bf637653acb9af65f41ffe04e9546c0a5cf873d5b6b5213493e6  ./opsis/net/or1k/unstable.sha256sum
+3d641459a33a5805680ec0fc107a5b5eeffdad4a86b4625a1e9501552e00fc33  ./opsis/net/or1k/unstable.sha256sum
 e0cf5056b5c758320eec4c34f86b3e15fe6f08fd7a0702c1c723d86aabbd45e8  ./opsis/video/lm32/channels.txt
 8c5e779c5d576dd6adef471e368b960aeb2eb8f148f8ff3acad4bbce70c1f4d9  ./opsis/video/lm32/stable.sha256sum
 cc0ba4bd45ec3107ceb286795820f3b8b12aab130d92db6ab69aa1ac73c4215a  ./opsis/video/lm32/testing.sha256sum
