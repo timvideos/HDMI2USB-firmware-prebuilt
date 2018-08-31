@@ -1,0 +1,51 @@
+NET "serial_tx" LOC=L18 | IOSTANDARD=LVTTL; # serial:0.tx
+NET "serial_rx" LOC=L17 | IOSTANDARD=LVTTL | PULLUP; # serial:0.rx
+NET "serial_cts" LOC=M16 | IOSTANDARD=LVTTL | PULLUP; # serial:0.cts
+NET "serial_rts" LOC=M18 | IOSTANDARD=LVTTL | PULLUP; # serial:0.rts
+NET "clk100" LOC=V10 | IOSTANDARD=LVTTL; # clk100:0
+NET "reset" LOC=K12; # reset:0
+NET "ddram_clock_p" LOC=G3 | IOSTANDARD=MOBILE_DDR; # ddram_clock:0.p
+NET "ddram_clock_n" LOC=G1 | IOSTANDARD=MOBILE_DDR; # ddram_clock:0.n
+NET "ddram_a(0)" LOC=J7 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(1)" LOC=J6 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(2)" LOC=H5 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(3)" LOC=L7 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(4)" LOC=F3 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(5)" LOC=H4 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(6)" LOC=H3 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(7)" LOC=H6 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(8)" LOC=D2 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(9)" LOC=D1 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(10)" LOC=F4 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(11)" LOC=D3 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_a(12)" LOC=G6 | IOSTANDARD=MOBILE_DDR; # ddram:0.a
+NET "ddram_ba(0)" LOC=F2 | IOSTANDARD=MOBILE_DDR; # ddram:0.ba
+NET "ddram_ba(1)" LOC=F1 | IOSTANDARD=MOBILE_DDR; # ddram:0.ba
+NET "ddram_cke" LOC=H7 | IOSTANDARD=MOBILE_DDR; # ddram:0.cke
+NET "ddram_ras_n" LOC=L5 | IOSTANDARD=MOBILE_DDR; # ddram:0.ras_n
+NET "ddram_cas_n" LOC=K5 | IOSTANDARD=MOBILE_DDR; # ddram:0.cas_n
+NET "ddram_we_n" LOC=E3 | IOSTANDARD=MOBILE_DDR; # ddram:0.we_n
+NET "ddram_dq(0)" LOC=L2 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(1)" LOC=L1 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(2)" LOC=K2 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(3)" LOC=K1 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(4)" LOC=H2 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(5)" LOC=H1 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(6)" LOC=J3 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(7)" LOC=J1 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(8)" LOC=M3 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(9)" LOC=M1 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(10)" LOC=N2 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(11)" LOC=N1 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(12)" LOC=T2 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(13)" LOC=T1 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(14)" LOC=U2 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dq(15)" LOC=U1 | IOSTANDARD=MOBILE_DDR; # ddram:0.dq
+NET "ddram_dqs(0)" LOC=L4 | IOSTANDARD=MOBILE_DDR; # ddram:0.dqs
+NET "ddram_dqs(1)" LOC=P2 | IOSTANDARD=MOBILE_DDR; # ddram:0.dqs
+NET "ddram_dm(0)" LOC=K3 | IOSTANDARD=MOBILE_DDR; # ddram:0.dm
+NET "ddram_dm(1)" LOC=K4 | IOSTANDARD=MOBILE_DDR; # ddram:0.dm
+
+
+NET "clk100" TNM_NET = "PRDclk100";
+TIMESPEC "TSclk100" = PERIOD "PRDclk100" 10.0 ns HIGH 50%;
