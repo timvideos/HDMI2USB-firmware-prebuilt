@@ -1,0 +1,171 @@
+NET "serial_rx" LOC=A16 | IOSTANDARD=LVCMOS33; # serial:0.rx
+NET "serial_tx" LOC=B16 | IOSTANDARD=LVCMOS33; # serial:0.tx
+NET "clk100" LOC=L15 | IOSTANDARD=LVCMOS33; # clk100:0
+NET "cpu_reset" LOC=T15 | IOSTANDARD=LVCMOS33; # cpu_reset:0
+NET "ddram_clock_p" LOC=G3 | IOSTANDARD=DIFF_SSTL18_II | IN_TERM=NONE; # ddram_clock:0.p
+NET "ddram_clock_n" LOC=G1 | IOSTANDARD=DIFF_SSTL18_II | IN_TERM=NONE; # ddram_clock:0.n
+NET "spiflash4x_cs_n" LOC=V3 | IOSTANDARD=LVCMOS33 | SLEW=FAST; # spiflash4x:0.cs_n
+NET "spiflash4x_clk" LOC=R15 | IOSTANDARD=LVCMOS33 | SLEW=FAST; # spiflash4x:0.clk
+NET "spiflash4x_dq(0)" LOC=T13 | IOSTANDARD=LVCMOS33 | SLEW=FAST; # spiflash4x:0.dq
+NET "spiflash4x_dq(1)" LOC=R13 | IOSTANDARD=LVCMOS33 | SLEW=FAST; # spiflash4x:0.dq
+NET "spiflash4x_dq(2)" LOC=T14 | IOSTANDARD=LVCMOS33 | SLEW=FAST; # spiflash4x:0.dq
+NET "spiflash4x_dq(3)" LOC=V14 | IOSTANDARD=LVCMOS33 | SLEW=FAST; # spiflash4x:0.dq
+NET "ddram_cke" LOC=H7 | IOSTANDARD=SSTL18_II; # ddram:0.cke
+NET "ddram_ras_n" LOC=L5 | IOSTANDARD=SSTL18_II; # ddram:0.ras_n
+NET "ddram_cas_n" LOC=K5 | IOSTANDARD=SSTL18_II; # ddram:0.cas_n
+NET "ddram_we_n" LOC=E3 | IOSTANDARD=SSTL18_II; # ddram:0.we_n
+NET "ddram_ba(0)" LOC=F2 | IOSTANDARD=SSTL18_II; # ddram:0.ba
+NET "ddram_ba(1)" LOC=F1 | IOSTANDARD=SSTL18_II; # ddram:0.ba
+NET "ddram_ba(2)" LOC=E1 | IOSTANDARD=SSTL18_II; # ddram:0.ba
+NET "ddram_a(0)" LOC=J7 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(1)" LOC=J6 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(2)" LOC=H5 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(3)" LOC=L7 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(4)" LOC=F3 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(5)" LOC=H4 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(6)" LOC=H3 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(7)" LOC=H6 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(8)" LOC=D2 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(9)" LOC=D1 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(10)" LOC=F4 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(11)" LOC=D3 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_a(12)" LOC=G6 | IOSTANDARD=SSTL18_II; # ddram:0.a
+NET "ddram_dq(0)" LOC=L2 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(1)" LOC=L1 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(2)" LOC=K2 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(3)" LOC=K1 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(4)" LOC=H2 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(5)" LOC=H1 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(6)" LOC=J3 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(7)" LOC=J1 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(8)" LOC=M3 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(9)" LOC=M1 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(10)" LOC=N2 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(11)" LOC=N1 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(12)" LOC=T2 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(13)" LOC=T1 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(14)" LOC=U2 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dq(15)" LOC=U1 | IOSTANDARD=SSTL18_II; # ddram:0.dq
+NET "ddram_dqs(0)" LOC=P2 | IOSTANDARD=DIFF_SSTL18_II; # ddram:0.dqs
+NET "ddram_dqs(1)" LOC=L4 | IOSTANDARD=DIFF_SSTL18_II; # ddram:0.dqs
+NET "ddram_dqs_n(0)" LOC=P1 | IOSTANDARD=DIFF_SSTL18_II; # ddram:0.dqs_n
+NET "ddram_dqs_n(1)" LOC=L3 | IOSTANDARD=DIFF_SSTL18_II; # ddram:0.dqs_n
+NET "ddram_dm(0)" LOC=K4 | IOSTANDARD=SSTL18_II; # ddram:0.dm
+NET "ddram_dm(1)" LOC=K3 | IOSTANDARD=SSTL18_II; # ddram:0.dm
+NET "ddram_odt" LOC=K6 | IOSTANDARD=SSTL18_II; # ddram:0.odt
+NET "hdmi_in0_clk_p" LOC=D11; # hdmi_in:0.clk_p
+NET "hdmi_in0_clk_n" LOC=C11; # hdmi_in:0.clk_n
+NET "hdmi_in0_data0_p" LOC=G9; # hdmi_in:0.data0_p
+NET "hdmi_in0_data0_n" LOC=F9; # hdmi_in:0.data0_n
+NET "hdmi_in0_data1_p" LOC=B11; # hdmi_in:0.data1_p
+NET "hdmi_in0_data1_n" LOC=A11; # hdmi_in:0.data1_n
+NET "hdmi_in0_data2_p" LOC=B12; # hdmi_in:0.data2_p
+NET "hdmi_in0_data2_n" LOC=A12; # hdmi_in:0.data2_n
+NET "hdmi_in0_scl" LOC=C13 | IOSTANDARD=LVCMOS33; # hdmi_in:0.scl
+NET "hdmi_in0_sda" LOC=A13 | IOSTANDARD=LVCMOS33; # hdmi_in:0.sda
+NET "hdmi_in1_clk_p" LOC=H17; # hdmi_in:1.clk_p
+NET "hdmi_in1_clk_n" LOC=H18; # hdmi_in:1.clk_n
+NET "hdmi_in1_data0_p" LOC=K17; # hdmi_in:1.data0_p
+NET "hdmi_in1_data0_n" LOC=K18; # hdmi_in:1.data0_n
+NET "hdmi_in1_data1_p" LOC=L17; # hdmi_in:1.data1_p
+NET "hdmi_in1_data1_n" LOC=L18; # hdmi_in:1.data1_n
+NET "hdmi_in1_data2_p" LOC=J16; # hdmi_in:1.data2_p
+NET "hdmi_in1_data2_n" LOC=J18; # hdmi_in:1.data2_n
+NET "hdmi_in1_scl" LOC=M16 | IOSTANDARD=LVCMOS33; # hdmi_in:1.scl
+NET "hdmi_in1_sda" LOC=M18 | IOSTANDARD=LVCMOS33; # hdmi_in:1.sda
+NET "hdmi_out0_clk_p" LOC=B6 | IOSTANDARD=TMDS_33; # hdmi_out:0.clk_p
+NET "hdmi_out0_clk_n" LOC=A6 | IOSTANDARD=TMDS_33; # hdmi_out:0.clk_n
+NET "hdmi_out0_data0_p" LOC=D8 | IOSTANDARD=TMDS_33; # hdmi_out:0.data0_p
+NET "hdmi_out0_data0_n" LOC=C8 | IOSTANDARD=TMDS_33; # hdmi_out:0.data0_n
+NET "hdmi_out0_data1_p" LOC=C7 | IOSTANDARD=TMDS_33; # hdmi_out:0.data1_p
+NET "hdmi_out0_data1_n" LOC=A7 | IOSTANDARD=TMDS_33; # hdmi_out:0.data1_n
+NET "hdmi_out0_data2_p" LOC=B8 | IOSTANDARD=TMDS_33; # hdmi_out:0.data2_p
+NET "hdmi_out0_data2_n" LOC=A8 | IOSTANDARD=TMDS_33; # hdmi_out:0.data2_n
+NET "hdmi_out0_scl" LOC=D9 | IOSTANDARD=I2C; # hdmi_out:0.scl
+NET "hdmi_out0_sda" LOC=C9 | IOSTANDARD=I2C; # hdmi_out:0.sda
+NET "hdmi_out1_clk_p" LOC=T9 | IOSTANDARD=TMDS_33; # hdmi_out:1.clk_p
+NET "hdmi_out1_clk_n" LOC=V9 | IOSTANDARD=TMDS_33; # hdmi_out:1.clk_n
+NET "hdmi_out1_data0_p" LOC=R3 | IOSTANDARD=TMDS_33; # hdmi_out:1.data0_p
+NET "hdmi_out1_data0_n" LOC=T3 | IOSTANDARD=TMDS_33; # hdmi_out:1.data0_n
+NET "hdmi_out1_data1_p" LOC=T4 | IOSTANDARD=TMDS_33; # hdmi_out:1.data1_p
+NET "hdmi_out1_data1_n" LOC=V4 | IOSTANDARD=TMDS_33; # hdmi_out:1.data1_n
+NET "hdmi_out1_data2_p" LOC=N5 | IOSTANDARD=TMDS_33; # hdmi_out:1.data2_p
+NET "hdmi_out1_data2_n" LOC=P6 | IOSTANDARD=TMDS_33; # hdmi_out:1.data2_n
+
+CONFIG VCCAUX="3.3";
+
+
+NET "base50_clk" TNM_NET = "PRDbase50_clk";
+TIMESPEC "TSbase50_clk" = PERIOD "PRDbase50_clk" 20 ns HIGH 50%;
+
+
+
+NET "sys_clk" TNM_NET = "PRDsys_clk";
+TIMESPEC "TSsys_clk" = PERIOD "PRDsys_clk" 13.333333333333334 ns HIGH 50%;
+
+
+INST crg_pll_adv LOC=PLL_ADV_X0Y0;
+
+PIN "hdmi_out_pix_bufg.O" CLOCK_DEDICATED_ROUTE = FALSE;
+
+PIN "hdmi_out_pix_bufg_1.O" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+NET "hdmi_out0_pix_clk" TNM_NET = "GRPpix0_clk";
+NET "hdmi_out1_pix_clk" TNM_NET = "GRPpix1_clk";
+
+
+
+NET "sys_clk" TNM_NET = "TIGsys_clk";
+NET "hdmi_out0_pix_clk" TNM_NET = "TIGhdmi_out0_pix_clk";
+TIMESPEC "TSsys_clkTOhdmi_out0_pix_clk" = FROM "TIGsys_clk" TO "TIGhdmi_out0_pix_clk" TIG;
+
+
+
+NET "sys_clk" TNM_NET = "TIGsys_clk";
+NET "hdmi_out1_pix_clk" TNM_NET = "TIGhdmi_out1_pix_clk";
+TIMESPEC "TSsys_clkTOhdmi_out1_pix_clk" = FROM "TIGsys_clk" TO "TIGhdmi_out1_pix_clk" TIG;
+
+
+
+NET "hdmi_out0_pix_clk" TNM_NET = "TIGhdmi_out0_pix_clk";
+NET "sys_clk" TNM_NET = "TIGsys_clk";
+TIMESPEC "TShdmi_out0_pix_clkTOsys_clk" = FROM "TIGhdmi_out0_pix_clk" TO "TIGsys_clk" TIG;
+
+
+
+NET "hdmi_out0_pix_clk" TNM_NET = "TIGhdmi_out0_pix_clk";
+NET "hdmi_out1_pix_clk" TNM_NET = "TIGhdmi_out1_pix_clk";
+TIMESPEC "TShdmi_out0_pix_clkTOhdmi_out1_pix_clk" = FROM "TIGhdmi_out0_pix_clk" TO "TIGhdmi_out1_pix_clk" TIG;
+
+
+
+NET "hdmi_out1_pix_clk" TNM_NET = "TIGhdmi_out1_pix_clk";
+NET "sys_clk" TNM_NET = "TIGsys_clk";
+TIMESPEC "TShdmi_out1_pix_clkTOsys_clk" = FROM "TIGhdmi_out1_pix_clk" TO "TIGsys_clk" TIG;
+
+
+
+NET "hdmi_out1_pix_clk" TNM_NET = "TIGhdmi_out1_pix_clk";
+NET "hdmi_out0_pix_clk" TNM_NET = "TIGhdmi_out0_pix_clk";
+TIMESPEC "TShdmi_out1_pix_clkTOhdmi_out0_pix_clk" = FROM "TIGhdmi_out1_pix_clk" TO "TIGhdmi_out0_pix_clk" TIG;
+
+
+
+NET "clk100" TNM_NET = "PRDclk100";
+TIMESPEC "TSclk100" = PERIOD "PRDclk100" 10.0 ns HIGH 50%;
+
+
+
+NET "clk100" TNM_NET = "PRDclk100";
+TIMESPEC "TSclk100" = PERIOD "PRDclk100" 10.0 ns HIGH 50%;
+
+
+
+NET "hdmi_in0_clk_p" TNM_NET = "PRDhdmi_in0_clk_p";
+TIMESPEC "TShdmi_in0_clk_p" = PERIOD "PRDhdmi_in0_clk_p" 12 ns HIGH 50%;
+
+
+
+NET "hdmi_in1_clk_p" TNM_NET = "PRDhdmi_in1_clk_p";
+TIMESPEC "TShdmi_in1_clk_p" = PERIOD "PRDhdmi_in1_clk_p" 12 ns HIGH 50%;
