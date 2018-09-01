@@ -1,1 +1,1 @@
-unstable v0.0.4-269-ga2188ef https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-269-ga2188ef/opsis/base/or1k/
+unstable v0.0.4-271-g05ff8e3 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-271-g05ff8e3/opsis/base/or1k/
