@@ -1,1 +1,1 @@
-unstable v0.0.4-269-ga2188ef https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-269-ga2188ef/pipistrello/base/or1k/
+unstable v0.0.4-273-g2939f93 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-273-g2939f93/pipistrello/base/or1k/
