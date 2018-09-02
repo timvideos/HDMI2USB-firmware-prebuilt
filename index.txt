@@ -40,10 +40,10 @@ f8b46fcaed038d61fd6a163de2049bfbf4f8bc2d25fbbdc4f756717a69bfd876  ./atlys/net/or
 2e9ad284cd6e4dcc22fd58b304b1fc90c105b5ffdb153d78e27d8c2735a7c02d  ./atlys/net/or1k/stable.sha256sum
 f6f4cefb50cfda905dd6e0268911d00612c6be2251a9588938e7f6792db0fe38  ./atlys/net/or1k/testing.sha256sum
 3ed568d002c5f425c9990914a7ebf85bbfcc1ab731b09632f3fe71da8805e197  ./atlys/net/or1k/unstable.sha256sum
-663c43a80fe9cb7361dc6091b51f29069ac2f224d38ac51c44443dc04a6a3fe5  ./atlys/video/lm32/channels.txt
+59d485c7b50a8f10ad40c73dd3b31ca7e214132b701ea436bf0cd4e79892eda0  ./atlys/video/lm32/channels.txt
 54899077dd083134cc40b6f27afe9b179508c3c6d04130c81103f8ade6ce61e3  ./atlys/video/lm32/stable.sha256sum
 e5860adbeecdb1fef381e740ad88e376fffc2f9bab7428917168a5d6bdb9b6a3  ./atlys/video/lm32/testing.sha256sum
-31c729bbf1dea1a2d598dd58e29fbc41acded91a36b6df80e0fc3265ba37c4f1  ./atlys/video/lm32/unstable.sha256sum
+84ddc248a25eedf6c556bdadee0678b051aba3de9a065865b00a2ade24d371f8  ./atlys/video/lm32/unstable.sha256sum
 600eedb3765073eb55d116636d68fe22c450a9b2152e2f02e4de7188e3871473  ./galatea/base/lm32/channels.txt
 984b75e070929b64da80bf9f0cecd2838c08ae137b6853349d51fdd65ad50b92  ./galatea/base/lm32/unstable.sha256sum
 a3567017b40582270cf651fad7db5e371361f093ce753457722d9b45ea855cec  ./mimasv2/base/lm32/channels.txt
