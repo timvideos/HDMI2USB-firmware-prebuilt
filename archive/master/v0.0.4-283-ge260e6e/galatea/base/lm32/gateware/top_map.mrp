@@ -1,0 +1,313 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'top'
+
+Design Information
+------------------
+Command Line   : map -ol high -w -o top_map.ncd top.ngd top.pcf 
+Target Device  : xc6slx45t
+Target Package : fgg484
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Sun Sep  2 02:32:03 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    6
+Slice Logic Utilization:
+  Number of Slice Registers:                 3,275 out of  54,576    6%
+    Number used as Flip Flops:               3,272
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                3
+  Number of Slice LUTs:                      3,959 out of  27,288   14%
+    Number used as logic:                    3,571 out of  27,288   13%
+      Number using O6 output only:           2,700
+      Number using O5 output only:             116
+      Number using O5 and O6:                  755
+      Number used as ROM:                        0
+    Number used as Memory:                     313 out of   6,408    4%
+      Number used as Dual Port RAM:            272
+        Number using O6 output only:             0
+        Number using O5 output only:            32
+        Number using O5 and O6:                240
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:            41
+        Number using O6 output only:             9
+        Number using O5 output only:             0
+        Number using O5 and O6:                 32
+    Number used exclusively as route-thrus:     75
+      Number with same-slice register load:     72
+      Number with same-slice carry load:         3
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,526 out of   6,822   22%
+  Number of MUXCYs used:                       628 out of  13,644    4%
+  Number of LUT Flip Flop pairs used:        4,788
+    Number with an unused Flip Flop:         1,942 out of   4,788   40%
+    Number with an unused LUT:                 829 out of   4,788   17%
+    Number of fully used LUT-FF pairs:       2,017 out of   4,788   42%
+    Number of unique control sets:             167
+    Number of slice register sites lost
+      to control set restrictions:             407 out of  54,576    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        52 out of     296   17%
+    Number of LOCed IOBs:                       52 out of      52  100%
+    IOB Flip Flops:                             10
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        33 out of     116   28%
+  Number of RAMB8BWERs:                          2 out of     232    1%
+  Number of BUFIO2/BUFIO2_2CLKs:                 1 out of      32    3%
+    Number used as BUFIO2s:                      1
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       4 out of      16   25%
+    Number used as BUFGs:                        4
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       8    0%
+  Number of ILOGIC2/ISERDES2s:                  16 out of     376    4%
+    Number used as ILOGIC2s:                     0
+    Number used as ISERDES2s:                   16
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     376    0%
+  Number of OLOGIC2/OSERDES2s:                  24 out of     376    6%
+    Number used as OLOGIC2s:                     6
+    Number used as OSERDES2s:                   18
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     256    0%
+  Number of BUFPLLs:                             1 out of       8   12%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            3 out of      58    5%
+  Number of GTPA1_DUALs:                         0 out of       2    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCIE_A1s:                            0 out of       1    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            1 out of       4   25%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                3.87
+
+Peak Memory Usage:  878 MB
+Total REAL time to MAP completion:  1 mins 39 secs 
+Total CPU time to MAP completion:   1 mins 39 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:MapLib:41 - All members of TNM group "PRDbase50_clk" have been optimized
+   out of the design.
+WARNING:MapLib:41 - All members of TNM group "base50_clk" have been optimized
+   out of the design.
+WARNING:MapLib:41 - All members of TNM group "base50_clk_0" have been optimized
+   out of the design.
+WARNING:MapLib:50 - The period specification "TSbase50_clk" has been discarded
+   because the group "PRDbase50_clk" has been optimized away.
+WARNING:MapLib:50 - The period specification "TS_base50_clk" has been discarded
+   because the group "base50_clk" has been optimized away.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network Mram_storage1/SPO has no load.
+INFO:LIT:395 - The above info message is repeated 255 more times for the
+   following (max. 5 shown):
+   Mram_storage4/SPO,
+   Mram_storage2/SPO,
+   Mram_storage3/SPO,
+   Mram_storage7/SPO,
+   Mram_storage5/SPO
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   5 block(s) removed
+   2 block(s) optimized away
+   5 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "FDPE_7" (FF) removed.
+ The signal "base50_clk_BUFG" is loadless and has been removed.
+  Loadless block "base50_clk_BUFG" (CKBUF) removed.
+   The signal "base50_clk" is loadless and has been removed.
+ The signal "xilinxasyncresetsynchronizerimpl3_rst_meta" is loadless and has been
+removed.
+  Loadless block "FDPE_6" (FF) removed.
+   The signal "xilinxasyncresetsynchronizerimpl3" is loadless and has been removed.
+    Loadless block "xilinxasyncresetsynchronizerimpl31" (ROM) removed.
+     The signal "dcm_base50_locked" is loadless and has been removed.
+Unused block "crg_periph_dcm_clkgen" (DCM_CLKGEN) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk100                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| cpu_reset                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| ddram_a<0>                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<1>                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<2>                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<3>                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<4>                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<5>                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<6>                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<7>                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<8>                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<9>                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<10>                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<11>                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<12>                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<13>                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_a<14>                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_ba<0>                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_ba<1>                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_ba<2>                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_cas_n                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_cke                          | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_clock_n                      | IOB              | OUTPUT    | DIFF_SSTL15_II       |       |          |      | ODDR         |          |          |
+| ddram_clock_p                      | IOB              | OUTPUT    | DIFF_SSTL15_II       |       |          |      | ODDR         |          |          |
+| ddram_dm<0>                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      | OSERDES      |          |          |
+| ddram_dm<1>                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      | OSERDES      |          |          |
+| ddram_dq<0>                        | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<1>                        | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<2>                        | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<3>                        | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<4>                        | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<5>                        | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<6>                        | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<7>                        | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<8>                        | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<9>                        | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<10>                       | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<11>                       | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<12>                       | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<13>                       | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<14>                       | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<15>                       | IOB              | BIDIR     | SSTL15_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dqs<0>                       | IOB              | OUTPUT    | DIFF_SSTL15_II       |       |          |      | ODDR         |          |          |
+|                                    |                  |           |                      |       |          |      | TDDR         |          |          |
+| ddram_dqs<1>                       | IOB              | OUTPUT    | DIFF_SSTL15_II       |       |          |      | ODDR         |          |          |
+|                                    |                  |           |                      |       |          |      | TDDR         |          |          |
+| ddram_dqs_n<0>                     | IOB              | OUTPUT    | DIFF_SSTL15_II       |       |          |      | ODDR         |          |          |
+|                                    |                  |           |                      |       |          |      | TDDR         |          |          |
+| ddram_dqs_n<1>                     | IOB              | OUTPUT    | DIFF_SSTL15_II       |       |          |      | ODDR         |          |          |
+|                                    |                  |           |                      |       |          |      | TDDR         |          |          |
+| ddram_odt                          | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_ras_n                        | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| ddram_reset_n                      | IOB              | OUTPUT    | LVCMOS15             |       | 12       | FAST |              |          |          |
+| ddram_we_n                         | IOB              | OUTPUT    | SSTL15_II            |       |          |      |              |          |          |
+| serial_rx                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| serial_tx                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.
