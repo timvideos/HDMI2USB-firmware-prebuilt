@@ -1,1 +1,1 @@
-unstable v0.0.4-255-g4a97842 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-255-g4a97842/arty/net/or1k.linux/
+unstable v0.0.4-277-g2b3ff04 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-277-g2b3ff04/arty/net/or1k.linux/
