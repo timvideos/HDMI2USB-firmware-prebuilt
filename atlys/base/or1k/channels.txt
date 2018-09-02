@@ -1,1 +1,1 @@
-unstable v0.0.4-250-gb3aa0a3 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-250-gb3aa0a3/atlys/base/or1k/
+unstable v0.0.4-283-ge260e6e https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-283-ge260e6e/atlys/base/or1k/
