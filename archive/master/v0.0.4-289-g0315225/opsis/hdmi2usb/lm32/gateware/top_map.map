@@ -1,0 +1,740 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Map Application Log File for Design 'top'
+
+Design Information
+------------------
+Command Line   : map -ol high -w -o top_map.ncd top.ngd top.pcf 
+Target Device  : xc6slx45t
+Target Package : fgg484
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Mon Sep 10 04:04:23 2018
+
+Mapping design into LUTs...
+Writing file top_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+WARNING:Timing:3223 - Timing constraint PATH "TShdmi_out0_pix_clkTOhdmi_out1_pix_clk_path" TIG ignored during timing analysis.
+WARNING:Timing:3223 - Timing constraint PATH "TShdmi_out1_pix_clkTOhdmi_out0_pix_clk_path" TIG ignored during timing analysis.
+WARNING:Timing:3223 - Timing constraint PATH "TSusb_clkTOsys_clk_path" TIG ignored during timing analysis.
+WARNING:Timing:3159 - The DCM, hdmi_out_dcm_clkgen, has the attribute DFS_OSCILLATOR_MODE not set to PHASE_FREQ_LOCK. No phase relationship
+   exists between the input clock and CLKFX or CLKFX180 outputs of this DCM. Data paths between these clock domains must be constrained
+   using FROM/TO constraints.
+WARNING:Timing:3159 - The DCM, crg_periph_dcm_clkgen, has the attribute DFS_OSCILLATOR_MODE not set to PHASE_FREQ_LOCK. No phase
+   relationship exists between the input clock and CLKFX or CLKFX180 outputs of this DCM. Data paths between these clock domains must be
+   constrained using FROM/TO constraints.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 1 mins 16 secs 
+Total CPU  time at the beginning of Placer: 1 mins 16 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:a0a89476) REAL time: 1 mins 22 secs 
+
+Phase 2.7  Design Feasibility Check
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <hdmi_out_pix_bufg>, driving the net,
+   <hdmi_out0_pix_clk>, that is driving the following (first 30) non-clock load
+   pins.
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
+   ]_mux_6615_OUT51.A4; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
+   ]_mux_6616_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
+   ]_mux_6616_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
+   ]_mux_6617_OUT51.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
+   ]_mux_6615_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
+   ]_mux_6615_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
+   ]_mux_6617_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
+   ]_mux_6617_OUT31.A3; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <hdmi_out_pix_bufg.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <hdmi_out_pix_bufg_1>, driving the net,
+   <hdmi_out1_pix_clk>, that is driving the following (first 30) non-clock load
+   pins.
+   < PIN:
+   Mmux_hdmi_out1_driver_hdmi_phy_es2_out[9]_hdmi_out1_driver_hdmi_phy_es2_out[4
+   ]_mux_7030_OUT51.A4; >
+   < PIN:
+   Mmux_hdmi_out1_driver_hdmi_phy_es2_out[9]_hdmi_out1_driver_hdmi_phy_es2_out[4
+   ]_mux_7030_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out1_driver_hdmi_phy_es2_out[9]_hdmi_out1_driver_hdmi_phy_es2_out[4
+   ]_mux_7030_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out1_driver_hdmi_phy_es1_out[9]_hdmi_out1_driver_hdmi_phy_es1_out[4
+   ]_mux_7029_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out1_driver_hdmi_phy_es1_out[9]_hdmi_out1_driver_hdmi_phy_es1_out[4
+   ]_mux_7029_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out1_driver_hdmi_phy_es0_out[9]_hdmi_out1_driver_hdmi_phy_es0_out[4
+   ]_mux_7028_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out1_driver_hdmi_phy_es0_out[9]_hdmi_out1_driver_hdmi_phy_es0_out[4
+   ]_mux_7028_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out1_driver_hdmi_phy_es1_out[9]_hdmi_out1_driver_hdmi_phy_es1_out[4
+   ]_mux_7029_OUT51.A3; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <hdmi_out_pix_bufg_1.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+Phase 2.7  Design Feasibility Check (Checksum:a0a89476) REAL time: 1 mins 24 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:10475016) REAL time: 1 mins 24 secs 
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+(Checksum:a9f1fb75) REAL time: 2 mins 17 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:a9f1fb75) REAL time: 2 mins 17 secs 
+
+............................
+........................................................................
+Phase 6.30  Global Clock Region Assignment
+
+
+######################################################################################
+# GLOBAL CLOCK NET DISTRIBUTION UCF REPORT:
+#
+# Number of Global Clock Regions : 16
+# Number of Global Clock Networks: 20
+#
+# Clock Region Assignment: SUCCESSFUL
+
+# Location of Clock Components
+INST "hdmi_in_pix_bufg_1" LOC = "BUFGMUX_X3Y6" ;
+INST "rgmii_if/bufg_rgmii_rx_clk" LOC = "BUFGMUX_X2Y12" ;
+INST "hdmi_out_pix2x_bufg_1" LOC = "BUFGMUX_X3Y7" ;
+INST "sdram_half_a_bufpll" LOC = "BUFGMUX_X3Y5" ;
+INST "encoder_bufg" LOC = "BUFGMUX_X2Y11" ;
+INST "sdram_half_b_bufpll" LOC = "BUFGMUX_X3Y16" ;
+INST "sys2x_bufg" LOC = "BUFGMUX_X3Y8" ;
+INST "base50_clk_BUFG" LOC = "BUFGMUX_X3Y15" ;
+INST "hdmi_in_pix2x_bufg_1" LOC = "BUFGMUX_X2Y9" ;
+INST "hdmi_in_pix_bufg" LOC = "BUFGMUX_X3Y14" ;
+INST "hdmi_out_pix2x_bufg" LOC = "BUFGMUX_X2Y10" ;
+INST "hdmi_out_pix_bufg" LOC = "BUFGMUX_X2Y1" ;
+INST "usb_clk_BUFG" LOC = "BUFGMUX_X2Y4" ;
+INST "hdmi_out_pix_bufg_1" LOC = "BUFGMUX_X2Y2" ;
+INST "hdmi_in_pix2x_bufg" LOC = "BUFGMUX_X3Y13" ;
+INST "sys_bufg" LOC = "BUFGMUX_X2Y3" ;
+INST "crg_periph_dcm_clkgen" LOC = "DCM_X0Y1" ;
+INST "hdmi_out_dcm_clkgen" LOC = "DCM_X0Y4" ;
+INST "hdmi_in1_clk_p" LOC = "M20" ;
+INST "hdmi_in0_clk_p" LOC = "L20" ;
+INST "clk100" LOC = "AB13" ;
+INST "fx2_ifclk" LOC = "P20" ;
+INST "eth_clocks_rx" LOC = "AA12" ;
+INST "BUFIO2" LOC = "BUFIO2_X1Y7" ;
+INST "SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0" LOC = "BUFIO2_X4Y18" ;
+INST "SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_1" LOC = "BUFIO2_X3Y12" ;
+INST "hdmi_in_pll_adv_1" LOC = "PLL_ADV_X0Y1" ;
+INST "crg_pll_adv" LOC = "PLL_ADV_X0Y0" ;
+INST "hdmi_in_pll_adv" LOC = "PLL_ADV_X0Y3" ;
+INST "hdmi_out_pll_adv" LOC = "PLL_ADV_X0Y2" ;
+INST "hdmi_in_bufpll" LOC = "BUFPLL_X2Y3" ;
+INST "hdmi_out_bufpll" LOC = "BUFPLL_X1Y1" ;
+INST "hdmi_in_bufpll_1" LOC = "BUFPLL_X2Y2" ;
+INST "sdram_full_bufpll" LOC = "BUFPLL_X0Y2" ;
+INST "hdmi_out_bufpll_1" LOC = "BUFPLL_X1Y0" ;
+
+# hdmi_in1_pix_clk driven by BUFGMUX_X3Y6
+NET "hdmi_in1_pix_clk" TNM_NET = "TN_hdmi_in1_pix_clk" ;
+TIMEGRP "TN_hdmi_in1_pix_clk" AREA_GROUP = "CLKAG_hdmi_in1_pix_clk" ;
+AREA_GROUP "CLKAG_hdmi_in1_pix_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# eth_rx_clk driven by BUFGMUX_X2Y12
+NET "eth_rx_clk" TNM_NET = "TN_eth_rx_clk" ;
+TIMEGRP "TN_eth_rx_clk" AREA_GROUP = "CLKAG_eth_rx_clk" ;
+AREA_GROUP "CLKAG_eth_rx_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# hdmi_out1_pix2x_clk driven by BUFGMUX_X3Y7
+NET "hdmi_out1_pix2x_clk" TNM_NET = "TN_hdmi_out1_pix2x_clk" ;
+TIMEGRP "TN_hdmi_out1_pix2x_clk" AREA_GROUP = "CLKAG_hdmi_out1_pix2x_clk" ;
+AREA_GROUP "CLKAG_hdmi_out1_pix2x_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# sdram_half_clk driven by BUFGMUX_X3Y5
+NET "sdram_half_clk" TNM_NET = "TN_sdram_half_clk" ;
+TIMEGRP "TN_sdram_half_clk" AREA_GROUP = "CLKAG_sdram_half_clk" ;
+AREA_GROUP "CLKAG_sdram_half_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# encoder_clk driven by BUFGMUX_X2Y11
+NET "encoder_clk" TNM_NET = "TN_encoder_clk" ;
+TIMEGRP "TN_encoder_clk" AREA_GROUP = "CLKAG_encoder_clk" ;
+AREA_GROUP "CLKAG_encoder_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# crg_clk_sdram_half_shifted driven by BUFGMUX_X3Y16
+NET "crg_clk_sdram_half_shifted" TNM_NET = "TN_crg_clk_sdram_half_shifted" ;
+TIMEGRP "TN_crg_clk_sdram_half_shifted" AREA_GROUP = "CLKAG_crg_clk_sdram_half_shifted" ;
+AREA_GROUP "CLKAG_crg_clk_sdram_half_shifted" RANGE =   CLOCKREGION_X0Y4, CLOCKREGION_X1Y4 ;
+
+# sys2x_clk driven by BUFGMUX_X3Y8
+NET "sys2x_clk" TNM_NET = "TN_sys2x_clk" ;
+TIMEGRP "TN_sys2x_clk" AREA_GROUP = "CLKAG_sys2x_clk" ;
+AREA_GROUP "CLKAG_sys2x_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# base50_clk_BUFG driven by BUFGMUX_X3Y15
+NET "base50_clk_BUFG" TNM_NET = "TN_base50_clk_BUFG" ;
+TIMEGRP "TN_base50_clk_BUFG" AREA_GROUP = "CLKAG_base50_clk_BUFG" ;
+AREA_GROUP "CLKAG_base50_clk_BUFG" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# hdmi_in1_pix2x_clk driven by BUFGMUX_X2Y9
+NET "hdmi_in1_pix2x_clk" TNM_NET = "TN_hdmi_in1_pix2x_clk" ;
+TIMEGRP "TN_hdmi_in1_pix2x_clk" AREA_GROUP = "CLKAG_hdmi_in1_pix2x_clk" ;
+AREA_GROUP "CLKAG_hdmi_in1_pix2x_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# hdmi_in0_pix_clk driven by BUFGMUX_X3Y14
+NET "hdmi_in0_pix_clk" TNM_NET = "TN_hdmi_in0_pix_clk" ;
+TIMEGRP "TN_hdmi_in0_pix_clk" AREA_GROUP = "CLKAG_hdmi_in0_pix_clk" ;
+AREA_GROUP "CLKAG_hdmi_in0_pix_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# hdmi_out0_pix2x_clk driven by BUFGMUX_X2Y10
+NET "hdmi_out0_pix2x_clk" TNM_NET = "TN_hdmi_out0_pix2x_clk" ;
+TIMEGRP "TN_hdmi_out0_pix2x_clk" AREA_GROUP = "CLKAG_hdmi_out0_pix2x_clk" ;
+AREA_GROUP "CLKAG_hdmi_out0_pix2x_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# hdmi_out0_pix_clk driven by BUFGMUX_X2Y1
+NET "hdmi_out0_pix_clk" TNM_NET = "TN_hdmi_out0_pix_clk" ;
+TIMEGRP "TN_hdmi_out0_pix_clk" AREA_GROUP = "CLKAG_hdmi_out0_pix_clk" ;
+AREA_GROUP "CLKAG_hdmi_out0_pix_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# usb_clk_BUFG driven by BUFGMUX_X2Y4
+NET "usb_clk_BUFG" TNM_NET = "TN_usb_clk_BUFG" ;
+TIMEGRP "TN_usb_clk_BUFG" AREA_GROUP = "CLKAG_usb_clk_BUFG" ;
+AREA_GROUP "CLKAG_usb_clk_BUFG" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# hdmi_out1_pix_clk driven by BUFGMUX_X2Y2
+NET "hdmi_out1_pix_clk" TNM_NET = "TN_hdmi_out1_pix_clk" ;
+TIMEGRP "TN_hdmi_out1_pix_clk" AREA_GROUP = "CLKAG_hdmi_out1_pix_clk" ;
+AREA_GROUP "CLKAG_hdmi_out1_pix_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# hdmi_in0_pix2x_clk driven by BUFGMUX_X3Y13
+NET "hdmi_in0_pix2x_clk" TNM_NET = "TN_hdmi_in0_pix2x_clk" ;
+TIMEGRP "TN_hdmi_in0_pix2x_clk" AREA_GROUP = "CLKAG_hdmi_in0_pix2x_clk" ;
+AREA_GROUP "CLKAG_hdmi_in0_pix2x_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# sys_clk driven by BUFGMUX_X2Y3
+NET "sys_clk" TNM_NET = "TN_sys_clk" ;
+TIMEGRP "TN_sys_clk" AREA_GROUP = "CLKAG_sys_clk" ;
+AREA_GROUP "CLKAG_sys_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# hdmi_in1_clkfbout driven by PLL_ADV_X0Y1
+NET "hdmi_in1_clkfbout" TNM_NET = "TN_hdmi_in1_clkfbout" ;
+TIMEGRP "TN_hdmi_in1_clkfbout" AREA_GROUP = "CLKAG_hdmi_in1_clkfbout" ;
+AREA_GROUP "CLKAG_hdmi_in1_clkfbout" RANGE =   CLOCKREGION_X0Y3 ;
+
+# crg_pll_fb driven by PLL_ADV_X0Y0
+NET "crg_pll_fb" TNM_NET = "TN_crg_pll_fb" ;
+TIMEGRP "TN_crg_pll_fb" AREA_GROUP = "CLKAG_crg_pll_fb" ;
+AREA_GROUP "CLKAG_crg_pll_fb" RANGE =   CLOCKREGION_X0Y1 ;
+
+# hdmi_in0_clkfbout driven by PLL_ADV_X0Y3
+NET "hdmi_in0_clkfbout" TNM_NET = "TN_hdmi_in0_clkfbout" ;
+TIMEGRP "TN_hdmi_in0_clkfbout" AREA_GROUP = "CLKAG_hdmi_in0_clkfbout" ;
+AREA_GROUP "CLKAG_hdmi_in0_clkfbout" RANGE =   CLOCKREGION_X0Y7 ;
+
+# hdmi_out0_driver_clocking_clkfbout driven by PLL_ADV_X0Y2
+NET "hdmi_out0_driver_clocking_clkfbout" TNM_NET = "TN_hdmi_out0_driver_clocking_clkfbout" ;
+TIMEGRP "TN_hdmi_out0_driver_clocking_clkfbout" AREA_GROUP = "CLKAG_hdmi_out0_driver_clocking_clkfbout" ;
+AREA_GROUP "CLKAG_hdmi_out0_driver_clocking_clkfbout" RANGE =   CLOCKREGION_X0Y5 ;
+
+# NOTE: 
+# This report is provided to help reproduce successful clock-region 
+# assignments. The report provides range constraints for all global 
+# clock networks, in a format that is directly usable in ucf files. 
+#
+#END of Global Clock Net Distribution UCF Constraints
+######################################################################################
+
+
+######################################################################################
+GLOBAL CLOCK NET LOADS DISTRIBUTION REPORT:
+
+Number of Global Clock Regions : 16
+Number of Global Clock Networks: 33
+
+Clock Region Assignment: SUCCESSFUL
+
+Clock-Region: <CLOCKREGION_X0Y0> 
+ key resource utilizations (used/available): global-clocks - 6/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      2 |      0 |      0 |     64 |     64 |      4 |      0 |      0 |    784 |   1696 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    360 |     67 |encoder_clk
+      0 |      0 |      0 |      0 |      5 |      6 |      0 |      0 |      0 |      0 |      0 |eth_rx_clk
+      0 |      0 |      0 |      0 |      0 |      6 |      0 |      0 |      0 |      0 |      0 |hdmi_out0_pix2x_clk
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |hdmi_out0_pix_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |    124 |     38 |hdmi_out1_pix_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     72 |      0 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      3 |      0 |      0 |      0 |      5 |     13 |      2 |      0 |      0 |    556 |    105 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y0> 
+ key resource utilizations (used/available): global-clocks - 5/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      0 |      0 |      0 |     64 |     64 |      4 |      0 |      0 |    800 |   1712 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    180 |      0 |encoder_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |    175 |     50 |hdmi_out0_pix_clk
+      0 |      0 |      0 |      0 |      0 |      6 |      0 |      0 |      0 |      0 |      0 |hdmi_out1_pix2x_clk
+      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |      0 |     42 |     20 |hdmi_out1_pix_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    275 |     24 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      7 |      2 |      0 |      0 |    672 |     94 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y1> 
+ key resource utilizations (used/available): global-clocks - 3/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      0 |      1 |      0 |     14 |     14 |      4 |      0 |      0 |    896 |   1904 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    296 |     99 |encoder_clk
+      3 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |    192 |     61 |hdmi_out1_pix_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    515 |     24 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      6 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |   1003 |    184 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y1> 
+ key resource utilizations (used/available): global-clocks - 6/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      0 |      0 |      0 |     14 |     14 |      4 |      0 |      0 |    896 |   1920 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     72 |      0 |encoder_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     24 |      0 |eth_rx_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |    205 |     83 |hdmi_in0_pix_clk
+      7 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |    176 |     67 |hdmi_out0_pix_clk
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     31 |     13 |hdmi_out1_pix_clk
+      8 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    482 |     30 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     19 |      0 |      0 |      0 |      0 |      0 |      4 |      0 |      0 |    990 |    193 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y2> 
+ key resource utilizations (used/available): global-clocks - 7/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      2 |      0 |      0 |     16 |     16 |      4 |      0 |      0 |    896 |   1904 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    124 |     42 |encoder_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |hdmi_in0_pix_clk
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     26 |      9 |hdmi_in1_pix_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |hdmi_out1_pix_clk
+      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      0 |sdram_half_clk
+      0 |      0 |      0 |      0 |      6 |      6 |      0 |      0 |      0 |      0 |      0 |sys2x_clk
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    590 |      1 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |      6 |      8 |      0 |      0 |      0 |    740 |     52 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y2> 
+ key resource utilizations (used/available): global-clocks - 5/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      0 |      0 |      0 |     16 |     16 |      4 |      0 |      0 |    896 |   1920 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |eth_rx_clk
+      3 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |     71 |     23 |hdmi_in0_pix_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    192 |     55 |hdmi_out0_pix_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     52 |      0 |hdmi_out1_pix_clk
+      7 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    594 |     26 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |    909 |    104 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y3> 
+ key resource utilizations (used/available): global-clocks - 12/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      0 |      1 |      0 |     14 |     14 |      4 |      0 |      8 |    896 |   1904 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |base50_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |crg_unbuf_encoder
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |crg_unbuf_sdram_half_b
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    119 |     47 |encoder_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |hdmi_in0_pll_clk1
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |hdmi_in0_pll_clk2
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      9 |      5 |hdmi_in1_pix_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |hdmi_in1_pll_clk1
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |hdmi_out0_driver_clocking_pll1_pix2x
+      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |     10 |      5 |sdram_half_clk
+      0 |      0 |      0 |      0 |     10 |     12 |      0 |      0 |      0 |     27 |     16 |sys2x_clk
+      6 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |    399 |     58 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     11 |      0 |      1 |      0 |     10 |     14 |      0 |      0 |      7 |    564 |    131 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y3> 
+ key resource utilizations (used/available): global-clocks - 5/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      0 |      0 |      0 |     14 |     14 |      4 |      0 |      0 |    896 |   1920 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      6 |      0 |      0 |      0 |      0 |     46 |     14 |hdmi_in0_pix2x_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     64 |     22 |hdmi_in0_pix_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     48 |      0 |hdmi_out0_pix_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     24 |      0 |hdmi_out1_pix_clk
+      8 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |    571 |    199 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |      6 |      0 |      1 |      0 |      0 |    753 |    235 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y4> 
+ key resource utilizations (used/available): global-clocks - 11/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      2 |      0 |      0 |     12 |     12 |      4 |      0 |      8 |    896 |   1896 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |base50_clk_BUFG
+      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      0 |      0 |crg_clk_sdram_half_shifted
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |crg_unbuf_sdram_half_a
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |crg_unbuf_sys
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |crg_unbuf_sys2x
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    245 |     62 |encoder_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |     86 |     41 |hdmi_in1_pix_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |hdmi_in1_pll_clk2
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |      0 |      0 |hdmi_out0_driver_clocking_pll1_pix2x
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |hdmi_out0_driver_clocking_pll2_pix
+     10 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    189 |     55 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     10 |      2 |      0 |      0 |      0 |      2 |      2 |      0 |      7 |    520 |    158 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y4> 
+ key resource utilizations (used/available): global-clocks - 4/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      0 |      0 |      0 |     12 |     12 |      4 |      0 |      0 |    896 |   1920 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     23 |      7 |hdmi_in0_pix2x_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     71 |     24 |hdmi_in0_pix_clk
+      0 |      0 |      0 |      0 |      6 |      0 |      0 |      0 |      0 |     69 |     21 |hdmi_in1_pix2x_clk
+      8 |      0 |      0 |      0 |      0 |      0 |      3 |      0 |      0 |    334 |     85 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      0 |      0 |      6 |      0 |      3 |      0 |      0 |    497 |    137 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y5> 
+ key resource utilizations (used/available): global-clocks - 5/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      0 |      1 |      0 |     16 |     16 |      4 |      0 |      0 |    896 |   1904 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    265 |     81 |encoder_clk
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     47 |     15 |eth_rx_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |    184 |     66 |hdmi_in1_pix_clk
+      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |hdmi_out0_driver_clocking_clk_pix_unbuffered
+      3 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |    366 |    123 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      8 |      0 |      2 |      0 |      0 |      0 |      2 |      0 |      0 |    862 |    285 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y5> 
+ key resource utilizations (used/available): global-clocks - 3/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      0 |      0 |      0 |     16 |     16 |      4 |      0 |      0 |    896 |   1920 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    142 |     48 |hdmi_in0_pix_clk
+     10 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    291 |     37 |sys_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     35 |      7 |usb_clk_BUFG
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     10 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    468 |     92 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y6> 
+ key resource utilizations (used/available): global-clocks - 1/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      2 |      0 |      0 |     14 |     14 |      4 |      1 |      0 |    640 |   1392 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    408 |    150 |encoder_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    408 |    150 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y6> 
+ key resource utilizations (used/available): global-clocks - 3/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     24 |      0 |      0 |      0 |     14 |     14 |      4 |      0 |      0 |    896 |   1920 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     72 |     48 |encoder_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    201 |     65 |hdmi_in1_pix_clk
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     12 |      0 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    285 |    113 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y7> 
+ key resource utilizations (used/available): global-clocks - 1/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      1 |      1 |     38 |     38 |      2 |      0 |      0 |    336 |    720 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |sys_clk
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y7> 
+ key resource utilizations (used/available): global-clocks - 0/16 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |   PCIE |   BUFG | LUTRAM |     FF | <- (Types of Resources in this  Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     38 |     38 |      0 |      0 |      0 |    400 |    736 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+NOTE:
+The above detailed report is the initial placement of the logic after the clock region assignment. The final placement
+may be significantly different because of the various optimization steps which will follow. Specifically, logic blocks
+maybe moved to adjacent clock-regions as long as the "number of clocks per region" constraint is not violated.
+
+
+# END of Global Clock Net Loads Distribution Report:
+######################################################################################
+
+
+Phase 6.30  Global Clock Region Assignment (Checksum:a9f1fb75) REAL time: 4 mins 38 secs 
+
+Phase 7.3  Local Placement Optimization
+Phase 7.3  Local Placement Optimization (Checksum:a9f1fb75) REAL time: 4 mins 38 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:a9f1fb75) REAL time: 4 mins 38 secs 
+
+Phase 9.8  Global Placement
+.................................
+.........................................................
+..............................................................................
+...................................................................................................................
+...................................................
+Phase 9.8  Global Placement (Checksum:69a8144c) REAL time: 8 mins 15 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:69a8144c) REAL time: 8 mins 16 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:6bff264d) REAL time: 9 mins 1 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:6bff264d) REAL time: 9 mins 1 secs 
+
+Phase 13.34  Placement Validation
+Phase 13.34  Placement Validation (Checksum:39bdf5d5) REAL time: 9 mins 3 secs 
+
+Total REAL time to Placer completion: 9 mins 4 secs 
+Total CPU  time to Placer completion: 9 mins 3 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:1441 - Issue with pin connections and/or configuration on
+   block:<rgmii_if/rgmii_rx_ctl_in>:<ILOGIC2_IFF>.  The IFFTYPE is DDR and the Q2 output pin of IFF is not used.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs (RAMB8BWER).  9K Block RAM initialization
+   data, both user defined and default, may be incorrect and should not be used.  For more information, please reference
+   Xilinx Answer Record 39999.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    9
+Slice Logic Utilization:
+  Number of Slice Registers:                13,147 out of  54,576   24%
+    Number used as Flip Flops:              13,146
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                1
+  Number of Slice LUTs:                     16,146 out of  27,288   59%
+    Number used as logic:                   13,744 out of  27,288   50%
+      Number using O6 output only:           9,917
+      Number using O5 output only:             955
+      Number using O5 and O6:                2,872
+      Number used as ROM:                        0
+    Number used as Memory:                   1,720 out of   6,408   26%
+      Number used as Dual Port RAM:          1,610
+        Number using O6 output only:           166
+        Number using O5 output only:            36
+        Number using O5 and O6:              1,408
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           110
+        Number using O6 output only:            55
+        Number using O5 output only:             0
+        Number using O5 and O6:                 55
+    Number used exclusively as route-thrus:    682
+      Number with same-slice register load:    626
+      Number with same-slice carry load:        56
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 5,526 out of   6,822   81%
+  Number of MUXCYs used:                     2,936 out of  13,644   21%
+  Number of LUT Flip Flop pairs used:       18,402
+    Number with an unused Flip Flop:         6,820 out of  18,402   37%
+    Number with an unused LUT:               2,256 out of  18,402   12%
+    Number of fully used LUT-FF pairs:       9,326 out of  18,402   50%
+    Number of unique control sets:             601
+    Number of slice register sites lost
+      to control set restrictions:           1,679 out of  54,576    3%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       151 out of     296   51%
+    Number of LOCed IOBs:                      151 out of     151  100%
+    IOB Flip Flops:                             23
+    IOB Master Pads:                             8
+    IOB Slave Pads:                              8
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        53 out of     116   45%
+  Number of RAMB8BWERs:                         36 out of     232   15%
+  Number of BUFIO2/BUFIO2_2CLKs:                 3 out of      32    9%
+    Number used as BUFIO2s:                      3
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                      16 out of      16  100%
+    Number used as BUFGs:                       16
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     2 out of       8   25%
+    Number used as DCMs:                         0
+    Number used as DCM_CLKGENs:                  2
+  Number of ILOGIC2/ISERDES2s:                  33 out of     376    8%
+    Number used as ILOGIC2s:                     5
+    Number used as ISERDES2s:                   28
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:        23 out of     376    6%
+    Number used as IODELAY2s:                   23
+    Number used as IODRP2s:                      0
+    Number used as IODRP2_MCBs:                  0
+  Number of OLOGIC2/OSERDES2s:                  44 out of     376   11%
+    Number used as OLOGIC2s:                    14
+    Number used as OSERDES2s:                   30
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     256    0%
+  Number of BUFPLLs:                             5 out of       8   62%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                           22 out of      58   37%
+  Number of GTPA1_DUALs:                         0 out of       2    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCIE_A1s:                            0 out of       1    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            4 out of       4  100%
+    Number of LOCed PLL_ADVs:                    1 out of       4   25%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                3.76
+
+Peak Memory Usage:  1280 MB
+Total REAL time to MAP completion:  9 mins 20 secs 
+Total CPU time to MAP completion:   9 mins 18 secs 
+
+Mapping completed.
+See MAP report file "top_map.mrp" for details.
