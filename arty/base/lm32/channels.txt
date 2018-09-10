@@ -1,1 +1,1 @@
-unstable v0.0.4-283-ge260e6e https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-283-ge260e6e/arty/base/lm32/
+unstable v0.0.4-289-g0315225 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-289-g0315225/arty/base/lm32/
