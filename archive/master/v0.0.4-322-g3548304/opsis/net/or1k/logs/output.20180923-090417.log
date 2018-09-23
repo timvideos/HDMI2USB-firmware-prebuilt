@@ -1,0 +1,550 @@
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libcompiler_rt'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       umodsi3.o
+ CC       udivsi3.o
+ CC       divsi3.o
+ CC       modsi3.o
+ CC       comparesf2.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/compiler_rt/lib/builtins/comparesf2.c:85:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ FNALIAS(__cmpsf2, __lesf2);
+ ^
+ CC       comparedf2.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/compiler_rt/lib/builtins/comparedf2.c:85:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ FNALIAS(__cmpdf2, __ledf2);
+ ^
+ CC       negsf2.o
+ CC       negdf2.o
+ CC       addsf3.o
+ CC       subsf3.o
+ CC       mulsf3.o
+ CC       divsf3.o
+ CC       lshrdi3.o
+ CC       muldi3.o
+ CC       divdi3.o
+ CC       ashldi3.o
+ CC       ashrdi3.o
+ CC       udivmoddi4.o
+ CC       floatsisf.o
+ CC       floatunsisf.o
+ CC       fixsfsi.o
+ CC       fixdfdi.o
+ CC       fixunssfsi.o
+ CC       fixunsdfdi.o
+ CC       adddf3.o
+ CC       subdf3.o
+ CC       muldf3.o
+ CC       divdf3.o
+ CC       floatsidf.o
+ CC       floatunsidf.o
+ CC       floatdidf.o
+ CC       fixdfsi.o
+ CC       fixunsdfsi.o
+ CC       clzsi2.o
+ CC       ctzsi2.o
+ CC       udivdi3.o
+ CC       umoddi3.o
+ CC       moddi3.o
+ CC       ucmpdi2.o
+ CC       libcompiler_rt.a
+ AR       libcompiler_rt.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libcompiler_rt'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libbase'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       crt0-or1k.o
+ CC       exception.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/libbase/exception.c:28:13: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ static char emerg_getc()
+             ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/libbase/exception.c: In function 'emerg_getc':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/libbase/exception.c:28:13: warning: old-style function definition [-Wold-style-definition]
+ CC       libc.o
+ CC       errno.o
+ CC       crc16.o
+ CC       crc32.o
+ CC       console.o
+ CC       system.o
+ CC       id.o
+ CC       uart.o
+ CC       time.o
+ CC       qsort.o
+ CC       strtod.o
+ CC       spiflash.o
+ CC       strcasecmp.o
+ CC       vsnprintf.o
+ AR       libbase.a
+ CC       vsnprintf-nofloat.o
+ AR       libbase-nofloat.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libbase'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libnet'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       microudp.o
+ CC       tftp.o
+ AR       libnet.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libnet'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/bios'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       isr.o
+ CC       sdram.o
+In file included from /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/bios/sdram.c:7:0:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/generated/sdram_phy.h:21:13: warning: 'command_p2' defined but not used [-Wunused-function]
+ static void command_p2(int cmd)
+             ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/generated/sdram_phy.h:26:13: warning: 'command_p3' defined but not used [-Wunused-function]
+ static void command_p3(int cmd)
+             ^
+ CC       main.o
+ CC       boot-helper-or1k.o
+ CC       boot.o
+ LD       bios.elf
+chmod -x bios.elf
+ OBJCOPY  bios.bin
+chmod -x bios.bin
+python -m litex.soc.tools.mkmscimg bios.bin
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/bios'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/uip'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       ../../third_party/libuip/net/ip/dhcpc.o
+ CC       ../../third_party/libuip/net/ip/psock.o
+ CC       ../../third_party/libuip/net/ip/resolv.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ip/resolv.c: In function 'resolv_found':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ip/resolv.c:1446:6: warning: implicit declaration of function 'strncasecmp' [-Wimplicit-function-declaration]
+   if(strncasecmp(resolv_hostname, name, strlen(resolv_hostname)) == 0 &&
+      ^
+ CC       ../../third_party/libuip/net/ip/simple-udp.o
+ CC       ../../third_party/libuip/net/ip/slipdev.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ip/slipdev.c: In function 'slipdev_send':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ip/slipdev.c:106:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+       ptr = (char *)uip_appdata;
+           ^
+ CC       ../../third_party/libuip/net/ip/tcpip.o
+ CC       ../../third_party/libuip/net/ip/tcp-socket.o
+ CC       ../../third_party/libuip/net/ip/udp-socket.o
+ CC       ../../third_party/libuip/net/ip/uip-debug.o
+ CC       ../../third_party/libuip/net/ip/uiplib.o
+ CC       ../../third_party/libuip/net/ip/uip-packetqueue.o
+ CC       ../../third_party/libuip/net/ip/uip-split.o
+ CC       ../../third_party/libuip/net/ip/uip-udp-packet.o
+ CC       ../../third_party/libuip/net/ipv4/uaodv.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ipv4/uaodv.c:523:1: warning: no previous prototype for 'uaodv_bad_dest' [-Wmissing-prototypes]
+ uaodv_bad_dest(uip_ipaddr_t *dest)
+ ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ipv4/uaodv.c:543:1: warning: no previous prototype for 'uaodv_request_route_to' [-Wmissing-prototypes]
+ uaodv_request_route_to(uip_ipaddr_t *host)
+ ^
+ CC       ../../third_party/libuip/net/ipv4/uaodv-rt.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ipv4/uaodv-rt.c:56:1: warning: no previous prototype for 'uaodv_rt_init' [-Wmissing-prototypes]
+ uaodv_rt_init(void)
+ ^
+ CC       ../../third_party/libuip/net/ipv4/uip.o
+ CC       ../../third_party/libuip/net/ipv4/uip_arp.o
+ CC       ../../third_party/libuip/net/ipv4/uip-fw.o
+ CC       ../../third_party/libuip/net/ipv4/uip-fw-drv.o
+ CC       ../../third_party/libuip/net/ipv4/uip-neighbor.o
+ CC       ../../third_party/libuip/net/ipv4/uip-over-mesh.o
+ CC       ../../third_party/libuip/net/linkaddr.o
+ CC       ../../third_party/libuip/net/nbr-table.o
+ CC       ../../third_party/libuip/net/netstack.o
+ CC       ../../third_party/libuip/net/packetbuf.o
+ CC       ../../third_party/libuip/net/queuebuf.o
+ CC       ../../third_party/libuip/sys/process.o
+ CC       ../../third_party/libuip/sys/etimer.o
+ CC       ../../third_party/libuip/sys/timer.o
+ CC       ../../third_party/libuip/lib/list.o
+ CC       clock-arch.o
+ CC       rtimer-arch.o
+ CC       liteethmac-drv.o
+ AR       libuip.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/uip'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/firmware'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       bist.o
+bash /home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/hdmi_in.sh 1
+Updating hdmi_in1.h
+Updating hdmi_in1.c
+# Check the files exist
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/hdmi_in1.h ]
+ CC       ci.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: In function 'status_short_print':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:355:15: warning: unused variable 'underflows' [-Wunused-variable]
+  unsigned int underflows;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: In function 'status_print':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:454:15: warning: unused variable 'underflows' [-Wunused-variable]
+  unsigned int underflows;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: At top level:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:979:21: warning: 'log2' defined but not used [-Wunused-function]
+ static unsigned int log2(unsigned int v)
+                     ^
+ CC       config.o
+ CC       edid.o
+ CC       encoder.o
+ CC       etherbone.o
+ CC       ethernet.o
+ CC       fx2.o
+ CC       hdmi_in0.o
+ CC       hdmi_out0.o
+ CC       hdmi_out1.o
+ CC       heartbeat.o
+ CC       i2c.o
+ CC       isr.o
+ CC       main.o
+ CC       mdio.o
+ CC       mmcm.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/mmcm.c: In function 'mmcm_dump_all':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/mmcm.c:110:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+ CC       oled.o
+ CC       opsis_eeprom.o
+bash /home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/version_data.sh
+Updating version_data.h
+Updating version_data.c
+# Check the version files exist
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/version_data.h ]
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/version_data.c ]
+ CC       pattern.o
+ CC       pll.o
+ CC       processor.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: In function 'fb_set_mode':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:516:15: warning: unused variable 'hdmi_out1_enabled' [-Wunused-variable]
+  unsigned int hdmi_out1_enabled;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:515:15: warning: unused variable 'hdmi_out0_enabled' [-Wunused-variable]
+  unsigned int hdmi_out0_enabled;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: In function 'processor_service':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:758:29: warning: unused variable 'm' [-Wunused-variable]
+  const struct video_timing *m = &video_modes[processor_mode];
+                             ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: At top level:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:433:13: warning: 'fb_clkgen_write' defined but not used [-Wunused-function]
+ static void fb_clkgen_write(int m, int d)
+             ^
+ CC       reboot.o
+ CC       stdio_wrap.o
+ CC       telnet.o
+ CC       tofe_eeprom.o
+ CC       uptime.o
+ CC       version.o
+ CC       /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/version_data.o
+ CC       /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/hdmi_in1.o
+cp /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/bios/boot-helper-or1k.S boot-helper-or1k.S
+ CC       boot-helper-or1k.o
+ LD       firmware.elf
+chmod -x firmware.elf
+ OBJCOPY  firmware.bin
+chmod -x firmware.bin
+python -m litex.soc.tools.mkmscimg -f firmware.bin -o firmware.fbi
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/firmware'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libcompiler_rt'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       umodsi3.o
+ CC       udivsi3.o
+ CC       divsi3.o
+ CC       modsi3.o
+ CC       comparesf2.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/compiler_rt/lib/builtins/comparesf2.c:85:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ FNALIAS(__cmpsf2, __lesf2);
+ ^
+ CC       comparedf2.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/compiler_rt/lib/builtins/comparedf2.c:85:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ FNALIAS(__cmpdf2, __ledf2);
+ ^
+ CC       negsf2.o
+ CC       negdf2.o
+ CC       addsf3.o
+ CC       subsf3.o
+ CC       mulsf3.o
+ CC       divsf3.o
+ CC       lshrdi3.o
+ CC       muldi3.o
+ CC       divdi3.o
+ CC       ashldi3.o
+ CC       ashrdi3.o
+ CC       udivmoddi4.o
+ CC       floatsisf.o
+ CC       floatunsisf.o
+ CC       fixsfsi.o
+ CC       fixdfdi.o
+ CC       fixunssfsi.o
+ CC       fixunsdfdi.o
+ CC       adddf3.o
+ CC       subdf3.o
+ CC       muldf3.o
+ CC       divdf3.o
+ CC       floatsidf.o
+ CC       floatunsidf.o
+ CC       floatdidf.o
+ CC       fixdfsi.o
+ CC       fixunsdfsi.o
+ CC       clzsi2.o
+ CC       ctzsi2.o
+ CC       udivdi3.o
+ CC       umoddi3.o
+ CC       moddi3.o
+ CC       ucmpdi2.o
+ CC       libcompiler_rt.a
+ AR       libcompiler_rt.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libcompiler_rt'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libbase'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       crt0-or1k.o
+ CC       exception.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/libbase/exception.c:28:13: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ static char emerg_getc()
+             ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/libbase/exception.c: In function 'emerg_getc':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/libbase/exception.c:28:13: warning: old-style function definition [-Wold-style-definition]
+ CC       libc.o
+ CC       errno.o
+ CC       crc16.o
+ CC       crc32.o
+ CC       console.o
+ CC       system.o
+ CC       id.o
+ CC       uart.o
+ CC       time.o
+ CC       qsort.o
+ CC       strtod.o
+ CC       spiflash.o
+ CC       strcasecmp.o
+ CC       vsnprintf.o
+ AR       libbase.a
+ CC       vsnprintf-nofloat.o
+ AR       libbase-nofloat.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libbase'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libnet'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       microudp.o
+ CC       tftp.o
+ AR       libnet.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libnet'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/bios'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       isr.o
+ CC       sdram.o
+In file included from /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/bios/sdram.c:7:0:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/generated/sdram_phy.h:21:13: warning: 'command_p2' defined but not used [-Wunused-function]
+ static void command_p2(int cmd)
+             ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/generated/sdram_phy.h:26:13: warning: 'command_p3' defined but not used [-Wunused-function]
+ static void command_p3(int cmd)
+             ^
+ CC       main.o
+ CC       boot-helper-or1k.o
+ CC       boot.o
+ LD       bios.elf
+chmod -x bios.elf
+ OBJCOPY  bios.bin
+chmod -x bios.bin
+python -m litex.soc.tools.mkmscimg bios.bin
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/bios'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/uip'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       clock-arch.o
+ CC       rtimer-arch.o
+ CC       liteethmac-drv.o
+ AR       libuip.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/uip'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/firmware'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       bist.o
+bash /home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/hdmi_in.sh 1
+Updating hdmi_in1.h
+Updating hdmi_in1.c
+# Check the files exist
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/hdmi_in1.h ]
+ CC       ci.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: In function 'status_short_print':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:355:15: warning: unused variable 'underflows' [-Wunused-variable]
+  unsigned int underflows;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: In function 'status_print':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:454:15: warning: unused variable 'underflows' [-Wunused-variable]
+  unsigned int underflows;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: At top level:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:979:21: warning: 'log2' defined but not used [-Wunused-function]
+ static unsigned int log2(unsigned int v)
+                     ^
+ CC       config.o
+ CC       edid.o
+ CC       encoder.o
+ CC       etherbone.o
+ CC       ethernet.o
+ CC       fx2.o
+ CC       hdmi_in0.o
+ CC       hdmi_out0.o
+ CC       hdmi_out1.o
+ CC       heartbeat.o
+ CC       i2c.o
+ CC       isr.o
+ CC       main.o
+ CC       mdio.o
+ CC       mmcm.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/mmcm.c: In function 'mmcm_dump_all':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/mmcm.c:110:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+ CC       oled.o
+ CC       opsis_eeprom.o
+bash /home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/version_data.sh
+Updating version_data.h
+Updating version_data.c
+# Check the version files exist
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/version_data.h ]
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/version_data.c ]
+ CC       pattern.o
+ CC       pll.o
+ CC       processor.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: In function 'fb_set_mode':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:516:15: warning: unused variable 'hdmi_out1_enabled' [-Wunused-variable]
+  unsigned int hdmi_out1_enabled;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:515:15: warning: unused variable 'hdmi_out0_enabled' [-Wunused-variable]
+  unsigned int hdmi_out0_enabled;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: In function 'processor_service':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:758:29: warning: unused variable 'm' [-Wunused-variable]
+  const struct video_timing *m = &video_modes[processor_mode];
+                             ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: At top level:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:433:13: warning: 'fb_clkgen_write' defined but not used [-Wunused-function]
+ static void fb_clkgen_write(int m, int d)
+             ^
+ CC       reboot.o
+ CC       stdio_wrap.o
+ CC       telnet.o
+ CC       tofe_eeprom.o
+ CC       uptime.o
+ CC       version.o
+ CC       /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/version_data.o
+ CC       /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/hdmi_in1.o
+cp /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/bios/boot-helper-or1k.S boot-helper-or1k.S
+ CC       boot-helper-or1k.o
+ LD       firmware.elf
+chmod -x firmware.elf
+ OBJCOPY  firmware.bin
+chmod -x firmware.bin
+python -m litex.soc.tools.mkmscimg -f firmware.bin -o firmware.fbi
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/firmware'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libcompiler_rt'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libcompiler_rt'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libbase'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       exception.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/libbase/exception.c:28:13: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ static char emerg_getc()
+             ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/libbase/exception.c: In function 'emerg_getc':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/libbase/exception.c:28:13: warning: old-style function definition [-Wold-style-definition]
+ CC       system.o
+ CC       id.o
+ CC       uart.o
+ CC       time.o
+ CC       spiflash.o
+ AR       libbase.a
+ AR       libbase-nofloat.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libbase'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libnet'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       microudp.o
+ AR       libnet.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/libnet'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/bios'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       isr.o
+ CC       sdram.o
+In file included from /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/bios/sdram.c:7:0:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/generated/sdram_phy.h:21:13: warning: 'command_p2' defined but not used [-Wunused-function]
+ static void command_p2(int cmd)
+             ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/generated/sdram_phy.h:26:13: warning: 'command_p3' defined but not used [-Wunused-function]
+ static void command_p3(int cmd)
+             ^
+ CC       main.o
+ CC       boot.o
+ LD       bios.elf
+chmod -x bios.elf
+ OBJCOPY  bios.bin
+chmod -x bios.bin
+python -m litex.soc.tools.mkmscimg bios.bin
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/bios'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/uip'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       clock-arch.o
+ CC       liteethmac-drv.o
+ AR       libuip.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/uip'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/firmware'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       bist.o
+ CC       ci.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: In function 'status_short_print':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:355:15: warning: unused variable 'underflows' [-Wunused-variable]
+  unsigned int underflows;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: In function 'status_print':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:454:15: warning: unused variable 'underflows' [-Wunused-variable]
+  unsigned int underflows;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: At top level:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:979:21: warning: 'log2' defined but not used [-Wunused-function]
+ static unsigned int log2(unsigned int v)
+                     ^
+ CC       config.o
+ CC       encoder.o
+ CC       etherbone.o
+ CC       ethernet.o
+ CC       fx2.o
+ CC       hdmi_in0.o
+ CC       hdmi_out0.o
+ CC       hdmi_out1.o
+ CC       heartbeat.o
+ CC       isr.o
+ CC       main.o
+ CC       mdio.o
+ CC       mmcm.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/mmcm.c: In function 'mmcm_dump_all':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/mmcm.c:110:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+ CC       oled.o
+ CC       opsis_eeprom.o
+bash /home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/version_data.sh
+# Check the version files exist
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/version_data.h ]
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/version_data.c ]
+ CC       pattern.o
+ CC       pll.o
+ CC       processor.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: In function 'fb_set_mode':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:516:15: warning: unused variable 'hdmi_out1_enabled' [-Wunused-variable]
+  unsigned int hdmi_out1_enabled;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:515:15: warning: unused variable 'hdmi_out0_enabled' [-Wunused-variable]
+  unsigned int hdmi_out0_enabled;
+               ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: In function 'processor_service':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:758:29: warning: unused variable 'm' [-Wunused-variable]
+  const struct video_timing *m = &video_modes[processor_mode];
+                             ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: At top level:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:433:13: warning: 'fb_clkgen_write' defined but not used [-Wunused-function]
+ static void fb_clkgen_write(int m, int d)
+             ^
+ CC       reboot.o
+ CC       stdio_wrap.o
+ CC       tofe_eeprom.o
+ CC       uptime.o
+ CC       version.o
+ CC       /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/include/../..//software/firmware/hdmi_in1.o
+ LD       firmware.elf
+chmod -x firmware.elf
+ OBJCOPY  firmware.bin
+chmod -x firmware.bin
+python -m litex.soc.tools.mkmscimg -f firmware.bin -o firmware.fbi
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_or1k/software/firmware'
