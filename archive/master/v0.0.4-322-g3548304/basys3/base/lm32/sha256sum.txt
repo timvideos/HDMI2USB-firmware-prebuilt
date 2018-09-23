@@ -1,0 +1,14 @@
+558358cd833f65a2c5eb0649230d2f4d152ee183b8fcaeb8548772e6d393c50f  ./gateware/top.v
+2ce3efebef78b7812100797142dcbd7dea3f90e5c3b0d790f0318d9fc90bac8e  ./gateware/mem.init
+23961cd8c0caec38ab3a84eeaeb5b2832ab62a45af03d1b66b7e333966002316  ./gateware/mem_2.init
+e2179cb1fd6056bea0e8852cdacbee6d78304350ace2536428d72a163a333581  ./gateware/top.tcl
+6e219b5ec2713ea97574629048a7d993e5754ec810b220fc8c3ae54594804858  ./gateware/top.xdc
+1a808be69bc0d97cf4bbe01101707d1650be3e1e60bfb771cf0aae820baf1978  ./software/include/generated/variables.mak
+a835e7258e36400d5983a1208b3df3627d0cb5baf813721650d587415ce784b3  ./software/include/generated/output_format.ld
+fdf3a79e2974c3d921404c6a2cf74a88108e59f3db6d32b55f1d5bdcf5c6ef04  ./software/include/generated/regions.ld
+547aef8f7b51198e210dcd5c2d25efe457b4388ebd2b16c1674c6ff2ba50e89e  ./software/include/generated/mem.h
+98dee6d40104d31dba230b70c54f8ea8b8d13663a479b79aac6b8fd6c0a3506d  ./software/include/generated/csr.h
+13361d898f58410f6924e06c362ef17c7772a388c9c947efea05bd613bee31aa  ./software/bios/bios.bin
+2698483b71ca059a101f165dad8d3a769437743c76bb0d4ecd20401257f43393  ./software/bios/bios.elf
+40654d4e3d92dae0675ea4dd8947361238259b67f353e8b86572d09b25e7f2e2  ./test/csr.csv
+cd0f2621135f8c5fe327868542bf9d149121954931851b73de416a373eb46ab2  ./logs/output.20180923-093616.log

@@ -1,0 +1,408 @@
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libcompiler_rt'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       umodsi3.o
+ CC       udivsi3.o
+ CC       divsi3.o
+ CC       modsi3.o
+ CC       comparesf2.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/compiler_rt/lib/builtins/comparesf2.c:85:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ FNALIAS(__cmpsf2, __lesf2);
+ ^
+ CC       comparedf2.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/compiler_rt/lib/builtins/comparedf2.c:85:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ FNALIAS(__cmpdf2, __ledf2);
+ ^
+ CC       negsf2.o
+ CC       negdf2.o
+ CC       addsf3.o
+ CC       subsf3.o
+ CC       mulsf3.o
+ CC       divsf3.o
+ CC       lshrdi3.o
+ CC       muldi3.o
+ CC       divdi3.o
+ CC       ashldi3.o
+ CC       ashrdi3.o
+ CC       udivmoddi4.o
+ CC       floatsisf.o
+ CC       floatunsisf.o
+ CC       fixsfsi.o
+ CC       fixdfdi.o
+ CC       fixunssfsi.o
+ CC       fixunsdfdi.o
+ CC       adddf3.o
+ CC       subdf3.o
+ CC       muldf3.o
+ CC       divdf3.o
+ CC       floatsidf.o
+ CC       floatunsidf.o
+ CC       floatdidf.o
+ CC       fixdfsi.o
+ CC       fixunsdfsi.o
+ CC       clzsi2.o
+ CC       ctzsi2.o
+ CC       udivdi3.o
+ CC       umoddi3.o
+ CC       moddi3.o
+ CC       ucmpdi2.o
+ CC       libcompiler_rt.a
+ AR       libcompiler_rt.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libcompiler_rt'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libbase'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       crt0-lm32.o
+ CC       exception.o
+ CC       libc.o
+ CC       errno.o
+ CC       crc16.o
+ CC       crc32.o
+ CC       console.o
+ CC       system.o
+ CC       id.o
+ CC       uart.o
+ CC       time.o
+ CC       qsort.o
+ CC       strtod.o
+ CC       spiflash.o
+ CC       strcasecmp.o
+ CC       vsnprintf.o
+ AR       libbase.a
+ CC       vsnprintf-nofloat.o
+ AR       libbase-nofloat.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libbase'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libnet'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       microudp.o
+ CC       tftp.o
+ AR       libnet.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libnet'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/bios'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       isr.o
+ CC       sdram.o
+ CC       main.o
+ CC       boot-helper-lm32.o
+ CC       boot.o
+ LD       bios.elf
+chmod -x bios.elf
+ OBJCOPY  bios.bin
+chmod -x bios.bin
+python -m litex.soc.tools.mkmscimg bios.bin
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/bios'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/uip'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       ../../third_party/libuip/net/ip/dhcpc.o
+ CC       ../../third_party/libuip/net/ip/psock.o
+ CC       ../../third_party/libuip/net/ip/resolv.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ip/resolv.c: In function 'resolv_found':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ip/resolv.c:1446:6: warning: implicit declaration of function 'strncasecmp' [-Wimplicit-function-declaration]
+   if(strncasecmp(resolv_hostname, name, strlen(resolv_hostname)) == 0 &&
+      ^
+ CC       ../../third_party/libuip/net/ip/simple-udp.o
+ CC       ../../third_party/libuip/net/ip/slipdev.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ip/slipdev.c: In function 'slipdev_send':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ip/slipdev.c:106:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+       ptr = (char *)uip_appdata;
+           ^
+ CC       ../../third_party/libuip/net/ip/tcpip.o
+ CC       ../../third_party/libuip/net/ip/tcp-socket.o
+ CC       ../../third_party/libuip/net/ip/udp-socket.o
+ CC       ../../third_party/libuip/net/ip/uip-debug.o
+ CC       ../../third_party/libuip/net/ip/uiplib.o
+ CC       ../../third_party/libuip/net/ip/uip-packetqueue.o
+ CC       ../../third_party/libuip/net/ip/uip-split.o
+ CC       ../../third_party/libuip/net/ip/uip-udp-packet.o
+ CC       ../../third_party/libuip/net/ipv4/uaodv.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ipv4/uaodv.c:523:1: warning: no previous prototype for 'uaodv_bad_dest' [-Wmissing-prototypes]
+ uaodv_bad_dest(uip_ipaddr_t *dest)
+ ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ipv4/uaodv.c:543:1: warning: no previous prototype for 'uaodv_request_route_to' [-Wmissing-prototypes]
+ uaodv_request_route_to(uip_ipaddr_t *host)
+ ^
+ CC       ../../third_party/libuip/net/ipv4/uaodv-rt.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/../../third_party/libuip/net/ipv4/uaodv-rt.c:56:1: warning: no previous prototype for 'uaodv_rt_init' [-Wmissing-prototypes]
+ uaodv_rt_init(void)
+ ^
+ CC       ../../third_party/libuip/net/ipv4/uip.o
+ CC       ../../third_party/libuip/net/ipv4/uip_arp.o
+ CC       ../../third_party/libuip/net/ipv4/uip-fw.o
+ CC       ../../third_party/libuip/net/ipv4/uip-fw-drv.o
+ CC       ../../third_party/libuip/net/ipv4/uip-neighbor.o
+ CC       ../../third_party/libuip/net/ipv4/uip-over-mesh.o
+ CC       ../../third_party/libuip/net/linkaddr.o
+ CC       ../../third_party/libuip/net/nbr-table.o
+ CC       ../../third_party/libuip/net/netstack.o
+ CC       ../../third_party/libuip/net/packetbuf.o
+ CC       ../../third_party/libuip/net/queuebuf.o
+ CC       ../../third_party/libuip/sys/process.o
+ CC       ../../third_party/libuip/sys/etimer.o
+ CC       ../../third_party/libuip/sys/timer.o
+ CC       ../../third_party/libuip/lib/list.o
+ CC       clock-arch.o
+ CC       rtimer-arch.o
+ CC       liteethmac-drv.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:24:21: warning: 'rxslot' defined but not used [-Wunused-variable]
+ static unsigned int rxslot;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:25:21: warning: 'rxlen' defined but not used [-Wunused-variable]
+ static unsigned int rxlen;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:26:25: warning: 'rxbuffer' defined but not used [-Wunused-variable]
+ static ethernet_buffer *rxbuffer;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:27:25: warning: 'rxbuffer0' defined but not used [-Wunused-variable]
+ static ethernet_buffer *rxbuffer0;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:28:25: warning: 'rxbuffer1' defined but not used [-Wunused-variable]
+ static ethernet_buffer *rxbuffer1;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:29:21: warning: 'txslot' defined but not used [-Wunused-variable]
+ static unsigned int txslot;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:30:21: warning: 'txlen' defined but not used [-Wunused-variable]
+ static unsigned int txlen;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:31:25: warning: 'txbuffer' defined but not used [-Wunused-variable]
+ static ethernet_buffer *txbuffer;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:32:25: warning: 'txbuffer0' defined but not used [-Wunused-variable]
+ static ethernet_buffer *txbuffer0;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:33:25: warning: 'txbuffer1' defined but not used [-Wunused-variable]
+ static ethernet_buffer *txbuffer1;
+                         ^
+ AR       libuip.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/uip'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/stub'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       main.o
+ CC       isr.o
+cp /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/bios/boot-helper-lm32.S boot-helper-lm32.S
+ CC       boot-helper-lm32.o
+ LD       firmware.elf
+lm32-elf-ld:/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/stub/linker.ld:15: warning: memory region `user_flash' not declared
+chmod -x firmware.elf
+ OBJCOPY  firmware.bin
+chmod -x firmware.bin
+python -m litex.soc.tools.mkmscimg -f firmware.bin -o firmware.fbi
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/stub'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libcompiler_rt'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       umodsi3.o
+ CC       udivsi3.o
+ CC       divsi3.o
+ CC       modsi3.o
+ CC       comparesf2.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/compiler_rt/lib/builtins/comparesf2.c:85:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ FNALIAS(__cmpsf2, __lesf2);
+ ^
+ CC       comparedf2.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/compiler_rt/lib/builtins/comparedf2.c:85:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ FNALIAS(__cmpdf2, __ledf2);
+ ^
+ CC       negsf2.o
+ CC       negdf2.o
+ CC       addsf3.o
+ CC       subsf3.o
+ CC       mulsf3.o
+ CC       divsf3.o
+ CC       lshrdi3.o
+ CC       muldi3.o
+ CC       divdi3.o
+ CC       ashldi3.o
+ CC       ashrdi3.o
+ CC       udivmoddi4.o
+ CC       floatsisf.o
+ CC       floatunsisf.o
+ CC       fixsfsi.o
+ CC       fixdfdi.o
+ CC       fixunssfsi.o
+ CC       fixunsdfdi.o
+ CC       adddf3.o
+ CC       subdf3.o
+ CC       muldf3.o
+ CC       divdf3.o
+ CC       floatsidf.o
+ CC       floatunsidf.o
+ CC       floatdidf.o
+ CC       fixdfsi.o
+ CC       fixunsdfsi.o
+ CC       clzsi2.o
+ CC       ctzsi2.o
+ CC       udivdi3.o
+ CC       umoddi3.o
+ CC       moddi3.o
+ CC       ucmpdi2.o
+ CC       libcompiler_rt.a
+ AR       libcompiler_rt.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libcompiler_rt'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libbase'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       crt0-lm32.o
+ CC       exception.o
+ CC       libc.o
+ CC       errno.o
+ CC       crc16.o
+ CC       crc32.o
+ CC       console.o
+ CC       system.o
+ CC       id.o
+ CC       uart.o
+ CC       time.o
+ CC       qsort.o
+ CC       strtod.o
+ CC       spiflash.o
+ CC       strcasecmp.o
+ CC       vsnprintf.o
+ AR       libbase.a
+ CC       vsnprintf-nofloat.o
+ AR       libbase-nofloat.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libbase'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libnet'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       microudp.o
+ CC       tftp.o
+ AR       libnet.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libnet'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/bios'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       isr.o
+ CC       sdram.o
+ CC       main.o
+ CC       boot-helper-lm32.o
+ CC       boot.o
+ LD       bios.elf
+chmod -x bios.elf
+ OBJCOPY  bios.bin
+chmod -x bios.bin
+python -m litex.soc.tools.mkmscimg bios.bin
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/bios'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/uip'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       clock-arch.o
+ CC       rtimer-arch.o
+ CC       liteethmac-drv.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:24:21: warning: 'rxslot' defined but not used [-Wunused-variable]
+ static unsigned int rxslot;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:25:21: warning: 'rxlen' defined but not used [-Wunused-variable]
+ static unsigned int rxlen;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:26:25: warning: 'rxbuffer' defined but not used [-Wunused-variable]
+ static ethernet_buffer *rxbuffer;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:27:25: warning: 'rxbuffer0' defined but not used [-Wunused-variable]
+ static ethernet_buffer *rxbuffer0;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:28:25: warning: 'rxbuffer1' defined but not used [-Wunused-variable]
+ static ethernet_buffer *rxbuffer1;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:29:21: warning: 'txslot' defined but not used [-Wunused-variable]
+ static unsigned int txslot;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:30:21: warning: 'txlen' defined but not used [-Wunused-variable]
+ static unsigned int txlen;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:31:25: warning: 'txbuffer' defined but not used [-Wunused-variable]
+ static ethernet_buffer *txbuffer;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:32:25: warning: 'txbuffer0' defined but not used [-Wunused-variable]
+ static ethernet_buffer *txbuffer0;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:33:25: warning: 'txbuffer1' defined but not used [-Wunused-variable]
+ static ethernet_buffer *txbuffer1;
+                         ^
+ AR       libuip.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/uip'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/stub'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       main.o
+ CC       isr.o
+cp /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/software/bios/boot-helper-lm32.S boot-helper-lm32.S
+ CC       boot-helper-lm32.o
+ LD       firmware.elf
+lm32-elf-ld:/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/stub/linker.ld:15: warning: memory region `user_flash' not declared
+chmod -x firmware.elf
+ OBJCOPY  firmware.bin
+chmod -x firmware.bin
+python -m litex.soc.tools.mkmscimg -f firmware.bin -o firmware.fbi
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/stub'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libcompiler_rt'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libcompiler_rt'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libbase'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       exception.o
+ CC       system.o
+ CC       id.o
+ CC       uart.o
+ CC       time.o
+ CC       spiflash.o
+ AR       libbase.a
+ AR       libbase-nofloat.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libbase'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libnet'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       microudp.o
+ AR       libnet.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/libnet'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/bios'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       isr.o
+ CC       sdram.o
+ CC       main.o
+ CC       boot.o
+ LD       bios.elf
+chmod -x bios.elf
+ OBJCOPY  bios.bin
+chmod -x bios.bin
+python -m litex.soc.tools.mkmscimg bios.bin
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/bios'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/uip'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       clock-arch.o
+ CC       liteethmac-drv.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:24:21: warning: 'rxslot' defined but not used [-Wunused-variable]
+ static unsigned int rxslot;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:25:21: warning: 'rxlen' defined but not used [-Wunused-variable]
+ static unsigned int rxlen;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:26:25: warning: 'rxbuffer' defined but not used [-Wunused-variable]
+ static ethernet_buffer *rxbuffer;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:27:25: warning: 'rxbuffer0' defined but not used [-Wunused-variable]
+ static ethernet_buffer *rxbuffer0;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:28:25: warning: 'rxbuffer1' defined but not used [-Wunused-variable]
+ static ethernet_buffer *rxbuffer1;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:29:21: warning: 'txslot' defined but not used [-Wunused-variable]
+ static unsigned int txslot;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:30:21: warning: 'txlen' defined but not used [-Wunused-variable]
+ static unsigned int txlen;
+                     ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:31:25: warning: 'txbuffer' defined but not used [-Wunused-variable]
+ static ethernet_buffer *txbuffer;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:32:25: warning: 'txbuffer0' defined but not used [-Wunused-variable]
+ static ethernet_buffer *txbuffer0;
+                         ^
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:33:25: warning: 'txbuffer1' defined but not used [-Wunused-variable]
+ static ethernet_buffer *txbuffer1;
+                         ^
+ AR       libuip.a
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/uip'
+make[1]: Entering directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/stub'
+make[1]: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+ CC       main.o
+ CC       isr.o
+ LD       firmware.elf
+lm32-elf-ld:/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/stub/linker.ld:15: warning: memory region `user_flash' not declared
+chmod -x firmware.elf
+ OBJCOPY  firmware.bin
+chmod -x firmware.bin
+python -m litex.soc.tools.mkmscimg -f firmware.bin -o firmware.fbi
+make[1]: Leaving directory `/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/software/stub'
