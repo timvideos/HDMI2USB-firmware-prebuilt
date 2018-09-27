@@ -48,8 +48,8 @@ c0c6387a0dcf747fed72ecd5849bedae36323b717d417d0b236d93351fa57d58  ./basys3/base/
 14969f31526b9b5a1a359aea71d92c4f79165634a06933bc21d1b9c8aea9e2e1  ./basys3/base/lm32/unstable.sha256sum
 e025c73ec0ad72ef97813e3bdf3f7514f16142e2b6d923387b49dfe9365314cf  ./cmod_a7/base/lm32/channels.txt
 4a93e55e719f661ec0066b78e6ff8be31b624834f53dbe41af709564e85f2fb3  ./cmod_a7/base/lm32/unstable.sha256sum
-9811f1ea7a121b3614438186172649ce82d73c1a75f6e7cdb749f351200978d1  ./galatea/base/lm32/channels.txt
-df63d8005a96adafe9a67e04aef4ff4ab3a9e729ba39f2e7a019ceec6ddf26b9  ./galatea/base/lm32/unstable.sha256sum
+53c4286ce7719a1894523e19cf53702d1338bbbe33d62f30744b398708f4a43f  ./galatea/base/lm32/channels.txt
+73f88d393ffa0c4f8cc8444659f19126c03acf88f302875cb11339ba770db5a3  ./galatea/base/lm32/unstable.sha256sum
 9bc8c2fa7cefb0bf98f6c3cde46748b6fc66371fdf4b447ec84518cbc4986266  ./mimasv2/base/lm32/channels.txt
 44368af1c6a39f6aa3892126f1ee3b12a9db5f06151d6e0bbfcea02db27fcc1a  ./mimasv2/base/lm32/stable.sha256sum
 3b71f8501cc5fd69e381e06343b274d5ef869407973ef63c9d26021848cd364c  ./mimasv2/base/lm32/testing.sha256sum
