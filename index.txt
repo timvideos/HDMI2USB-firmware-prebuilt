@@ -119,7 +119,7 @@ f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/
 5f5a094b9e1fd0254d0dfe757bcd6b55750185c1ab14f9b4d69eb0deba47ab9f  ./revs.txt
 7ac99e292b86d80a3256e119cb5e337570d98b898e010b7f7b0b9a3725c12ec1  ./saturn/base/lm32/channels.txt
 a4c8e94bf93ad09359362799873a3a71bb157bc068cdf87c7b3f4c0e06bf385b  ./saturn/base/lm32/unstable.sha256sum
-71d10e3bae4231cee09117e506a19ba6dec8690461a1e7b21fec53d19f964665  ./tinyfpga_bx/base/lm32.lite/channels.txt
-9a8675fa98a80bd20d8175b7c2c2f629bf0c072fb31e4796f5a4d29530ef1d75  ./tinyfpga_bx/base/lm32.lite/unstable.sha256sum
+bd9fed73f80109df7383b06d32363d4eff7d8f8d0aceac91bc9394a04c1bd578  ./tinyfpga_bx/base/lm32.lite/channels.txt
+ca59d3babcd90c1305cad7877d7cc8c7c203e164e690dc0c2a7c14abe73b77e7  ./tinyfpga_bx/base/lm32.lite/unstable.sha256sum
 88eb53be92395e90fae97e1006a684461f7e57d394abfdeb34833c3a7cec3992  ./waxwing/base/lm32/channels.txt
 d7d226b09ff640bb52d57047fefdcdc84ef6977bfa72f4946605512ef709164b  ./waxwing/base/lm32/unstable.sha256sum
