@@ -1,1 +1,1 @@
-unstable v0.0.4-324-g1a111fa https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-324-g1a111fa/arty/base/lm32/
+unstable v0.0.4-340-g3fb4e7c https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-340-g3fb4e7c/arty/base/lm32/
