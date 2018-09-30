@@ -1,1 +1,1 @@
-unstable v0.0.4-324-g1a111fa https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-324-g1a111fa/mimasv2/base/or1k/
+unstable v0.0.4-340-g3fb4e7c https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-340-g3fb4e7c/mimasv2/base/or1k/
