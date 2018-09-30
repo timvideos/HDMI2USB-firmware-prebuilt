@@ -133,5 +133,7 @@ e00edb9c20c45772ec75f2276834d28715a05c242e47a87f8190456790084db9  ./saturn/base/
 0be288638a87f90faae01c0bf15f34c2f5516b25cf7aa7526ac070519f655948  ./saturn/base/lm32/unstable.sha256sum
 bd9fed73f80109df7383b06d32363d4eff7d8f8d0aceac91bc9394a04c1bd578  ./tinyfpga_bx/base/lm32.lite/channels.txt
 ca59d3babcd90c1305cad7877d7cc8c7c203e164e690dc0c2a7c14abe73b77e7  ./tinyfpga_bx/base/lm32.lite/unstable.sha256sum
+54acc3996fe4351652edc681831326953b2843dab49bdab510a8bd5d08dba81e  ./tinyfpga_bx/base/picorv32/channels.txt
+da39ac72cffcfffab248056372ebc6c37fb38bc510f20f7045958290d458400e  ./tinyfpga_bx/base/picorv32/unstable.sha256sum
 03854bcbb3547b3b21a29df927a0c4af7cb31603a359e96a7eec119100432974  ./waxwing/base/lm32/channels.txt
 6ab9bc88d95cda77fd6ed252bd8a2c5d6cf03f4d5285784016bd3269094ba052  ./waxwing/base/lm32/unstable.sha256sum
