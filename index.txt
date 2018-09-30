@@ -18,6 +18,8 @@ ab704215927efd5da4dfdd819dae0d8f1855e6a30be074db0102a73ea6025052  ./arty/net/or1
 f18401c48734312126b952a171f8d3d96a053e1cea894b5947a4ed41f24ac36b  ./arty/net/or1k/stable.sha256sum
 2027d97fdaecae486b758aa23e56cda772a1e33f489fedee08b0fa583c784835  ./arty/net/or1k/testing.sha256sum
 37bd2dd455e9c955641a3a191b9b129b5b5a0a6090bf07ea715bcf1424329cc7  ./arty/net/or1k/unstable.sha256sum
+6a88e26d090d3cac1109d5758e5e49c783c570dac83358d3feb4c6a20aed45db  ./arty/net/vexriscv/channels.txt
+aa3c220df8c0b005840633e8c4eec09d96c06794f79c704bd8e2fb292950b4ce  ./arty/net/vexriscv/unstable.sha256sum
 4407ea78cd7d990760e20ae4dcf6a5ff1f43cc0f38746cfcaa9960b068752e64  ./atlys/base/lm32/channels.txt
 4ddaa0ad59768ffc91e7b413977eec13924d6fd64af0d1ae9e3b028758722ed8  ./atlys/base/lm32/stable.sha256sum
 696b4c5f0484141cbacf8c782a9879b7e5e5b3e940bd3aa916d8d3a8de4d7b42  ./atlys/base/lm32/testing.sha256sum
