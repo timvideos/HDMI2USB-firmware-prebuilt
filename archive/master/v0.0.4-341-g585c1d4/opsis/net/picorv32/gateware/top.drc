@@ -1,0 +1,16 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Oct  1 02:15:04 2018
+
+drc -z top.ncd top.pcf
+
+WARNING:PhysDesignRules:1441 - Issue with pin connections and/or configuration
+   on block:<rgmii_if/rgmii_rx_ctl_in>:<ILOGIC2_IFF>.  The IFFTYPE is DDR and
+   the Q2 output pin of IFF is not used.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
