@@ -1,1 +1,1 @@
-unstable v0.0.4-341-g585c1d4 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-341-g585c1d4/atlys/base/lm32/
+unstable v0.0.4-347-g41810b8 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-347-g41810b8/atlys/base/lm32/
