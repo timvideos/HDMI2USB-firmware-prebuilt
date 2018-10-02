@@ -1,1 +1,1 @@
-unstable v0.0.4-340-g3fb4e7c https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-340-g3fb4e7c/opsis/base/picorv32/
+unstable v0.0.4-347-g41810b8 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-347-g41810b8/opsis/base/picorv32/
