@@ -1,1 +1,1 @@
-unstable v0.0.4-344-g5760a16 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-344-g5760a16/mimasv2/base/lm32/
+unstable v0.0.4-356-ga1093ac https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-356-ga1093ac/mimasv2/base/lm32/
