@@ -141,8 +141,8 @@ f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/
 03ba07a74384afd834aeaf5a1d0a4424bf627ca1acc26d20bf2306ed583caab2  ./revs.txt
 cd9b60a9fc3e20bca3c072648e923af2cd181647516ad248868bb19c9a9eee40  ./saturn/base/lm32/channels.txt
 680f4974d45a9e93778f4f63b7ad85404279f12874ac531eeddd15365eceab00  ./saturn/base/lm32/unstable.sha256sum
-8f6a31b1b0aff7d0690980023f88ce6cfbd5c1e802564b8bdf9f15e67655bddb  ./tinyfpga_bx/base/lm32.lite/channels.txt
-9023324e4cab0ed9e031502afbcd69b1e83d1a448154cd31bfa753da2aab3613  ./tinyfpga_bx/base/lm32.lite/unstable.sha256sum
+4f36c0b591c2fc56fe56256a29f3e20bcf099be8cc645b4651ecfe1c6158dad6  ./tinyfpga_bx/base/lm32.lite/channels.txt
+acdbdd4adc53ce7c0dd0d77a7659e075a2c3f81f82b4ac6f26bf891f725e6301  ./tinyfpga_bx/base/lm32.lite/unstable.sha256sum
 b5ee61f989638f98e0105771032372227bbd6873b0801ba5a52058db52e92ba1  ./tinyfpga_bx/base/picorv32/channels.txt
 40fa5d0b55520d66cbc0b872c4162f0365c5350f860075c165cb570c29653649  ./tinyfpga_bx/base/picorv32/unstable.sha256sum
 a7bbfe75d0921d50cf99f2e48cdcf5c07d6bccdd7bc8bf645bcfcf029bbc5ac3  ./waxwing/base/lm32/channels.txt
