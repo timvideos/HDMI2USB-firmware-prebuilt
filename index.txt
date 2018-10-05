@@ -52,8 +52,8 @@ f6f4cefb50cfda905dd6e0268911d00612c6be2251a9588938e7f6792db0fe38  ./atlys/net/or
 54899077dd083134cc40b6f27afe9b179508c3c6d04130c81103f8ade6ce61e3  ./atlys/video/lm32/stable.sha256sum
 e5860adbeecdb1fef381e740ad88e376fffc2f9bab7428917168a5d6bdb9b6a3  ./atlys/video/lm32/testing.sha256sum
 82a735b612797eadf0401c1398ff0721ea898761f321812f9eb3e9cf036b3ef6  ./atlys/video/lm32/unstable.sha256sum
-d76d907abf4da4e23f64588f84046d823ef74b60a518091aaa2c37ffbed0c1d7  ./basys3/base/lm32/channels.txt
-3686281fe2f69cfe2f2d8d6dd55cbea16d153f8ffc2b66d30dbbbcd04eb30364  ./basys3/base/lm32/unstable.sha256sum
+aee7231abb8f8e43ed0ad46e35350bbbfd0a2b7383a03949b705d6b84a71da8e  ./basys3/base/lm32/channels.txt
+6da7cae04a6a8562f5b92ae351b8a0c1e852d4ea9d8651e5150771a4a28640e6  ./basys3/base/lm32/unstable.sha256sum
 43385df13cb02a564abc3a7a9d5c3bd60d6a937c84b40a72f3f617d0cc2fdea8  ./cmod_a7/base/lm32/channels.txt
 67f567ae96992b43e9d2f2eb993c26a49296ae688bbf0f5fcc3c9538e4dd4312  ./cmod_a7/base/lm32/unstable.sha256sum
 7a202840ca60786e2ea4f069380770b2562872f0394a2550e80fde805da5314b  ./galatea/base/lm32/channels.txt
