@@ -1,0 +1,399 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/14.
+7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -uc top.ucf top.ngc top.ngd
+
+Reading NGO file
+"/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/atlys_hdmi2usb_lm32/
+gateware/top.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "top.ucf" ...
+WARNING:NgdBuild - The value of SIM_DEVICE on instance 'hdmi_in_pll_adv' of type
+   PLL_ADV has been changed from 'VIRTEX5' to 'SPARTAN6' to correct
+   post-ngdbuild and timing simulation for this primitive.  In order for
+   functional simulation to be correct, the value of SIM_DEVICE should be
+   changed in this same manner in the source netlist or constraint file.
+WARNING:NgdBuild - The value of SIM_DEVICE on instance 'hdmi_in_pll_adv_1' of
+   type PLL_ADV has been changed from 'VIRTEX5' to 'SPARTAN6' to correct
+   post-ngdbuild and timing simulation for this primitive.  In order for
+   functional simulation to be correct, the value of SIM_DEVICE should be
+   changed in this same manner in the source netlist or constraint file.
+WARNING:NgdBuild - The value of SIM_DEVICE on instance 'hdmi_out_pll_adv' of
+   type PLL_ADV has been changed from 'VIRTEX5' to 'SPARTAN6' to correct
+   post-ngdbuild and timing simulation for this primitive.  In order for
+   functional simulation to be correct, the value of SIM_DEVICE should be
+   changed in this same manner in the source netlist or constraint file.
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - TNM : TIGsys_clk was distributed to a DCM but new TNM
+   constraints were not derived. This TNM is used in the following user groups
+   or specifications:
+   <TIMESPEC "TSsys_clkTOhdmi_out0_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out0_pix_clk" TIG;> [top.ucf(140)]
+   <TIMESPEC "TSsys_clkTOhdmi_out1_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out1_pix_clk" TIG;> [top.ucf(146)]
+   <TIMESPEC "TShdmi_out0_pix_clkTOsys_clk" = FROM "TIGhdmi_out0_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(152)]
+   <TIMESPEC "TShdmi_out1_pix_clkTOsys_clk" = FROM "TIGhdmi_out1_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(164)]
+   <TIMESPEC "TSsys_clkTOencoder_clk" = FROM "TIGsys_clk" TO "TIGencoder_clk"
+   TIG;> [top.ucf(181)]
+   <TIMESPEC "TSsys_clkTOusb_clk" = FROM "TIGsys_clk" TO "TIGusb_clk" TIG;>
+   [top.ucf(187)]
+   <TIMESPEC "TSencoder_clkTOsys_clk" = FROM "TIGencoder_clk" TO "TIGsys_clk"
+   TIG;> [top.ucf(193)]
+   <TIMESPEC "TSusb_clkTOsys_clk" = FROM "TIGusb_clk" TO "TIGsys_clk" TIG;>
+   [top.ucf(205)]
+
+WARNING:ConstraintSystem - TNM : TIGsys_clk was distributed to a DCM but new TNM
+   constraints were not derived. This TNM is used in the following user groups
+   or specifications:
+   <TIMESPEC "TSsys_clkTOhdmi_out1_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out1_pix_clk" TIG;> [top.ucf(146)]
+   <TIMESPEC "TShdmi_out0_pix_clkTOsys_clk" = FROM "TIGhdmi_out0_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(152)]
+   <TIMESPEC "TShdmi_out1_pix_clkTOsys_clk" = FROM "TIGhdmi_out1_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(164)]
+   <TIMESPEC "TSsys_clkTOencoder_clk" = FROM "TIGsys_clk" TO "TIGencoder_clk"
+   TIG;> [top.ucf(181)]
+   <TIMESPEC "TSsys_clkTOusb_clk" = FROM "TIGsys_clk" TO "TIGusb_clk" TIG;>
+   [top.ucf(187)]
+   <TIMESPEC "TSencoder_clkTOsys_clk" = FROM "TIGencoder_clk" TO "TIGsys_clk"
+   TIG;> [top.ucf(193)]
+   <TIMESPEC "TSusb_clkTOsys_clk" = FROM "TIGusb_clk" TO "TIGsys_clk" TIG;>
+   [top.ucf(205)]
+   <TIMESPEC "TSsys_clkTOhdmi_out0_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out0_pix_clk" TIG;> [top.ucf(140)]
+
+WARNING:ConstraintSystem - TNM : TIGsys_clk was distributed to a DCM but new TNM
+   constraints were not derived. This TNM is used in the following user groups
+   or specifications:
+   <TIMESPEC "TShdmi_out0_pix_clkTOsys_clk" = FROM "TIGhdmi_out0_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(152)]
+   <TIMESPEC "TShdmi_out1_pix_clkTOsys_clk" = FROM "TIGhdmi_out1_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(164)]
+   <TIMESPEC "TSsys_clkTOencoder_clk" = FROM "TIGsys_clk" TO "TIGencoder_clk"
+   TIG;> [top.ucf(181)]
+   <TIMESPEC "TSsys_clkTOusb_clk" = FROM "TIGsys_clk" TO "TIGusb_clk" TIG;>
+   [top.ucf(187)]
+   <TIMESPEC "TSencoder_clkTOsys_clk" = FROM "TIGencoder_clk" TO "TIGsys_clk"
+   TIG;> [top.ucf(193)]
+   <TIMESPEC "TSusb_clkTOsys_clk" = FROM "TIGusb_clk" TO "TIGsys_clk" TIG;>
+   [top.ucf(205)]
+   <TIMESPEC "TSsys_clkTOhdmi_out0_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out0_pix_clk" TIG;> [top.ucf(140)]
+   <TIMESPEC "TSsys_clkTOhdmi_out1_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out1_pix_clk" TIG;> [top.ucf(146)]
+
+WARNING:ConstraintSystem - TNM : TIGsys_clk was distributed to a DCM but new TNM
+   constraints were not derived. This TNM is used in the following user groups
+   or specifications:
+   <TIMESPEC "TShdmi_out1_pix_clkTOsys_clk" = FROM "TIGhdmi_out1_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(164)]
+   <TIMESPEC "TSsys_clkTOencoder_clk" = FROM "TIGsys_clk" TO "TIGencoder_clk"
+   TIG;> [top.ucf(181)]
+   <TIMESPEC "TSsys_clkTOusb_clk" = FROM "TIGsys_clk" TO "TIGusb_clk" TIG;>
+   [top.ucf(187)]
+   <TIMESPEC "TSencoder_clkTOsys_clk" = FROM "TIGencoder_clk" TO "TIGsys_clk"
+   TIG;> [top.ucf(193)]
+   <TIMESPEC "TSusb_clkTOsys_clk" = FROM "TIGusb_clk" TO "TIGsys_clk" TIG;>
+   [top.ucf(205)]
+   <TIMESPEC "TSsys_clkTOhdmi_out0_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out0_pix_clk" TIG;> [top.ucf(140)]
+   <TIMESPEC "TSsys_clkTOhdmi_out1_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out1_pix_clk" TIG;> [top.ucf(146)]
+   <TIMESPEC "TShdmi_out0_pix_clkTOsys_clk" = FROM "TIGhdmi_out0_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(152)]
+
+WARNING:ConstraintSystem - TNM : TIGsys_clk was distributed to a DCM but new TNM
+   constraints were not derived. This TNM is used in the following user groups
+   or specifications:
+   <TIMESPEC "TSsys_clkTOencoder_clk" = FROM "TIGsys_clk" TO "TIGencoder_clk"
+   TIG;> [top.ucf(181)]
+   <TIMESPEC "TSsys_clkTOusb_clk" = FROM "TIGsys_clk" TO "TIGusb_clk" TIG;>
+   [top.ucf(187)]
+   <TIMESPEC "TSencoder_clkTOsys_clk" = FROM "TIGencoder_clk" TO "TIGsys_clk"
+   TIG;> [top.ucf(193)]
+   <TIMESPEC "TSusb_clkTOsys_clk" = FROM "TIGusb_clk" TO "TIGsys_clk" TIG;>
+   [top.ucf(205)]
+   <TIMESPEC "TSsys_clkTOhdmi_out0_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out0_pix_clk" TIG;> [top.ucf(140)]
+   <TIMESPEC "TSsys_clkTOhdmi_out1_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out1_pix_clk" TIG;> [top.ucf(146)]
+   <TIMESPEC "TShdmi_out0_pix_clkTOsys_clk" = FROM "TIGhdmi_out0_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(152)]
+   <TIMESPEC "TShdmi_out1_pix_clkTOsys_clk" = FROM "TIGhdmi_out1_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(164)]
+
+WARNING:ConstraintSystem - TNM : TIGsys_clk was distributed to a DCM but new TNM
+   constraints were not derived. This TNM is used in the following user groups
+   or specifications:
+   <TIMESPEC "TSsys_clkTOusb_clk" = FROM "TIGsys_clk" TO "TIGusb_clk" TIG;>
+   [top.ucf(187)]
+   <TIMESPEC "TSencoder_clkTOsys_clk" = FROM "TIGencoder_clk" TO "TIGsys_clk"
+   TIG;> [top.ucf(193)]
+   <TIMESPEC "TSusb_clkTOsys_clk" = FROM "TIGusb_clk" TO "TIGsys_clk" TIG;>
+   [top.ucf(205)]
+   <TIMESPEC "TSsys_clkTOhdmi_out0_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out0_pix_clk" TIG;> [top.ucf(140)]
+   <TIMESPEC "TSsys_clkTOhdmi_out1_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out1_pix_clk" TIG;> [top.ucf(146)]
+   <TIMESPEC "TShdmi_out0_pix_clkTOsys_clk" = FROM "TIGhdmi_out0_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(152)]
+   <TIMESPEC "TShdmi_out1_pix_clkTOsys_clk" = FROM "TIGhdmi_out1_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(164)]
+   <TIMESPEC "TSsys_clkTOencoder_clk" = FROM "TIGsys_clk" TO "TIGencoder_clk"
+   TIG;> [top.ucf(181)]
+
+WARNING:ConstraintSystem - TNM : TIGsys_clk was distributed to a DCM but new TNM
+   constraints were not derived. This TNM is used in the following user groups
+   or specifications:
+   <TIMESPEC "TSencoder_clkTOsys_clk" = FROM "TIGencoder_clk" TO "TIGsys_clk"
+   TIG;> [top.ucf(193)]
+   <TIMESPEC "TSusb_clkTOsys_clk" = FROM "TIGusb_clk" TO "TIGsys_clk" TIG;>
+   [top.ucf(205)]
+   <TIMESPEC "TSsys_clkTOhdmi_out0_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out0_pix_clk" TIG;> [top.ucf(140)]
+   <TIMESPEC "TSsys_clkTOhdmi_out1_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out1_pix_clk" TIG;> [top.ucf(146)]
+   <TIMESPEC "TShdmi_out0_pix_clkTOsys_clk" = FROM "TIGhdmi_out0_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(152)]
+   <TIMESPEC "TShdmi_out1_pix_clkTOsys_clk" = FROM "TIGhdmi_out1_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(164)]
+   <TIMESPEC "TSsys_clkTOencoder_clk" = FROM "TIGsys_clk" TO "TIGencoder_clk"
+   TIG;> [top.ucf(181)]
+   <TIMESPEC "TSsys_clkTOusb_clk" = FROM "TIGsys_clk" TO "TIGusb_clk" TIG;>
+   [top.ucf(187)]
+
+WARNING:ConstraintSystem - TNM : TIGsys_clk was distributed to a DCM but new TNM
+   constraints were not derived. This TNM is used in the following user groups
+   or specifications:
+   <TIMESPEC "TSusb_clkTOsys_clk" = FROM "TIGusb_clk" TO "TIGsys_clk" TIG;>
+   [top.ucf(205)]
+   <TIMESPEC "TSsys_clkTOhdmi_out0_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out0_pix_clk" TIG;> [top.ucf(140)]
+   <TIMESPEC "TSsys_clkTOhdmi_out1_pix_clk" = FROM "TIGsys_clk" TO
+   "TIGhdmi_out1_pix_clk" TIG;> [top.ucf(146)]
+   <TIMESPEC "TShdmi_out0_pix_clkTOsys_clk" = FROM "TIGhdmi_out0_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(152)]
+   <TIMESPEC "TShdmi_out1_pix_clkTOsys_clk" = FROM "TIGhdmi_out1_pix_clk" TO
+   "TIGsys_clk" TIG;> [top.ucf(164)]
+   <TIMESPEC "TSsys_clkTOencoder_clk" = FROM "TIGsys_clk" TO "TIGencoder_clk"
+   TIG;> [top.ucf(181)]
+   <TIMESPEC "TSsys_clkTOusb_clk" = FROM "TIGsys_clk" TO "TIGusb_clk" TIG;>
+   [top.ucf(187)]
+   <TIMESPEC "TSencoder_clkTOsys_clk" = FROM "TIGencoder_clk" TO "TIGsys_clk"
+   TIG;> [top.ucf(193)]
+
+INFO:ConstraintSystem:178 - TNM 'PRDbase50_clk', used in period specification
+   'TSbase50_clk', was traced into DCM_CLKGEN instance hdmi_out_dcm_clkgen. The
+   following new TNM groups and period specifications were generated at the
+   DCM_CLKGEN output(s): 
+   CLKFX: <TIMESPEC TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered
+   = PERIOD "hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered"
+   TSbase50_clk / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'PRDclk100', used in period specification
+   'TSclk100', was traced into BUFIO2 instance BUFIO2. The following new TNM
+   groups and period specifications were generated at the BUFIO2 output(s): 
+   DIVCLK: <TIMESPEC TS_hdmi2usbsoc_crg_clk100b = PERIOD
+   "hdmi2usbsoc_crg_clk100b" TSclk100 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'PRDclk100', used in period specification
+   'TSclk100', was traced into DCM_CLKGEN instance crg_periph_dcm_clkgen. The
+   following new TNM groups and period specifications were generated at the
+   DCM_CLKGEN output(s): 
+   CLKFX: <TIMESPEC TS_base50_clk = PERIOD "base50_clk" TSclk100 / 0.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'PRDhdmi_in0_clk_p', used in period
+   specification 'TShdmi_in0_clk_p', was traced into PLL_ADV instance
+   hdmi_in_pll_adv. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_hdmi2usbsoc_hdmi_in0_pll_clk1 = PERIOD
+   "hdmi2usbsoc_hdmi_in0_pll_clk1" TShdmi_in0_clk_p / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'PRDhdmi_in0_clk_p', used in period
+   specification 'TShdmi_in0_clk_p', was traced into PLL_ADV instance
+   hdmi_in_pll_adv. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_hdmi2usbsoc_hdmi_in0_pll_clk0 = PERIOD
+   "hdmi2usbsoc_hdmi_in0_pll_clk0" TShdmi_in0_clk_p / 10 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'PRDhdmi_in0_clk_p', used in period
+   specification 'TShdmi_in0_clk_p', was traced into PLL_ADV instance
+   hdmi_in_pll_adv. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_hdmi2usbsoc_hdmi_in0_pll_clk2 = PERIOD
+   "hdmi2usbsoc_hdmi_in0_pll_clk2" TShdmi_in0_clk_p HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'PRDhdmi_in1_clk_p', used in period
+   specification 'TShdmi_in1_clk_p', was traced into PLL_ADV instance
+   hdmi_in_pll_adv_1. The following new TNM groups and period specifications
+   were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_hdmi2usbsoc_hdmi_in1_pll_clk1 = PERIOD
+   "hdmi2usbsoc_hdmi_in1_pll_clk1" TShdmi_in1_clk_p / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'PRDhdmi_in1_clk_p', used in period
+   specification 'TShdmi_in1_clk_p', was traced into PLL_ADV instance
+   hdmi_in_pll_adv_1. The following new TNM groups and period specifications
+   were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_hdmi2usbsoc_hdmi_in1_pll_clk0 = PERIOD
+   "hdmi2usbsoc_hdmi_in1_pll_clk0" TShdmi_in1_clk_p / 10 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'PRDhdmi_in1_clk_p', used in period
+   specification 'TShdmi_in1_clk_p', was traced into PLL_ADV instance
+   hdmi_in_pll_adv_1. The following new TNM groups and period specifications
+   were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_hdmi2usbsoc_hdmi_in1_pll_clk2 = PERIOD
+   "hdmi2usbsoc_hdmi_in1_pll_clk2" TShdmi_in1_clk_p HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM
+   'hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered', used in period
+   specification 'TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered',
+   was traced into PLL_ADV instance hdmi_out_pll_adv. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_hdmi2usbsoc_hdmi_out0_driver_clocking_pll1_pix2x =
+   PERIOD "hdmi2usbsoc_hdmi_out0_driver_clocking_pll1_pix2x"
+   TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM
+   'hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered', used in period
+   specification 'TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered',
+   was traced into PLL_ADV instance hdmi_out_pll_adv. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_hdmi2usbsoc_hdmi_out0_driver_clocking_pll0_pix10x =
+   PERIOD "hdmi2usbsoc_hdmi_out0_driver_clocking_pll0_pix10x"
+   TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered / 10 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM
+   'hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered', used in period
+   specification 'TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered',
+   was traced into PLL_ADV instance hdmi_out_pll_adv. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_hdmi2usbsoc_hdmi_out0_driver_clocking_pll2_pix = PERIOD
+   "hdmi2usbsoc_hdmi_out0_driver_clocking_pll2_pix"
+   TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'hdmi2usbsoc_crg_clk100b', used in period
+   specification 'TS_hdmi2usbsoc_crg_clk100b', was traced into PLL_ADV instance
+   crg_pll_adv. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC TS_hdmi2usbsoc_crg_unbuf_sdram_half_b = PERIOD
+   "hdmi2usbsoc_crg_unbuf_sdram_half_b" TS_hdmi2usbsoc_crg_clk100b / 1.5 PHASE
+   4.62962963 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'hdmi2usbsoc_crg_clk100b', used in period
+   specification 'TS_hdmi2usbsoc_crg_clk100b', was traced into PLL_ADV instance
+   crg_pll_adv. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_hdmi2usbsoc_crg_unbuf_encoder = PERIOD
+   "hdmi2usbsoc_crg_unbuf_encoder" TS_hdmi2usbsoc_crg_clk100b / 0.666666667 HIGH
+   50%>
+
+INFO:ConstraintSystem:178 - TNM 'hdmi2usbsoc_crg_clk100b', used in period
+   specification 'TS_hdmi2usbsoc_crg_clk100b', was traced into PLL_ADV instance
+   crg_pll_adv. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT5: <TIMESPEC TS_hdmi2usbsoc_crg_unbuf_sys = PERIOD
+   "hdmi2usbsoc_crg_unbuf_sys" TS_hdmi2usbsoc_crg_clk100b / 0.75 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'hdmi2usbsoc_crg_clk100b', used in period
+   specification 'TS_hdmi2usbsoc_crg_clk100b', was traced into PLL_ADV instance
+   crg_pll_adv. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_hdmi2usbsoc_crg_unbuf_sdram_full = PERIOD
+   "hdmi2usbsoc_crg_unbuf_sdram_full" TS_hdmi2usbsoc_crg_clk100b / 3 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'hdmi2usbsoc_crg_clk100b', used in period
+   specification 'TS_hdmi2usbsoc_crg_clk100b', was traced into PLL_ADV instance
+   crg_pll_adv. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_hdmi2usbsoc_crg_unbuf_sdram_half_a = PERIOD
+   "hdmi2usbsoc_crg_unbuf_sdram_half_a" TS_hdmi2usbsoc_crg_clk100b / 1.5 PHASE 5
+   ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'base50_clk', used in period specification
+   'TS_base50_clk', was traced into DCM_CLKGEN instance hdmi_out_dcm_clkgen. The
+   following new TNM groups and period specifications were generated at the
+   DCM_CLKGEN output(s): 
+   CLKFX: <TIMESPEC
+   TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0 = PERIOD
+   "hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0" TS_base50_clk /
+   2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM
+   'hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0', used in period
+   specification
+   'TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0', was traced
+   into PLL_ADV instance hdmi_out_pll_adv. The following new TNM groups and
+   period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_hdmi2usbsoc_hdmi_out0_driver_clocking_pll1_pix2x_0 =
+   PERIOD "hdmi2usbsoc_hdmi_out0_driver_clocking_pll1_pix2x_0"
+   TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0 / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM
+   'hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0', used in period
+   specification
+   'TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0', was traced
+   into PLL_ADV instance hdmi_out_pll_adv. The following new TNM groups and
+   period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_hdmi2usbsoc_hdmi_out0_driver_clocking_pll0_pix10x_0 =
+   PERIOD "hdmi2usbsoc_hdmi_out0_driver_clocking_pll0_pix10x_0"
+   TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0 / 10 HIG...>
+
+INFO:ConstraintSystem:178 - TNM
+   'hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0', used in period
+   specification
+   'TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0', was traced
+   into PLL_ADV instance hdmi_out_pll_adv. The following new TNM groups and
+   period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_hdmi2usbsoc_hdmi_out0_driver_clocking_pll2_pix_0 =
+   PERIOD "hdmi2usbsoc_hdmi_out0_driver_clocking_pll2_pix_0"
+   TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered_0 HIGH 50%>
+
+WARNING:NgdBuild:1345 - The constraint <TIMESPEC "TSclk100" = PERIOD "PRDclk100"
+   10.0 ns HIGH 50%;> [top.ucf(216)] is overridden by the constraint <TIMESPEC
+   "TSclk100" = PERIOD "PRDclk100" 10.0 ns HIGH 50%;> [top.ucf(221)]. The
+   overriden constraint usually comes from the input netlist or ncf files.
+   Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an
+   error.
+Done...
+
+INFO:NgdBuild:1222 - Setting CLKIN1_PERIOD attribute associated with PLL
+   instance hdmi_in_pll_adv to 12.000000 ns based on the period specification
+   (<TIMESPEC "TShdmi_in0_clk_p" = PERIOD "PRDhdmi_in0_clk_p" 12 ns HIGH 50%;>
+   [top.ucf(226)]).
+INFO:NgdBuild:1222 - Setting CLKIN1_PERIOD attribute associated with PLL
+   instance hdmi_in_pll_adv_1 to 12.000000 ns based on the period specification
+   (<TIMESPEC "TShdmi_in1_clk_p" = PERIOD "PRDhdmi_in1_clk_p" 12 ns HIGH 50%;>
+   [top.ucf(231)]).
+INFO:NgdBuild:1222 - Setting CLKIN1_PERIOD attribute associated with PLL
+   instance hdmi_out_pll_adv to 10.000000 ns based on the period specification
+   (<TIMESPEC TS_hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered =
+   PERIOD "hdmi2usbsoc_hdmi_out0_driver_clocking_clk_pix_unbuffered"
+   TSbase50_clk / 2 HIGH 50%>).
+Checking expanded design ...
+WARNING:NgdBuild:440 - FF primitive 'FDPE_5' has unconnected output pin
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  13
+
+Total memory usage is 540356 kilobytes
+
+Writing NGD file "top.ngd" ...
+Total REAL time to NGDBUILD completion:  35 sec
+Total CPU time to NGDBUILD completion:   34 sec
+
+Writing NGDBUILD log file "top.bld"...
