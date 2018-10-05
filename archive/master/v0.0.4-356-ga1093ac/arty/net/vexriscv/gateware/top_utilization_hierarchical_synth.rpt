@@ -1,0 +1,32 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Fri Oct  5 01:09:37 2018
+| Host         : travis-job-timvideos-hdmi2usb-litex-437344634.travisci.net running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Synthesized
+--------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|          Instance          |      Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                        |            (top) |       4716 |       4506 |     208 |    2 | 3861 |     19 |     35 |            4 |
+|   (top)                    |            (top) |       2507 |       2321 |     184 |    2 | 2403 |     18 |     27 |            0 |
+|   VexRiscv                 |         VexRiscv |       2209 |       2185 |      24 |    0 | 1458 |      1 |      8 |            4 |
+|     (VexRiscv)             |         VexRiscv |        860 |        860 |       0 |    0 |  905 |      0 |      2 |            4 |
+|     IBusCachedPlugin_cache | InstructionCache |        352 |        352 |       0 |    0 |   97 |      1 |      1 |            0 |
+|     dataCache_1            |        DataCache |        997 |        973 |      24 |    0 |  456 |      0 |      5 |            0 |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+
+
