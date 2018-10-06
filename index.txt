@@ -94,8 +94,8 @@ fd22e035a8b908969fac0bb003e0bc6db389da793103967ae167fbd69f9ecf66  ./nexys_video/
 7f229abcc722a2a49dfa3d42900d2866550558fec144096259963e72c5db4566  ./nexys_video/net/lm32/stable.sha256sum
 4e11338b173825467fa2255aa62549b3a8e2b02528b8746ab9a970a5230c6797  ./nexys_video/net/lm32/testing.sha256sum
 d915446a52957bbe711824ca636afcc28b9cf7351fe5c8cdfb564a5b8153946f  ./nexys_video/net/lm32/unstable.sha256sum
-c7e6d917d3409e1ba246b409362999f7ac74a4a4d753868231634a48a486b214  ./nexys_video/net/or1k.linux/channels.txt
-1d5ce337d0c3d67cb60302e75b6a9a20893ed0bf0ed78e986191c959c64b4ee5  ./nexys_video/net/or1k.linux/unstable.sha256sum
+cab36132a2fa3f5b61898dbd00744963114bbbfad96cede21ecbbe87130b15f0  ./nexys_video/net/or1k.linux/channels.txt
+0d90aa2729b8a6721b8f8ac0a4fd19350d7e432a71cd62e9aab12b15c4f85b72  ./nexys_video/net/or1k.linux/unstable.sha256sum
 9d501c3ee9918d74744c63c025a32a2657570703aadeae1c3ca01bf623e32778  ./nexys_video/video/lm32/channels.txt
 0b24a89e390d2327ba862148a2ab2f64266f9c911eb9f0a565a5e684b1a2fd25  ./nexys_video/video/lm32/stable.sha256sum
 04254e4147226fcca8bc9217e8d4709bf07839b7090c4fac64d098f71ff4dd40  ./nexys_video/video/lm32/testing.sha256sum
