@@ -1,1 +1,1 @@
-unstable v0.0.4-358-g75c0e1a https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-358-g75c0e1a/tinyfpga_bx/base/picorv32/
+unstable v0.0.4-360-gb61239a https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-360-gb61239a/tinyfpga_bx/base/picorv32/
