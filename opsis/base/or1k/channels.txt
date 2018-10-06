@@ -1,1 +1,1 @@
-unstable v0.0.4-356-ga1093ac https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-356-ga1093ac/opsis/base/or1k/
+unstable v0.0.4-360-gb61239a https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-360-gb61239a/opsis/base/or1k/

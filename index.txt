@@ -104,10 +104,10 @@ b02f4f6db9e419b9a991979bc66d1e94aeb8d04014950e5e15a2a2f7c2573dbf  ./opsis/base/l
 ae9c4354d398df8cb688c438c52a93e9377738fb094bdadd40abc72443bcce6a  ./opsis/base/lm32/stable.sha256sum
 a15b321a7fe62bb5a631280d1b5c3a4f32bc8ab2a461e6993a7ed7a5caed6112  ./opsis/base/lm32/testing.sha256sum
 1f2946ff5ffeb635d32745d13abd27b4f32692b8bd4a13d2faf77d914d11c03a  ./opsis/base/lm32/unstable.sha256sum
-a4a69c205fffedaf768b318972912eda3bfddd370ce479ed60cfd14fe3e78749  ./opsis/base/or1k/channels.txt
+a655d23ef819711fa633152a92fc96bf8acc01e479060ecda1143c0f2788e3bf  ./opsis/base/or1k/channels.txt
 6fa94b111272e3c695ce95c60302e13e83b219f51396176fc92f68caf317ff57  ./opsis/base/or1k/stable.sha256sum
 883dd3d8b80801d22c13b0bc2c918668fbc7497b93739214741a00d5e02c9d9b  ./opsis/base/or1k/testing.sha256sum
-0ba5a0b858ea736602dad8a82883b8840899af556f1fd667bad77f4e8bfa2a61  ./opsis/base/or1k/unstable.sha256sum
+2c05313563525264ec543eafef4c5bf6a9043d3cb3114b96ed15a8343803452d  ./opsis/base/or1k/unstable.sha256sum
 822f4a7a8d7667f15511385cb7f4e31affb96079eeed6b3e3bb9ba81322aaba5  ./opsis/base/picorv32/channels.txt
 c138bfc5624055bc7ea825a948a62ccd1aa9b4f2e97bb137ebc3c80fb30a6221  ./opsis/base/picorv32/unstable.sha256sum
 b66791681cbaf621e0f9072b31d10fc658dea9b8b16c22c8d3945ac363203489  ./opsis/base/vexriscv/channels.txt
