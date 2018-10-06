@@ -1,1 +1,1 @@
-unstable v0.0.4-356-ga1093ac https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-356-ga1093ac/arty/net/or1k/
+unstable v0.0.4-364-g0eab730 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-364-g0eab730/arty/net/or1k/
