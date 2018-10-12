@@ -1,1 +1,1 @@
-unstable v0.0.4-364-g0eab730 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-364-g0eab730/neso/base/lm32/
+unstable v0.0.4-379-gb29905d https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-379-gb29905d/neso/base/lm32/
