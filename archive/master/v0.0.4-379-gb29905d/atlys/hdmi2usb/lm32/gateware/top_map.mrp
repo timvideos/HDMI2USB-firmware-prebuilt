@@ -1,0 +1,630 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'top'
+
+Design Information
+------------------
+Command Line   : map -ol high -w -o top_map.ncd top.ngd top.pcf 
+Target Device  : xc6slx45
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Sat Oct 13 00:08:01 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    8
+Slice Logic Utilization:
+  Number of Slice Registers:                11,826 out of  54,576   21%
+    Number used as Flip Flops:              11,823
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                3
+  Number of Slice LUTs:                     14,082 out of  27,288   51%
+    Number used as logic:                   12,213 out of  27,288   44%
+      Number using O6 output only:           8,738
+      Number using O5 output only:             742
+      Number using O5 and O6:                2,733
+      Number used as ROM:                        0
+    Number used as Memory:                   1,530 out of   6,408   23%
+      Number used as Dual Port RAM:          1,420
+        Number using O6 output only:           156
+        Number using O5 output only:            36
+        Number using O5 and O6:              1,228
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           110
+        Number using O6 output only:            33
+        Number using O5 output only:             0
+        Number using O5 and O6:                 77
+    Number used exclusively as route-thrus:    339
+      Number with same-slice register load:    287
+      Number with same-slice carry load:        52
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 5,137 out of   6,822   75%
+  Number of MUXCYs used:                     2,644 out of  13,644   19%
+  Number of LUT Flip Flop pairs used:       16,744
+    Number with an unused Flip Flop:         6,259 out of  16,744   37%
+    Number with an unused LUT:               2,662 out of  16,744   15%
+    Number of fully used LUT-FF pairs:       7,823 out of  16,744   46%
+    Number of unique control sets:             537
+    Number of slice register sites lost
+      to control set restrictions:           1,518 out of  54,576    2%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       112 out of     218   51%
+    Number of LOCed IOBs:                      112 out of     112  100%
+    IOB Flip Flops:                             12
+    IOB Master Pads:                             8
+    IOB Slave Pads:                              8
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        55 out of     116   47%
+  Number of RAMB8BWERs:                         21 out of     232    9%
+  Number of BUFIO2/BUFIO2_2CLKs:                 3 out of      32    9%
+    Number used as BUFIO2s:                      3
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                      13 out of      16   81%
+    Number used as BUFGs:                       13
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     2 out of       8   25%
+    Number used as DCMs:                         0
+    Number used as DCM_CLKGENs:                  2
+  Number of ILOGIC2/ISERDES2s:                  28 out of     376    7%
+    Number used as ILOGIC2s:                     0
+    Number used as ISERDES2s:                   28
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:        12 out of     376    3%
+    Number used as IODELAY2s:                   12
+    Number used as IODRP2s:                      0
+    Number used as IODRP2_MCBs:                  0
+  Number of OLOGIC2/OSERDES2s:                  38 out of     376   10%
+    Number used as OLOGIC2s:                     8
+    Number used as OSERDES2s:                   30
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     256    0%
+  Number of BUFPLLs:                             5 out of       8   62%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                           22 out of      58   37%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            4 out of       4  100%
+    Number of LOCed PLL_ADVs:                    1 out of       4   25%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                3.79
+
+Peak Memory Usage:  1212 MB
+Total REAL time to MAP completion:  8 mins 44 secs 
+Total CPU time to MAP completion:   8 mins 43 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Timing:3223 - Timing constraint PATH "TShdmi_out0_pix_clkTOhdmi_out1_pix_clk_path" TIG ignored during timing analysis.
+WARNING:Timing:3223 - Timing constraint PATH "TShdmi_out1_pix_clkTOhdmi_out0_pix_clk_path" TIG ignored during timing analysis.
+WARNING:Timing:3223 - Timing constraint PATH "TSusb_clkTOsys_clk_path" TIG ignored during timing analysis.
+WARNING:Timing:3159 - The DCM, hdmi_out_dcm_clkgen, has the attribute DFS_OSCILLATOR_MODE not set to PHASE_FREQ_LOCK. No phase relationship
+   exists between the input clock and CLKFX or CLKFX180 outputs of this DCM. Data paths between these clock domains must be constrained
+   using FROM/TO constraints.
+WARNING:Timing:3159 - The DCM, crg_periph_dcm_clkgen, has the attribute DFS_OSCILLATOR_MODE not set to PHASE_FREQ_LOCK. No phase
+   relationship exists between the input clock and CLKFX or CLKFX180 outputs of this DCM. Data paths between these clock domains must be
+   constrained using FROM/TO constraints.
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <hdmi_out_pix_bufg>, driving the net,
+   <hdmi_out0_pix_clk>, that is driving the following (first 30) non-clock load
+   pins.
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi2usbsoc_hdmi_out0_d
+   river_hdmi_phy_es1_out[4]_mux_5830_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi2usbsoc_hdmi_out0_d
+   river_hdmi_phy_es1_out[4]_mux_5830_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi2usbsoc_hdmi_out0_d
+   river_hdmi_phy_es2_out[4]_mux_5831_OUT51.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi2usbsoc_hdmi_out0_d
+   river_hdmi_phy_es0_out[4]_mux_5829_OUT51.A4; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi2usbsoc_hdmi_out0_d
+   river_hdmi_phy_es0_out[4]_mux_5829_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi2usbsoc_hdmi_out0_d
+   river_hdmi_phy_es0_out[4]_mux_5829_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi2usbsoc_hdmi_out0_d
+   river_hdmi_phy_es2_out[4]_mux_5831_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi2usbsoc_hdmi_out0_d
+   river_hdmi_phy_es2_out[4]_mux_5831_OUT31.A3; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <hdmi_out_pix_bufg.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <hdmi_out_pix_bufg_1>, driving the net,
+   <hdmi_out1_pix_clk>, that is driving the following (first 30) non-clock load
+   pins.
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out1_driver_hdmi_phy_es0_out[9]_hdmi2usbsoc_hdmi_out1_d
+   river_hdmi_phy_es0_out[4]_mux_6242_OUT51.A4; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out1_driver_hdmi_phy_es1_out[9]_hdmi2usbsoc_hdmi_out1_d
+   river_hdmi_phy_es1_out[4]_mux_6243_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out1_driver_hdmi_phy_es1_out[9]_hdmi2usbsoc_hdmi_out1_d
+   river_hdmi_phy_es1_out[4]_mux_6243_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out1_driver_hdmi_phy_es2_out[9]_hdmi2usbsoc_hdmi_out1_d
+   river_hdmi_phy_es2_out[4]_mux_6244_OUT51.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out1_driver_hdmi_phy_es0_out[9]_hdmi2usbsoc_hdmi_out1_d
+   river_hdmi_phy_es0_out[4]_mux_6242_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out1_driver_hdmi_phy_es0_out[9]_hdmi2usbsoc_hdmi_out1_d
+   river_hdmi_phy_es0_out[4]_mux_6242_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out1_driver_hdmi_phy_es2_out[9]_hdmi2usbsoc_hdmi_out1_d
+   river_hdmi_phy_es2_out[4]_mux_6244_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi2usbsoc_hdmi_out1_driver_hdmi_phy_es2_out[9]_hdmi2usbsoc_hdmi_out1_d
+   river_hdmi_phy_es2_out[4]_mux_6244_OUT31.A3; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <hdmi_out_pix_bufg_1.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network hdmi_out0_scl_IBUF has no load.
+INFO:LIT:395 - The above info message is repeated 1327 more times for the
+   following (max. 5 shown):
+   hdmi_out0_sda_IBUF,
+   fx2_flaga_IBUF,
+   fx2_flagc_IBUF,
+   Mram_storage1/SPO,
+   Mram_storage2/SPO
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  41 block(s) removed
+  20 block(s) optimized away
+  23 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "FDPE_5" (FF) removed.
+ The signal "xilinxasyncresetsynchronizerimpl2_rst_meta" is loadless and has been
+removed.
+  Loadless block "FDPE_4" (FF) removed.
+   The signal "xilinxasyncresetsynchronizerimpl2" is loadless and has been removed.
+    Loadless block "xilinxasyncresetsynchronizerimpl21" (ROM) removed.
+     The signal "hdmi2usbsoc_crg_dcm_base50_locked" is loadless and has been removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_1[21]_dcto_1[21]_mux_89_OUT_rs21" (ROM)
+removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_1[21]_dcto_1[21]_mux_89_OUT_rs_lut<0>21
+" (ROM) removed.
+ The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_1[21]_dcto_1[21]_mux_89_OUT_rs20" is
+loadless and has been removed.
+  Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_1[21]_dcto_1[21]_mux_89_OUT_rs20" (ROM)
+removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_2[21]_dcto_2[21]_mux_94_OUT_rs21" (ROM)
+removed.
+Loadless block "JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_n0332_rs21" (ROM) removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_84_OUT
+_rs21" (ROM) removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_84_OUT
+_rs_lut<0>20" (ROM) removed.
+ The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_84_OUT
+_rs19" is loadless and has been removed.
+  Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_84_OUT
+_rs19" (ROM) removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_84_OUT
+_rs_lut<0>21" (ROM) removed.
+ The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_84_OUT
+_rs20" is loadless and has been removed.
+  Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_84_OUT
+_rs20" (ROM) removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_1[23]_dcto_1[23]_mux_93_OUT_rs23" (ROM)
+removed.
+ The signal "JpegEnc/U_FDCT/U_MDCT/U_DCT2D/dcto_1<23>" is loadless and has been
+removed.
+  Loadless block "JpegEnc/U_FDCT/U_MDCT/U_DCT2D/dcto_1_23" (FF) removed.
+   The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/romodatao[0][13]_romedatao[0][13]_mux_88_OUT<23>"
+is loadless and has been removed.
+    Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_xor<0>_22" (XOR) removed.
+     The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_cy<0>22" is loadless and has been removed.
+      Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_cy<0>_21" (MUX) removed.
+       The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_cy<0>21" is loadless and has been removed.
+        Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_cy<0>_20" (MUX) removed.
+         The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_cy<0>20" is loadless and has been removed.
+          Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_cy<0>_19" (MUX) removed.
+         The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs20" is loadless and has been removed.
+          Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs20" (ROM) removed.
+         The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_lut<0>21" is loadless and has been removed.
+          Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_lut<0>21" (ROM) removed.
+       The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs21" is loadless and has been removed.
+        Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs21" (ROM) removed.
+       The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_lut<0>22" is loadless and has been removed.
+        Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_lut<0>22" (ROM) removed.
+     The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_lut<0>23" is loadless and has been removed.
+      Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_lut<0>23" (ROM) removed.
+       The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs22" is loadless and has been removed.
+        Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs22" (ROM) removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_1[23]_dcto_1[23]_mux_93_OUT_rs_lut<0>22
+" (ROM) removed.
+ The signal "JpegEnc/U_FDCT/U_MDCT/U_DCT2D/dcto_1<22>" is loadless and has been
+removed.
+  Loadless block "JpegEnc/U_FDCT/U_MDCT/U_DCT2D/dcto_1_22" (FF) removed.
+   The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/romodatao[0][13]_romedatao[0][13]_mux_88_OUT<22>"
+is loadless and has been removed.
+    Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs_xor<0>_21" (XOR) removed.
+ The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_1[23]_dcto_1[23]_mux_93_OUT_rs21" is
+loadless and has been removed.
+  Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_1[23]_dcto_1[23]_mux_93_OUT_rs21" (ROM)
+removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_1[23]_dcto_1[23]_mux_93_OUT_rs_lut<0>23
+" (ROM) removed.
+ The signal
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_1[23]_dcto_1[23]_mux_93_OUT_rs22" is
+loadless and has been removed.
+  Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_1[23]_dcto_1[23]_mux_93_OUT_rs22" (ROM)
+removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_2[23]_dcto_2[23]_mux_98_OUT_rs23" (ROM)
+removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_3[23]_dcto_3[23]_mux_103_OUT_rs23"
+(ROM) removed.
+Loadless block "JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_n0402_rs23" (ROM) removed.
+Loadless block
+"JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_romodatao[0][13]_romedatao[0][13]_mux_88_OUT
+_rs23" (ROM) removed.
+Loadless block "Madd_n15629_Madd11" (ROM) removed.
+Loadless block "Madd_n15629_Madd_lut<0>11" (ROM) removed.
+ The signal "Madd_n15629_Madd10" is loadless and has been removed.
+  Loadless block "Madd_n15629_Madd10" (ROM) removed.
+Loadless block "Madd_n15893_Madd11" (ROM) removed.
+Loadless block "Madd_n15893_Madd_lut<0>11" (ROM) removed.
+ The signal "Madd_n15893_Madd10" is loadless and has been removed.
+  Loadless block "Madd_n15893_Madd10" (ROM) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_1[21]_dcto_1[21]_mux_89_OUT_rs1
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_1[21]_dcto_1[21]_mux_89_OUT_rs2
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_2[21]_dcto_2[21]_mux_94_OUT_rs1
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_2[21]_dcto_2[21]_mux_94_OUT_rs2
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_2[21]_dcto_2[21]_mux_94_OUT_rs3
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT1D/Mmux_dcto_2[21]_dcto_2[21]_mux_94_OUT_rs4
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_1[23]_dcto_1[23]_mux_93_OUT_rs1
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_1[23]_dcto_1[23]_mux_93_OUT_rs2
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_2[23]_dcto_2[23]_mux_98_OUT_rs1
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_2[23]_dcto_2[23]_mux_98_OUT_rs2
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_2[23]_dcto_2[23]_mux_98_OUT_rs3
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_2[23]_dcto_2[23]_mux_98_OUT_rs4
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_3[23]_dcto_3[23]_mux_103_OUT_rs1
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_3[23]_dcto_3[23]_mux_103_OUT_rs2
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_3[23]_dcto_3[23]_mux_103_OUT_rs3
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_3[23]_dcto_3[23]_mux_103_OUT_rs4
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_3[23]_dcto_3[23]_mux_103_OUT_rs5
+   optimized to 0
+LUT3 		JpegEnc/U_FDCT/U_MDCT/U_DCT2D/Mmux_dcto_3[23]_dcto_3[23]_mux_103_OUT_rs6
+   optimized to 0
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk100                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| cpu_reset                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ddram_a<0>                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<1>                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<2>                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<3>                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<4>                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<5>                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<6>                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<7>                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<8>                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<9>                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<10>                        | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<11>                        | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_a<12>                        | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_ba<0>                        | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_ba<1>                        | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_ba<2>                        | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_cas_n                        | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_cke                          | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_clock_n                      | IOB              | OUTPUT    | DIFF_SSTL18_II       |       |          |      | ODDR         |          |          |
+| ddram_clock_p                      | IOB              | OUTPUT    | DIFF_SSTL18_II       |       |          |      | ODDR         |          |          |
+| ddram_dm<0>                        | IOB              | OUTPUT    | SSTL18_II            |       |          |      | OSERDES      |          |          |
+| ddram_dm<1>                        | IOB              | OUTPUT    | SSTL18_II            |       |          |      | OSERDES      |          |          |
+| ddram_dq<0>                        | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<1>                        | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<2>                        | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<3>                        | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<4>                        | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<5>                        | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<6>                        | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<7>                        | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<8>                        | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<9>                        | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<10>                       | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<11>                       | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<12>                       | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<13>                       | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<14>                       | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dq<15>                       | IOB              | BIDIR     | SSTL18_II            |       |          |      | ISERDESOSERD |          |          |
+| ddram_dqs<0>                       | IOB              | OUTPUT    | DIFF_SSTL18_II       |       |          |      | ODDR         |          |          |
+|                                    |                  |           |                      |       |          |      | TDDR         |          |          |
+| ddram_dqs<1>                       | IOB              | OUTPUT    | DIFF_SSTL18_II       |       |          |      | ODDR         |          |          |
+|                                    |                  |           |                      |       |          |      | TDDR         |          |          |
+| ddram_dqs_n<0>                     | IOB              | OUTPUT    | DIFF_SSTL18_II       |       |          |      | ODDR         |          |          |
+|                                    |                  |           |                      |       |          |      | TDDR         |          |          |
+| ddram_dqs_n<1>                     | IOB              | OUTPUT    | DIFF_SSTL18_II       |       |          |      | ODDR         |          |          |
+|                                    |                  |           |                      |       |          |      | TDDR         |          |          |
+| ddram_odt                          | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_ras_n                        | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| ddram_we_n                         | IOB              | OUTPUT    | SSTL18_II            |       |          |      |              |          |          |
+| fx2_addr<0>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_addr<1>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_cs_n                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_data<0>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_data<1>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_data<2>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_data<3>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_data<4>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_data<5>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_data<6>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_data<7>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_flaga                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| fx2_flagb                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| fx2_flagc                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| fx2_ifclk                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| fx2_oe_n                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_pktend_n                       | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_rd_n                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| fx2_wr_n                           | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| hdmi_in0_clk_n                     | IOB              | INPUT     | LVDS_25              | FALSE |          |      |              |          |          |
+| hdmi_in0_clk_p                     | IOB              | INPUT     | LVDS_25              | FALSE |          |      |              |          |          |
+| hdmi_in0_data0_n                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      |              |          |          |
+| hdmi_in0_data0_p                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      | ISERDES      |          | DIFF_PHA |
+| hdmi_in0_data1_n                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      |              |          |          |
+| hdmi_in0_data1_p                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      | ISERDES      |          | DIFF_PHA |
+| hdmi_in0_data2_n                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      |              |          |          |
+| hdmi_in0_data2_p                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      | ISERDES      |          | DIFF_PHA |
+| hdmi_in0_scl                       | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| hdmi_in0_sda                       | IOB              | BIDIR     | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| hdmi_in1_clk_n                     | IOB              | INPUT     | LVDS_25              | FALSE |          |      |              |          |          |
+| hdmi_in1_clk_p                     | IOB              | INPUT     | LVDS_25              | FALSE |          |      |              |          |          |
+| hdmi_in1_data0_n                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      |              |          |          |
+| hdmi_in1_data0_p                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      | ISERDES      |          | DIFF_PHA |
+| hdmi_in1_data1_n                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      |              |          |          |
+| hdmi_in1_data1_p                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      | ISERDES      |          | DIFF_PHA |
+| hdmi_in1_data2_n                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      |              |          |          |
+| hdmi_in1_data2_p                   | IOB              | INPUT     | LVDS_25              | FALSE |          |      | ISERDES      |          | DIFF_PHA |
+| hdmi_in1_scl                       | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| hdmi_in1_sda                       | IOB              | BIDIR     | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| hdmi_out0_clk_n                    | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| hdmi_out0_clk_p                    | IOBM             | OUTPUT    | TMDS_33              |       |          |      | ODDR         |          |          |
+| hdmi_out0_data0_n                  | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| hdmi_out0_data0_p                  | IOBM             | OUTPUT    | TMDS_33              |       |          |      | OSERDES      |          |          |
+| hdmi_out0_data1_n                  | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| hdmi_out0_data1_p                  | IOBM             | OUTPUT    | TMDS_33              |       |          |      | OSERDES      |          |          |
+| hdmi_out0_data2_n                  | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| hdmi_out0_data2_p                  | IOBM             | OUTPUT    | TMDS_33              |       |          |      | OSERDES      |          |          |
+| hdmi_out0_scl                      | IOB              | INPUT     | I2C                  |       |          |      |              |          |          |
+| hdmi_out0_sda                      | IOB              | INPUT     | I2C                  |       |          |      |              |          |          |
+| hdmi_out1_clk_n                    | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| hdmi_out1_clk_p                    | IOBM             | OUTPUT    | TMDS_33              |       |          |      | ODDR         |          |          |
+| hdmi_out1_data0_n                  | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| hdmi_out1_data0_p                  | IOBM             | OUTPUT    | TMDS_33              |       |          |      | OSERDES      |          |          |
+| hdmi_out1_data1_n                  | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| hdmi_out1_data1_p                  | IOBM             | OUTPUT    | TMDS_33              |       |          |      | OSERDES      |          |          |
+| hdmi_out1_data2_n                  | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| hdmi_out1_data2_p                  | IOBM             | OUTPUT    | TMDS_33              |       |          |      | OSERDES      |          |          |
+| serial_rx                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| serial_tx                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| spiflash4x_clk                     | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| spiflash4x_cs_n                    | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| spiflash4x_dq<0>                   | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| spiflash4x_dq<1>                   | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| spiflash4x_dq<2>                   | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
+| spiflash4x_dq<3>                   | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.
