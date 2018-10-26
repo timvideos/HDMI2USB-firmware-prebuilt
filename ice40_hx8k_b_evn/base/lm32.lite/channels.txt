@@ -1,1 +1,1 @@
-unstable v0.0.4-395-g585091a https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-395-g585091a/ice40_hx8k_b_evn/base/lm32.lite/
+unstable v0.0.4-399-g33b53ba https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-399-g33b53ba/ice40_hx8k_b_evn/base/lm32.lite/
