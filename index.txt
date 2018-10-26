@@ -56,8 +56,8 @@ ae3e452e4343fac48d992045fe882c2011a92f79ac9a2ea62315995e8b4ac1fa  ./basys3/base/
 c394bb34d30c3cae03c9d8675406c14f3538fbded5c61e54a978b756cfb2a3b7  ./basys3/base/lm32/unstable.sha256sum
 573a2580b4a918667d8b15a96d46e4c3cbdc866a7d29fbb0212cf94b4bef4e61  ./cmod_a7/base/lm32/channels.txt
 dec29661f8f840077cc75d91ad0af962fa6f70bac9bd4644793a1fe5083f3f04  ./cmod_a7/base/lm32/unstable.sha256sum
-0b8bf64af9c98500943a54e86eacf8ea8611421e7f42068d53c9e0854e10692c  ./galatea/base/lm32/channels.txt
-fbed3baf275f8ba58c49afe2090ed4698e23e6568f03ea9756139b1809c0beef  ./galatea/base/lm32/unstable.sha256sum
+27e03789b4da8f0262470f8cb18de6865df66831dfac62e4bf1e776b9044b08a  ./galatea/base/lm32/channels.txt
+128896f66137b41dcd6668cb0dc1fc05c2954158cedda1c48a3d5230ab9e75d4  ./galatea/base/lm32/unstable.sha256sum
 4083cfbaa23ac59316e0274e9b6a3495cf6a73a8adc9224ab26bddfd67d2ae33  ./ice40_hx8k_b_evn/base/lm32.lite/channels.txt
 616beefa131d85148fc430c00c230b50c43be49e5d937667a2f2fabfc82a006b  ./ice40_hx8k_b_evn/base/lm32.lite/unstable.sha256sum
 26386fdbfc86715a210c078f80554ad24343432ab4282103e4289b62e9e4e54d  ./ice40_up5k_b_evn/base/lm32.minimal/channels.txt
@@ -142,7 +142,7 @@ feec35940cc0ab28be4798db41d28567f3d4abfe9f1951294484eaa7df0070db  ./pipistrello/
 f3b28d9a40b29e0b0308af944f7762f547a12fa5478a6fc0b8f16419c6eefe60  ./pipistrello/base/or1k/channels.txt
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 3a57045da6c8e5e32c8645a4eb31833188578670d124e307d4c1f13ca8259fcd  ./pipistrello/base/or1k/unstable.sha256sum
-44183b2a3ba8e94d09ee851d1ad7f6a47305e3ce4303d7d90f8ee13841c00d5c  ./revs.txt
+a0d70f2e43108478a919486266554f95dcb9b5603df8ddb31c72df3431d2f8d4  ./revs.txt
 c975a461c7dfc27326343dc0cf46e63f25577ce7085f63afcb3681491d17f757  ./saturn/base/lm32/channels.txt
 43d83d522807755f54e88c2ce7aa6c8da1ca1a05c278a2e080b393da3789179f  ./saturn/base/lm32/unstable.sha256sum
 4130ed6f303daf7bfc9fa1d30932eafc38eda3ce658ba46c94035994ae2a8fca  ./tinyfpga_bx/base/lm32.lite/channels.txt
