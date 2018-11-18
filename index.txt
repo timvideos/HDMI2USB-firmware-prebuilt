@@ -66,6 +66,8 @@ f765ba1625c4dd98081a58c6f2f3e9e8fe430fda133e6da6d37c4068c9ff0552  ./ice40_up5k_b
 3b3d5410688c74dfac3516bc9d1f6491b83b6af9dd3286b0bfee080cbb09ffd4  ./ice40_up5k_b_evn/base/lm32.lite/unstable.sha256sum
 a1a72b9b6c43986cd60dcc152c8242149770ccc654b75b80b61df696ed2f7684  ./ice40_up5k_b_evn/base/lm32.minimal/channels.txt
 3e30200d9515064c12963c00fd21e2bbc93d2f478ff7c6043031d364d812f967  ./ice40_up5k_b_evn/base/lm32.minimal/unstable.sha256sum
+4f53ea1556dead62cefba72492f56abc59956a1c1c3f416db784f496bc111771  ./icebreaker/base/lm32.lite/channels.txt
+b1cd89fa1487353f32ec07704600cceff44135b697ad014a049bb91e01796f03  ./icebreaker/base/lm32.lite/unstable.sha256sum
 1bfa9645526c132eb4173571d23f1cb486736644826dcd3626f4f8b3a56e555a  ./mimasv2/base/lm32/channels.txt
 44368af1c6a39f6aa3892126f1ee3b12a9db5f06151d6e0bbfcea02db27fcc1a  ./mimasv2/base/lm32/stable.sha256sum
 3b71f8501cc5fd69e381e06343b274d5ef869407973ef63c9d26021848cd364c  ./mimasv2/base/lm32/testing.sha256sum
