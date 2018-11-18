@@ -72,10 +72,10 @@ b1cd89fa1487353f32ec07704600cceff44135b697ad014a049bb91e01796f03  ./icebreaker/b
 44368af1c6a39f6aa3892126f1ee3b12a9db5f06151d6e0bbfcea02db27fcc1a  ./mimasv2/base/lm32/stable.sha256sum
 3b71f8501cc5fd69e381e06343b274d5ef869407973ef63c9d26021848cd364c  ./mimasv2/base/lm32/testing.sha256sum
 9221faa891c70ebedd097845ef2aa0c644ed7d522e523e405c13c1316cb65a5c  ./mimasv2/base/lm32/unstable.sha256sum
-c126aac64481b5087ecedcd39fb3dee6d44ba00d293a729744e93267f13906f0  ./mimasv2/base/or1k/channels.txt
+b03d52b4f6743044c9aeb48ff9fed209da625ed482528d826f388d3423b31577  ./mimasv2/base/or1k/channels.txt
 699ce02d74183cc38ec696029eabde0400b0dfbf4c2ed968a7a2c8a72332ce3b  ./mimasv2/base/or1k/stable.sha256sum
 d070178ea963bad8dc3ad9b079896f78895e31cf7494901dd2f1d0ac7847c4ef  ./mimasv2/base/or1k/testing.sha256sum
-7cd951fa5e4b4359e471e32a690f46b937cd2972d2910bdd4976af81f7760874  ./mimasv2/base/or1k/unstable.sha256sum
+c280b92bdaee90b5b1f64b921094f65bdbfbc8c2501d35848804bd8aac4f0ebe  ./mimasv2/base/or1k/unstable.sha256sum
 7d196a1f25a5047dad255709eeb2856177e4029ce39e1be220dc0e54ed9ef4f5  ./mimasv2/base/picorv32/channels.txt
 2fa5ef3ea83c23b1ab6b40b5e53895fac4e619a7e735f6f4b77bd5531e988faf  ./mimasv2/base/picorv32/unstable.sha256sum
 dceff2f92801ee2dc020ee08306215ccfb9f1065332eb375301741032b3464a9  ./mimasv2/base/vexriscv/channels.txt
