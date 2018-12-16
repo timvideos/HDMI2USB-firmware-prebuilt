@@ -1,0 +1,1 @@
+unstable v0.0.4-436-g4383c27 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-436-g4383c27/icebreaker/base/lm32.minimal/
