@@ -80,10 +80,10 @@ c280b92bdaee90b5b1f64b921094f65bdbfbc8c2501d35848804bd8aac4f0ebe  ./mimasv2/base
 2fa5ef3ea83c23b1ab6b40b5e53895fac4e619a7e735f6f4b77bd5531e988faf  ./mimasv2/base/picorv32/unstable.sha256sum
 78542f9723f9f01ee3251adb1c5cc96d54113701581a2c049e5adc030164cd74  ./mimasv2/base/vexriscv/channels.txt
 fa71064d96c403cbaae195144224166898ef0a9496011591619459312a8b59b1  ./mimasv2/base/vexriscv/unstable.sha256sum
-fc7564f6c58ceb548b0da2c9ab7dd89f2122d86b9c4a6388bf5eea64af1c1013  ./minispartan6/base/lm32/channels.txt
+2645bf4442de32f129e5cd4572b215aee6f614b4818b1a313214536f8e6ea8a2  ./minispartan6/base/lm32/channels.txt
 bae74e6b6a657f49cd45959796f56c8abaaf0bd4dd0b2867d50adb9d6ab5ca48  ./minispartan6/base/lm32/stable.sha256sum
 922e836329effd80fb7fee32ead6d6ba5d2c3eabd216401d068607f57b884736  ./minispartan6/base/lm32/testing.sha256sum
-0d93db6499920c9058fbd936553226038dc7b74b64b74257801c9d3efd2e0996  ./minispartan6/base/lm32/unstable.sha256sum
+953139bbfcb04528b14437e840f9f885978618ec3a9bc8fb7697a4dc988d8c9c  ./minispartan6/base/lm32/unstable.sha256sum
 8d5fe180a798b1e2ffa12ea12bd8a80f1f6c0b7a2333323cf2ea50da9cd3489b  ./neso/base/lm32/channels.txt
 67a9ad510473a49f369d46c34db257488bf4485f719269ca62c8a21f583b189c  ./neso/base/lm32/unstable.sha256sum
 82ad41a6c6efc3ee84225ff28916e46be2bc09336d8dbefd963aaccefe0732ad  ./netv2/base/lm32/channels.txt
@@ -148,7 +148,7 @@ bc1480d9547cc0b914fbd77e5c296da544d091431d72d8b320627ddce8f8ec3e  ./opsis/video/
 2e31d6caceca1d8c824709f5f02c27f1a2aad242f9da0cfdf8c7de110a5b5635  ./pipistrello/base/or1k/channels.txt
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 e314b196d52b03b178160150d7c263c23261eb94d669a9eacfa6154831405d86  ./pipistrello/base/or1k/unstable.sha256sum
-d511bac68a787007a384ffce5de23164a73a8455974e033c48624fb24c43974f  ./revs.txt
+acee1b3839fd8e20f646960fcbbbe47d748f92865f57d81d70d4c5e702575ee6  ./revs.txt
 9b324b6af1de47ba31aff10f47512160d572f17fb2ce4667001e7d49539b58a1  ./saturn/base/lm32/channels.txt
 ffc6b0796d8afffcfb348aee88f7816ac5a62a5e7ff1f5be0abce564e779ef07  ./saturn/base/lm32/unstable.sha256sum
 7e36c31322b91fa12686b2cf9b176e2bcdb161edbe170b542980070e8059d493  ./tinyfpga_bx/base/lm32.lite/channels.txt
