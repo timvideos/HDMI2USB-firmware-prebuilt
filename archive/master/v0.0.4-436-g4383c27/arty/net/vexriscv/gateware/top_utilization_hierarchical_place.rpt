@@ -1,0 +1,33 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Sun Dec 16 23:56:21 2018
+| Host         : travis-job-ea13874c-5483-4777-a059-390eddae8525 running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_place.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Fully Placed
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|        Instance        |      Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                    |            (top) |       4904 |       4694 |     208 |    2 | 4361 |     19 |     35 |            4 |
+|   (top)                |            (top) |       2688 |       2502 |     184 |    2 | 2908 |     18 |     27 |            0 |
+|   VexRiscv             |         VexRiscv |       2216 |       2192 |      24 |    0 | 1453 |      1 |      8 |            4 |
+|     (VexRiscv)         |         VexRiscv |        849 |        849 |       0 |    0 |  932 |      0 |      2 |            4 |
+|     dataCache_1        |        DataCache |       1212 |       1188 |      24 |    0 |  456 |      0 |      5 |            0 |
+|     instructionCache_1 | InstructionCache |        156 |        156 |       0 |    0 |   65 |      1 |      1 |            0 |
++------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
