@@ -1,0 +1,10 @@
+run
+-ifn top.prj
+-top top
+-ifmt MIXED
+-use_new_parser yes
+-opt_mode SPEED
+-register_balancing yes
+-ofn top.ngc
+-p xc6slx45t-fgg484-3
+-vlgincdir /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/vexriscv/verilog
