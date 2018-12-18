@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Tue Dec 18 20:15:02 2018">
+  <application stringID="Map" timeStamp="Tue Dec 18 22:19:46 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -55,13 +55,13 @@
         <item stringID="User_EnvOsname" value="Ubuntu"/>
         <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.5 LTS"/>
       </item>
-      <item stringID="User_EnvHost" value="travis-job-d33cebac-dcdc-456b-ab72-da30e973eef0"/>
+      <item stringID="User_EnvHost" value="travis-job-24914963-98e7-4914-899c-a5d51db241cc"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Xeon(R) CPU @ 2.60GHz"/>
-          <item stringID="speed" value="2600.000 MHz"/>
+          <item stringID="arch" value="Intel(R) Xeon(R) CPU @ 2.30GHz"/>
+          <item stringID="speed" value="2300.000 MHz"/>
         </row>
       </table>
     </section>
@@ -124,9 +124,9 @@
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
         <item dataType="int" stringID="MAP_NUM_WARNINGS" value="10"/>
-        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="952804"/>
-        <item stringID="MAP_TOTAL_REAL_TIME" value="3 mins 17 secs "/>
-        <item stringID="MAP_TOTAL_CPU_TIME" value="3 mins 17 secs "/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="952824"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="3 mins 42 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="3 mins 42 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
         <item AVAILABLE="54576" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="4298">
