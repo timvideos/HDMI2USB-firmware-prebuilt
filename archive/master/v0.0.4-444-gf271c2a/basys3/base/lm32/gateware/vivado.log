@@ -1,0 +1,2103 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Dec 18 17:33:38 2018
+# Process ID: 15486
+# Current directory: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware
+# Command line: vivado -mode batch -source top.tcl
+# Log file: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/vivado.log
+# Journal file: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'no'.
+source top.tcl
+# create_project -force -name top -part xc7a35t-cpg236-1
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_addsub.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_addsub.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_addsub.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_logic_op.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_logic_op.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_logic_op.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_adder.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_adder.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_adder.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_shifter.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_shifter.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_shifter.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_decoder.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_decoder.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_decoder.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_mc_arithmetic.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_mc_arithmetic.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_mc_arithmetic.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_itlb.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_itlb.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_itlb.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dp_ram.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dp_ram.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dp_ram.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_instruction_unit.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_instruction_unit.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_instruction_unit.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_debug.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_debug.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_debug.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dtlb.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dtlb.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dtlb.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v:]
+# add_files {top.v}
+# set_property library work [get_files {top.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:]
+# add_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_load_store_unit.v}
+# set_property library work [get_files {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_load_store_unit.v}]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_load_store_unit.v:]
+# read_xdc top.xdc
+# synth_design -top top -part xc7a35t-cpg236-1 -include_dirs {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/config /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl}
+Command: synth_design -top top -part xc7a35t-cpg236-1 -include_dirs {/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/config /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl}
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15489 
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/config/lm32_config.v:193]
+WARNING: [Synth 8-1652] attribute target identifier preserve_driver not found in this scope [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:653]
+WARNING: [Synth 8-1652] attribute target identifier preserve_signal not found in this scope [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:652]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1253.578 ; gain = 77.277 ; free physical = 3209 ; free virtual = 6780
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:248]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:613]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:613]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:614]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:614]
+INFO: [Synth 8-3876] $readmem data file 'mem.init' is read successfully [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2025]
+INFO: [Synth 8-3876] $readmem data file 'mem_2.init' is read successfully [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2087]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1442]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1523]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1569]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1730]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1752]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1842]
+INFO: [Synth 8-638] synthesizing module 'lm32_cpu' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:99]
+	Parameter eba_reset bound to: 0 - type: integer 
+	Parameter icache_associativity bound to: 1 - type: integer 
+	Parameter icache_sets bound to: 256 - type: integer 
+	Parameter icache_bytes_per_line bound to: 16 - type: integer 
+	Parameter icache_base_address bound to: 0 - type: integer 
+	Parameter icache_limit bound to: 2147483647 - type: integer 
+	Parameter dcache_associativity bound to: 1 - type: integer 
+	Parameter dcache_sets bound to: 256 - type: integer 
+	Parameter dcache_bytes_per_line bound to: 16 - type: integer 
+	Parameter dcache_base_address bound to: 0 - type: integer 
+	Parameter dcache_limit bound to: 2147483647 - type: integer 
+	Parameter watchpoints bound to: 0 - type: integer 
+	Parameter breakpoints bound to: 0 - type: integer 
+	Parameter interrupts bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lm32_instruction_unit' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_instruction_unit.v:77]
+	Parameter eba_reset bound to: 0 - type: integer 
+	Parameter associativity bound to: 1 - type: integer 
+	Parameter sets bound to: 256 - type: integer 
+	Parameter bytes_per_line bound to: 16 - type: integer 
+	Parameter base_address bound to: 0 - type: integer 
+	Parameter limit bound to: 2147483647 - type: integer 
+	Parameter addr_offset_width bound to: 2 - type: integer 
+	Parameter addr_offset_lsb bound to: 2 - type: integer 
+	Parameter addr_offset_msb bound to: 3 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lm32_icache' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:86]
+	Parameter associativity bound to: 1 - type: integer 
+	Parameter sets bound to: 256 - type: integer 
+	Parameter bytes_per_line bound to: 16 - type: integer 
+	Parameter base_address bound to: 0 - type: integer 
+	Parameter limit bound to: 2147483647 - type: integer 
+	Parameter addr_offset_width bound to: 2 - type: integer 
+	Parameter addr_set_width bound to: 8 - type: integer 
+	Parameter addr_offset_lsb bound to: 2 - type: integer 
+	Parameter addr_offset_msb bound to: 3 - type: integer 
+	Parameter addr_set_lsb bound to: 4 - type: integer 
+	Parameter addr_set_msb bound to: 11 - type: integer 
+	Parameter addr_tag_lsb bound to: 12 - type: integer 
+	Parameter addr_tag_msb bound to: 31 - type: integer 
+	Parameter addr_tag_width bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lm32_ram' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:61]
+	Parameter data_width bound to: 32 - type: integer 
+	Parameter address_width bound to: 10 - type: integer 
+	Parameter init_file bound to: NONE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'lm32_ram' (1#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:61]
+INFO: [Synth 8-638] synthesizing module 'lm32_ram__parameterized0' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:61]
+	Parameter data_width bound to: 21 - type: integer 
+	Parameter address_width bound to: 8 - type: integer 
+	Parameter init_file bound to: NONE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'lm32_ram__parameterized0' (1#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:61]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:492]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:414]
+INFO: [Synth 8-256] done synthesizing module 'lm32_icache' (2#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:86]
+INFO: [Synth 8-256] done synthesizing module 'lm32_instruction_unit' (3#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_instruction_unit.v:77]
+INFO: [Synth 8-638] synthesizing module 'lm32_decoder' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_decoder.v:113]
+INFO: [Synth 8-256] done synthesizing module 'lm32_decoder' (4#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_decoder.v:113]
+INFO: [Synth 8-638] synthesizing module 'lm32_load_store_unit' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_load_store_unit.v:69]
+	Parameter associativity bound to: 1 - type: integer 
+	Parameter sets bound to: 256 - type: integer 
+	Parameter bytes_per_line bound to: 16 - type: integer 
+	Parameter base_address bound to: 0 - type: integer 
+	Parameter limit bound to: 2147483647 - type: integer 
+	Parameter addr_offset_width bound to: 2 - type: integer 
+	Parameter addr_offset_lsb bound to: 2 - type: integer 
+	Parameter addr_offset_msb bound to: 3 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'lm32_dcache' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:80]
+	Parameter associativity bound to: 1 - type: integer 
+	Parameter sets bound to: 256 - type: integer 
+	Parameter bytes_per_line bound to: 16 - type: integer 
+	Parameter base_address bound to: 0 - type: integer 
+	Parameter limit bound to: 2147483647 - type: integer 
+	Parameter addr_offset_width bound to: 2 - type: integer 
+	Parameter addr_set_width bound to: 8 - type: integer 
+	Parameter addr_offset_lsb bound to: 2 - type: integer 
+	Parameter addr_offset_msb bound to: 3 - type: integer 
+	Parameter addr_set_lsb bound to: 4 - type: integer 
+	Parameter addr_set_msb bound to: 11 - type: integer 
+	Parameter addr_tag_lsb bound to: 12 - type: integer 
+	Parameter addr_tag_msb bound to: 31 - type: integer 
+	Parameter addr_tag_width bound to: 20 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:515]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:462]
+INFO: [Synth 8-256] done synthesizing module 'lm32_dcache' (5#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:80]
+INFO: [Synth 8-256] done synthesizing module 'lm32_load_store_unit' (6#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_load_store_unit.v:69]
+INFO: [Synth 8-638] synthesizing module 'lm32_adder' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_adder.v:56]
+INFO: [Synth 8-638] synthesizing module 'lm32_addsub' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_addsub.v:55]
+INFO: [Synth 8-256] done synthesizing module 'lm32_addsub' (7#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_addsub.v:55]
+INFO: [Synth 8-256] done synthesizing module 'lm32_adder' (8#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_adder.v:56]
+INFO: [Synth 8-638] synthesizing module 'lm32_logic_op' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_logic_op.v:56]
+INFO: [Synth 8-256] done synthesizing module 'lm32_logic_op' (9#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_logic_op.v:56]
+INFO: [Synth 8-638] synthesizing module 'lm32_shifter' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_shifter.v:56]
+INFO: [Synth 8-256] done synthesizing module 'lm32_shifter' (10#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_shifter.v:56]
+INFO: [Synth 8-638] synthesizing module 'lm32_multiplier' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:56]
+INFO: [Synth 8-256] done synthesizing module 'lm32_multiplier' (11#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:56]
+INFO: [Synth 8-638] synthesizing module 'lm32_mc_arithmetic' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_mc_arithmetic.v:64]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_mc_arithmetic.v:191]
+INFO: [Synth 8-256] done synthesizing module 'lm32_mc_arithmetic' (12#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_mc_arithmetic.v:64]
+INFO: [Synth 8-638] synthesizing module 'lm32_interrupt' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v:56]
+	Parameter interrupts bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lm32_interrupt' (13#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_interrupt.v:56]
+INFO: [Synth 8-226] default block is never used [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:1617]
+WARNING: [Synth 8-151] case item 3'b010 is unreachable [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2292]
+WARNING: [Synth 8-6014] Unused sequential element x_result_sel_logic_x_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2699]
+WARNING: [Synth 8-6014] Unused sequential element eret_m_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2932]
+INFO: [Synth 8-256] done synthesizing module 'lm32_cpu' (14#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:99]
+WARNING: [Synth 8-350] instance 'lm32_cpu' of module 'lm32_cpu' requires 29 connections, but only 27 given [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1986]
+INFO: [Synth 8-638] synthesizing module 'PLLE2_BASE' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:40130]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 16 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE bound to: 16 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'PLLE2_BASE' (15#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:40130]
+WARNING: [Synth 8-350] instance 'PLLE2_BASE' of module 'PLLE2_BASE' requires 12 connections, but only 5 given [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2098]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (16#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'DNA_PORT' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:3032]
+	Parameter SIM_DNA_VALUE bound to: 57'b000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-256] done synthesizing module 'DNA_PORT' (17#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:3032]
+INFO: [Synth 8-638] synthesizing module 'XADC' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:52527]
+	Parameter INIT_40 bound to: 16'b1001000000000000 
+	Parameter INIT_41 bound to: 16'b0010111011110000 
+	Parameter INIT_42 bound to: 16'b0000010000000000 
+	Parameter INIT_43 bound to: 16'b0000000000000000 
+	Parameter INIT_44 bound to: 16'b0000000000000000 
+	Parameter INIT_45 bound to: 16'b0000000000000000 
+	Parameter INIT_46 bound to: 16'b0000000000000000 
+	Parameter INIT_47 bound to: 16'b0000000000000000 
+	Parameter INIT_48 bound to: 16'b0100011100000001 
+	Parameter INIT_49 bound to: 16'b0000000000001111 
+	Parameter INIT_4A bound to: 16'b0100011100000000 
+	Parameter INIT_4B bound to: 16'b0000000000000000 
+	Parameter INIT_4C bound to: 16'b0000000000000000 
+	Parameter INIT_4D bound to: 16'b0000000000000000 
+	Parameter INIT_4E bound to: 16'b0000000000000000 
+	Parameter INIT_4F bound to: 16'b0000000000000000 
+	Parameter INIT_50 bound to: 16'b1011010111101101 
+	Parameter INIT_51 bound to: 16'b0101100110011001 
+	Parameter INIT_52 bound to: 16'b1010000101000111 
+	Parameter INIT_53 bound to: 16'b1101110111011101 
+	Parameter INIT_54 bound to: 16'b1010100100111010 
+	Parameter INIT_55 bound to: 16'b0101000100010001 
+	Parameter INIT_56 bound to: 16'b1001000111101011 
+	Parameter INIT_57 bound to: 16'b1010111001001110 
+	Parameter INIT_58 bound to: 16'b0101100110011001 
+	Parameter INIT_59 bound to: 16'b0000000000000000 
+	Parameter INIT_5A bound to: 16'b0000000000000000 
+	Parameter INIT_5B bound to: 16'b0000000000000000 
+	Parameter INIT_5C bound to: 16'b0101000100010001 
+	Parameter INIT_5D bound to: 16'b0000000000000000 
+	Parameter INIT_5E bound to: 16'b0000000000000000 
+	Parameter INIT_5F bound to: 16'b0000000000000000 
+	Parameter IS_CONVSTCLK_INVERTED bound to: 1'b0 
+	Parameter IS_DCLK_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SIM_MONITOR_FILE bound to: design.txt - type: string 
+INFO: [Synth 8-256] done synthesizing module 'XADC' (18#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:52527]
+WARNING: [Synth 8-689] width (7) of port connection 'CHANNEL' does not match port width (5) of module 'XADC' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2156]
+WARNING: [Synth 8-350] instance 'XADC' of module 'XADC' requires 24 connections, but only 20 given [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2141]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2164]
+INFO: [Synth 8-638] synthesizing module 'STARTUPE2' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:50875]
+	Parameter PROG_USR bound to: FALSE - type: string 
+	Parameter SIM_CCLK_FREQ bound to: 0.000000 - type: float 
+INFO: [Synth 8-256] done synthesizing module 'STARTUPE2' (19#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:50875]
+WARNING: [Synth 8-350] instance 'STARTUPE2' of module 'STARTUPE2' requires 13 connections, but only 9 given [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2164]
+INFO: [Synth 8-638] synthesizing module 'FDPE' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:3904]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDPE' (20#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:3904]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_ctrl_re_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1565]
+WARNING: [Synth 8-6014] Unused sequential element spiflash_bitbang_re_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1745]
+WARNING: [Synth 8-6014] Unused sequential element spiflash_bitbang_en_re_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1749]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_timer0_load_re_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1818]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_timer0_reload_re_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1831]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_timer0_en_re_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1835]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_timer0_eventmanager_re_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1839]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_eventmanager_re_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1866]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_phy_re_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1896]
+WARNING: [Synth 8-6014] Unused sequential element memdat_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2050]
+WARNING: [Synth 8-6014] Unused sequential element memdat_2_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2067]
+WARNING: [Synth 8-3936] Found unconnected internal register 'array_muxed0_reg' and it is trimmed from '30' to '29' bits. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:779]
+INFO: [Synth 8-4471] merging register 'memadr_1_reg[12:0]' into 'memadr_reg[12:0]' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2039]
+WARNING: [Synth 8-6014] Unused sequential element memadr_1_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2039]
+INFO: [Synth 8-256] done synthesizing module 'top' (21#1) [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2]
+WARNING: [Synth 8-3917] design top has port spiflash_1x_wp driven by constant 1
+WARNING: [Synth 8-3917] design top has port spiflash_1x_hold driven by constant 1
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[31]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[30]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[29]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[28]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[27]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[26]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[25]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[24]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[23]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[22]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[21]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[20]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[19]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[18]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[17]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[16]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[15]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[14]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[13]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[12]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[11]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[10]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[9]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[8]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[7]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[6]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[5]
+WARNING: [Synth 8-3331] design lm32_ram__parameterized0 has unconnected port reset
+WARNING: [Synth 8-3331] design lm32_ram has unconnected port reset
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[31]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[30]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[29]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[28]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[27]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[26]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[25]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[24]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[23]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[22]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[21]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[20]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[19]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[18]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[17]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[16]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[15]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[14]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[13]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[12]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[1]
+WARNING: [Synth 8-3331] design lm32_dcache has unconnected port address_x[0]
+WARNING: [Synth 8-3331] design lm32_load_store_unit has unconnected port load_x
+WARNING: [Synth 8-3331] design lm32_load_store_unit has unconnected port store_x
+WARNING: [Synth 8-3331] design lm32_load_store_unit has unconnected port store_q_x
+WARNING: [Synth 8-3331] design lm32_load_store_unit has unconnected port d_rty_i
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[31]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[30]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[29]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[28]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[27]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[26]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[25]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[24]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[23]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[22]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[21]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[20]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[19]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[18]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[17]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[16]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[15]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[14]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[13]
+WARNING: [Synth 8-3331] design lm32_icache has unconnected port address_a[12]
+WARNING: [Synth 8-3331] design lm32_cpu has unconnected port I_RTY_I
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1302.836 ; gain = 126.535 ; free physical = 3207 ; free virtual = 6779
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1302.836 ; gain = 126.535 ; free physical = 3214 ; free virtual = 6785
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.xdc]
+Finished Parsing XDC File [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  PLLE2_BASE => PLLE2_ADV: 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1601.949 ; gain = 0.000 ; free physical = 2952 ; free virtual = 6524
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:48 . Memory (MB): peak = 1601.949 ; gain = 425.648 ; free physical = 3042 ; free virtual = 6614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:48 . Memory (MB): peak = 1601.949 ; gain = 425.648 ; free physical = 3042 ; free virtual = 6614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:48 . Memory (MB): peak = 1601.949 ; gain = 425.648 ; free physical = 3044 ; free virtual = 6616
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'lm32_icache'
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "flush_set" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element flush_set_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:324]
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "flush_set" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element flush_set_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:368]
+INFO: [Synth 8-5544] ROM "d_adr_o" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_cycle_type" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "d_cti_o" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "result_x" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ie" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "im" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element cc_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+INFO: [Synth 8-5544] ROM "eid_x" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "write_idx_m" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "write_idx_m" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "operand_w0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:727]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:697]
+WARNING: [Synth 8-3936] Found unconnected internal register 'memdat_1_reg' and it is trimmed from '10' to '8' bits. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2055]
+WARNING: [Synth 8-3936] Found unconnected internal register 'memdat_3_reg' and it is trimmed from '10' to '8' bits. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2072]
+INFO: [Synth 8-5544] ROM "basesoc_bus_wishbone_ack" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "basesoc_bus_wishbone_ack" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "basesoc_uart_phy_sink_ready" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "basesoc_uart_phy_sink_ready" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "basesoc_uart_phy_source_valid" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "temperature_status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vccint_status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vccaux_status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vccbram_status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "spiflash_sr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "spiflash_cs_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "spiflash_bus_ack" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "mem_2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element memadr_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_ctrl_bus_errors_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:626]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_phy_tx_bitcount_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1287]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_phy_rx_bitcount_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1317]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_tx_fifo_produce_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1366]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_tx_fifo_consume_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:709]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_tx_fifo_level0_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:697]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_rx_fifo_produce_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1388]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_rx_fifo_consume_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:739]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_rx_fifo_level0_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:727]
+WARNING: [Synth 8-6014] Unused sequential element dna_cnt_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1435]
+WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:847]
+Block RAM mem_1_reg originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+address width (13) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 1601.949 ; gain = 425.648 ; free physical = 3033 ; free virtual = 6604
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     33 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     30 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 8     
+	   2 Input      2 Bit       Adders := 5     
++---Registers : 
+	               57 Bit    Registers := 1     
+	               32 Bit    Registers := 34    
+	               30 Bit    Registers := 10    
+	               23 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 4     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 15    
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 12    
+	                3 Bit    Registers := 6     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 107   
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---RAMs : 
+	             256K Bit         RAMs := 1     
+	              32K Bit         RAMs := 2     
+	               5K Bit         RAMs := 2     
+	             1024 Bit         RAMs := 1     
+	              160 Bit         RAMs := 2     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 53    
+	   8 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 6     
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input     30 Bit        Muxes := 12    
+	   2 Input     29 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 13    
+	   9 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   3 Input      5 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   8 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 4     
+	   5 Input      3 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 7     
+	   4 Input      2 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 104   
+	   3 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 8     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               57 Bit    Registers := 1     
+	               32 Bit    Registers := 10    
+	               14 Bit    Registers := 1     
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 4     
+	                8 Bit    Registers := 11    
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 8     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 32    
++---RAMs : 
+	             256K Bit         RAMs := 1     
+	              160 Bit         RAMs := 2     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 13    
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input     29 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 7     
+	   9 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 55    
+	   3 Input      1 Bit        Muxes := 5     
+	   5 Input      1 Bit        Muxes := 4     
+Module lm32_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	               10 Bit    Registers := 1     
++---RAMs : 
+	              32K Bit         RAMs := 1     
+Module lm32_ram__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---RAMs : 
+	               5K Bit         RAMs := 1     
+Module lm32_icache 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               30 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module lm32_instruction_unit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               30 Bit    Registers := 6     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input     30 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+Module lm32_decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     30 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+Module lm32_dcache 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 5     
+	   5 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 7     
+Module lm32_load_store_unit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   8 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   8 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+Module lm32_addsub 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     33 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module lm32_shifter 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module lm32_multiplier 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
++---Multipliers : 
+	                32x32  Multipliers := 1     
+Module lm32_mc_arithmetic 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 5     
+Module lm32_interrupt 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+Module lm32_cpu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	               30 Bit    Registers := 3     
+	               23 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 49    
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 19    
+	   5 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     30 Bit        Muxes := 5     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "icache/state" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element icache/flush_set_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:324]
+INFO: [Synth 8-5546] ROM "dcache/state" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element dcache/flush_set_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:368]
+INFO: [Synth 8-4471] merging register 'multiplier/muliplicand_reg[31:0]' into 'operand_0_x_reg[31:0]' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:102]
+INFO: [Synth 8-4471] merging register 'multiplier/multiplier_reg[31:0]' into 'operand_1_x_reg[31:0]' [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:103]
+WARNING: [Synth 8-6014] Unused sequential element multiplier/multiplier_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:103]
+WARNING: [Synth 8-6014] Unused sequential element multiplier/muliplicand_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:102]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:115]
+WARNING: [Synth 8-6014] Unused sequential element multiplier/product_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:104]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:115]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:115]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:115]
+WARNING: [Synth 8-6014] Unused sequential element  was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:104]
+WARNING: [Synth 8-6014] Unused sequential element  was removed. 
+WARNING: [Synth 8-6014] Unused sequential element cc_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+DSP Report: Generating DSP multiplier/product0, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP multiplier/product0.
+DSP Report: register A is absorbed into DSP multiplier/product0.
+DSP Report: operator multiplier/product0 is absorbed into DSP multiplier/product0.
+DSP Report: operator multiplier/product0 is absorbed into DSP multiplier/product0.
+DSP Report: Generating DSP multiplier/product_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP multiplier/product_reg.
+DSP Report: register A is absorbed into DSP multiplier/product_reg.
+DSP Report: register multiplier/product_reg is absorbed into DSP multiplier/product_reg.
+DSP Report: operator multiplier/product0 is absorbed into DSP multiplier/product_reg.
+DSP Report: operator multiplier/product0 is absorbed into DSP multiplier/product_reg.
+DSP Report: Generating DSP multiplier/product0, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP multiplier/product0.
+DSP Report: register A is absorbed into DSP multiplier/product0.
+DSP Report: operator multiplier/product0 is absorbed into DSP multiplier/product0.
+DSP Report: operator multiplier/product0 is absorbed into DSP multiplier/product0.
+DSP Report: Generating DSP multiplier/product_reg, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP multiplier/product_reg.
+DSP Report: register A is absorbed into DSP multiplier/product_reg.
+DSP Report: register multiplier/product_reg is absorbed into DSP multiplier/product_reg.
+DSP Report: operator multiplier/product0 is absorbed into DSP multiplier/product_reg.
+DSP Report: operator multiplier/product0 is absorbed into DSP multiplier/product_reg.
+WARNING: [Synth 8-3936] Found unconnected internal register 'memadr_reg' and it is trimmed from '13' to '12' bits. [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+INFO: [Synth 8-5546] ROM "spiflash_cs_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "spiflash_sr" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element memadr_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_phy_tx_bitcount_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1287]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_tx_fifo_level0_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:697]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_tx_fifo_produce_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1366]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_phy_rx_bitcount_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1317]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_rx_fifo_level0_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:727]
+WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:847]
+WARNING: [Synth 8-6014] Unused sequential element dna_cnt_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1435]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_rx_fifo_produce_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:1388]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_ctrl_bus_errors_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:626]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_tx_fifo_consume_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:709]
+WARNING: [Synth 8-6014] Unused sequential element basesoc_uart_rx_fifo_consume_reg was removed.  [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:739]
+WARNING: [Synth 8-3917] design top has port spiflash_1x_wp driven by constant 1
+WARNING: [Synth 8-3917] design top has port spiflash_1x_hold driven by constant 1
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[31]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[30]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[29]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[28]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[27]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[26]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[25]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[24]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[23]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[22]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[21]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[20]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[19]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[18]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[17]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[16]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[15]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[14]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[13]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[12]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[11]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[10]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[9]
+WARNING: [Synth 8-3331] design lm32_shifter has unconnected port operand_1_x[8]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Block RAM mem_1_reg originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+address width (13) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimalRAM Pipeline Warning: Read Address Register Found For RAM instruction_unit/icache/memories[0].way_0_data_ram/mem_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM instruction_unit/icache/memories[0].way_0_tag_ram/mem_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/mem_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM load_store_unit/dcache/memories[0].way_0_tag_ram/mem_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM mem_1_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-3886] merging instance 'interface2_bank_bus_dat_r_reg[4]' (FDR) to 'interface2_bank_bus_dat_r_reg[7]'
+INFO: [Synth 8-3886] merging instance 'interface2_bank_bus_dat_r_reg[5]' (FDR) to 'interface2_bank_bus_dat_r_reg[7]'
+INFO: [Synth 8-3886] merging instance 'interface2_bank_bus_dat_r_reg[6]' (FDR) to 'interface2_bank_bus_dat_r_reg[7]'
+INFO: [Synth 8-3886] merging instance 'interface2_bank_bus_dat_r_reg[7]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[8]'
+INFO: [Synth 8-3886] merging instance 'lm32_cpu/w_result_sel_load_x_reg' (FDRE) to 'lm32_cpu/load_x_reg'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[8]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[9]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[9]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[10]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[10]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[11]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[12]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[12]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[13]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[13]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[14]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[14]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[15]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[15]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[16]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[16]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[17]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[17]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[18]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[18]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[19]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[19]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[20]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[20]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[21]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[21]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[22]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[22]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[23]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[24]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[24]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[25]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[25]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[26]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[26]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[27]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[27]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[28]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[28]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[29]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[29]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[30]'
+INFO: [Synth 8-3886] merging instance 'basesoc_bus_wishbone_dat_r_reg[30]' (FDR) to 'basesoc_bus_wishbone_dat_r_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\basesoc_bus_wishbone_dat_r_reg[31] )
+INFO: [Synth 8-3886] merging instance 'lm32_cpu/sign_extend_x_reg' (FDRE) to 'lm32_cpu/logic_op_x_reg[2]'
+INFO: [Synth 8-3886] merging instance 'lm32_cpu/direction_x_reg' (FDRE) to 'lm32_cpu/logic_op_x_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (lm32_cpu/\instruction_unit/bus_error_f_reg )
+INFO: [Synth 8-3886] merging instance 'lm32_cpu/condition_x_reg[0]' (FDRE) to 'lm32_cpu/logic_op_x_reg[0]'
+INFO: [Synth 8-3886] merging instance 'lm32_cpu/condition_x_reg[1]' (FDRE) to 'lm32_cpu/logic_op_x_reg[1]'
+INFO: [Synth 8-3886] merging instance 'lm32_cpu/condition_x_reg[2]' (FDRE) to 'lm32_cpu/logic_op_x_reg[2]'
+INFO: [Synth 8-3886] merging instance 'lm32_cpu/size_x_reg[0]' (FDRE) to 'lm32_cpu/logic_op_x_reg[0]'
+INFO: [Synth 8-3886] merging instance 'lm32_cpu/size_x_reg[1]' (FDRE) to 'lm32_cpu/logic_op_x_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (lm32_cpu/data_bus_error_seen_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (lm32_cpu/\mc_arithmetic/state_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (lm32_cpu/bus_error_x_reg)
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_adr_o_reg[31]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_adr_o_reg[27]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_adr_o_reg[26]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_adr_o_reg[25]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_adr_o_reg[24]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_adr_o_reg[1]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_adr_o_reg[0]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_cti_o_reg[2]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_cti_o_reg[1]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_cti_o_reg[0]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/i_lock_o_reg) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/bus_error_f_reg) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (instruction_unit/bus_error_d_reg) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/dcache/refill_address_reg[3]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/dcache/refill_address_reg[2]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/dcache/refill_address_reg[1]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/dcache/refill_address_reg[0]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_adr_o_reg[31]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_adr_o_reg[27]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_adr_o_reg[26]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_adr_o_reg[25]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_adr_o_reg[24]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_adr_o_reg[1]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_adr_o_reg[0]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_cti_o_reg[2]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_cti_o_reg[1]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_cti_o_reg[0]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (load_store_unit/d_lock_o_reg) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (mc_arithmetic/state_reg[2]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (data_bus_error_seen_reg) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (bus_error_x_reg) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[31]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[30]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[29]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[28]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[27]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[26]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[25]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[24]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[23]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[22]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[21]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[20]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[19]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[18]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[17]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[16]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[15]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[14]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[13]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[12]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[11]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[10]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[9]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[8]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[7]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[6]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[5]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[4]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[3]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (memop_pc_w_reg[2]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (data_bus_error_exception_m_reg) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[47]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[46]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[45]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[44]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[43]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[42]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[41]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[40]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[39]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[38]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[37]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[36]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[35]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[34]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[33]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[32]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[31]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[30]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[29]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[28]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[27]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[26]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[25]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[24]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[23]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[22]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[21]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[20]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[19]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[18]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[17]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[16]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[15]) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[47]__0) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[46]__0) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[45]__0) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[44]__0) is unused and will be removed from module lm32_cpu.
+WARNING: [Synth 8-3332] Sequential element (multiplier/product_reg[43]__0) is unused and will be removed from module lm32_cpu.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:28 . Memory (MB): peak = 1632.133 ; gain = 455.832 ; free physical = 2890 ; free virtual = 6462
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|top         | memadr_reg | 4096x32       | Block RAM      | 
+|top         | memadr_reg | 4096x32       | Block RAM      | 
++------------+------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping  Report (see note below)
++--------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name               | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|lm32_ram:                 | mem_reg    | 1 K x 32(NO_CHANGE)    | W |   | 1 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
+|lm32_ram__parameterized0: | mem_reg    | 256 x 21(NO_CHANGE)    | W |   | 256 x 21(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|lm32_ram:                 | mem_reg    | 1 K x 32(NO_CHANGE)    | W |   | 1 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
+|lm32_ram__parameterized0: | mem_reg    | 256 x 21(NO_CHANGE)    | W |   | 256 x 21(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|top                       | mem_1_reg  | 8 K x 32(WRITE_FIRST)  | W | R |                        |   |   | Port A           | 0      | 8      | 
++--------------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The tale above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+---------------+-----------+----------------------+---------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives    | 
++------------+---------------+-----------+----------------------+---------------+
+|lm32_cpu    | registers_reg | Implied   | 32 x 32              | RAM32M x 12   | 
+|top         | storage_reg   | Implied   | 16 x 8               | RAM32M x 2    | 
+|top         | storage_1_reg | Implied   | 16 x 8               | RAM32M x 2    | 
++------------+---------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|lm32_cpu    | A2*B2            | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|lm32_cpu    | (PCIN>>17)+A2*B2 | 16     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|lm32_cpu    | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|lm32_cpu    | (PCIN>>17)+A2*B2 | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:19 ; elapsed = 00:01:42 . Memory (MB): peak = 1730.133 ; gain = 553.832 ; free physical = 2734 ; free virtual = 6306
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:50 . Memory (MB): peak = 1836.070 ; gain = 659.770 ; free physical = 2662 ; free virtual = 6233
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping  Report
++--------------------------+-----------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name               | RTL Object                                                | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------+-----------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|lm32_ram:                 | mem_reg                                                   | 1 K x 32(NO_CHANGE)    | W |   | 1 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
+|lm32_cpu                  | instruction_unit/icache/memories[0].way_0_tag_ram/mem_reg | 256 x 21(NO_CHANGE)    | W |   | 256 x 21(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|lm32_ram:                 | mem_reg                                                   | 1 K x 32(NO_CHANGE)    | W |   | 1 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
+|lm32_ram__parameterized0: | mem_reg                                                   | 256 x 21(NO_CHANGE)    | W |   | 256 x 21(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|top                       | mem_1_reg                                                 | 8 K x 32(WRITE_FIRST)  | W | R |                        |   |   | Port A           | 0      | 8      | 
++--------------------------+-----------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping  Report
++------------+---------------+-----------+----------------------+---------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives    | 
++------------+---------------+-----------+----------------------+---------------+
+|lm32_cpu    | registers_reg | Implied   | 32 x 32              | RAM32M x 12   | 
+|top         | storage_reg   | Implied   | 16 x 8               | RAM32M x 2    | 
+|top         | storage_1_reg | Implied   | 16 x 8               | RAM32M x 2    | 
++------------+---------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'basesoc_uart_rx_fifo_consume_reg_rep[3]' (FDRE) to 'basesoc_uart_rx_fifo_consume_reg[3]'
+INFO: [Synth 8-3886] merging instance 'basesoc_uart_rx_fifo_consume_reg_rep[2]' (FDRE) to 'basesoc_uart_rx_fifo_consume_reg[2]'
+INFO: [Synth 8-3886] merging instance 'basesoc_uart_rx_fifo_consume_reg_rep[0]' (FDRE) to 'basesoc_uart_rx_fifo_consume_reg[0]'
+INFO: [Synth 8-3886] merging instance 'basesoc_uart_rx_fifo_consume_reg_rep[1]' (FDRE) to 'basesoc_uart_rx_fifo_consume_reg[1]'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_2832' (FDE) to 'lm32_cpui_2831'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_71' (FDE) to 'lm32_cpui_86'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_72' (FDE) to 'lm32_cpui_87'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_73' (FDE) to 'lm32_cpui_88'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_74' (FDE) to 'lm32_cpui_89'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_75' (FDE) to 'lm32_cpui_90'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_76' (FDE) to 'lm32_cpui_91'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_77' (FDE) to 'lm32_cpui_92'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_29' (FDE) to 'lm32_cpui_45'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_30' (FDE) to 'lm32_cpui_46'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_31' (FDE) to 'lm32_cpui_47'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_32' (FDE) to 'lm32_cpui_48'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_33' (FDE) to 'lm32_cpui_49'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_34' (FDE) to 'lm32_cpui_50'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_35' (FDE) to 'lm32_cpui_51'
+INFO: [Synth 8-3886] merging instance 'lm32_cpui_36' (FDE) to 'lm32_cpui_52'
+INFO: [Synth 8-3886] merging instance 'basesoc_uart_tx_fifo_consume_reg_rep[3]' (FDRE) to 'basesoc_uart_tx_fifo_consume_reg[3]'
+INFO: [Synth 8-3886] merging instance 'basesoc_uart_tx_fifo_consume_reg_rep[2]' (FDRE) to 'basesoc_uart_tx_fifo_consume_reg[2]'
+INFO: [Synth 8-3886] merging instance 'basesoc_uart_tx_fifo_consume_reg_rep[0]' (FDRE) to 'basesoc_uart_tx_fifo_consume_reg[0]'
+INFO: [Synth 8-3886] merging instance 'basesoc_uart_tx_fifo_consume_reg_rep[1]' (FDRE) to 'basesoc_uart_tx_fifo_consume_reg[1]'
+INFO: [Synth 8-4480] The timing for the instance lm32_cpu/instruction_unit/icache/memories[0].way_0_data_ram/mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance lm32_cpu/load_store_unit/dcache/memories[0].way_0_tag_ram/mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mem_1_reg_0_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mem_1_reg_0_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mem_1_reg_1_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mem_1_reg_1_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mem_1_reg_2_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mem_1_reg_2_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mem_1_reg_3_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance mem_1_reg_3_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance memadr_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance memadr_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance memadr_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance memadr_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:29 ; elapsed = 00:01:52 . Memory (MB): peak = 1836.070 ; gain = 659.770 ; free physical = 2658 ; free virtual = 6229
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:650]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_instruction_unit.v:473]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.v:2019]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2547]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:324]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:324]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:324]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:324]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:324]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:324]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:324]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_icache.v:324]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:368]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:368]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:368]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:368]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:368]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:368]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:368]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_dcache.v:368]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin CLKBWRCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin CLKBWRCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_ram.v:113]
+WARNING: [Synth 8-5396] Clock pin CLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:104]
+WARNING: [Synth 8-5396] Clock pin CLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:115]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:1120]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:1148]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:1062]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:56]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_multiplier.v:56]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2135]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2688]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2688]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2688]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2688]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2688]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/lm32/verilog/submodule/rtl/lm32_cpu.v:2688]
+INFO: [Common 17-14] Message 'Synth 8-5396' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:30 ; elapsed = 00:01:53 . Memory (MB): peak = 1836.074 ; gain = 659.773 ; free physical = 2658 ; free virtual = 6230
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:30 ; elapsed = 00:01:53 . Memory (MB): peak = 1836.074 ; gain = 659.773 ; free physical = 2658 ; free virtual = 6230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:31 ; elapsed = 00:01:54 . Memory (MB): peak = 1836.074 ; gain = 659.773 ; free physical = 2658 ; free virtual = 6230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:31 ; elapsed = 00:01:54 . Memory (MB): peak = 1836.074 ; gain = 659.773 ; free physical = 2658 ; free virtual = 6230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:31 ; elapsed = 00:01:54 . Memory (MB): peak = 1836.074 ; gain = 659.773 ; free physical = 2658 ; free virtual = 6230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:31 ; elapsed = 00:01:54 . Memory (MB): peak = 1836.074 ; gain = 659.773 ; free physical = 2658 ; free virtual = 6230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     1|
+|2     |CARRY4     |   109|
+|3     |DNA_PORT   |     1|
+|4     |DSP48E1    |     1|
+|5     |DSP48E1_1  |     2|
+|6     |LUT1       |    69|
+|7     |LUT2       |   359|
+|8     |LUT3       |   422|
+|9     |LUT4       |   166|
+|10    |LUT5       |   434|
+|11    |LUT6       |   691|
+|12    |MUXF7      |    39|
+|13    |PLLE2_BASE |     1|
+|14    |RAM32M     |    16|
+|15    |RAMB18E1   |     2|
+|16    |RAMB36E1   |     2|
+|17    |RAMB36E1_1 |     8|
+|18    |RAMB36E1_2 |     1|
+|19    |RAMB36E1_3 |     1|
+|20    |RAMB36E1_4 |     1|
+|21    |RAMB36E1_5 |     1|
+|22    |STARTUPE2  |     1|
+|23    |XADC       |     1|
+|24    |FDPE       |     2|
+|25    |FDRE       |  1721|
+|26    |FDSE       |    78|
+|27    |IBUF       |     4|
+|28    |OBUF       |     5|
++------+-----------+------+
+
+Report Instance Areas: 
++------+---------------------------------------------------+---------------------------+------+
+|      |Instance                                           |Module                     |Cells |
++------+---------------------------------------------------+---------------------------+------+
+|1     |top                                                |                           |  4139|
+|2     |  lm32_cpu                                         |lm32_cpu                   |  2893|
+|3     |    adder                                          |lm32_adder                 |     2|
+|4     |      addsub                                       |lm32_addsub                |     2|
+|5     |    instruction_unit                               |lm32_instruction_unit      |   962|
+|6     |      icache                                       |lm32_icache                |   262|
+|7     |        \memories[0].way_0_data_ram                |lm32_ram_0                 |    82|
+|8     |        \memories[0].way_0_tag_ram                 |lm32_ram__parameterized0_1 |    18|
+|9     |    interrupt_unit                                 |lm32_interrupt             |    77|
+|10    |    load_store_unit                                |lm32_load_store_unit       |   692|
+|11    |      dcache                                       |lm32_dcache                |   304|
+|12    |        \memories[0].data_memories.way_0_data_ram  |lm32_ram                   |   101|
+|13    |        \memories[0].way_0_tag_ram                 |lm32_ram__parameterized0   |    19|
+|14    |    mc_arithmetic                                  |lm32_mc_arithmetic         |   394|
+|15    |    multiplier                                     |lm32_multiplier            |   131|
+|16    |    shifter                                        |lm32_shifter               |   173|
++------+---------------------------------------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:31 ; elapsed = 00:01:54 . Memory (MB): peak = 1836.074 ; gain = 659.773 ; free physical = 2658 ; free virtual = 6230
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2049 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:21 ; elapsed = 00:01:29 . Memory (MB): peak = 1836.074 ; gain = 360.660 ; free physical = 2722 ; free virtual = 6294
+Synthesis Optimization Complete : Time (s): cpu = 00:01:31 ; elapsed = 00:01:54 . Memory (MB): peak = 1836.078 ; gain = 659.773 ; free physical = 2730 ; free virtual = 6302
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 190 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.xdc]
+Finished Parsing XDC File [/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 17 instances were transformed.
+  PLLE2_BASE => PLLE2_ADV: 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+199 Infos, 373 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:35 ; elapsed = 00:01:59 . Memory (MB): peak = 1836.078 ; gain = 673.148 ; free physical = 2877 ; free virtual = 6449
+# report_timing_summary -file top_timing_synth.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-2] Deriving generated clocks
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1916.086 ; gain = 80.008 ; free physical = 2577 ; free virtual = 6149
+# report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
+report_utilization: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.16 . Memory (MB): peak = 1916.086 ; gain = 0.000 ; free physical = 2577 ; free virtual = 6149
+# report_utilization -file top_utilization_synth.rpt
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1917.082 ; gain = 0.996 ; free physical = 2577 ; free virtual = 6149
+# opt_design
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1930.098 ; gain = 13.016 ; free physical = 2575 ; free virtual = 6147
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1bc9c1750
+
+Time (s): cpu = 00:00:00.46 ; elapsed = 00:00:00.39 . Memory (MB): peak = 1930.098 ; gain = 0.000 ; free physical = 2602 ; free virtual = 6174
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 4 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 2636c9da4
+
+Time (s): cpu = 00:00:00.55 ; elapsed = 00:00:00.47 . Memory (MB): peak = 1930.098 ; gain = 0.000 ; free physical = 2602 ; free virtual = 6174
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1f8f1367e
+
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.59 . Memory (MB): peak = 1930.098 ; gain = 0.000 ; free physical = 2602 ; free virtual = 6174
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1f8f1367e
+
+Time (s): cpu = 00:00:00.78 ; elapsed = 00:00:00.71 . Memory (MB): peak = 1930.098 ; gain = 0.000 ; free physical = 2602 ; free virtual = 6174
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 1f8f1367e
+
+Time (s): cpu = 00:00:00.84 ; elapsed = 00:00:00.77 . Memory (MB): peak = 1930.098 ; gain = 0.000 ; free physical = 2602 ; free virtual = 6174
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1930.098 ; gain = 0.000 ; free physical = 2602 ; free virtual = 6174
+Ending Logic Optimization Task | Checksum: 1f8f1367e
+
+Time (s): cpu = 00:00:00.95 ; elapsed = 00:00:00.88 . Memory (MB): peak = 1930.098 ; gain = 0.000 ; free physical = 2602 ; free virtual = 6174
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=1.886 | TNS=0.000 |
+INFO: [Power 33-23] Power model is not available for DNA_PORT
+INFO: [Power 33-23] Power model is not available for STARTUPE2
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 16 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 32
+Ending PowerOpt Patch Enables Task | Checksum: 200871049
+
+Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2142.410 ; gain = 0.000 ; free physical = 2593 ; free virtual = 6165
+Ending Power Optimization Task | Checksum: 200871049
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 2142.410 ; gain = 212.312 ; free physical = 2598 ; free virtual = 6170
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2142.410 ; gain = 225.328 ; free physical = 2598 ; free virtual = 6170
+# place_design
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2600 ; free virtual = 6173
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 138251d2b
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2601 ; free virtual = 6173
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2600 ; free virtual = 6172
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 9897826e
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2597 ; free virtual = 6169
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 16d28dc5a
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2593 ; free virtual = 6166
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 16d28dc5a
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2593 ; free virtual = 6166
+Phase 1 Placer Initialization | Checksum: 16d28dc5a
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2593 ; free virtual = 6166
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 5d3ea3e0
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2587 ; free virtual = 6159
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 5d3ea3e0
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2587 ; free virtual = 6159
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1b80e493e
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2587 ; free virtual = 6159
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: fb396808
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2587 ; free virtual = 6159
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: fb396808
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2587 ; free virtual = 6159
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: ea455514
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2586 ; free virtual = 6158
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 180e8ba24
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2586 ; free virtual = 6158
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 180e8ba24
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2586 ; free virtual = 6158
+Phase 3 Detail Placement | Checksum: 180e8ba24
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2588 ; free virtual = 6160
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1f987f305
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-33] Processed net lm32_cpu/instruction_unit/icache/SR[0], BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-31] BUFG insertion identified 1 candidate nets, 0 success, 1 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1f987f305
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2585 ; free virtual = 6157
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.944. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 11956544d
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2585 ; free virtual = 6157
+Phase 4.1 Post Commit Optimization | Checksum: 11956544d
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2585 ; free virtual = 6157
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 11956544d
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2585 ; free virtual = 6157
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 11956544d
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2585 ; free virtual = 6157
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 19bc0adf8
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2585 ; free virtual = 6157
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 19bc0adf8
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2585 ; free virtual = 6157
+Ending Placer Task | Checksum: 18244d40a
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2590 ; free virtual = 6162
+INFO: [Common 17-83] Releasing license: Implementation
+17 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 2142.418 ; gain = 0.008 ; free physical = 2590 ; free virtual = 6162
+# report_utilization -hierarchical -file top_utilization_hierarchical_place.rpt
+report_utilization: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.19 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2589 ; free virtual = 6161
+# report_utilization -file top_utilization_place.rpt
+report_utilization: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2589 ; free virtual = 6161
+# report_io -file top_io.rpt
+report_io: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2582 ; free virtual = 6154
+# report_control_sets -verbose -file top_control_sets.rpt
+report_control_sets: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2587 ; free virtual = 6160
+# report_clock_utilization -file top_clock_utilization.rpt
+# route_design
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: c9ba7674 ConstDB: 0 ShapeSum: b88a5d96 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 192063673
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2486 ; free virtual = 6058
+Post Restoration Checksum: NetGraph: fffd1793 NumContArr: 92091ee0 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 192063673
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2485 ; free virtual = 6058
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 192063673
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2478 ; free virtual = 6050
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 192063673
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2478 ; free virtual = 6050
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 19c6073e4
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2466 ; free virtual = 6038
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.357  | TNS=0.000  | WHS=-0.324 | THS=-80.619|
+
+Phase 2 Router Initialization | Checksum: f7b6749d
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2462 ; free virtual = 6034
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1713458f8
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2467 ; free virtual = 6039
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 678
+ Number of Nodes with overlaps = 126
+ Number of Nodes with overlaps = 31
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.284  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 124fc7460
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:23 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2464 ; free virtual = 6036
+Phase 4 Rip-up And Reroute | Checksum: 124fc7460
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:23 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2464 ; free virtual = 6036
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1f146fc8c
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:23 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2464 ; free virtual = 6036
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.351  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 1f146fc8c
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:23 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2464 ; free virtual = 6036
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1f146fc8c
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:23 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2464 ; free virtual = 6036
+Phase 5 Delay and Skew Optimization | Checksum: 1f146fc8c
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:23 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2464 ; free virtual = 6036
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 20d9d7fd1
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2464 ; free virtual = 6036
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.351  | TNS=0.000  | WHS=0.013  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1a34a2bf8
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2464 ; free virtual = 6036
+Phase 6 Post Hold Fix | Checksum: 1a34a2bf8
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2464 ; free virtual = 6036
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.41378 %
+  Global Horizontal Routing Utilization  = 1.95237 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 13a314505
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2464 ; free virtual = 6036
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 13a314505
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2463 ; free virtual = 6035
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 2083c6050
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2463 ; free virtual = 6035
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.351  | TNS=0.000  | WHS=0.013  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 2083c6050
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2463 ; free virtual = 6035
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2472 ; free virtual = 6044
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+13 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:27 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2472 ; free virtual = 6044
+# phys_opt_design
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Vivado_Tcl 4-241] Physical synthesis in post route mode ( 100.0% nets are fully routed)
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+# report_timing_summary -no_header -no_detailed_paths
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  false
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock
+2. checking constant_clock
+3. checking pulse_width_clock
+4. checking unconstrained_internal_endpoints
+5. checking no_input_delay
+6. checking no_output_delay
+7. checking multiple_clock
+8. checking generated_clocks
+9. checking loops
+10. checking partial_input_delay
+11. checking partial_output_delay
+12. checking latch_loops
+
+1. checking no_clock
+--------------------
+ There is 1 register/latch pin with no clock driven by root clock pin: dna_cnt_reg[0]/Q (HIGH)
+
+
+2. checking constant_clock
+--------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock
+-----------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints
+--------------------------------------------
+ There are 2 pins that are not constrained for maximum delay. (HIGH)
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay
+--------------------------
+ There are 3 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay
+---------------------------
+ There are 3 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock
+--------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks
+----------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops
+-----------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay
+--------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay
+---------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops
+------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      1.357        0.000                      0                 6213        0.014        0.000                      0                 6212        3.000        0.000                       0                  1957  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock          Waveform(ns)       Period(ns)      Frequency(MHz)
+-----          ------------       ----------      --------------
+clk100         {0.000 5.000}      10.000          100.000         
+  crg_pll_fb   {0.000 5.000}      10.000          100.000         
+  crg_pll_sys  {0.000 5.000}      10.000          100.000         
+sys_clk        {0.000 5.000}      10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock              WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----              -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+clk100                                                                                                                                                           3.000        0.000                       0                     1  
+  crg_pll_fb                                                                                                                                                     8.751        0.000                       0                     2  
+  crg_pll_sys                                                                                                                                                    7.845        0.000                       0                     2  
+sys_clk              1.357        0.000                      0                 6212        0.014        0.000                      0                 6212        3.750        0.000                       0                  1952  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+              sys_clk             2.351        0.000                      0                    1                                                                        
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+# write_checkpoint -force top_route.dcp
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.59 . Memory (MB): peak = 2142.418 ; gain = 0.000 ; free physical = 2471 ; free virtual = 6049
+INFO: [Common 17-1381] The checkpoint '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top_route.dcp' has been generated.
+# report_route_status -file top_route_status.rpt
+# report_drc -file top_drc.rpt
+Command: report_drc -file top_drc.rpt
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/top_drc.rpt.
+report_drc completed successfully
+# report_timing_summary -datasheet -max_paths 10 -file top_timing.rpt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+# report_power -file top_power.rpt
+Command: report_power -file top_power.rpt
+INFO: [Power 33-23] Power model is not available for DNA_PORT
+INFO: [Power 33-23] Power model is not available for STARTUPE2
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+2 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+# set_property BITSTREAM.CONFIG.SPI_BUSWIDTH 4 [current_design]
+# write_bitstream -force top.bit 
+Command: write_bitstream -force top.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC CFGBVS-1] Missing CFGBVS and CONFIG_VOLTAGE Design Properties: Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP lm32_cpu/multiplier/product0__0 output lm32_cpu/multiplier/product0__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP lm32_cpu/multiplier/product0 multiplier stage lm32_cpu/multiplier/product0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP lm32_cpu/multiplier/product0__0 multiplier stage lm32_cpu/multiplier/product0__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP lm32_cpu/multiplier/product_reg__0 multiplier stage lm32_cpu/multiplier/product_reg__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (lm32_cpu/instruction_unit/icache/memories[0].way_0_tag_ram/mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (lm32_cpu/load_store_unit/dcache/memories[0].way_0_tag_ram/mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 5 Warnings, 2 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Project 1-821] Please set project.enableDesignId to be 'true'.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./top.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/basys3_base_lm32/gateware/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Tue Dec 18 17:37:28 2018. For additional details about this file, please refer to the WebTalk help file at /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/Vivado/2017.3/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 2390.062 ; gain = 243.637 ; free physical = 2443 ; free virtual = 6019
+# write_cfgmem -force -format bin -interface spix4 -size 16 -loadbit "up 0x0 top.bit" -file top.bin
+Command: write_cfgmem -force -format bin -interface spix4 -size 16 -loadbit {up 0x0 top.bit} -file top.bin
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile top.bit
+Writing file ./top.bin
+Writing log file ./top.prm
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    Dec 18 17:37:26 2018    top.bit
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+# quit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 18 17:37:29 2018...
