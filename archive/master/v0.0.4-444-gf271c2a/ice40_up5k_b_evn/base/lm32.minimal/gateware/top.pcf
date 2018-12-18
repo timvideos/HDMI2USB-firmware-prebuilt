@@ -1,0 +1,16 @@
+set_io serial_rx 32
+set_io serial_tx 26
+set_io serial_rts 27
+set_io serial_cts 31
+set_io clk12 35
+set_io rgb_led0_r 41
+set_io rgb_led0_g 40
+set_io rgb_led0_b 39
+set_io user_sw0 23
+set_io user_sw1 25
+set_io user_sw2 34
+set_io user_sw3 43
+set_io spiflash_cs_n 16
+set_io spiflash_clk 15
+set_io spiflash_mosi 14
+set_io spiflash_miso 17
