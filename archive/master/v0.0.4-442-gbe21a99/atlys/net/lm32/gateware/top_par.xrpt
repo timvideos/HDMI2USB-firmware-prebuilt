@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Tue Dec 18 04:33:00 2018">
+  <application stringID="par" timeStamp="Tue Dec 18 22:20:58 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -55,13 +55,13 @@
         <item stringID="User_EnvOsname" value="Ubuntu"/>
         <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.5 LTS"/>
       </item>
-      <item stringID="User_EnvHost" value="travis-job-de5c2af1-29ab-47ad-80d7-3dd9304bc079"/>
+      <item stringID="User_EnvHost" value="travis-job-55bce2fb-aadd-454e-83a6-8d46c3984b59"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Xeon(R) CPU @ 2.60GHz"/>
-          <item stringID="speed" value="2600.000 MHz"/>
+          <item stringID="arch" value="Intel(R) Xeon(R) CPU @ 2.30GHz"/>
+          <item stringID="speed" value="2300.000 MHz"/>
         </row>
       </table>
     </section>
@@ -73,12 +73,12 @@
     </task>
     <task stringID="PAR_PAR">
       <section stringID="PAR_DESIGN_SUMMARY">
-        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="54 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="57 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="58 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="1 mins 2 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="56 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="1 mins "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="1 mins 1 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="1 mins 5 secs "/>
       </section>
     </task>
     <task stringID="PAR_par">
@@ -2712,7 +2712,7 @@
     </task>
   </application>
 
-  <application stringID="Par" timeStamp="Tue Dec 18 04:33:00 2018">
+  <application stringID="Par" timeStamp="Tue Dec 18 22:20:58 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -2762,13 +2762,13 @@
         <item stringID="User_EnvOsname" value="Ubuntu"/>
         <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.5 LTS"/>
       </item>
-      <item stringID="User_EnvHost" value="travis-job-de5c2af1-29ab-47ad-80d7-3dd9304bc079"/>
+      <item stringID="User_EnvHost" value="travis-job-55bce2fb-aadd-454e-83a6-8d46c3984b59"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Xeon(R) CPU @ 2.60GHz"/>
-          <item stringID="speed" value="2600.000 MHz"/>
+          <item stringID="arch" value="Intel(R) Xeon(R) CPU @ 2.30GHz"/>
+          <item stringID="speed" value="2300.000 MHz"/>
         </row>
       </table>
     </section>
