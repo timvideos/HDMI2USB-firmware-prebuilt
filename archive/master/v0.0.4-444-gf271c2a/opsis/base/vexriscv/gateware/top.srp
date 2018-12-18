@@ -3904,13 +3904,13 @@ clk100         |   15.442|         |    1.919|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 81.00 secs
-Total CPU time to Xst completion: 80.01 secs
+Total REAL time to Xst completion: 84.00 secs
+Total CPU time to Xst completion: 83.71 secs
  
 --> 
 
 
-Total memory usage is 496560 kilobytes
+Total memory usage is 499340 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  638 (   0 filtered)

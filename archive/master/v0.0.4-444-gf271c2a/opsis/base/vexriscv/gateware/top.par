@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-travis-job-d33cebac-dcdc-456b-ab72-da30e973eef0::  Tue Dec 18 20:06:59 2018
+travis-job-24914963-98e7-4914-899c-a5d51db241cc::  Tue Dec 18 22:10:53 2018
 
 par -ol high -w top_map.ncd top.ncd top.pcf 
 
@@ -109,7 +109,7 @@ Router effort level (-rl):    High
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
 Starting initial Timing Analysis.  REAL time: 9 secs 
-Finished initial Timing Analysis.  REAL time: 9 secs 
+Finished initial Timing Analysis.  REAL time: 10 secs 
 
 Starting Router
 
