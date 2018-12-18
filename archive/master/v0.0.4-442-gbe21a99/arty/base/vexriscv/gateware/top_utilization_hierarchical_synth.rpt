@@ -1,0 +1,32 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Tue Dec 18 06:16:16 2018
+| Host         : travis-job-5e538a2a-d4a1-46c7-b5b3-429473572746 running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|          Instance          |      Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                        |            (top) |       4344 |       4174 |     168 |    2 | 3856 |     17 |     25 |            4 |
+|   (top)                    |            (top) |       2192 |       2046 |     144 |    2 | 2399 |     16 |     17 |            0 |
+|   VexRiscv                 |         VexRiscv |       2152 |       2128 |      24 |    0 | 1457 |      1 |      8 |            4 |
+|     (VexRiscv)             |         VexRiscv |        784 |        784 |       0 |    0 |  904 |      0 |      2 |            4 |
+|     IBusCachedPlugin_cache | InstructionCache |        393 |        393 |       0 |    0 |   97 |      1 |      1 |            0 |
+|     dataCache_1            |        DataCache |        975 |        951 |      24 |    0 |  456 |      0 |      5 |            0 |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+
+
