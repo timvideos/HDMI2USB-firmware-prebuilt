@@ -1,0 +1,152 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Tue Dec 18 04:24:10 2018
+| Host         : travis-job-32a7c147-b2fa-4267-b6f1-dc588a352fd4 running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_control_sets -verbose -file top_control_sets.rpt
+| Design       : top
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    83 |
+| Unused register locations in slices containing registers |   159 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              34 |           17 |
+| No           | No                    | Yes                    |               2 |            1 |
+| No           | Yes                   | No                     |             381 |          145 |
+| Yes          | No                    | No                     |              94 |           27 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            1290 |          427 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------+-----------------------------------------------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+| Clock Signal |                                         Enable Signal                                         |                  Set/Reset Signal                 | Slice Load Count | Bel Load Count |
++--------------+-----------------------------------------------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+|  sys_clk     | spiflash_i_i_1_n_0                                                                            | sys_rst                                           |                1 |              1 |
+|  sys_clk     | serial_tx_i_1_n_0                                                                             | sys_rst                                           |                1 |              1 |
+|  sys_clk     |                                                                                               | xilinxasyncresetsynchronizerimpl                  |                1 |              2 |
+|  sys_clk     | lm32_cpu/instruction_unit/icache/refill_offset[3]_i_1_n_0                                     | lm32_cpu/instruction_unit/icache/SR[0]            |                1 |              2 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/d_sel_o_reg[0]                                                | lm32_cpu/instruction_unit/icache/SR[0]            |                2 |              4 |
+|  sys_clk     | basesoc_uart_tx_fifo_syncfifo_re                                                              | sys_rst                                           |                1 |              4 |
+|  sys_clk     | basesoc_uart_phy_sink_ready159_out                                                            | basesoc_uart_phy_tx_bitcount[3]_i_1_n_0           |                1 |              4 |
+|  sys_clk     | basesoc_uart_rx_fifo_syncfifo_re                                                              | sys_rst                                           |                1 |              4 |
+|  sys_clk     | basesoc_uart_phy_rx_bitcount                                                                  | basesoc_uart_phy_rx_bitcount[3]_i_1_n_0           |                1 |              4 |
+|  sys_clk     | basesoc_uart_rx_fifo_wrport_we                                                                | sys_rst                                           |                1 |              4 |
+|  sys_clk     | csrbank2_bitbang0_re                                                                          | sys_rst                                           |                1 |              4 |
+|  sys_clk     | basesoc_uart_tx_fifo_wrport_we                                                                | sys_rst                                           |                1 |              4 |
+|  sys_clk     | lm32_cpu/instruction_unit/icache/state[3]_i_1_n_0                                             | lm32_cpu/instruction_unit/icache/SR[0]            |                2 |              4 |
+|  sys_clk     |                                                                                               | p_0_out[3]                                        |                2 |              4 |
+|  sys_clk     | basesoc_uart_rx_fifo_level0[4]_i_1_n_0                                                        | sys_rst                                           |                2 |              5 |
+|  sys_clk     | basesoc_uart_tx_fifo_level0[4]_i_1_n_0                                                        | sys_rst                                           |                2 |              5 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/byte_enable_m_reg[0] | lm32_cpu/load_store_unit/dcache/SR[0]             |                3 |              6 |
+|  sys_clk     | dna_cnt[6]_i_1_n_0                                                                            | sys_rst                                           |                2 |              7 |
+|  sys_clk     | basesoc_timer0_load_storage_full[7]_i_1_n_0                                                   | sys_rst                                           |                3 |              8 |
+|  sys_clk     | spiflash_i                                                                                    | sys_rst                                           |                4 |              8 |
+|  sys_clk     | basesoc_timer0_load_storage_full[31]_i_1_n_0                                                  | sys_rst                                           |                3 |              8 |
+|  sys_clk     | basesoc_timer0_load_storage_full[23]_i_1_n_0                                                  | sys_rst                                           |                2 |              8 |
+|  sys_clk     |                                                                                               | interface1_bank_bus_dat_r[7]_i_1_n_0              |                6 |              8 |
+|  sys_clk     | basesoc_timer0_load_storage_full[15]_i_1_n_0                                                  | sys_rst                                           |                2 |              8 |
+|  sys_clk     | basesoc_timer0_reload_storage_full[31]_i_1_n_0                                                | sys_rst                                           |                2 |              8 |
+|  sys_clk     | basesoc_timer0_reload_storage_full[23]_i_1_n_0                                                | sys_rst                                           |                2 |              8 |
+|  sys_clk     |                                                                                               | interface3_bank_bus_dat_r[7]_i_1_n_0              |                8 |              8 |
+|  sys_clk     | basesoc_uart_phy_storage_full[31]_i_1_n_0                                                     | sys_rst                                           |                2 |              8 |
+|  sys_clk     | lm32_cpu/instruction_unit/icache/flush_set[7]_i_1_n_0                                         | lm32_cpu/instruction_unit/icache/SR[0]            |                3 |              8 |
+|  sys_clk     |                                                                                               | interface0_bank_bus_dat_r[7]_i_1_n_0              |                5 |              8 |
+|  sys_clk     | basesoc_uart_phy_tx_reg[7]_i_1_n_0                                                            | sys_rst                                           |                3 |              8 |
+|  sys_clk     | basesoc_timer0_reload_storage_full[7]_i_1_n_0                                                 | sys_rst                                           |                2 |              8 |
+|  sys_clk     | basesoc_timer0_reload_storage_full[15]_i_1_n_0                                                | sys_rst                                           |                2 |              8 |
+|  sys_clk     | p_2_out[7]                                                                                    | sys_rst                                           |                2 |              8 |
+|  sys_clk     | p_2_out[23]                                                                                   | sys_rst                                           |                2 |              8 |
+|  sys_clk     | p_2_out[15]                                                                                   | sys_rst                                           |                3 |              8 |
+|  sys_clk     | basesoc_ctrl_storage_full[31]_i_1_n_0                                                         | sys_rst                                           |                4 |              8 |
+|  sys_clk     | basesoc_uart_tx_fifo_syncfifo_re                                                              |                                                   |                2 |              8 |
+|  sys_clk     | basesoc_uart_phy_rx_reg                                                                       | sys_rst                                           |                1 |              8 |
+|  sys_clk     | basesoc_uart_rx_fifo_syncfifo_re                                                              |                                                   |                2 |              8 |
+|  sys_clk     | lm32_cpu/load_store_unit/E[0]                                                                 | sys_rst                                           |                4 |              8 |
+|  sys_clk     |                                                                                               | interface5_bank_bus_dat_r[7]_i_1_n_0              |                2 |              8 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/flush_set[7]_i_1__0_n_0                                       | lm32_cpu/instruction_unit/icache/SR[0]            |                4 |              8 |
+|  sys_clk     |                                                                                               | interface4_bank_bus_dat_r[7]_i_1_n_0              |                2 |              8 |
+|  sys_clk     | basesoc_uart_phy_source_payload_data[7]_i_1_n_0                                               | sys_rst                                           |                1 |              8 |
+|  sys_clk     | p_3_out[15]                                                                                   | sys_rst                                           |                1 |              8 |
+|  sys_clk     | p_3_out[23]                                                                                   | sys_rst                                           |                1 |              8 |
+|  sys_clk     | p_3_out[7]                                                                                    | sys_rst                                           |                1 |              8 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/valid_f2                                                      |                                                   |                3 |             10 |
+|  sys_clk     | lm32_cpu/mc_arithmetic/direction_m_reg                                                        |                                                   |                5 |             10 |
+|  sys_clk     | vccaux_status                                                                                 | sys_rst                                           |                2 |             12 |
+|  sys_clk     | temperature_status                                                                            | sys_rst                                           |                2 |             12 |
+|  sys_clk     | vccbram_status                                                                                | sys_rst                                           |                3 |             12 |
+|  sys_clk     | vccint_status                                                                                 | sys_rst                                           |                3 |             12 |
+|  sys_clk     | basesoc_uart_rx_fifo_wrport_we                                                                |                                                   |                2 |             16 |
+|  sys_clk     | basesoc_uart_tx_fifo_wrport_we                                                                |                                                   |                2 |             16 |
+|  sys_clk     | lm32_cpu/instruction_unit/icache_refill_data_reg[31]_0                                        | lm32_cpu/load_store_unit/count_reg[0]             |                5 |             17 |
+|  sys_clk     | spiflash_sr[31]_i_1_n_0                                                                       | sys_rst                                           |               11 |             22 |
+|  sys_clk     | lm32_cpu/mc_arithmetic/E[0]                                                                   | lm32_cpu/instruction_unit/icache/SR[0]            |               13 |             23 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/d_cyc_o6_out                                                  | lm32_cpu/instruction_unit/icache/SR[0]            |                6 |             23 |
+|  sys_clk     | lm32_cpu/instruction_unit/icache/i_adr_o_reg[30]                                              | lm32_cpu/instruction_unit/icache/SR[0]            |                6 |             23 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/refill_address[31]_i_1__0_n_0                                 |                                                   |                6 |             28 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/restart_address_reg[31]_0[0]                                  | lm32_cpu/instruction_unit/icache/SR[0]            |                8 |             30 |
+|  sys_clk     | lm32_cpu/instruction_unit/icache/refill_address[31]_i_1_n_0                                   |                                                   |                9 |             30 |
+|  sys_clk     |                                                                                               | p_1_in[30]                                        |                8 |             31 |
+|  sys_clk     | lm32_cpu/instruction_unit/icache_refill_data[31]_i_1_n_0                                      | lm32_cpu/instruction_unit/icache/SR[0]            |               14 |             32 |
+|  sys_clk     |                                                                                               | basesoc_uart_phy_phase_accumulator_tx[31]_i_1_n_0 |                8 |             32 |
+|  sys_clk     | basesoc_timer0_value_status[31]_i_1_n_0                                                       | sys_rst                                           |                6 |             32 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/d_cyc_o116_out                                                | lm32_cpu/instruction_unit/icache/SR[0]            |               10 |             32 |
+|  sys_clk     | lm32_cpu/load_store_unit/wb_load_complete                                                     | lm32_cpu/instruction_unit/icache/SR[0]            |               12 |             32 |
+|  sys_clk     | basesoc_ctrl_bus_errors                                                                       | sys_rst                                           |                8 |             32 |
+|  sys_clk     | lm32_cpu/mc_arithmetic/result_x_reg[0]_0                                                      | lm32_cpu/instruction_unit/icache/SR[0]            |               10 |             32 |
+|  sys_clk     | lm32_cpu/mc_arithmetic/im_reg[31][0]                                                          | lm32_cpu/instruction_unit/icache/SR[0]            |               26 |             32 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/b_reg[31]_0[0]                                                | lm32_cpu/instruction_unit/icache/SR[0]            |                8 |             32 |
+|  sys_clk     |                                                                                               |                                                   |               17 |             34 |
+|  sys_clk     | dna_status                                                                                    | sys_rst                                           |               15 |             57 |
+|  sys_clk     | lm32_cpu/mc_arithmetic/cycles[5]_i_1_n_0                                                      | lm32_cpu/instruction_unit/icache/SR[0]            |               30 |             70 |
+|  sys_clk     |                                                                                               | sys_rst                                           |               38 |             87 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/valid_f2                                                      | lm32_cpu/instruction_unit/icache/SR[0]            |               28 |             92 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/reg_write_enable_q_w                                          |                                                   |               12 |             96 |
+|  sys_clk     | lm32_cpu/load_store_unit/dcache/memories[0].data_memories.way_0_data_ram/byte_enable_m_reg[0] | lm32_cpu/instruction_unit/icache/SR[0]            |               50 |            161 |
+|  sys_clk     |                                                                                               | lm32_cpu/instruction_unit/icache/SR[0]            |               66 |            187 |
+|  sys_clk     | lm32_cpu/mc_arithmetic/direction_m_reg                                                        | lm32_cpu/instruction_unit/icache/SR[0]            |               74 |            221 |
++--------------+-----------------------------------------------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     2 |
+| 2      |                     2 |
+| 4      |                    10 |
+| 5      |                     2 |
+| 6      |                     1 |
+| 7      |                     1 |
+| 8      |                    30 |
+| 10     |                     2 |
+| 12     |                     4 |
+| 16+    |                    29 |
++--------+-----------------------+
+
+
