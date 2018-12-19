@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Dec 19 02:25:46 2018
+# Process ID: 19629
+# Current directory: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32/gateware
+# Command line: vivado -mode batch -source top.tcl
+# Log file: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32/gateware/vivado.log
+# Journal file: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32/gateware/vivado.jou
+#-----------------------------------------------------------
+source top.tcl
