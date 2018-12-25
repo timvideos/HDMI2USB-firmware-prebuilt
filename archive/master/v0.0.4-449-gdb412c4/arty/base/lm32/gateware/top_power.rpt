@@ -1,0 +1,241 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date             : Tue Dec 25 04:49:32 2018
+| Host             : travis-job-cfdc0a80-7225-4c1b-b79f-c144adea409a running 64-bit Ubuntu 14.04.5 LTS
+| Command          : report_power -file top_power.rpt
+| Design           : top
+| Device           : xc7a35tcsg324-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 0.485        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 0.410        |
+| Device Static (W)        | 0.076        |
+| Total Off-Chip Power (W) | 0.714        |
+| Effective TJA (C/W)      | 4.8          |
+| Max Ambient (C)          | 82.7         |
+| Junction Temperature (C) | 27.3         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.019 |       10 |       --- |             --- |
+| Slice Logic              |     0.012 |     8578 |       --- |             --- |
+|   LUT as Logic           |     0.010 |     3722 |     20800 |           17.89 |
+|   CARRY4                 |    <0.001 |      181 |      8150 |            2.22 |
+|   LUT as Distributed RAM |    <0.001 |      192 |      9600 |            2.00 |
+|   Register               |    <0.001 |     3559 |     41600 |            8.56 |
+|   F7/F8 Muxes            |    <0.001 |       98 |     32600 |            0.30 |
+|   LUT as Shift Register  |    <0.001 |        2 |      9600 |            0.02 |
+|   Others                 |     0.000 |       33 |       --- |             --- |
+| Signals                  |     0.018 |     7326 |       --- |             --- |
+| Block RAM                |     0.059 |     27.5 |        50 |           55.00 |
+| PLL                      |     0.124 |        1 |         5 |           20.00 |
+| DSPs                     |    <0.001 |        3 |        90 |            3.33 |
+| I/O                      |     0.176 |       70 |       210 |           33.33 |
+| XADC                     |     0.002 |        1 |       --- |             --- |
+| Static Power             |     0.076 |          |           |                 |
+| Total                    |     0.485 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |     0.128 |       0.117 |      0.011 |
+| Vccaux    |       1.800 |     0.118 |       0.106 |      0.013 |
+| Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.539 |       0.538 |      0.001 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.005 |       0.004 |      0.001 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccadc    |       1.800 |     0.021 |       0.001 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                     |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                            |
+| Clock nodes activity        | High       | User specified more than 95% of clocks                 |                                                                                                            |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Device models               | High       | Device models are Production                           |                                                                                                            |
+|                             |            |                                                        |                                                                                                            |
+| Overall confidence level    | Low        |                                                        |                                                                                                            |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 4.8                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 4.6                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------------------+-------------------+-----------------+
+| Clock             | Domain            | Constraint (ns) |
++-------------------+-------------------+-----------------+
+| clk100            | clk100            |            10.0 |
+| soc_eth_clk       | soc_eth_clk       |            40.0 |
+| soc_pll_clk200    | soc_pll_clk200    |             5.0 |
+| soc_pll_fb        | soc_pll_fb        |            10.0 |
+| soc_pll_sys       | soc_pll_sys       |            10.0 |
+| soc_pll_sys4x     | soc_pll_sys4x     |             2.5 |
+| soc_pll_sys4x_dqs | soc_pll_sys4x_dqs |             2.5 |
+| sys_clk           | sys_clk           |            10.0 |
++-------------------+-------------------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++--------------------------------------------------+-----------+
+| Name                                             | Power (W) |
++--------------------------------------------------+-----------+
+| top                                              |     0.410 |
+|   IOBUF                                          |     0.003 |
+|   IOBUF_1                                        |     0.003 |
+|   IOBUF_10                                       |     0.003 |
+|   IOBUF_11                                       |     0.003 |
+|   IOBUF_12                                       |     0.003 |
+|   IOBUF_13                                       |     0.003 |
+|   IOBUF_14                                       |     0.003 |
+|   IOBUF_15                                       |     0.003 |
+|   IOBUF_2                                        |     0.003 |
+|   IOBUF_3                                        |     0.003 |
+|   IOBUF_4                                        |     0.003 |
+|   IOBUF_5                                        |     0.003 |
+|   IOBUF_6                                        |     0.003 |
+|   IOBUF_7                                        |     0.003 |
+|   IOBUF_8                                        |     0.003 |
+|   IOBUF_9                                        |     0.003 |
+|   OBUFDS                                         |     0.002 |
+|   OBUFTDS                                        |     0.002 |
+|   OBUFTDS_1                                      |     0.002 |
+|   lm32_cpu                                       |     0.027 |
+|     instruction_unit                             |     0.011 |
+|       icache                                     |     0.006 |
+|         memories[0].way_0_data_ram               |     0.003 |
+|         memories[0].way_0_tag_ram                |     0.003 |
+|     interrupt_unit                               |    <0.001 |
+|     load_store_unit                              |     0.010 |
+|       dcache                                     |     0.007 |
+|         memories[0].data_memories.way_0_data_ram |     0.004 |
+|         memories[0].way_0_tag_ram                |     0.003 |
+|     mc_arithmetic                                |     0.002 |
+|     multiplier                                   |    <0.001 |
+|     registers_reg_r1_0_31_0_5                    |    <0.001 |
+|     registers_reg_r1_0_31_12_17                  |    <0.001 |
+|     registers_reg_r1_0_31_18_23                  |    <0.001 |
+|     registers_reg_r1_0_31_24_29                  |    <0.001 |
+|     registers_reg_r1_0_31_30_31                  |    <0.001 |
+|     registers_reg_r1_0_31_6_11                   |    <0.001 |
+|     registers_reg_r2_0_31_0_5                    |    <0.001 |
+|     registers_reg_r2_0_31_12_17                  |    <0.001 |
+|     registers_reg_r2_0_31_18_23                  |    <0.001 |
+|     registers_reg_r2_0_31_24_29                  |    <0.001 |
+|     registers_reg_r2_0_31_30_31                  |    <0.001 |
+|     registers_reg_r2_0_31_6_11                   |    <0.001 |
+|     shifter                                      |    <0.001 |
+|   storage_1_reg_0_15_0_5                         |    <0.001 |
+|   storage_1_reg_0_15_6_9                         |    <0.001 |
+|   storage_2_reg_0_7_0_5                          |    <0.001 |
+|   storage_2_reg_0_7_12_17                        |    <0.001 |
+|   storage_2_reg_0_7_18_21                        |    <0.001 |
+|   storage_2_reg_0_7_6_11                         |    <0.001 |
+|   storage_3_reg_0_7_0_5                          |    <0.001 |
+|   storage_3_reg_0_7_12_17                        |    <0.001 |
+|   storage_3_reg_0_7_18_21                        |    <0.001 |
+|   storage_3_reg_0_7_6_11                         |    <0.001 |
+|   storage_4_reg_0_7_0_5                          |    <0.001 |
+|   storage_4_reg_0_7_12_17                        |    <0.001 |
+|   storage_4_reg_0_7_18_21                        |    <0.001 |
+|   storage_4_reg_0_7_6_11                         |    <0.001 |
+|   storage_5_reg_0_7_0_5                          |    <0.001 |
+|   storage_5_reg_0_7_12_17                        |    <0.001 |
+|   storage_5_reg_0_7_18_21                        |    <0.001 |
+|   storage_5_reg_0_7_6_11                         |    <0.001 |
+|   storage_6_reg_0_7_0_5                          |    <0.001 |
+|   storage_6_reg_0_7_12_17                        |    <0.001 |
+|   storage_6_reg_0_7_18_21                        |    <0.001 |
+|   storage_6_reg_0_7_6_11                         |    <0.001 |
+|   storage_7_reg_0_7_0_5                          |    <0.001 |
+|   storage_7_reg_0_7_12_17                        |    <0.001 |
+|   storage_7_reg_0_7_18_21                        |    <0.001 |
+|   storage_7_reg_0_7_6_11                         |    <0.001 |
+|   storage_8_reg_0_7_0_5                          |    <0.001 |
+|   storage_8_reg_0_7_12_17                        |    <0.001 |
+|   storage_8_reg_0_7_18_21                        |    <0.001 |
+|   storage_8_reg_0_7_6_11                         |    <0.001 |
+|   storage_9_reg_0_7_0_5                          |    <0.001 |
+|   storage_9_reg_0_7_12_17                        |    <0.001 |
+|   storage_9_reg_0_7_18_21                        |    <0.001 |
+|   storage_9_reg_0_7_6_11                         |    <0.001 |
+|   storage_reg_0_15_0_5                           |    <0.001 |
+|   storage_reg_0_15_6_9                           |    <0.001 |
++--------------------------------------------------+-----------+
+
+
