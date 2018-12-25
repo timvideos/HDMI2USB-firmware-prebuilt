@@ -1,0 +1,48 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Tue Dec 25 04:51:00 2018
+| Host         : travis-job-f4fdd863-4f5f-471a-890f-f4040ab3d9a0 running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
+| Design       : top
+| Device       : 7a35tcpg236-1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++--------------------------------------------------+----------------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|                     Instance                     |           Module           | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++--------------------------------------------------+----------------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                                              |                      (top) |       1928 |       1864 |      64 |    0 | 1801 |     14 |      2 |            3 |
+|   (top)                                          |                      (top) |        460 |        444 |      16 |    0 |  671 |     12 |      0 |            0 |
+|   lm32_cpu                                       |                   lm32_cpu |       1468 |       1420 |      48 |    0 | 1130 |      2 |      2 |            3 |
+|     (lm32_cpu)                                   |                   lm32_cpu |        122 |         74 |      48 |    0 |  340 |      0 |      0 |            0 |
+|     adder                                        |                 lm32_adder |          2 |          2 |       0 |    0 |    0 |      0 |      0 |            0 |
+|       addsub                                     |                lm32_addsub |          2 |          2 |       0 |    0 |    0 |      0 |      0 |            0 |
+|     instruction_unit                             |      lm32_instruction_unit |        518 |        518 |       0 |    0 |  318 |      1 |      1 |            0 |
+|       (instruction_unit)                         |      lm32_instruction_unit |        346 |        346 |       0 |    0 |  272 |      0 |      0 |            0 |
+|       icache                                     |                lm32_icache |        172 |        172 |       0 |    0 |   46 |      1 |      1 |            0 |
+|         (icache)                                 |                lm32_icache |         93 |         93 |       0 |    0 |   46 |      0 |      0 |            0 |
+|         memories[0].way_0_data_ram               |                 lm32_ram_0 |         62 |         62 |       0 |    0 |    0 |      1 |      0 |            0 |
+|         memories[0].way_0_tag_ram                | lm32_ram__parameterized0_1 |         17 |         17 |       0 |    0 |    0 |      0 |      1 |            0 |
+|     interrupt_unit                               |             lm32_interrupt |         41 |         41 |       0 |    0 |   34 |      0 |      0 |            0 |
+|     load_store_unit                              |       lm32_load_store_unit |        386 |        386 |       0 |    0 |  219 |      1 |      1 |            0 |
+|       (load_store_unit)                          |       lm32_load_store_unit |        192 |        192 |       0 |    0 |  175 |      0 |      0 |            0 |
+|       dcache                                     |                lm32_dcache |        194 |        194 |       0 |    0 |   44 |      1 |      1 |            0 |
+|         (dcache)                                 |                lm32_dcache |         96 |         96 |       0 |    0 |   44 |      0 |      0 |            0 |
+|         memories[0].data_memories.way_0_data_ram |                   lm32_ram |         80 |         80 |       0 |    0 |    0 |      1 |      0 |            0 |
+|         memories[0].way_0_tag_ram                |   lm32_ram__parameterized0 |         18 |         18 |       0 |    0 |    0 |      0 |      1 |            0 |
+|     mc_arithmetic                                |         lm32_mc_arithmetic |        200 |        200 |       0 |    0 |  137 |      0 |      0 |            0 |
+|     multiplier                                   |            lm32_multiplier |         64 |         64 |       0 |    0 |   49 |      0 |      0 |            3 |
+|     shifter                                      |               lm32_shifter |        135 |        135 |       0 |    0 |   33 |      0 |      0 |            0 |
++--------------------------------------------------+----------------------------+------------+------------+---------+------+------+--------+--------+--------------+
+
+
