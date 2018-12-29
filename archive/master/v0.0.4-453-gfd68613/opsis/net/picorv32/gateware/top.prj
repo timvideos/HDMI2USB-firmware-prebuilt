@@ -1,0 +1,3 @@
+verilog work top.v
+vhdl work /home/travis/build/timvideos/HDMI2USB-litex-firmware/gateware/rgmii_if.vhd
+verilog work /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/picorv32/verilog/picorv32.v
