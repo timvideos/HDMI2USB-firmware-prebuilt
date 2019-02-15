@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
-| Date             : Fri Feb 15 01:48:56 2019
-| Host             : travis-job-f95a449b-7b18-450f-97ad-73f732914d69 running 64-bit Ubuntu 14.04.5 LTS
+| Date             : Fri Feb 15 04:44:08 2019
+| Host             : travis-job-b1777219-d147-43ec-bc54-74d7d661cec3 running 64-bit Ubuntu 14.04.5 LTS
 | Command          : report_power -file top_power.rpt
 | Design           : top
 | Device           : xc7a35tcsg324-1
