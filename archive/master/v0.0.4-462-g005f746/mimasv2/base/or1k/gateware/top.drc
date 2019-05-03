@@ -1,7 +1,7 @@
 Release 14.7 Drc P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Fri May  3 02:18:07 2019
+Fri May  3 17:12:31 2019
 
 drc -z top.ncd top.pcf
 
