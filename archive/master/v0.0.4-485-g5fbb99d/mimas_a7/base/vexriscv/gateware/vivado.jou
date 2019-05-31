@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri May 31 11:12:59 2019
+# Process ID: 20743
+# Current directory: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/mimas_a7_base_vexriscv/gateware
+# Command line: vivado -mode batch -source top.tcl
+# Log file: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/mimas_a7_base_vexriscv/gateware/vivado.log
+# Journal file: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/mimas_a7_base_vexriscv/gateware/vivado.jou
+#-----------------------------------------------------------
+source top.tcl
