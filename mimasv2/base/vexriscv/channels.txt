@@ -1,1 +1,1 @@
-unstable v0.0.4-418-ga33050b https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-418-ga33050b/mimasv2/base/vexriscv/
+unstable v0.0.4-485-g5fbb99d https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-485-g5fbb99d/mimasv2/base/vexriscv/
