@@ -72,6 +72,8 @@ b1cd89fa1487353f32ec07704600cceff44135b697ad014a049bb91e01796f03  ./icebreaker/b
 31160850c9680fc9687372644a6af68d875131e856da6541f9ea7a4f9eadda2b  ./icebreaker/base/lm32.minimal/unstable.sha256sum
 e6189cbd1cb68e397b47b1da8493a7e48b5e8cd4aaa885d556851fa30007b51c  ./mimas_a7/base/lm32/channels.txt
 80d23c910ca91632bc19d8d237e6dc90f7dc1e185df791726427324def6463a4  ./mimas_a7/base/lm32/unstable.sha256sum
+d8d9c5aa159d6ff4228d5c4821a1d2f8f8ce1f0a8c2b14951b063796fa66397b  ./mimas_a7/net/lm32/channels.txt
+0df8f35ddca01ad6c1c288a2d378a7a7ee14ca967f2d99bd45b7eaab1c3e5f28  ./mimas_a7/net/lm32/unstable.sha256sum
 175515f2d68f1f4dceb325f92a3cf1c46789a8dfb4fff95449dd695922cab7d8  ./mimasv2/base/lm32/channels.txt
 44368af1c6a39f6aa3892126f1ee3b12a9db5f06151d6e0bbfcea02db27fcc1a  ./mimasv2/base/lm32/stable.sha256sum
 3b71f8501cc5fd69e381e06343b274d5ef869407973ef63c9d26021848cd364c  ./mimasv2/base/lm32/testing.sha256sum
