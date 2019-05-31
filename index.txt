@@ -169,5 +169,7 @@ b9eb6addf952b9b7019c37888ead8e116910a163f4c9062cc4151b93c760424b  ./tinyfpga_bx/
 829be3e3cb2f6021e0c45a7a6d25be7093bdb702614f6569308962d41db65b26  ./tinyfpga_bx/base/picorv32/unstable.sha256sum
 60f924935702637894375eb64d080713a6a61333520ace34a7378b291b6c159d  ./upduino_v1/base/lm32.lite/channels.txt
 5d06674777b5e414a69c1b89f3a0f756ed967a00a6db3500ee38568c869a63db  ./upduino_v1/base/lm32.lite/unstable.sha256sum
+ff6df7eb018058b1e628b8e2249da9d6dd6a9031777e32860cb8dbddbb4aa300  ./upduino_v1/base/vexriscv.lite/channels.txt
+d509f29ac3df91c933118e31a5c122b812fe4215446d1003004ed7d12d39b5b4  ./upduino_v1/base/vexriscv.lite/unstable.sha256sum
 1b6facfff5cfe782774d85a4cb6101cb1fddb576dd29772bf35fe6021d47399b  ./waxwing/base/lm32/channels.txt
 8213845adaab29c93e8f3d5a52000d171864441e5f8b846a30ecf07466c33ddd  ./waxwing/base/lm32/unstable.sha256sum
