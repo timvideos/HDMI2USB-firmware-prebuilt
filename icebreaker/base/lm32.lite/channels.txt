@@ -1,1 +1,1 @@
-unstable v0.0.4-485-g5fbb99d https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-485-g5fbb99d/icebreaker/base/lm32.lite/
+unstable v0.0.4-487-g5940dcb https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-487-g5940dcb/icebreaker/base/lm32.lite/
