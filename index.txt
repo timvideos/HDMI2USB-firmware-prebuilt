@@ -176,7 +176,7 @@ cc0ba4bd45ec3107ceb286795820f3b8b12aab130d92db6ab69aa1ac73c4215a  ./opsis/video/
 2e31d6caceca1d8c824709f5f02c27f1a2aad242f9da0cfdf8c7de110a5b5635  ./pipistrello/base/or1k/channels.txt
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 e314b196d52b03b178160150d7c263c23261eb94d669a9eacfa6154831405d86  ./pipistrello/base/or1k/unstable.sha256sum
-58c5cf2521679b17fbdad16d361d99cc8dd3d62702f326705a1ffc2204c349bc  ./revs.txt
+4bf2ac185a13cfe7183cc820eb06da9fda20f6d4043b658c24680a31444edf89  ./revs.txt
 dfb18c5e638cbf99a6e842d88f513557a82697c1b2e35e04b98fb3f5b2202167  ./saturn/base/lm32/channels.txt
 2f733fea77924ff7c244997e60b800e643a83239a4cadb1b675f408b44d1dcc7  ./saturn/base/lm32/unstable.sha256sum
 5bc28394bb083b195934e5267f8e96b182a6cff4b1932755b4aa5b21947ae227  ./tinyfpga_bx/base/lm32.lite/channels.txt
