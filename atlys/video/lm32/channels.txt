@@ -1,1 +1,1 @@
-unstable v0.0.4-487-g5940dcb https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-487-g5940dcb/atlys/video/lm32/
+unstable v0.0.4-489-geaab51f https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-489-geaab51f/atlys/video/lm32/
