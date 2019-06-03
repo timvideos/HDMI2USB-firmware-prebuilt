@@ -3,8 +3,8 @@
 9b8eff81439b863177017371bf97ca120f8f35f6f487c229a326ff67221d849f  ./software/include/generated/csr.h
 a835e7258e36400d5983a1208b3df3627d0cb5baf813721650d587415ce784b3  ./software/include/generated/output_format.ld
 6969dd6e079ab2b9a30d6e9dc10d946c9a868fe3be883199a55b6a9147471c48  ./software/include/generated/variables.mak
-2c036eae466190edfcb6b2f68d60435da8e43363adae1a3b7bcf3c38eb079495  ./software/bios/bios.bin
-cc5af29ec37d58df51b730b97988da96b5ccbd8796dc7618de04b3885ca8e397  ./software/bios/bios.elf
+aa65797d00b132b15d6942314560fa8f586ddfb28d0f6e44f1b0f60a36b8c530  ./software/bios/bios.bin
+17d60c1f7f77134dc5e6bb0bb7ab9e52162b61245ec89f46a4a4eb515c623356  ./software/bios/bios.elf
 eccca10349a0626b17ed6807a1a3b7f7645043d914f49bc2960d4ae1b535eaab  ./gateware/build_top.sh
 dd2286d8cef0d06ce45f93b1e2f5c8231a1ff92c7ae70258a8db3d3fac0118f0  ./gateware/top.ys
 8413b58341ad65aca81b3c5e233fe6e35c82782db449101b08e01fd72fcfd986  ./gateware/top.json
@@ -14,7 +14,7 @@ afd5c268ff524cc193f15c7f89f51594c05ad411739c476afeb34711202aabb1  ./gateware/top
 23961cd8c0caec38ab3a84eeaeb5b2832ab62a45af03d1b66b7e333966002316  ./gateware/mem_1.init
 0faca71659d5ac1b6200783779dbdf2ad0f1591c9046ceafbb862127648054c2  ./gateware/top.pcf
 c4e362a81a2dfd3e45c3333f7456e0483eafb834aab5f6ba4d2c5b37419e6a3b  ./gateware/top.bin
-36f0eaf81a295fb602e5de68c9339a912be0350fd18c2fd372d4e1b58d8ca0e0  ./gateware/top.rpt
-8ace6259a55baed4775a834dd911eeccb51248e732eb54bb8307220ecb83d565  ./logs/output.20190602-204702.log
+b5d4156ef3e9450114d4e3d3a43296533d51af66922e3356c71e1dd63dc6647e  ./gateware/top.rpt
+8ace6259a55baed4775a834dd911eeccb51248e732eb54bb8307220ecb83d565  ./logs/output.20190603-012958.log
 41b3ed31e7ab9aceeb8d1175647636b756fcb56f1b642afc1c2fb1d055ab9770  ./test/csr.csv
-b47e8b071f73ae9ab0fff1dceb707c254a962d3bdd193dc8872a31f59283124b  ./image-gateware+bios+stub.bin
+f712a5dcd82a8a76b59f99b8574e7042282244177aebff2863705b1837294f35  ./image-gateware+bios+stub.bin
