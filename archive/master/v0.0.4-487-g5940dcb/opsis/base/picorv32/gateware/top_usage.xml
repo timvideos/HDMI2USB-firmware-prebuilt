@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <DeviceUsageSummary rev="2">
-<DesignStatistics TimeStamp="Sun Jun  2 22:12:50 2019"><group name="NetStatistics">
+<DesignStatistics TimeStamp="Mon Jun  3 02:53:34 2019"><group name="NetStatistics">
 <item name="NumNets_Active" rev="2">
 <attrib name="value" value="7515"/></item>
 <item name="NumNets_Gnd" rev="2">
@@ -242,7 +242,7 @@
 <attrib name="value" value="525"/></item>
 </group>
 </DesignStatistics>
-<DeviceUsage TimeStamp="Sun Jun  2 22:12:50 2019"><group name="SiteSummary">
+<DeviceUsage TimeStamp="Mon Jun  3 02:53:34 2019"><group name="SiteSummary">
 <item name="BUFG" rev="2">
 <attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
 <item name="BUFG_BUFG" rev="2">
@@ -327,7 +327,7 @@
 <attrib name="total" value="1000000"/><attrib name="used" value="1231"/></item>
 </group>
 </DeviceUsage>
-<ReportConfigData TimeStamp="Sun Jun  2 22:12:50 2019"><group name="REG_SR">
+<ReportConfigData TimeStamp="Mon Jun  3 02:53:34 2019"><group name="REG_SR">
 <item name="CK" rev="2">
 <attrib name="CK" value="2920"/><attrib name="CK_INV" value="0"/></item>
 <item name="LATCH_OR_FF" rev="2">
@@ -788,7 +788,7 @@
 <attrib name="READ_FIRST" value="1"/></item>
 </group>
 </ReportConfigData>
-<ReportPinData TimeStamp="Sun Jun  2 22:12:50 2019"><group name="BUFIO2">
+<ReportPinData TimeStamp="Mon Jun  3 02:53:34 2019"><group name="BUFIO2">
 <item name="DIVCLK" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="I" rev="2">
