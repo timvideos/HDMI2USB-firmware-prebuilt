@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
-| Date         : Sun Jun  2 20:23:53 2019
-| Host         : travis-job-7a495913-4ab8-4cb2-b82a-4763ea59d18b running 64-bit Ubuntu 14.04.5 LTS
+| Date         : Mon Jun  3 01:05:42 2019
+| Host         : travis-job-7cbd9aee-0c96-4793-bcb1-56e5960b470a running 64-bit Ubuntu 14.04.5 LTS
 | Command      : report_timing_summary -datasheet -max_paths 10 -file top_timing.rpt
 | Design       : top
 | Device       : 7a50t-csg325
