@@ -5747,13 +5747,13 @@ eth_clocks_rx  |    7.256|         |    1.063|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 106.00 secs
-Total CPU time to Xst completion: 105.16 secs
+Total REAL time to Xst completion: 117.00 secs
+Total CPU time to Xst completion: 116.56 secs
  
 --> 
 
 
-Total memory usage is 576464 kilobytes
+Total memory usage is 577176 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 1029 (   0 filtered)
