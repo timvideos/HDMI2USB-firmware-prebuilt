@@ -3,8 +3,8 @@ f5a3eb5381a50511c17e9b32249f3cab3c53d1d49ef1a04788c21abdedfb6033  ./software/inc
 3feddd054f6ba79097a191d7a01201fb4de23310844e2942261cf913e0eab8b5  ./software/include/generated/csr.h
 a835e7258e36400d5983a1208b3df3627d0cb5baf813721650d587415ce784b3  ./software/include/generated/output_format.ld
 1b2dc9961e0f2d9daa76d64f602717d057087163f771c8510c6bd49176f9d4e2  ./software/include/generated/variables.mak
-aad2d55447bdfce427f619c77017991cd71e54c35bc4aee6681b3f616d9b02cb  ./software/bios/bios.bin
-60380f3c8387ff45b615e2cac7463eafcd0e08e10202810385ee1984617aa3c8  ./software/bios/bios.elf
+d32453c8e72e22b4a57899b84ebf5669447cd6507c757c6acfe2bdec8bd46500  ./software/bios/bios.bin
+1b5282d1b1f89ed14e272101ef5c95bf1745128a23045ffd3288213e40c27f94  ./software/bios/bios.elf
 47d370f7b7db1f6f2687247e6f97173533a921bdab13569059a88b12464dad2a  ./gateware/build_top.sh
 39019f603eec894dff52cd7da409fb1951822904a1afc6e92a8a2e7f2ce5f01e  ./gateware/top.ys
 214a4c8f57e2a7f1bfd16e50d1ce773be78bd57d9f4efb1c8194e0fdbc26ba68  ./gateware/top.json
@@ -14,7 +14,7 @@ aad2d55447bdfce427f619c77017991cd71e54c35bc4aee6681b3f616d9b02cb  ./software/bio
 68d398f8986812262af291fc5a054f67939cd7942a50ab461f3167e1962c77a2  ./gateware/top_pre_pack.py
 3ab2a1902633df35960fd5081135643195d813e6b7c4661176b0d0754a39a694  ./gateware/top.pcf
 5587d0869cb3ed868486ec2fff390f3dbbdfee5ce33f214d6ff9c6d9c0bae618  ./gateware/top.bin
-ac7c99aaeb41d4949f45f4e377f72e89b5de9e4d9691761b68a17db23145a3bf  ./gateware/top.rpt
-7f77fd5905da440e62ccd9cdcbf3afa018909d42027400c806c26e37f9bb8929  ./logs/output.20190602-205910.log
+e5d1d5b4624fea4f1be9c11da22fcc09c778ce038c22d9571c80b8c3f956e278  ./gateware/top.rpt
+7f77fd5905da440e62ccd9cdcbf3afa018909d42027400c806c26e37f9bb8929  ./logs/output.20190603-013930.log
 a998a422c9f0dbcbce04d7588e121806fe6edeb1d3a3be8ecf675e9f815b6ac0  ./test/csr.csv
-0bcb05414784b3930965aad4074da132e66d97f3ac7727f9250771ae3f79cb84  ./image-gateware+bios+stub.bin
+c66e4f5ef5939d2add5dcafd4d2c5e3e932cdff3a67e322b5a5e2d7b9a078a8d  ./image-gateware+bios+stub.bin
