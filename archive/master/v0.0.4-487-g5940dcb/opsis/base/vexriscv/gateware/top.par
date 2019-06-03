@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-travis-job-0bbb76c3-dd3b-4723-8f1e-138b8e3051ef::  Sun Jun 02 21:43:34 2019
+travis-job-b6333508-ed74-4a25-acd2-f428508076d1::  Mon Jun 03 02:27:51 2019
 
 par -ol high -w top_map.ncd top.ncd top.pcf 
 
@@ -134,8 +134,8 @@ Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL 
 
 Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 50 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 52 secs 
-Total REAL time to Router completion: 52 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 53 secs 
+Total REAL time to Router completion: 53 secs 
 Total CPU time to Router completion: 55 secs 
 
 Partition Implementation Status
@@ -252,7 +252,7 @@ Generating Pad Report.
 All signals are completely routed.
 
 Total REAL time to PAR completion: 56 secs 
-Total CPU time to PAR completion: 58 secs 
+Total CPU time to PAR completion: 59 secs 
 
 Peak Memory Usage:  799 MB
 
