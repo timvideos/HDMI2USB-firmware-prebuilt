@@ -3,8 +3,8 @@
 2dbc5895e559bf1f9c341865d65f0973e7f5ee23122fc7cde62ed4ce342ed117  ./arty/base/lm32/stable.sha256sum
 c9791cab9040e0b87028b3fe130bbb4d5f9f776ed0d1572b800dfc0f56f932fd  ./arty/base/lm32/testing.sha256sum
 6864c408ee6082da57a8ba112ec136a8f6f733ac0b5465ad72820771f760a938  ./arty/base/lm32/unstable.sha256sum
-87375a0d9c54b872f4b65172c7b219ccabc1896de77fe435ad7091e012ee5cf4  ./arty/base/minerva/channels.txt
-4b182dce39fdbeef2452a35bad3d9e4c72feaf2c37d455b3cac43bee829e83dd  ./arty/base/minerva/unstable.sha256sum
+f99611b2c40140ceacaa38d651669035abcecd32a5712b0c5650d4dd3d7d375e  ./arty/base/minerva/channels.txt
+e435e0e9a0e21f8945eeec22db9aed2715c5d75ccfadb40c18601bc491562580  ./arty/base/minerva/unstable.sha256sum
 685e5c6bdf8b4d48d0dd89612b752067466edb2829779a2871f7a512d967c6c8  ./arty/base/or1k/channels.txt
 a9d39880231e32223b1745994d34c204cf038e96c522ba488b98dba56e9b9fa3  ./arty/base/or1k/stable.sha256sum
 0f6fe1b9d9af768f93e86bbce2c849a0a121bc8bc14bd33a4e1a24f2476bfddc  ./arty/base/or1k/testing.sha256sum
