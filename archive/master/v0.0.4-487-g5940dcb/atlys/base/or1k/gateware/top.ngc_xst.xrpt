@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Sun Jun  2 21:09:17 2019">
+  <application stringID="Xst" timeStamp="Mon Jun  3 01:48:58 2019">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -55,7 +55,7 @@
         <item stringID="User_EnvOsname" value="Ubuntu"/>
         <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.5 LTS"/>
       </item>
-      <item stringID="User_EnvHost" value="travis-job-52dd38d8-a4f5-4285-8b2d-10a05882b7e0"/>
+      <item stringID="User_EnvHost" value="travis-job-60c40197-588c-4c4c-9574-7f78f4d602b6"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
