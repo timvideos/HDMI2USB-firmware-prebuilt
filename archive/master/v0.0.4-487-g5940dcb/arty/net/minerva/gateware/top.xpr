@@ -6,7 +6,7 @@
 <Project Version="7" Minor="32" Path="/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_net_minerva/gateware/top.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="e6187ad173fa44d48430a4769a271910"/>
+    <Option Name="Id" Val="40036d721f934f968f0a44eebf88e108"/>
     <Option Name="Part" Val="xc7a35tcsg324-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
