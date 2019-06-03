@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
-| Date         : Sun Jun  2 19:36:34 2019
-| Host         : travis-job-a177a7de-a0b5-438d-97bd-ba65f27595f2 running 64-bit Ubuntu 14.04.5 LTS
+| Date         : Mon Jun  3 00:46:27 2019
+| Host         : travis-job-0bad9807-0442-41e6-83a0-0bccf12a3bf1 running 64-bit Ubuntu 14.04.5 LTS
 | Command      : report_utilization -file top_utilization_place.rpt
 | Design       : top
 | Device       : 7a35tcpg236-1
