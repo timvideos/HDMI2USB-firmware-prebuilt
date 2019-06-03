@@ -8,7 +8,7 @@ Target Device  : xc6slx45t
 Target Package : fgg484
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sun Jun  2 23:02:45 2019
+Mapped Date    : Mon Jun  3 03:45:42 2019
 
 Mapping design into LUTs...
 Writing file top_map.ngm...
@@ -27,49 +27,13 @@ WARNING:Timing:3159 - The DCM, crg_periph_dcm_clkgen, has the attribute DFS_OSCI
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 57 secs 
-Total CPU  time at the beginning of Placer: 57 secs 
+Total REAL time at the beginning of Placer: 58 secs 
+Total CPU  time at the beginning of Placer: 58 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:a8230bf1) REAL time: 1 mins 2 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:a8230bf1) REAL time: 1 mins 3 secs 
 
 Phase 2.7  Design Feasibility Check
-WARNING:Place:1137 - This design is not guaranteed to be routable! This design
-   contains a global buffer instance, <hdmi_out_pix_bufg>, driving the net,
-   <hdmi_out0_pix_clk>, that is driving the following (first 30) non-clock load
-   pins.
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
-   ]_mux_6590_OUT11.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
-   ]_mux_6590_OUT31.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
-   ]_mux_6592_OUT51.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
-   ]_mux_6592_OUT11.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
-   ]_mux_6592_OUT31.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
-   ]_mux_6591_OUT11.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
-   ]_mux_6591_OUT31.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
-   ]_mux_6591_OUT51.A4; >
-   This is not a recommended design practice in Spartan-6 due to limitations in
-   the global routing that may cause excessive delay, skew or unroutable
-   situations.  It is recommended to only use a BUFG resource to drive clock
-   loads. Please pay extra attention to the timing and routing of this path to
-   ensure the design goals are met. This is normally an ERROR but the
-   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
-   <hdmi_out_pix_bufg.O> allowing your design to continue. This constraint
-   disables all clock placer rules related to the specified COMP.PIN.
 WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    contains a global buffer instance, <hdmi_out_pix_bufg_1>, driving the net,
    <hdmi_out1_pix_clk>, that is driving the following (first 30) non-clock load
@@ -106,18 +70,54 @@ WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
    <hdmi_out_pix_bufg_1.O> allowing your design to continue. This constraint
    disables all clock placer rules related to the specified COMP.PIN.
-Phase 2.7  Design Feasibility Check (Checksum:a8230bf1) REAL time: 1 mins 4 secs 
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <hdmi_out_pix_bufg>, driving the net,
+   <hdmi_out0_pix_clk>, that is driving the following (first 30) non-clock load
+   pins.
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
+   ]_mux_6590_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
+   ]_mux_6590_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
+   ]_mux_6592_OUT51.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
+   ]_mux_6592_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
+   ]_mux_6592_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
+   ]_mux_6591_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
+   ]_mux_6591_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
+   ]_mux_6591_OUT51.A4; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <hdmi_out_pix_bufg.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+Phase 2.7  Design Feasibility Check (Checksum:a8230bf1) REAL time: 1 mins 5 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:685bde31) REAL time: 1 mins 4 secs 
+Phase 3.31  Local Placement Optimization (Checksum:685bde31) REAL time: 1 mins 5 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:4004fff6) REAL time: 1 mins 47 secs 
+(Checksum:4004fff6) REAL time: 1 mins 50 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:4004fff6) REAL time: 1 mins 47 secs 
+Phase 5.36  Local Placement Optimization (Checksum:4004fff6) REAL time: 1 mins 50 secs 
 
 ....................................
 ...............................................................................................................................................
@@ -608,13 +608,13 @@ maybe moved to adjacent clock-regions as long as the "number of clocks per regio
 ######################################################################################
 
 
-Phase 6.30  Global Clock Region Assignment (Checksum:4004fff6) REAL time: 4 mins 9 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:4004fff6) REAL time: 4 mins 16 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:4004fff6) REAL time: 4 mins 10 secs 
+Phase 7.3  Local Placement Optimization (Checksum:4004fff6) REAL time: 4 mins 17 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:4004fff6) REAL time: 4 mins 10 secs 
+Phase 8.5  Local Placement Optimization (Checksum:4004fff6) REAL time: 4 mins 17 secs 
 
 Phase 9.8  Global Placement
 ........................
@@ -622,22 +622,22 @@ Phase 9.8  Global Placement
 ..........................................................................................................
 .....................................................................................
 ...............................................
-Phase 9.8  Global Placement (Checksum:40d2fec5) REAL time: 7 mins 42 secs 
+Phase 9.8  Global Placement (Checksum:40d2fec5) REAL time: 7 mins 49 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:40d2fec5) REAL time: 7 mins 43 secs 
+Phase 10.5  Local Placement Optimization (Checksum:40d2fec5) REAL time: 7 mins 50 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:54056b9c) REAL time: 8 mins 29 secs 
+Phase 11.18  Placement Optimization (Checksum:54056b9c) REAL time: 8 mins 36 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:54056b9c) REAL time: 8 mins 29 secs 
+Phase 12.5  Local Placement Optimization (Checksum:54056b9c) REAL time: 8 mins 36 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:cbe6aff9) REAL time: 8 mins 31 secs 
+Phase 13.34  Placement Validation (Checksum:cbe6aff9) REAL time: 8 mins 38 secs 
 
-Total REAL time to Placer completion: 8 mins 33 secs 
-Total CPU  time to Placer completion: 8 mins 32 secs 
+Total REAL time to Placer completion: 8 mins 40 secs 
+Total CPU  time to Placer completion: 8 mins 39 secs 
 Running post-placement packing...
 Writing output files...
 WARNING:PhysDesignRules:1441 - Issue with pin connections and/or configuration on
@@ -744,9 +744,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                3.76
 
-Peak Memory Usage:  1293 MB
-Total REAL time to MAP completion:  8 mins 50 secs 
-Total CPU time to MAP completion:   8 mins 49 secs 
+Peak Memory Usage:  1292 MB
+Total REAL time to MAP completion:  8 mins 56 secs 
+Total CPU time to MAP completion:   8 mins 56 secs 
 
 Mapping completed.
 See MAP report file "top_map.mrp" for details.

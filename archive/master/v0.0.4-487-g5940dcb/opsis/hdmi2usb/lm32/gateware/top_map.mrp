@@ -8,7 +8,7 @@ Target Device  : xc6slx45t
 Target Package : fgg484
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sun Jun  2 23:02:45 2019
+Mapped Date    : Mon Jun  3 03:45:42 2019
 
 Design Summary
 --------------
@@ -106,9 +106,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                3.76
 
-Peak Memory Usage:  1293 MB
-Total REAL time to MAP completion:  8 mins 50 secs 
-Total CPU time to MAP completion:   8 mins 49 secs 
+Peak Memory Usage:  1292 MB
+Total REAL time to MAP completion:  8 mins 56 secs 
+Total CPU time to MAP completion:   8 mins 56 secs 
 
 Table of Contents
 -----------------
@@ -140,42 +140,6 @@ WARNING:Timing:3159 - The DCM, hdmi_out_dcm_clkgen, has the attribute DFS_OSCILL
 WARNING:Timing:3159 - The DCM, crg_periph_dcm_clkgen, has the attribute DFS_OSCILLATOR_MODE not set to PHASE_FREQ_LOCK. No phase
    relationship exists between the input clock and CLKFX or CLKFX180 outputs of this DCM. Data paths between these clock domains must be
    constrained using FROM/TO constraints.
-WARNING:Place:1137 - This design is not guaranteed to be routable! This design
-   contains a global buffer instance, <hdmi_out_pix_bufg>, driving the net,
-   <hdmi_out0_pix_clk>, that is driving the following (first 30) non-clock load
-   pins.
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
-   ]_mux_6590_OUT11.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
-   ]_mux_6590_OUT31.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
-   ]_mux_6592_OUT51.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
-   ]_mux_6592_OUT11.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
-   ]_mux_6592_OUT31.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
-   ]_mux_6591_OUT11.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
-   ]_mux_6591_OUT31.A3; >
-   < PIN:
-   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
-   ]_mux_6591_OUT51.A4; >
-   This is not a recommended design practice in Spartan-6 due to limitations in
-   the global routing that may cause excessive delay, skew or unroutable
-   situations.  It is recommended to only use a BUFG resource to drive clock
-   loads. Please pay extra attention to the timing and routing of this path to
-   ensure the design goals are met. This is normally an ERROR but the
-   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
-   <hdmi_out_pix_bufg.O> allowing your design to continue. This constraint
-   disables all clock placer rules related to the specified COMP.PIN.
 WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    contains a global buffer instance, <hdmi_out_pix_bufg_1>, driving the net,
    <hdmi_out1_pix_clk>, that is driving the following (first 30) non-clock load
@@ -211,6 +175,42 @@ WARNING:Place:1137 - This design is not guaranteed to be routable! This design
    ensure the design goals are met. This is normally an ERROR but the
    CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
    <hdmi_out_pix_bufg_1.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <hdmi_out_pix_bufg>, driving the net,
+   <hdmi_out0_pix_clk>, that is driving the following (first 30) non-clock load
+   pins.
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
+   ]_mux_6590_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es0_out[9]_hdmi_out0_driver_hdmi_phy_es0_out[4
+   ]_mux_6590_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
+   ]_mux_6592_OUT51.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
+   ]_mux_6592_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es2_out[9]_hdmi_out0_driver_hdmi_phy_es2_out[4
+   ]_mux_6592_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
+   ]_mux_6591_OUT11.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
+   ]_mux_6591_OUT31.A3; >
+   < PIN:
+   Mmux_hdmi_out0_driver_hdmi_phy_es1_out[9]_hdmi_out0_driver_hdmi_phy_es1_out[4
+   ]_mux_6591_OUT51.A4; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <hdmi_out_pix_bufg.O> allowing your design to continue. This constraint
    disables all clock placer rules related to the specified COMP.PIN.
 WARNING:PhysDesignRules:1441 - Issue with pin connections and/or configuration on
    block:<rgmii_if/rgmii_rx_ctl_in>:<ILOGIC2_IFF>.  The IFFTYPE is DDR and the Q2 output pin of IFF is not used.
