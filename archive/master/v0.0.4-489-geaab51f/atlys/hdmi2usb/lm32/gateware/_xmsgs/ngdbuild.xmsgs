@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NgdBuild" num="0" delta="new" >The value of SIM_DEVICE on instance &apos;<arg fmt="%s" index="1">hdmi_in_pll_adv</arg>&apos; of type <arg fmt="%s" index="2">PLL_ADV</arg> has been changed from &apos;<arg fmt="%s" index="3">VIRTEX5</arg>&apos; to &apos;<arg fmt="%s" index="4">SPARTAN6</arg>&apos; to correct post-ngdbuild and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="0" delta="new" >The value of SIM_DEVICE on instance &apos;<arg fmt="%s" index="1">hdmi_in_pll_adv_1</arg>&apos; of type <arg fmt="%s" index="2">PLL_ADV</arg> has been changed from &apos;<arg fmt="%s" index="3">VIRTEX5</arg>&apos; to &apos;<arg fmt="%s" index="4">SPARTAN6</arg>&apos; to correct post-ngdbuild and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="0" delta="new" >The value of SIM_DEVICE on instance &apos;<arg fmt="%s" index="1">hdmi_out_pll_adv</arg>&apos; of type <arg fmt="%s" index="2">PLL_ADV</arg> has been changed from &apos;<arg fmt="%s" index="3">VIRTEX5</arg>&apos; to &apos;<arg fmt="%s" index="4">SPARTAN6</arg>&apos; to correct post-ngdbuild and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >TNM : TIGsys_clk was distributed to a DCM but new TNM constraints were not derived. This TNM is used in the following user groups or specifications:
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out0_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out0_pix_clk&quot; TIG;&gt; [top.ucf(140)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out1_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out1_pix_clk&quot; TIG;&gt; [top.ucf(146)]
+&lt;TIMESPEC &quot;TShdmi_out0_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out0_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(152)]
+&lt;TIMESPEC &quot;TShdmi_out1_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out1_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(164)]
+&lt;TIMESPEC &quot;TSsys_clkTOencoder_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGencoder_clk&quot; TIG;&gt; [top.ucf(181)]
+&lt;TIMESPEC &quot;TSsys_clkTOusb_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGusb_clk&quot; TIG;&gt; [top.ucf(187)]
+&lt;TIMESPEC &quot;TSencoder_clkTOsys_clk&quot; = FROM &quot;TIGencoder_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(193)]
+&lt;TIMESPEC &quot;TSusb_clkTOsys_clk&quot; = FROM &quot;TIGusb_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(205)]
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >TNM : TIGsys_clk was distributed to a DCM but new TNM constraints were not derived. This TNM is used in the following user groups or specifications:
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out1_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out1_pix_clk&quot; TIG;&gt; [top.ucf(146)]
+&lt;TIMESPEC &quot;TShdmi_out0_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out0_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(152)]
+&lt;TIMESPEC &quot;TShdmi_out1_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out1_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(164)]
+&lt;TIMESPEC &quot;TSsys_clkTOencoder_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGencoder_clk&quot; TIG;&gt; [top.ucf(181)]
+&lt;TIMESPEC &quot;TSsys_clkTOusb_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGusb_clk&quot; TIG;&gt; [top.ucf(187)]
+&lt;TIMESPEC &quot;TSencoder_clkTOsys_clk&quot; = FROM &quot;TIGencoder_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(193)]
+&lt;TIMESPEC &quot;TSusb_clkTOsys_clk&quot; = FROM &quot;TIGusb_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(205)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out0_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out0_pix_clk&quot; TIG;&gt; [top.ucf(140)]
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >TNM : TIGsys_clk was distributed to a DCM but new TNM constraints were not derived. This TNM is used in the following user groups or specifications:
+&lt;TIMESPEC &quot;TShdmi_out0_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out0_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(152)]
+&lt;TIMESPEC &quot;TShdmi_out1_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out1_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(164)]
+&lt;TIMESPEC &quot;TSsys_clkTOencoder_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGencoder_clk&quot; TIG;&gt; [top.ucf(181)]
+&lt;TIMESPEC &quot;TSsys_clkTOusb_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGusb_clk&quot; TIG;&gt; [top.ucf(187)]
+&lt;TIMESPEC &quot;TSencoder_clkTOsys_clk&quot; = FROM &quot;TIGencoder_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(193)]
+&lt;TIMESPEC &quot;TSusb_clkTOsys_clk&quot; = FROM &quot;TIGusb_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(205)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out0_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out0_pix_clk&quot; TIG;&gt; [top.ucf(140)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out1_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out1_pix_clk&quot; TIG;&gt; [top.ucf(146)]
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >TNM : TIGsys_clk was distributed to a DCM but new TNM constraints were not derived. This TNM is used in the following user groups or specifications:
+&lt;TIMESPEC &quot;TShdmi_out1_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out1_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(164)]
+&lt;TIMESPEC &quot;TSsys_clkTOencoder_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGencoder_clk&quot; TIG;&gt; [top.ucf(181)]
+&lt;TIMESPEC &quot;TSsys_clkTOusb_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGusb_clk&quot; TIG;&gt; [top.ucf(187)]
+&lt;TIMESPEC &quot;TSencoder_clkTOsys_clk&quot; = FROM &quot;TIGencoder_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(193)]
+&lt;TIMESPEC &quot;TSusb_clkTOsys_clk&quot; = FROM &quot;TIGusb_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(205)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out0_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out0_pix_clk&quot; TIG;&gt; [top.ucf(140)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out1_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out1_pix_clk&quot; TIG;&gt; [top.ucf(146)]
+&lt;TIMESPEC &quot;TShdmi_out0_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out0_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(152)]
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >TNM : TIGsys_clk was distributed to a DCM but new TNM constraints were not derived. This TNM is used in the following user groups or specifications:
+&lt;TIMESPEC &quot;TSsys_clkTOencoder_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGencoder_clk&quot; TIG;&gt; [top.ucf(181)]
+&lt;TIMESPEC &quot;TSsys_clkTOusb_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGusb_clk&quot; TIG;&gt; [top.ucf(187)]
+&lt;TIMESPEC &quot;TSencoder_clkTOsys_clk&quot; = FROM &quot;TIGencoder_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(193)]
+&lt;TIMESPEC &quot;TSusb_clkTOsys_clk&quot; = FROM &quot;TIGusb_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(205)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out0_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out0_pix_clk&quot; TIG;&gt; [top.ucf(140)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out1_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out1_pix_clk&quot; TIG;&gt; [top.ucf(146)]
+&lt;TIMESPEC &quot;TShdmi_out0_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out0_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(152)]
+&lt;TIMESPEC &quot;TShdmi_out1_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out1_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(164)]
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >TNM : TIGsys_clk was distributed to a DCM but new TNM constraints were not derived. This TNM is used in the following user groups or specifications:
+&lt;TIMESPEC &quot;TSsys_clkTOusb_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGusb_clk&quot; TIG;&gt; [top.ucf(187)]
+&lt;TIMESPEC &quot;TSencoder_clkTOsys_clk&quot; = FROM &quot;TIGencoder_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(193)]
+&lt;TIMESPEC &quot;TSusb_clkTOsys_clk&quot; = FROM &quot;TIGusb_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(205)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out0_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out0_pix_clk&quot; TIG;&gt; [top.ucf(140)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out1_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out1_pix_clk&quot; TIG;&gt; [top.ucf(146)]
+&lt;TIMESPEC &quot;TShdmi_out0_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out0_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(152)]
+&lt;TIMESPEC &quot;TShdmi_out1_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out1_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(164)]
+&lt;TIMESPEC &quot;TSsys_clkTOencoder_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGencoder_clk&quot; TIG;&gt; [top.ucf(181)]
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >TNM : TIGsys_clk was distributed to a DCM but new TNM constraints were not derived. This TNM is used in the following user groups or specifications:
+&lt;TIMESPEC &quot;TSencoder_clkTOsys_clk&quot; = FROM &quot;TIGencoder_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(193)]
+&lt;TIMESPEC &quot;TSusb_clkTOsys_clk&quot; = FROM &quot;TIGusb_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(205)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out0_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out0_pix_clk&quot; TIG;&gt; [top.ucf(140)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out1_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out1_pix_clk&quot; TIG;&gt; [top.ucf(146)]
+&lt;TIMESPEC &quot;TShdmi_out0_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out0_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(152)]
+&lt;TIMESPEC &quot;TShdmi_out1_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out1_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(164)]
+&lt;TIMESPEC &quot;TSsys_clkTOencoder_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGencoder_clk&quot; TIG;&gt; [top.ucf(181)]
+&lt;TIMESPEC &quot;TSsys_clkTOusb_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGusb_clk&quot; TIG;&gt; [top.ucf(187)]
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >TNM : TIGsys_clk was distributed to a DCM but new TNM constraints were not derived. This TNM is used in the following user groups or specifications:
+&lt;TIMESPEC &quot;TSusb_clkTOsys_clk&quot; = FROM &quot;TIGusb_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(205)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out0_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out0_pix_clk&quot; TIG;&gt; [top.ucf(140)]
+&lt;TIMESPEC &quot;TSsys_clkTOhdmi_out1_pix_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGhdmi_out1_pix_clk&quot; TIG;&gt; [top.ucf(146)]
+&lt;TIMESPEC &quot;TShdmi_out0_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out0_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(152)]
+&lt;TIMESPEC &quot;TShdmi_out1_pix_clkTOsys_clk&quot; = FROM &quot;TIGhdmi_out1_pix_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(164)]
+&lt;TIMESPEC &quot;TSsys_clkTOencoder_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGencoder_clk&quot; TIG;&gt; [top.ucf(181)]
+&lt;TIMESPEC &quot;TSsys_clkTOusb_clk&quot; = FROM &quot;TIGsys_clk&quot; TO &quot;TIGusb_clk&quot; TIG;&gt; [top.ucf(187)]
+&lt;TIMESPEC &quot;TSencoder_clkTOsys_clk&quot; = FROM &quot;TIGencoder_clk&quot; TO &quot;TIGsys_clk&quot; TIG;&gt; [top.ucf(193)]
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDbase50_clk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TSbase50_clk</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_CLKGEN</arg> instance <arg fmt="%s" index="5">hdmi_out_dcm_clkgen</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_CLKGEN</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_out0_driver_clocking_clk_pix_unbuffered = PERIOD &quot;hdmi_out0_driver_clocking_clk_pix_unbuffered&quot; TSbase50_clk / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDclk100</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TSclk100</arg>&apos;, was traced into <arg fmt="%s" index="4">BUFIO2</arg> instance <arg fmt="%s" index="5">BUFIO2</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">BUFIO2</arg> output(s): 
+<arg fmt="%s" index="7">DIVCLK</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_clk100b = PERIOD &quot;crg_clk100b&quot; TSclk100 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDclk100</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TSclk100</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_CLKGEN</arg> instance <arg fmt="%s" index="5">crg_periph_dcm_clkgen</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_CLKGEN</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_base50_clk = PERIOD &quot;base50_clk&quot; TSclk100 / 0.5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDhdmi_in0_clk_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TShdmi_in0_clk_p</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_in_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_in0_pll_clk1 = PERIOD &quot;hdmi_in0_pll_clk1&quot; TShdmi_in0_clk_p / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDhdmi_in0_clk_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TShdmi_in0_clk_p</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_in_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_in0_pll_clk0 = PERIOD &quot;hdmi_in0_pll_clk0&quot; TShdmi_in0_clk_p / 10 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDhdmi_in0_clk_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TShdmi_in0_clk_p</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_in_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_in0_pll_clk2 = PERIOD &quot;hdmi_in0_pll_clk2&quot; TShdmi_in0_clk_p HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDhdmi_in1_clk_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TShdmi_in1_clk_p</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_in_pll_adv_1</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_in1_pll_clk1 = PERIOD &quot;hdmi_in1_pll_clk1&quot; TShdmi_in1_clk_p / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDhdmi_in1_clk_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TShdmi_in1_clk_p</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_in_pll_adv_1</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_in1_pll_clk0 = PERIOD &quot;hdmi_in1_pll_clk0&quot; TShdmi_in1_clk_p / 10 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">PRDhdmi_in1_clk_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TShdmi_in1_clk_p</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_in_pll_adv_1</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_in1_pll_clk2 = PERIOD &quot;hdmi_in1_pll_clk2&quot; TShdmi_in1_clk_p HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">hdmi_out0_driver_clocking_clk_pix_unbuffered</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_hdmi_out0_driver_clocking_clk_pix_unbuffered</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_out_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_out0_driver_clocking_pll1_pix2x = PERIOD &quot;hdmi_out0_driver_clocking_pll1_pix2x&quot; TS_hdmi_out0_driver_clocking_clk_pix_unbuffered / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">hdmi_out0_driver_clocking_clk_pix_unbuffered</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_hdmi_out0_driver_clocking_clk_pix_unbuffered</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_out_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_out0_driver_clocking_pll0_pix10x = PERIOD &quot;hdmi_out0_driver_clocking_pll0_pix10x&quot; TS_hdmi_out0_driver_clocking_clk_pix_unbuffered / 10 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">hdmi_out0_driver_clocking_clk_pix_unbuffered</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_hdmi_out0_driver_clocking_clk_pix_unbuffered</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_out_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_out0_driver_clocking_pll2_pix = PERIOD &quot;hdmi_out0_driver_clocking_pll2_pix&quot; TS_hdmi_out0_driver_clocking_clk_pix_unbuffered HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">crg_clk100b</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_crg_clk100b</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">crg_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT3</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_unbuf_sdram_half_b = PERIOD &quot;crg_unbuf_sdram_half_b&quot; TS_crg_clk100b / 1.5 PHASE 4.62962963 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">crg_clk100b</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_crg_clk100b</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">crg_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_unbuf_encoder = PERIOD &quot;crg_unbuf_encoder&quot; TS_crg_clk100b / 0.666666667 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">crg_clk100b</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_crg_clk100b</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">crg_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT5</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_unbuf_sys = PERIOD &quot;crg_unbuf_sys&quot; TS_crg_clk100b / 0.75 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">crg_clk100b</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_crg_clk100b</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">crg_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_unbuf_sdram_full = PERIOD &quot;crg_unbuf_sdram_full&quot; TS_crg_clk100b / 3 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">crg_clk100b</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_crg_clk100b</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">crg_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_crg_unbuf_sdram_half_a = PERIOD &quot;crg_unbuf_sdram_half_a&quot; TS_crg_clk100b / 1.5 PHASE 5 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">base50_clk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_base50_clk</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_CLKGEN</arg> instance <arg fmt="%s" index="5">hdmi_out_dcm_clkgen</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_CLKGEN</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_out0_driver_clocking_clk_pix_unbuffered_0 = PERIOD &quot;hdmi_out0_driver_clocking_clk_pix_unbuffered_0&quot; TS_base50_clk / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">hdmi_out0_driver_clocking_clk_pix_unbuffered_0</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_hdmi_out0_driver_clocking_clk_pix_unbuffered_0</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_out_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_out0_driver_clocking_pll1_pix2x_0 = PERIOD &quot;hdmi_out0_driver_clocking_pll1_pix2x_0&quot; TS_hdmi_out0_driver_clocking_clk_pix_unbuffered_0 / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">hdmi_out0_driver_clocking_clk_pix_unbuffered_0</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_hdmi_out0_driver_clocking_clk_pix_unbuffered_0</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_out_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_out0_driver_clocking_pll0_pix10x_0 = PERIOD &quot;hdmi_out0_driver_clocking_pll0_pix10x_0&quot; TS_hdmi_out0_driver_clocking_clk_pix_unbuffered_0 / 10 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">hdmi_out0_driver_clocking_clk_pix_unbuffered_0</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_hdmi_out0_driver_clocking_clk_pix_unbuffered_0</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">hdmi_out_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_hdmi_out0_driver_clocking_pll2_pix_0 = PERIOD &quot;hdmi_out0_driver_clocking_pll2_pix_0&quot; TS_hdmi_out0_driver_clocking_clk_pix_unbuffered_0 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1345" delta="new" >The constraint <arg fmt="%s" index="1">&lt;TIMESPEC &quot;TSclk100&quot; = PERIOD &quot;PRDclk100&quot; 10.0 ns HIGH 50%;&gt; [top.ucf(216)]</arg> is overridden by the constraint <arg fmt="%s" index="2">&lt;TIMESPEC &quot;TSclk100&quot; = PERIOD &quot;PRDclk100&quot; 10.0 ns HIGH 50%;&gt; [top.ucf(221)]</arg>. The overriden constraint usually comes from the input netlist or ncf files. Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an error.
+</msg>
+
+<msg type="info" file="NgdBuild" num="1222" delta="new" >Setting <arg fmt="%s" index="1">CLKIN1_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">PLL</arg> instance <arg fmt="%s" index="3">hdmi_in_pll_adv</arg> to <arg fmt="%s" index="4">12.000000</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC &quot;TShdmi_in0_clk_p&quot; = PERIOD &quot;PRDhdmi_in0_clk_p&quot; 12 ns HIGH 50%;&gt; [top.ucf(226)]</arg>).
+</msg>
+
+<msg type="info" file="NgdBuild" num="1222" delta="new" >Setting <arg fmt="%s" index="1">CLKIN1_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">PLL</arg> instance <arg fmt="%s" index="3">hdmi_in_pll_adv_1</arg> to <arg fmt="%s" index="4">12.000000</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC &quot;TShdmi_in1_clk_p&quot; = PERIOD &quot;PRDhdmi_in1_clk_p&quot; 12 ns HIGH 50%;&gt; [top.ucf(231)]</arg>).
+</msg>
+
+<msg type="info" file="NgdBuild" num="1222" delta="new" >Setting <arg fmt="%s" index="1">CLKIN1_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">PLL</arg> instance <arg fmt="%s" index="3">hdmi_out_pll_adv</arg> to <arg fmt="%s" index="4">10.000000</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC TS_hdmi_out0_driver_clocking_clk_pix_unbuffered = PERIOD &quot;hdmi_out0_driver_clocking_clk_pix_unbuffered&quot; TSbase50_clk / 2 HIGH 50%&gt;</arg>).
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="new" >FF primitive &apos;<arg fmt="%s" index="1">FDPE_5</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+
