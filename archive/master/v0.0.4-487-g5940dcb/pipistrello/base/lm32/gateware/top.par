@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-travis-job-9025b1cd-a313-4b09-bfa4-c9626842be1a::  Sun Jun 02 20:30:54 2019
+travis-job-f30eb38c-e4c5-4c45-94c0-82415ec7d940::  Mon Jun 03 01:17:36 2019
 
 par -ol high -w top_map.ncd top.ncd top.pcf 
 
@@ -114,13 +114,13 @@ WARNING:Par:288 - The signal serial_rts_IBUF has no load.  PAR will not attempt 
 Starting Router
 
 
-Phase  1  : 22961 unrouted;      REAL time: 10 secs 
+Phase  1  : 22961 unrouted;      REAL time: 9 secs 
 
 Phase  2  : 20018 unrouted;      REAL time: 11 secs 
 
 Phase  3  : 11352 unrouted;      REAL time: 20 secs 
 
-Phase  4  : 11357 unrouted; (Setup:0, Hold:14702, Component Switching Limit:0)     REAL time: 23 secs 
+Phase  4  : 11357 unrouted; (Setup:0, Hold:14702, Component Switching Limit:0)     REAL time: 22 secs 
 
 Updating file: top.ncd with current fully routed design.
 
