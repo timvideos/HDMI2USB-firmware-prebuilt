@@ -6,7 +6,7 @@
 <Project Version="7" Minor="32" Path="/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/mimas_a7_net_or1k/gateware/top.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="fdc49b0c59854ceba3cbd15b25b29aa6"/>
+    <Option Name="Id" Val="5a2080e4fddb4784a63f65f88f3416d1"/>
     <Option Name="Part" Val="xc7a50tfgg484-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
