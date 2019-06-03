@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Sun Jun  2 21:36:45 2019">
+  <application stringID="par" timeStamp="Mon Jun  3 02:18:38 2019">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -55,7 +55,7 @@
         <item stringID="User_EnvOsname" value="Ubuntu"/>
         <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.5 LTS"/>
       </item>
-      <item stringID="User_EnvHost" value="travis-job-22efc15e-3ea6-4a16-888f-0b1a20b62019"/>
+      <item stringID="User_EnvHost" value="travis-job-25c906b8-dc8f-417c-9290-732c48e95a09"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
@@ -73,12 +73,12 @@
     </task>
     <task stringID="PAR_PAR">
       <section stringID="PAR_DESIGN_SUMMARY">
-        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="50 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="53 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="52 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="56 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="53 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="56 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="55 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="59 secs "/>
       </section>
     </task>
     <task stringID="PAR_par">
@@ -2502,7 +2502,7 @@
     </task>
   </application>
 
-  <application stringID="Par" timeStamp="Sun Jun  2 21:36:45 2019">
+  <application stringID="Par" timeStamp="Mon Jun  3 02:18:38 2019">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -2552,7 +2552,7 @@
         <item stringID="User_EnvOsname" value="Ubuntu"/>
         <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.5 LTS"/>
       </item>
-      <item stringID="User_EnvHost" value="travis-job-22efc15e-3ea6-4a16-888f-0b1a20b62019"/>
+      <item stringID="User_EnvHost" value="travis-job-25c906b8-dc8f-417c-9290-732c48e95a09"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>

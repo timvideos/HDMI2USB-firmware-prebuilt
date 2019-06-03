@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-travis-job-22efc15e-3ea6-4a16-888f-0b1a20b62019::  Sun Jun 02 21:36:39 2019
+travis-job-25c906b8-dc8f-417c-9290-732c48e95a09::  Mon Jun 03 02:18:32 2019
 
 par -ol high -w top_map.ncd top.ncd top.pcf 
 
@@ -116,27 +116,27 @@ Starting Router
 
 Phase  1  : 30357 unrouted;      REAL time: 11 secs 
 
-Phase  2  : 26967 unrouted;      REAL time: 12 secs 
+Phase  2  : 26967 unrouted;      REAL time: 13 secs 
 
 Phase  3  : 14278 unrouted;      REAL time: 24 secs 
 
-Phase  4  : 14281 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
+Phase  4  : 14281 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 27 secs 
 
 Updating file: top.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 47 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 50 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 47 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 50 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 47 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 50 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 47 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 50 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 47 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 50 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 50 secs 
-Total REAL time to Router completion: 50 secs 
-Total CPU time to Router completion: 53 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 52 secs 
+Total REAL time to Router completion: 52 secs 
+Total CPU time to Router completion: 56 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -246,8 +246,8 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 53 secs 
-Total CPU time to PAR completion: 56 secs 
+Total REAL time to PAR completion: 55 secs 
+Total CPU time to PAR completion: 59 secs 
 
 Peak Memory Usage:  792 MB
 
