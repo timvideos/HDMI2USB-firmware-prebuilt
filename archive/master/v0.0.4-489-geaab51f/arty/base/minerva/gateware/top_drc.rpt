@@ -1,0 +1,217 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Mon Jun  3 05:16:43 2019
+| Host         : travis-job-7af23ce7-8b08-4b4f-b3ac-2346e3adec7f running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_drc -file top_drc.rpt
+| Design       : top
+| Device       : xc7a35tcsg324-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: top
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 34
++-----------+----------+--------------------------------------------------------+------------+
+| Rule      | Severity | Description                                            | Violations |
++-----------+----------+--------------------------------------------------------+------------+
+| CFGBVS-1  | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties    | 1          |
+| REQP-104  | Warning  | enum_DATA_RATE_DDR_connects_Q1_Q6                      | 16         |
+| REQP-108  | Warning  | enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6 | 16         |
+| RTSTAT-10 | Warning  | No routable loads                                      | 1          |
++-----------+----------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+REQP-104#1 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#2 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_10: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#3 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_11: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#4 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_12: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#5 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_13: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#6 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_14: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#7 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_15: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#8 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_1: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#9 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_2: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#10 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_3: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#11 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_4: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#12 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_5: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#13 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_6: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#14 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_7: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#15 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_8: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-104#16 Warning
+enum_DATA_RATE_DDR_connects_Q1_Q6  
+ISERDESE2_9: At least one of the Q1-Q6 output pins is required for DATA_RATE set DDR.
+Related violations: <none>
+
+REQP-108#1 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#2 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_10: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#3 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_11: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#4 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_12: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#5 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_13: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#6 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_14: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#7 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_15: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#8 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_1: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#9 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_2: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#10 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_3: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#11 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_4: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#12 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_5: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#13 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_6: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#14 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_7: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#15 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_8: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+REQP-108#16 Warning
+enum_IOBDELAY_BOTH_enum_IOBDELAY_IFD_connects_Q1_to_Q6  
+ISERDESE2_9: At least one of the Q1-Q6 output pins is required for IOBDELAY set to BOTH or IFD.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+5 net(s) have no routable loads. The problem bus(es) and/or net(s) are vns_xilinxmultiregimpl0_regs1, vns_xilinxmultiregimpl1_regs1[3:0].
+Related violations: <none>
+
+
