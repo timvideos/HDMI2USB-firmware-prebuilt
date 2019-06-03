@@ -1,0 +1,29 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Mon Jun  3 05:10:09 2019
+| Host         : travis-job-e517cd7d-38a5-488f-b957-d02263374347 running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++------------+----------+------------+------------+---------+------+------+--------+--------+--------------+
+|  Instance  |  Module  | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++------------+----------+------------+------------+---------+------+------+--------+--------+--------------+
+| top        |    (top) |       3505 |       3271 |     232 |    2 | 2882 |     16 |     17 |            0 |
+|   (top)    |    (top) |       2168 |       2022 |     144 |    2 | 2401 |     16 |     17 |            0 |
+|   picorv32 | picorv32 |       1337 |       1249 |      88 |    0 |  481 |      0 |      0 |            0 |
++------------+----------+------------+------------+---------+------+------+--------+--------+--------------+
+
+
