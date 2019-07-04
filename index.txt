@@ -148,10 +148,10 @@ bddf8b50ce0179ddf1de9348c46a1812bd17f7934c0cc7875dd4ec2074302233  ./opsis/base/p
 82f6f774df94117a8726d611ff86bfaa4451f02e53da3feb63551679acde39cd  ./opsis/base/picorv32/unstable.sha256sum
 0bd2141a2216583f3023a225ad4bd3005ead9e6071f71a3aefd438a5b25f40e1  ./opsis/base/vexriscv/channels.txt
 246fc8a5922927ce812d7766dcf05ae314b8b9525b653f3f0fddd89664eff4e8  ./opsis/base/vexriscv/unstable.sha256sum
-9814c15b17107fa708319a4324315c1384ebb8b148c16cadf747cdc2452e0232  ./opsis/hdmi2usb/lm32/channels.txt
+7a97ae75e959c12e065374f0ffebc7699f8db50957a0a63d1493b49e82d878de  ./opsis/hdmi2usb/lm32/channels.txt
 4413db21f0341ba9b32e5a069edf93e31aeb5274bf224cf39afb0f3f0d95aa7a  ./opsis/hdmi2usb/lm32/stable.sha256sum
 ed1841c4b667118bd16548b607bdbf1ab9c22f48e6bf0b5163a363d47a7e5a81  ./opsis/hdmi2usb/lm32/testing.sha256sum
-32a5557661954b59cf46be5e3bec8e9182b1f981e08a46273c2a00b667077e5d  ./opsis/hdmi2usb/lm32/unstable.sha256sum
+41068723e1e567b8905d1d271752f62638b3b509e3ddf1a3bbf80009bb6e2129  ./opsis/hdmi2usb/lm32/unstable.sha256sum
 62f75b7511850fe3d01ae5823b590ae63c07ca3a8309c12fb9068c88ee28a24e  ./opsis/net/lm32/channels.txt
 f0920a15f6fd3174a17170c4f115b1e625aec62a88c1df6a1093816f556ed22e  ./opsis/net/lm32/stable.sha256sum
 9bb903369d50b548424dcd3b7fcfd47328c0d6403ed389abb9a431a68be44f39  ./opsis/net/lm32/testing.sha256sum
