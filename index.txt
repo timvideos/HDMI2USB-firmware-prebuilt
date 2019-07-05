@@ -205,7 +205,7 @@ d79b29113ab7b0872b2408ba9ae351f856ce0fda9521495d40ddd3b4f19336b5  ./tinyfpga_bx/
 5caaa4a12cdd9b5da1d5778ce639399c0f98eaced9b033ba2647d22b99d8fef7  ./upduino_v1/base/lm32.lite/unstable.sha256sum
 aea36dce78eb5bd0386c4d68790c9f98e00c04ea6903c1c527bbcd3f91f3945c  ./upduino_v1/base/lm32.minimal/channels.txt
 72d3b106adcdc7f46d2664513ad8cdbd4b789c91d85eda3c62b1868ce7ab569d  ./upduino_v1/base/lm32.minimal/unstable.sha256sum
-24374900227d6a343c17dde670ae48109fb3be33a2f6df1305967da6cb1d97b7  ./upduino_v1/base/vexriscv.lite/channels.txt
-fb31c8a78a438bfb0ce259a6ebd75a4667f22ae94bd0158ce930848ec817b106  ./upduino_v1/base/vexriscv.lite/unstable.sha256sum
+06040d7fbd4da0d424ef084ed3e3f55890db9ef1dfb71f084373c08cf38ad5a9  ./upduino_v1/base/vexriscv.lite/channels.txt
+4b666e74168f705c8a1ca6dd408047332ff3ec0dd364bdce7a92c5cdf1b32f57  ./upduino_v1/base/vexriscv.lite/unstable.sha256sum
 20d92d14bdef92396bccd04c21b308b41a03e2a7b039bb5be96f39559c400f19  ./waxwing/base/lm32/channels.txt
 c110704d9ee66efe59837bd63c343952156d3edb430ce1d35cbf782cf066d98f  ./waxwing/base/lm32/unstable.sha256sum
