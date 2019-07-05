@@ -3,8 +3,8 @@ d08038eb928ef241040bc4937da3aaa8d86b5232af2563234d364665a30c78cc  ./arty/base/lm
 2dbc5895e559bf1f9c341865d65f0973e7f5ee23122fc7cde62ed4ce342ed117  ./arty/base/lm32/stable.sha256sum
 c9791cab9040e0b87028b3fe130bbb4d5f9f776ed0d1572b800dfc0f56f932fd  ./arty/base/lm32/testing.sha256sum
 e7ba56f47014024f375f766a6ca52afaf89253fdd8b53082634bb14d86e02c82  ./arty/base/lm32/unstable.sha256sum
-687d1b0c89e3cbd8b9e4e7dbc38672868e9776e52f47ff7516aaaacb0260dff5  ./arty/base/minerva/channels.txt
-2d484e674b9447bbc342b9ff6b40eb57e41c07bba722013886c635ec6e0a8fab  ./arty/base/minerva/unstable.sha256sum
+d5887a5e012382bc4ca8efa9ad8db031376012f8a0af8ff36359368d36f43837  ./arty/base/minerva/channels.txt
+52fe42fbbe9ff9582aad9fe81ffbb7e83e2275f19605d6fa905e8edb4af06223  ./arty/base/minerva/unstable.sha256sum
 59f3ac44caeda91a00a272273ef96bcdba63ccdb16958ebed51e41ef2159cb56  ./arty/base/mor1kx/channels.txt
 28b3999961076902cb389cc070325da6fd69f51b1e1d74ddbb7b17040c94a369  ./arty/base/mor1kx/unstable.sha256sum
 ebbb958054f3e08b44e36d72e317444807acdc0ae9566a94fd0b3662256f0ab0  ./arty/base/or1k/channels.txt
