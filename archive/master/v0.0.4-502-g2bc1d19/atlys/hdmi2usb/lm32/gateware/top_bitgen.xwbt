@@ -1,0 +1,7 @@
+INFILE=/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/atlys_hdmi2usb_lm32/gateware/top.ncd
+OUTFILE=/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/atlys_hdmi2usb_lm32/gateware/top.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/atlys_hdmi2usb_lm32/gateware
+LICENSE=WebPack
+USER_INFO=210672583_0_0_554
