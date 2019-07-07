@@ -1,1 +1,1 @@
-unstable v0.0.4-534-gc728d32 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-534-gc728d32/arty/net/mor1kx.linux/
+unstable v0.0.4-537-gf1efd32 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-537-gf1efd32/arty/net/mor1kx.linux/
