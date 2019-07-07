@@ -1,1 +1,1 @@
-unstable v0.0.4-502-g2bc1d19 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-502-g2bc1d19/minispartan6/base/lm32/
+unstable v0.0.4-534-gc728d32 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-534-gc728d32/minispartan6/base/lm32/
