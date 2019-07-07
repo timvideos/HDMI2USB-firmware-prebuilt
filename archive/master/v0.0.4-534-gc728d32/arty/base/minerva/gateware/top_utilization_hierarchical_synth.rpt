@@ -1,0 +1,39 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Sun Jul  7 09:43:14 2019
+| Host         : travis-job-f5899c2d-bbec-4c6b-aa54-a71a5e6de064 running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-------------------+-------------+------------+------------+---------+------+------+--------+--------+--------------+
+|      Instance     |    Module   | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++-------------------+-------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top               |       (top) |       3962 |       3768 |     192 |    2 | 3331 |     16 |     17 |            0 |
+|   (top)           |       (top) |       2201 |       2055 |     144 |    2 | 2409 |     16 |     17 |            0 |
+|   minerva_cpu     | minerva_cpu |       1761 |       1713 |      48 |    0 |  922 |      0 |      0 |            0 |
+|     (minerva_cpu) | minerva_cpu |        453 |        405 |      48 |    0 |  453 |      0 |      0 |            0 |
+|     a             |           a |          1 |          1 |       0 |    0 |    1 |      0 |      0 |            0 |
+|     d             |           d |          3 |          3 |       0 |    0 |    1 |      0 |      0 |            0 |
+|     exception     |   exception |        352 |        352 |       0 |    0 |  258 |      0 |      0 |            0 |
+|     f             |           f |          2 |          2 |       0 |    0 |    1 |      0 |      0 |            0 |
+|     fetch         |       fetch |        109 |        109 |       0 |    0 |   73 |      0 |      0 |            0 |
+|     loadstore     |   loadstore |        580 |        580 |       0 |    0 |  100 |      0 |      0 |            0 |
+|     m             |           m |          1 |          1 |       0 |    0 |    1 |      0 |      0 |            0 |
+|     shifter       |     shifter |        134 |        134 |       0 |    0 |   33 |      0 |      0 |            0 |
+|     x             |           x |        126 |        126 |       0 |    0 |    1 |      0 |      0 |            0 |
++-------------------+-------------+------------+------------+---------+------+------+--------+--------+--------------+
+
+
