@@ -96,8 +96,8 @@ d2a18b98c9951a4bdda842ed67066a3d0f0755075a404abc31ac7dad7e41486d  ./icebreaker/b
 6519d84e4446612f1d47ebe86e91086b81daedfdb7cbea49e578af56df4abb8f  ./icebreaker/base/picorv32.minimal/unstable.sha256sum
 811d248197f84689c09abcdc95042ce1fc148622119253c54f960e85dec668ea  ./mimas_a7/base/lm32/channels.txt
 3f3e63b1578c27844f0d22af2b7b301028140c3dcb37b389ff3d92fc77667e92  ./mimas_a7/base/lm32/unstable.sha256sum
-d533e57f6886a863fb6f2b6f9a4d5b51fb690a83b39cf1477d82ce1347645c67  ./mimas_a7/base/mor1kx/channels.txt
-d01a681fde24c50992e14d109626d74effe4edde185b03c4a25a8dfdb1d22fa3  ./mimas_a7/base/mor1kx/unstable.sha256sum
+880331f68cf5c6d078bd66fbe11d288294492b411e8490a931b34822fce9ec26  ./mimas_a7/base/mor1kx/channels.txt
+9af50a29ba34c92dac16729bb42ca7d6987b3ddecb35f689ff45580893138d56  ./mimas_a7/base/mor1kx/unstable.sha256sum
 1c1fdad691fb1f7f21fae3075480aa0687e207ac926ef9c1f9ccc028397d6d3a  ./mimas_a7/base/or1k/channels.txt
 1ab890f8048178b1c55812da0050b17ab312c89f3be7fed72aee8697fd39fd51  ./mimas_a7/base/or1k/unstable.sha256sum
 67b3c350c98135416e4dd50c044e0c1acaae2b73a3ab86ac68beea3cb5657e20  ./mimas_a7/base/picorv32/channels.txt
