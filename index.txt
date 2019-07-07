@@ -201,8 +201,8 @@ fde9fe26aa6d827638af60b8ce6a9dad29b78a5115f3487ab59188b56fbf902a  ./opsis/video/
 455e3795c6f5cace9d9860599ab4535aa24f289000b1d8abe70ff139ecc9057a  ./pipistrello/base/lm32/channels.txt
 6b0596e38f649f5a9be4451934ac6df67bf2bc488c1e30ff447ac867bae46de9  ./pipistrello/base/lm32/testing.sha256sum
 e9a2d79aac7e836a71061335c99a7958e0aeacb1ef2f2a56d088c5cbaa4d0eab  ./pipistrello/base/lm32/unstable.sha256sum
-df55dc2a0c1d171b07aac563839b572fa8d50989ad27d0838a89a6439b104c2c  ./pipistrello/base/mor1kx/channels.txt
-731542f9378dccdf4c62ff03f1535b752884a614134bce14276e3e96b1c4687c  ./pipistrello/base/mor1kx/unstable.sha256sum
+49ceee72f6a8552a5d2af975d6e6ba8879b4088311331c79e6d85306810d2f4b  ./pipistrello/base/mor1kx/channels.txt
+02e7437875c445796e7426d8d60c1d4dd65d8c294f59927067a9e4d8fd603da5  ./pipistrello/base/mor1kx/unstable.sha256sum
 143f38272d77f65d2ad703ed96d6544f1fb23c1d04086cedbc4ae8762de6ce21  ./pipistrello/base/or1k/channels.txt
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 e0f4716d3f9d616d0d483a778803a1bc01a6d72c8070f8d74fd4be72e2207a14  ./pipistrello/base/or1k/unstable.sha256sum
