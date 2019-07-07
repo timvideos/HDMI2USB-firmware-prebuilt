@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-travis-job-9fb9dd8f-f4c6-41a7-ab19-325e86db5b67::  Fri Jul 05 07:25:45 2019
+travis-job-914d3c7a-1257-4fc6-b2b5-61d8a90cb339::  Sun Jul 07 04:47:12 2019
 
 par -ol high -w top_map.ncd top.ncd top.pcf 
 
@@ -118,23 +118,23 @@ Phase  2  : 29120 unrouted;      REAL time: 13 secs
 
 Phase  3  : 15225 unrouted;      REAL time: 26 secs 
 
-Phase  4  : 15225 unrouted; (Setup:0, Hold:3385, Component Switching Limit:0)     REAL time: 27 secs 
+Phase  4  : 15225 unrouted; (Setup:0, Hold:3385, Component Switching Limit:0)     REAL time: 28 secs 
 
 Updating file: top.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:3385, Component Switching Limit:0)     REAL time: 54 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:3385, Component Switching Limit:0)     REAL time: 55 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:3385, Component Switching Limit:0)     REAL time: 54 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:3385, Component Switching Limit:0)     REAL time: 55 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:3385, Component Switching Limit:0)     REAL time: 54 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:3385, Component Switching Limit:0)     REAL time: 55 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:3385, Component Switching Limit:0)     REAL time: 54 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:3385, Component Switching Limit:0)     REAL time: 55 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 54 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 56 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 57 secs 
-Total REAL time to Router completion: 57 secs 
-Total CPU time to Router completion: 1 mins 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 59 secs 
+Total REAL time to Router completion: 59 secs 
+Total CPU time to Router completion: 1 mins 3 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -241,8 +241,8 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 1 mins 1 secs 
-Total CPU time to PAR completion: 1 mins 4 secs 
+Total REAL time to PAR completion: 1 mins 3 secs 
+Total CPU time to PAR completion: 1 mins 6 secs 
 
 Peak Memory Usage:  797 MB
 

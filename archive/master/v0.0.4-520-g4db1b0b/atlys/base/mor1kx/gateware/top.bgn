@@ -6,7 +6,7 @@ Loading device for application Rf_Device from file '6slx45.nph' in environment
    "top" is an NCD, version 3.2, device xc6slx45, package csg324, speed -3
 Opened constraints file top.pcf.
 
-Fri Jul  5 07:26:53 2019
+Sun Jul  7 04:48:23 2019
 
 /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -g Binary:Yes -w top.ncd top.bit 
 
