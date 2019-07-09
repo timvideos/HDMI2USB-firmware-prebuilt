@@ -1,8 +1,8 @@
 13d2e05169888208542bbf712913f25b497df90e9217c94b579d59a0cb892616  ./README.md
-6a17808b387609069d4af48fe1f84115324f9444dfa853bc6dda08568443e392  ./arty/base/lm32/channels.txt
+b99961355cd914fb4bb94e0f134e553211c96960e1ebba70c0af826b96c0a6d2  ./arty/base/lm32/channels.txt
 2dbc5895e559bf1f9c341865d65f0973e7f5ee23122fc7cde62ed4ce342ed117  ./arty/base/lm32/stable.sha256sum
 c9791cab9040e0b87028b3fe130bbb4d5f9f776ed0d1572b800dfc0f56f932fd  ./arty/base/lm32/testing.sha256sum
-038568a9786d65e1379ff886643b207e57f91ed4ad70fcd961fedd72f4bab294  ./arty/base/lm32/unstable.sha256sum
+5e14eed0bd91d611b97d6767ed7328905dd53c82cf2b7e25ff21abc7a9b543c2  ./arty/base/lm32/unstable.sha256sum
 9d64cd2d9ba20df14f35d3c431fb5ad67eb7ae4542208450e0886e3f8b9f44c2  ./arty/base/minerva/channels.txt
 9b204ed25808e255c6fd17f8e9f9c4b5cd8c6f42e65eff66ae45b600c57cc3ff  ./arty/base/minerva/unstable.sha256sum
 018793ddc0a8e82cb25cae230ef104042a5d93dbe194bf04b6159cc0728b4a63  ./arty/base/mor1kx/channels.txt
@@ -206,7 +206,7 @@ e9a2d79aac7e836a71061335c99a7958e0aeacb1ef2f2a56d088c5cbaa4d0eab  ./pipistrello/
 143f38272d77f65d2ad703ed96d6544f1fb23c1d04086cedbc4ae8762de6ce21  ./pipistrello/base/or1k/channels.txt
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 e0f4716d3f9d616d0d483a778803a1bc01a6d72c8070f8d74fd4be72e2207a14  ./pipistrello/base/or1k/unstable.sha256sum
-0fa82b2bdad2d0d7efd419875eae6a18b216ad3b93e85f12264cee726d8093ea  ./revs.txt
+da49848f8e70c20cae5887a07a671fa4894835f1c53f9b9637bfe4ad6ae230ca  ./revs.txt
 881a41842a41312776a739540c71cde363a3b784c6a7dc85087c19f19bcd9367  ./saturn/base/lm32/channels.txt
 4f5835d81273f2f5c8a94380a4d854afcb0575aa419475916963f801cec89374  ./saturn/base/lm32/unstable.sha256sum
 0366bea8dbd10ee92e290d29112794259635dbb976c509da77b4325a54172905  ./tinyfpga_bx/base/lm32.lite/channels.txt
