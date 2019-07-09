@@ -118,8 +118,8 @@ d2f2799a5716937cafb45f7b75460bfecc8cb6fa9b43ee9f647e1add468af5ab  ./mimasv2/base
 44368af1c6a39f6aa3892126f1ee3b12a9db5f06151d6e0bbfcea02db27fcc1a  ./mimasv2/base/lm32/stable.sha256sum
 3b71f8501cc5fd69e381e06343b274d5ef869407973ef63c9d26021848cd364c  ./mimasv2/base/lm32/testing.sha256sum
 dc5d23daa7cdda6b06d158e0aa14970d552e5caaef40ec171b5e994b9b3d247d  ./mimasv2/base/lm32/unstable.sha256sum
-569edcd787040d54e1605c935297959c30da10fda26d09983cce4531e46afe64  ./mimasv2/base/mor1kx/channels.txt
-59eef1c58f873a58ce0b3331a25a76096004246a7e54a87273e9ce74164b3349  ./mimasv2/base/mor1kx/unstable.sha256sum
+11089fda51139b32830eadccb89e617ddf58b07e59a59741cba6150b1a371b44  ./mimasv2/base/mor1kx/channels.txt
+fa2a31d986841318236c1adbb64bfb8167af661bd24707a6e61fd1a414b94145  ./mimasv2/base/mor1kx/unstable.sha256sum
 57e5874e7d1ef270868f8acfc0701d0c5b4e5c5238d33a1bfc710b910b7ac61f  ./mimasv2/base/or1k/channels.txt
 699ce02d74183cc38ec696029eabde0400b0dfbf4c2ed968a7a2c8a72332ce3b  ./mimasv2/base/or1k/stable.sha256sum
 d070178ea963bad8dc3ad9b079896f78895e31cf7494901dd2f1d0ac7847c4ef  ./mimasv2/base/or1k/testing.sha256sum
