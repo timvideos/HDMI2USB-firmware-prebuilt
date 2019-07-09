@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Sun Jul  7 18:14:46 2019">
+  <application stringID="Map" timeStamp="Tue Jul  9 05:27:12 2019">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -55,7 +55,7 @@
         <item stringID="User_EnvOsname" value="Ubuntu"/>
         <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.5 LTS"/>
       </item>
-      <item stringID="User_EnvHost" value="travis-job-0688fe5e-b692-4185-81bc-d8995e7a91f5"/>
+      <item stringID="User_EnvHost" value="travis-job-61132a1a-6e53-4369-bc59-622b8c552b1b"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
@@ -125,8 +125,8 @@
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
         <item dataType="int" stringID="MAP_NUM_WARNINGS" value="9"/>
         <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="1324832"/>
-        <item stringID="MAP_TOTAL_REAL_TIME" value="10 mins "/>
-        <item stringID="MAP_TOTAL_CPU_TIME" value="10 mins "/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="10 mins 18 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="10 mins 17 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
         <item AVAILABLE="54576" dataType="int" label="Number of Slice Registers" stringID="MAP_SLICE_REGISTERS" value="13258">

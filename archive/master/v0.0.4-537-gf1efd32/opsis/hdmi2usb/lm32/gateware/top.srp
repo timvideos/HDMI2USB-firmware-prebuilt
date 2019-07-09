@@ -13230,13 +13230,13 @@ soc_hdmi_out0_driver_clocking_clk_pix_unbuffered|    7.381|         |         | 
 =========================================================================
 
 
-Total REAL time to Xst completion: 293.00 secs
-Total CPU time to Xst completion: 290.99 secs
+Total REAL time to Xst completion: 304.00 secs
+Total CPU time to Xst completion: 302.62 secs
  
 --> 
 
 
-Total memory usage is 985064 kilobytes
+Total memory usage is 984948 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 2122 (   0 filtered)

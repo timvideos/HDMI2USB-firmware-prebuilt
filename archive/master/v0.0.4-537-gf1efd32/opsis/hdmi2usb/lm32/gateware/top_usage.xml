@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <DeviceUsageSummary rev="2">
-<DesignStatistics TimeStamp="Sun Jul  7 18:25:23 2019"><group name="NetStatistics">
+<DesignStatistics TimeStamp="Tue Jul  9 05:39:06 2019"><group name="NetStatistics">
 <item name="NumNets_Active" rev="2">
 <attrib name="value" value="27384"/></item>
 <item name="NumNets_Gnd" rev="2">
@@ -274,7 +274,7 @@
 <attrib name="value" value="1718"/></item>
 </group>
 </DesignStatistics>
-<DeviceUsage TimeStamp="Sun Jul  7 18:25:23 2019"><group name="SiteSummary">
+<DeviceUsage TimeStamp="Tue Jul  9 05:39:06 2019"><group name="SiteSummary">
 <item name="BUFG" rev="2">
 <attrib name="total" value="1000000"/><attrib name="used" value="16"/></item>
 <item name="BUFG_BUFG" rev="2">
@@ -383,7 +383,7 @@
 <attrib name="total" value="1000000"/><attrib name="used" value="4326"/></item>
 </group>
 </DeviceUsage>
-<ReportConfigData TimeStamp="Sun Jul  7 18:25:23 2019"><group name="DSP48A1">
+<ReportConfigData TimeStamp="Tue Jul  9 05:39:06 2019"><group name="DSP48A1">
 <item name="CEA" rev="2">
 <attrib name="CEA_INV" value="0"/><attrib name="CEA" value="22"/></item>
 <item name="CEB" rev="2">
@@ -1058,7 +1058,7 @@
 <attrib name="WRITE_FIRST" value="35"/><attrib name="READ_FIRST" value="1"/></item>
 </group>
 </ReportConfigData>
-<ReportPinData TimeStamp="Sun Jul  7 18:25:23 2019"><group name="BUFIO2">
+<ReportPinData TimeStamp="Tue Jul  9 05:39:06 2019"><group name="BUFIO2">
 <item name="DIVCLK" rev="2">
 <attrib name="value" value="3"/></item>
 <item name="I" rev="2">
