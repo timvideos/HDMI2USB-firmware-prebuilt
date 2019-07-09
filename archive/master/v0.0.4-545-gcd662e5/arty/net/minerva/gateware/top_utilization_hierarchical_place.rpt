@@ -1,0 +1,40 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Tue Jul  9 10:18:31 2019
+| Host         : travis-job-d8385163-ea7c-4afd-8e08-219e098bc15f running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_place.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Fully Placed
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-------------------+-------------+------------+------------+---------+------+------+--------+--------+--------------+
+|      Instance     |    Module   | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++-------------------+-------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top               |       (top) |       4544 |       4310 |     232 |    2 | 3837 |     18 |     27 |            0 |
+|   (top)           |       (top) |       2691 |       2505 |     184 |    2 | 2915 |     18 |     27 |            0 |
+|   minerva_cpu     | minerva_cpu |       1854 |       1806 |      48 |    0 |  922 |      0 |      0 |            0 |
+|     (minerva_cpu) | minerva_cpu |        453 |        405 |      48 |    0 |  453 |      0 |      0 |            0 |
+|     a             |           a |          1 |          1 |       0 |    0 |    1 |      0 |      0 |            0 |
+|     d             |           d |          3 |          3 |       0 |    0 |    1 |      0 |      0 |            0 |
+|     exception     |   exception |        354 |        354 |       0 |    0 |  258 |      0 |      0 |            0 |
+|     f             |           f |          2 |          2 |       0 |    0 |    1 |      0 |      0 |            0 |
+|     fetch         |       fetch |        130 |        130 |       0 |    0 |   73 |      0 |      0 |            0 |
+|     loadstore     |   loadstore |        651 |        651 |       0 |    0 |  100 |      0 |      0 |            0 |
+|     m             |           m |          1 |          1 |       0 |    0 |    1 |      0 |      0 |            0 |
+|     shifter       |     shifter |        134 |        134 |       0 |    0 |   33 |      0 |      0 |            0 |
+|     x             |           x |        125 |        125 |       0 |    0 |    1 |      0 |      0 |            0 |
++-------------------+-------------+------------+------------+---------+------+------+--------+--------+--------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
