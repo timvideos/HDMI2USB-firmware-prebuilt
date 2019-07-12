@@ -1,0 +1,40 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Fri Jul 12 05:25:30 2019
+| Host         : travis-job-62e33023-8600-4d9f-b8bd-7c3516a0b5f4 running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_place.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Fully Placed
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++------------------------------------+--------------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|              Instance              |          Module          | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++------------------------------------+--------------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                                |                    (top) |       4323 |       4089 |     232 |    2 | 3904 |     18 |     29 |            0 |
+|   (top)                            |                    (top) |       2688 |       2502 |     184 |    2 | 2927 |     18 |     27 |            0 |
+|   lm32_cpu                         |                 lm32_cpu |       1637 |       1589 |      48 |    0 |  977 |      0 |      2 |            0 |
+|     (lm32_cpu)                     |                 lm32_cpu |        137 |         89 |      48 |    0 |  334 |      0 |      0 |            0 |
+|     instruction_unit               |    lm32_instruction_unit |        633 |        633 |       0 |    0 |  292 |      0 |      2 |            0 |
+|       (instruction_unit)           |    lm32_instruction_unit |        360 |        360 |       0 |    0 |  247 |      0 |      0 |            0 |
+|       icache                       |              lm32_icache |        273 |        273 |       0 |    0 |   45 |      0 |      2 |            0 |
+|         (icache)                   |              lm32_icache |        192 |        192 |       0 |    0 |   45 |      0 |      0 |            0 |
+|         memories[0].way_0_data_ram |                 lm32_ram |          6 |          6 |       0 |    0 |    0 |      0 |      1 |            0 |
+|         memories[0].way_0_tag_ram  | lm32_ram__parameterized0 |         75 |         75 |       0 |    0 |    0 |      0 |      1 |            0 |
+|     interrupt_unit                 |           lm32_interrupt |         61 |         61 |       0 |    0 |   34 |      0 |      0 |            0 |
+|     load_store_unit                |     lm32_load_store_unit |        419 |        419 |       0 |    0 |  178 |      0 |      0 |            0 |
+|     mc_arithmetic                  |       lm32_mc_arithmetic |        387 |        387 |       0 |    0 |  139 |      0 |      0 |            0 |
++------------------------------------+--------------------------+------------+------------+---------+------+------+--------+--------+--------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
