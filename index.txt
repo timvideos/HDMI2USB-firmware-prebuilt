@@ -88,8 +88,8 @@ a6d8059bc0048a0d3ade3d0e6639797c6398ab233eb6e24da82c3b9c1e17437c  ./ice40_up5k_b
 591ee4adc65ac261edfae851ad964a29e401105de9e94ae81c38286db6fc93dd  ./ice40_up5k_b_evn/base/lm32.lite/unstable.sha256sum
 4407bef3e6a6a6503384f2dfde1f63487f13c5e13e2424871e4d267e7805074b  ./ice40_up5k_b_evn/base/lm32.minimal/channels.txt
 10d357fce441d92fa1a89b59da976f81c06d5d0403754bb9b4df48fd2c06b9c1  ./ice40_up5k_b_evn/base/lm32.minimal/unstable.sha256sum
-83c50d96466691d098eeedc3cd7d0fc051ec72d9bd492f6e4b8db0f073419251  ./icebreaker/base/lm32.lite/channels.txt
-3516a6b8db4060ad41c61ca412dd32a4ce1be9857a72e63e26403480d44fd3d0  ./icebreaker/base/lm32.lite/unstable.sha256sum
+aef3052d78278cabc027e0f72a44260f313571614464b640a1115ec15a82845a  ./icebreaker/base/lm32.lite/channels.txt
+8776d5e6ac79b09a43a1ae30be4c09804087763bc370db90e0a5e97a2f0f2fdb  ./icebreaker/base/lm32.lite/unstable.sha256sum
 066772ceee950adb6fde79ead242df7c546e3caa48de9022abf49d5c6f41d23d  ./icebreaker/base/lm32.minimal/channels.txt
 28f0fb221e425ebecc71e0e3b41bab8ce49da9927b5ae4a9754764c0eb79f23c  ./icebreaker/base/lm32.minimal/unstable.sha256sum
 a21ef2bcad8449bb61f7c5e0fb5a1e0e2429feba2a2e0b844a256bf9657557cd  ./icebreaker/base/picorv32.minimal/channels.txt
