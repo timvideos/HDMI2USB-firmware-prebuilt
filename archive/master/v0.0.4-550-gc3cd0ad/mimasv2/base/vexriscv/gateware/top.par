@@ -1,0 +1,278 @@
+Release 14.7 par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+travis-job-4d9fd5fa-ca0d-4bcd-a3b0-0c04aded524e::  Fri Jul 12 06:30:39 2019
+
+par -ol high -w top_map.ncd top.ncd top.pcf 
+
+
+Constraints file: top.pcf.
+Loading device for application Rf_Device from file '6slx9.nph' in environment
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/Xilinx/opt/Xilinx/14.7/ISE_DS/ISE/.
+   "top" is an NCD, version 3.2, device xc6slx9, package csg324, speed -2
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 3,033 out of  11,440   26%
+    Number used as Flip Flops:               3,031
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                2
+  Number of Slice LUTs:                      3,755 out of   5,720   65%
+    Number used as logic:                    3,604 out of   5,720   63%
+      Number using O6 output only:           2,685
+      Number using O5 output only:             106
+      Number using O5 and O6:                  813
+      Number used as ROM:                        0
+    Number used as Memory:                     134 out of   1,440    9%
+      Number used as Dual Port RAM:            114
+        Number using O6 output only:             2
+        Number using O5 output only:            18
+        Number using O5 and O6:                 94
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:            20
+        Number using O6 output only:            10
+        Number using O5 output only:             0
+        Number using O5 and O6:                 10
+    Number used exclusively as route-thrus:     17
+      Number with same-slice register load:     13
+      Number with same-slice carry load:         4
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,319 out of   1,430   92%
+  Number of MUXCYs used:                       804 out of   2,860   28%
+  Number of LUT Flip Flop pairs used:        4,260
+    Number with an unused Flip Flop:         1,508 out of   4,260   35%
+    Number with an unused LUT:                 505 out of   4,260   11%
+    Number of fully used LUT-FF pairs:       2,247 out of   4,260   52%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  11,440    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        70 out of     200   35%
+    Number of LOCed IOBs:                       70 out of      70  100%
+    IOB Flip Flops:                              6
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        15 out of      32   46%
+  Number of RAMB8BWERs:                          9 out of      64   14%
+  Number of BUFIO2/BUFIO2_2CLKs:                 1 out of      32    3%
+    Number used as BUFIO2s:                      1
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       3 out of      16   18%
+    Number used as BUFGs:                        3
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                  16 out of     200    8%
+    Number used as ILOGIC2s:                     0
+    Number used as ISERDES2s:                   16
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     200    0%
+  Number of OLOGIC2/OSERDES2s:                  22 out of     200   11%
+    Number used as OLOGIC2s:                     4
+    Number used as OSERDES2s:                   18
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             1 out of       8   12%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            4 out of      16   25%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            1 out of       2   50%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+Starting initial Timing Analysis.  REAL time: 10 secs 
+Finished initial Timing Analysis.  REAL time: 11 secs 
+
+Starting Router
+
+
+Phase  1  : 25199 unrouted;      REAL time: 11 secs 
+
+Phase  2  : 22041 unrouted;      REAL time: 13 secs 
+
+Phase  3  : 12108 unrouted;      REAL time: 29 secs 
+
+Phase  4  : 12139 unrouted; (Setup:473, Hold:23439, Component Switching Limit:0)     REAL time: 33 secs 
+
+Updating file: top.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:491, Hold:21718, Component Switching Limit:0)     REAL time: 1 mins 10 secs 
+
+Phase  6  : 0 unrouted; (Setup:491, Hold:21718, Component Switching Limit:0)     REAL time: 1 mins 11 secs 
+
+Phase  7  : 0 unrouted; (Setup:400, Hold:21556, Component Switching Limit:0)     REAL time: 1 mins 36 secs 
+
+Phase  8  : 0 unrouted; (Setup:400, Hold:21556, Component Switching Limit:0)     REAL time: 1 mins 36 secs 
+
+Phase  9  : 0 unrouted; (Setup:400, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 37 secs 
+
+Phase 10  : 0 unrouted; (Setup:400, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 40 secs 
+Total REAL time to Router completion: 1 mins 40 secs 
+Total CPU time to Router completion: 1 mins 43 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|             sys_clk |  BUFGMUX_X2Y3| No   | 1048 |  0.185     |  1.576      |
++---------------------+--------------+------+------+------------+-------------+
+|      sdram_half_clk |  BUFGMUX_X2Y2| No   |   22 |  0.702     |  2.134      |
++---------------------+--------------+------+------+------------+-------------+
+|crg_clk_sdram_half_s |              |      |      |            |             |
+|              hifted | BUFGMUX_X3Y13| No   |    4 |  0.000     |  2.017      |
++---------------------+--------------+------+------+------------+-------------+
+|          dna_cnt<0> |         Local|      |    7 |  0.000     |  2.133      |
++---------------------+--------------+------+------+------------+-------------+
+|   sdram_full_wr_clk |         Local|      |   34 |  0.028     |  1.610      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 400 (Setup: 400, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to ensure the best options
+   are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Number of Timing Constraints that were not applied: 5
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_crg_unbuf_sys = PERIOD TIMEGRP "crg_un | SETUP       |    -0.400ns|    15.200ns|       1|         400
+  buf_sys" TS_crg_clk100b / 0.833333333     | HOLD        |     0.306ns|            |       0|           0
+       HIGH 50%                             |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_crg_unbuf_sdram_half_a = PERIOD TIMEGR | SETUP       |     0.121ns|     5.837ns|       0|           0
+  P "crg_unbuf_sdram_half_a"         TS_crg | HOLD        |     0.437ns|            |       0|           0
+  _clk100b / 1.66666667 PHASE 4.5 ns HIGH 5 |             |            |            |        |            
+  0%                                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_crg_clk100b = PERIOD TIMEGRP "crg_clk1 | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
+  00b" TSclk100 HIGH 50%                    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_crg_unbuf_sdram_half_b = PERIOD TIMEGR | MINPERIOD   |     3.334ns|     2.666ns|       0|           0
+  P "crg_unbuf_sdram_half_b"         TS_crg |             |            |            |        |            
+  _clk100b / 1.66666667 PHASE 4.5 ns HIGH 5 |             |            |            |        |            
+  0%                                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TSsys_clk = PERIOD TIMEGRP "PRDsys_clk" 1 | MINPERIOD   |     8.430ns|     3.570ns|       0|           0
+  2 ns HIGH 50%                             |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TSclk100 = PERIOD TIMEGRP "PRDclk100" 10  | MINPERIOD   |     8.948ns|     1.052ns|       0|           0
+  ns HIGH 50%                               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_crg_unbuf_sdram_full = PERIOD TIMEGRP  | N/A         |         N/A|         N/A|     N/A|         N/A
+  "crg_unbuf_sdram_full" TS_crg_clk100b     |             |            |            |        |            
+       / 3.33333333 HIGH 50%                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TSclk100
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TSclk100                       |     10.000ns|      1.052ns|     12.667ns|            0|            1|            0|       491267|
+| TS_crg_clk100b                |     10.000ns|      3.334ns|     12.667ns|            0|            1|            0|       491267|
+|  TS_crg_unbuf_sdram_half_b    |      6.000ns|      2.666ns|          N/A|            0|            0|            0|            0|
+|  TS_crg_unbuf_sys             |     12.000ns|     15.200ns|          N/A|            1|            0|       491053|            0|
+|  TS_crg_unbuf_sdram_full      |      3.000ns|          N/A|          N/A|            0|            0|            0|            0|
+|  TS_crg_unbuf_sdram_half_a    |      6.000ns|      5.837ns|          N/A|            0|            0|          214|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+1 constraint not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 mins 42 secs 
+Total CPU time to PAR completion: 1 mins 46 secs 
+
+Peak Memory Usage:  745 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - 1 errors found.
+
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 1
+
+Writing design to file top.ncd
+
+
+
+PAR done!
