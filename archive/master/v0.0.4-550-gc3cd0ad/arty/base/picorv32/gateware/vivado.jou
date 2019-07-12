@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Jul 12 07:00:38 2019
+# Process ID: 23755
+# Current directory: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_picorv32/gateware
+# Command line: vivado -mode batch -source top.tcl
+# Log file: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_picorv32/gateware/vivado.log
+# Journal file: /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_picorv32/gateware/vivado.jou
+#-----------------------------------------------------------
+source top.tcl
