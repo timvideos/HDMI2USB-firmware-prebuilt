@@ -1,0 +1,7 @@
+INFILE=/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_minerva/gateware/top.ncd
+OUTFILE=/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_minerva/gateware/top.bit
+FAMILY=Spartan6
+PART=xc6slx45t-3fgg484
+WORKINGDIR=/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/opsis_net_minerva/gateware
+LICENSE=WebPack
+USER_INFO=210672583_0_0_554
