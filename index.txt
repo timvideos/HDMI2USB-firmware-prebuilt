@@ -182,6 +182,8 @@ ed1841c4b667118bd16548b607bdbf1ab9c22f48e6bf0b5163a363d47a7e5a81  ./opsis/hdmi2u
 087beae2b787a9346ea9eb5ac4585de4869019825dcccdba4f559f121a3ffb3c  ./opsis/hdmi2usb/lm32/unstable.sha256sum
 1f53d9f4577072f96c7607d3f90a73fa7a8b0536372c3a42668271d92e249869  ./opsis/net/lm32.lite/channels.txt
 3fe8b90115994216336c1c39c84a5aabcd4543b4f4bcd8a456afa68290c97312  ./opsis/net/lm32.lite/unstable.sha256sum
+f536a62d5255c0e99a294ea7dbdf1ff75f0a1eaa3d66baec920c1966e0e1a97f  ./opsis/net/lm32.minimal/channels.txt
+1468ba2583a3328ee0bf7ac5f6d6ed4e36fbbc2b8e38d7613cea25f3df551411  ./opsis/net/lm32.minimal/unstable.sha256sum
 cc970faef4a2de54b53ee4dac88719943b71a014d3b76bfd20576325629dc0df  ./opsis/net/lm32/channels.txt
 f0920a15f6fd3174a17170c4f115b1e625aec62a88c1df6a1093816f556ed22e  ./opsis/net/lm32/stable.sha256sum
 9bb903369d50b548424dcd3b7fcfd47328c0d6403ed389abb9a431a68be44f39  ./opsis/net/lm32/testing.sha256sum
