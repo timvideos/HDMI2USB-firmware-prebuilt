@@ -14,6 +14,6 @@ const char* git_branch = "master";
 const char* git_describe = "v0.0.4-552-g793f8c3";
 const char* git_status =
     "    --\r\n"
-
+   "    ?? ../../../../third_party/zephyr/\r\n"
     "    --\r\n";
 
