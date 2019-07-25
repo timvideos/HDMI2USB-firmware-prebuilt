@@ -230,7 +230,7 @@ faed8fa6a87f8d653cf7e166faec9450dc5f952106b6506b275278ca774e6088  ./pipistrello/
 143f38272d77f65d2ad703ed96d6544f1fb23c1d04086cedbc4ae8762de6ce21  ./pipistrello/base/or1k/channels.txt
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 e0f4716d3f9d616d0d483a778803a1bc01a6d72c8070f8d74fd4be72e2207a14  ./pipistrello/base/or1k/unstable.sha256sum
-aad2e02c0cf08fb232fb12dec32cb9111238ea8ed0e2f91233896083a5113f96  ./revs.txt
+dd7fb906320a779dec3977bf5ce17c13997775387e21b8ec5cd04bb4df583dc1  ./revs.txt
 881a41842a41312776a739540c71cde363a3b784c6a7dc85087c19f19bcd9367  ./saturn/base/lm32/channels.txt
 4f5835d81273f2f5c8a94380a4d854afcb0575aa419475916963f801cec89374  ./saturn/base/lm32/unstable.sha256sum
 d11f8ec55fddc9999d227744f1cf4c4ffb6035ec418ce3140eb4457fb032cf76  ./tinyfpga_bx/base/lm32.lite/channels.txt
