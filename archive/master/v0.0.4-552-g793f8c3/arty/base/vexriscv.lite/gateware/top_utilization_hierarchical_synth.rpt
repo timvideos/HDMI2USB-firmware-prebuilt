@@ -1,0 +1,31 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Thu Jul 25 06:44:03 2019
+| Host         : travis-job-d17a53c0-d941-47af-abc3-22c063f6440c running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|          Instance          |      Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                        |            (top) |       3984 |       3838 |     144 |    2 | 3397 |     16 |     21 |            0 |
+|   (top)                    |            (top) |       2177 |       2031 |     144 |    2 | 2402 |     16 |     17 |            0 |
+|   VexRiscv                 |         VexRiscv |       1807 |       1807 |       0 |    0 |  995 |      0 |      4 |            0 |
+|     (VexRiscv)             |         VexRiscv |       1115 |       1115 |       0 |    0 |  899 |      0 |      2 |            0 |
+|     IBusCachedPlugin_cache | InstructionCache |        692 |        692 |       0 |    0 |   96 |      0 |      2 |            0 |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+--------------+
+
+
