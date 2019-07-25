@@ -66,8 +66,8 @@ b6f61c62945d2c9e2729022de9b8b137a7e366e0b9734986e109e351147d25d2  ./atlys/hdmi2u
 573441e1a4bf756c875c100328d92259a825de185cd5450ff70416fdd88bf7ae  ./atlys/net/lm32/unstable.sha256sum
 1221e7a53560051b787b24e9f344b2be10b1f5b044573a87eea98524f42cb9ac  ./atlys/net/mor1kx.linux/channels.txt
 c7a4eae83265d753ebe169cb5aa0ece7b9b82f81d8f4ea3afdfaf6bf7682548c  ./atlys/net/mor1kx.linux/unstable.sha256sum
-3a5f6ca383c9ab85093b0bf3990c46b15a378f35861d2908d6da86b31c6b0023  ./atlys/net/mor1kx/channels.txt
-ff4bc3d0212a5c1de3f641bf21ed023802e11d3fd3a45c79a7520a7c96b2c6d3  ./atlys/net/mor1kx/unstable.sha256sum
+a793b82de3ca013762c0d1a5beb469f3d930449e5d3dd914b8ffab3df92f50fb  ./atlys/net/mor1kx/channels.txt
+64a42407e1c0c0b0ef2724d3c3cbf9f83502899d8461cf33a363837da903beb8  ./atlys/net/mor1kx/unstable.sha256sum
 7d02ef732fa57aab4fc5cb17f1cdffef735222f403541fa2b7d81edd35918178  ./atlys/net/or1k.linux/channels.txt
 a269082deb8980d76a60fbec2fb1b2355eafd8b283285b6bccb9f5d85e988ae3  ./atlys/net/or1k.linux/unstable.sha256sum
 d51df75a7cfafcabb820eb81218800fb7241b83f537a86d6d36ab38207d44b6e  ./atlys/net/or1k/channels.txt
