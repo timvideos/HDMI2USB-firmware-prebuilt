@@ -1,1 +1,1 @@
-unstable v0.0.4-550-gc3cd0ad https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-550-gc3cd0ad/tinyfpga_bx/base/vexriscv.lite/
+unstable v0.0.4-552-g793f8c3 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-552-g793f8c3/tinyfpga_bx/base/vexriscv.lite/
