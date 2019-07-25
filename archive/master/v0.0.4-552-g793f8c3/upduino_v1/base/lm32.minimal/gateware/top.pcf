@@ -1,0 +1,9 @@
+set_io serial_tx 23
+set_io serial_rx 25
+set_io rgb_led0_r 41
+set_io rgb_led0_g 40
+set_io rgb_led0_b 39
+set_io spiflash_cs_n 16
+set_io spiflash_clk 15
+set_io spiflash_mosi 14
+set_io spiflash_miso 17
