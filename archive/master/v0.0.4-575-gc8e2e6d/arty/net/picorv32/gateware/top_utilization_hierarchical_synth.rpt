@@ -1,0 +1,32 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Fri Aug  2 12:18:06 2019
+| Host         : travis-job-b4c22464-d124-414a-98e5-d777b7288423 running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------+-------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|    Instance    |       Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++----------------+-------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top            |             (top) |       5086 |       4812 |     272 |    2 | 4077 |     18 |     27 |            0 |
+|   (top)        |             (top) |       2732 |       2546 |     184 |    2 | 2910 |     18 |     27 |            0 |
+|   picorv32     |          picorv32 |       2354 |       2266 |      88 |    0 | 1167 |      0 |      0 |            0 |
+|     (picorv32) |          picorv32 |       1702 |       1614 |      88 |    0 |  712 |      0 |      0 |            0 |
+|     pcpi_div   | picorv32_pcpi_div |        377 |        377 |       0 |    0 |  200 |      0 |      0 |            0 |
+|     pcpi_mul   | picorv32_pcpi_mul |        275 |        275 |       0 |    0 |  255 |      0 |      0 |            0 |
++----------------+-------------------+------------+------------+---------+------+------+--------+--------+--------------+
+
+
