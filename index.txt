@@ -110,8 +110,8 @@ cf24107caf136dd9f1157fcd3144c2a8469b89923ebbbe248d8dc26d34eca9b0  ./icebreaker/b
 9ad1403a06c8285a99e6357714dea041681b7e804e5ceb151b6072245306efad  ./icebreaker/base/lm32.minimal/unstable.sha256sum
 020e9a38325ca3e4306c302197e7661c3a96b5273415426696247f11e23ab5af  ./icebreaker/base/picorv32.minimal/channels.txt
 871a6507bd9001b239b1959eac604aa9abb07ab3cade0f23348c5ea35f489e8f  ./icebreaker/base/picorv32.minimal/unstable.sha256sum
-d4c3ddc9411b2ff3c8257fcc773a51f9b4851b8fee9b46989a9de04603caa4ad  ./icebreaker/base/vexriscv.lite/channels.txt
-79737fbe1959d373b3124ae22551944de2170ba6a6117bc1aa81e50e6b4ca23e  ./icebreaker/base/vexriscv.lite/unstable.sha256sum
+44ac7dda0a42e83ed054d9e52099a663d540c63a9bd85d1b15a2ae27f0322327  ./icebreaker/base/vexriscv.lite/channels.txt
+58cfc8bb5ba0bb575eb5f471c820490c05aea52cbd004c53971a263e7ada417a  ./icebreaker/base/vexriscv.lite/unstable.sha256sum
 5c9c82452037d5579a76cabebdb2db340180a824ea108a6b74396f5962f793e5  ./mimas_a7/base/lm32/channels.txt
 600976800784153888929b807cff94168cb1a54b0ae4e06d931ab160d0eb4cb3  ./mimas_a7/base/lm32/unstable.sha256sum
 88721db8af1da04465c55a50f49f114c9554b42a6b18ce317238ff0549885a7f  ./mimas_a7/base/mor1kx/channels.txt
