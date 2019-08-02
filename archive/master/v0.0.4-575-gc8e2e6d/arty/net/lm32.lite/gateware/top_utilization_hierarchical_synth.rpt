@@ -1,0 +1,39 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Fri Aug  2 10:51:19 2019
+| Host         : travis-job-c56d5d8a-63f7-49b9-92b3-4082de6df8c8 running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++------------------------------------+--------------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|              Instance              |          Module          | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++------------------------------------+--------------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                                |                    (top) |       4377 |       4143 |     232 |    2 | 3902 |     18 |     29 |            0 |
+|   (top)                            |                    (top) |       2726 |       2540 |     184 |    2 | 2925 |     18 |     27 |            0 |
+|   lm32_cpu                         |                 lm32_cpu |       1651 |       1603 |      48 |    0 |  977 |      0 |      2 |            0 |
+|     (lm32_cpu)                     |                 lm32_cpu |        137 |         89 |      48 |    0 |  334 |      0 |      0 |            0 |
+|     instruction_unit               |    lm32_instruction_unit |        631 |        631 |       0 |    0 |  292 |      0 |      2 |            0 |
+|       (instruction_unit)           |    lm32_instruction_unit |        357 |        357 |       0 |    0 |  247 |      0 |      0 |            0 |
+|       icache                       |              lm32_icache |        274 |        274 |       0 |    0 |   45 |      0 |      2 |            0 |
+|         (icache)                   |              lm32_icache |        193 |        193 |       0 |    0 |   45 |      0 |      0 |            0 |
+|         memories[0].way_0_data_ram |                 lm32_ram |          6 |          6 |       0 |    0 |    0 |      0 |      1 |            0 |
+|         memories[0].way_0_tag_ram  | lm32_ram__parameterized0 |         75 |         75 |       0 |    0 |    0 |      0 |      1 |            0 |
+|     interrupt_unit                 |           lm32_interrupt |         61 |         61 |       0 |    0 |   34 |      0 |      0 |            0 |
+|     load_store_unit                |     lm32_load_store_unit |        435 |        435 |       0 |    0 |  178 |      0 |      0 |            0 |
+|     mc_arithmetic                  |       lm32_mc_arithmetic |        387 |        387 |       0 |    0 |  139 |      0 |      0 |            0 |
++------------------------------------+--------------------------+------------+------------+---------+------+------+--------+--------+--------------+
+
+
