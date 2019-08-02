@@ -1,0 +1,35 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Fri Aug  2 11:07:29 2019
+| Host         : travis-job-92b1085a-3d8a-4209-95b7-f9a45db2ed84 running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_place.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Fully Placed
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------+-----------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|       Instance       |         Module        | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++----------------------+-----------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                  |                 (top) |       3659 |       3465 |     192 |    2 | 3305 |     16 |     17 |            0 |
+|   (top)              |                 (top) |       2178 |       2032 |     144 |    2 | 2404 |     16 |     17 |            0 |
+|   lm32_cpu           |              lm32_cpu |       1482 |       1434 |      48 |    0 |  901 |      0 |      0 |            0 |
+|     (lm32_cpu)       |              lm32_cpu |        138 |         90 |      48 |    0 |  334 |      0 |      0 |            0 |
+|     instruction_unit | lm32_instruction_unit |        476 |        476 |       0 |    0 |  216 |      0 |      0 |            0 |
+|     interrupt_unit   |        lm32_interrupt |         39 |         39 |       0 |    0 |   34 |      0 |      0 |            0 |
+|     load_store_unit  |  lm32_load_store_unit |        442 |        442 |       0 |    0 |  178 |      0 |      0 |            0 |
+|     mc_arithmetic    |    lm32_mc_arithmetic |        387 |        387 |       0 |    0 |  139 |      0 |      0 |            0 |
++----------------------+-----------------------+------------+------------+---------+------+------+--------+--------+--------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
