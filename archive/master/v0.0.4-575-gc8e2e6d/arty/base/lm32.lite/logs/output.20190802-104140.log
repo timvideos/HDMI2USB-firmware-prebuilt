@@ -1,0 +1,149 @@
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/libcompiler_rt'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/libcompiler_rt'
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/libbase'
+ CC       exception.o
+ CC       system.o
+ CC       id.o
+ CC       uart.o
+ CC       time.o
+ CC       spiflash.o
+ AR       libbase.a
+ AR       libbase-nofloat.a
+make[1]: Leaving directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/libbase'
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/libnet'
+ CC       microudp.o
+ AR       libnet.a
+make[1]: Leaving directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/libnet'
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/bios'
+ CC       isr.o
+ CC       sdram.o
+ CC       main.o
+ CC       boot.o
+ LD       bios.elf
+chmod -x bios.elf
+ OBJCOPY  bios.bin
+chmod -x bios.bin
+python -m litex.soc.software.mkmscimg bios.bin
+make[1]: Leaving directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/bios'
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/uip'
+ CC       clock-arch.o
+ CC       liteethmac-drv.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:33:25: warning: 'txbuffer1' defined but not used [-Wunused-variable]
+   33 | static ethernet_buffer *txbuffer1;
+      |                         ^~~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:32:25: warning: 'txbuffer0' defined but not used [-Wunused-variable]
+   32 | static ethernet_buffer *txbuffer0;
+      |                         ^~~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:31:25: warning: 'txbuffer' defined but not used [-Wunused-variable]
+   31 | static ethernet_buffer *txbuffer;
+      |                         ^~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:30:21: warning: 'txlen' defined but not used [-Wunused-variable]
+   30 | static unsigned int txlen;
+      |                     ^~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:29:21: warning: 'txslot' defined but not used [-Wunused-variable]
+   29 | static unsigned int txslot;
+      |                     ^~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:28:25: warning: 'rxbuffer1' defined but not used [-Wunused-variable]
+   28 | static ethernet_buffer *rxbuffer1;
+      |                         ^~~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:27:25: warning: 'rxbuffer0' defined but not used [-Wunused-variable]
+   27 | static ethernet_buffer *rxbuffer0;
+      |                         ^~~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:26:25: warning: 'rxbuffer' defined but not used [-Wunused-variable]
+   26 | static ethernet_buffer *rxbuffer;
+      |                         ^~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:25:21: warning: 'rxlen' defined but not used [-Wunused-variable]
+   25 | static unsigned int rxlen;
+      |                     ^~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/uip/liteethmac-drv.c:24:21: warning: 'rxslot' defined but not used [-Wunused-variable]
+   24 | static unsigned int rxslot;
+      |                     ^~~~~~
+ AR       libuip.a
+make[1]: Leaving directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/uip'
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/firmware'
+ CC       bist.o
+ CC       ci.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: In function 'status_short_print':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:368:15: warning: unused variable 'underflows' [-Wunused-variable]
+  368 |  unsigned int underflows;
+      |               ^~~~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c: In function 'status_print':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:467:15: warning: unused variable 'underflows' [-Wunused-variable]
+  467 |  unsigned int underflows;
+      |               ^~~~~~~~~~
+At top level:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ci.c:992:21: warning: 'log2' defined but not used [-Wunused-function]
+  992 | static unsigned int log2(unsigned int v)
+      |                     ^~~~
+ CC       config.o
+ CC       encoder.o
+ CC       etherbone.o
+ CC       ethernet.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ethernet.c:13:12: warning: 'uip_arp_period' defined but not used [-Wunused-variable]
+   13 | static int uip_arp_period;
+      |            ^~~~~~~~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ethernet.c:12:12: warning: 'uip_arp_event' defined but not used [-Wunused-variable]
+   12 | static int uip_arp_event;
+      |            ^~~~~~~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ethernet.c:10:12: warning: 'uip_periodic_period' defined but not used [-Wunused-variable]
+   10 | static int uip_periodic_period;
+      |            ^~~~~~~~~~~~~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/ethernet.c:9:12: warning: 'uip_periodic_event' defined but not used [-Wunused-variable]
+    9 | static int uip_periodic_event;
+      |            ^~~~~~~~~~~~~~~~~~
+ CC       fx2.o
+ CC       hdmi_in0.o
+ CC       hdmi_out0.o
+ CC       hdmi_out1.o
+ CC       heartbeat.o
+ CC       isr.o
+ CC       main.o
+ CC       mdio.o
+ CC       mmcm.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/mmcm.c: In function 'mmcm_dump_all':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/mmcm.c:110:6: warning: unused variable 'i' [-Wunused-variable]
+  110 |  int i;
+      |      ^
+ CC       oled.o
+ CC       opsis_eeprom.o
+bash /home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/version_data.sh
+# Check the version files exist
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/include/../..//software/firmware/version_data.h ]
+[ -e /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/include/../..//software/firmware/version_data.c ]
+ CC       pattern.o
+ CC       pll.o
+ CC       processor.o
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: In function 'fb_set_mode':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:529:15: warning: unused variable 'hdmi_out1_enabled' [-Wunused-variable]
+  529 |  unsigned int hdmi_out1_enabled;
+      |               ^~~~~~~~~~~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:528:15: warning: unused variable 'hdmi_out0_enabled' [-Wunused-variable]
+  528 |  unsigned int hdmi_out0_enabled;
+      |               ^~~~~~~~~~~~~~~~~
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c: In function 'processor_service':
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:771:29: warning: unused variable 'm' [-Wunused-variable]
+  771 |  const struct video_timing *m = &video_modes[processor_mode];
+      |                             ^
+At top level:
+/home/travis/build/timvideos/HDMI2USB-litex-firmware/firmware/processor.c:446:13: warning: 'fb_clkgen_write' defined but not used [-Wunused-function]
+  446 | static void fb_clkgen_write(int m, int d)
+      |             ^~~~~~~~~~~~~~~
+ CC       reboot.o
+ CC       stdio_wrap.o
+ CC       tofe_eeprom.o
+ CC       uptime.o
+ CC       version.o
+ CC       /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/include/../..//software/firmware/hdmi_in1.o
+ LD       firmware.elf
+chmod -x firmware.elf
+ OBJCOPY  firmware.bin
+chmod -x firmware.bin
+python -m litex.soc.software.mkmscimg -f firmware.bin -o firmware.fbi
+make[1]: Leaving directory '/home/travis/build/timvideos/HDMI2USB-litex-firmware/build/arty_base_lm32.lite/software/firmware'
