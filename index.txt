@@ -17,8 +17,8 @@ a9d39880231e32223b1745994d34c204cf038e96c522ba488b98dba56e9b9fa3  ./arty/base/or
 f53da9b0d3a4bc4aa27d7335b0aac2e303707f8f48a18108ab9e95f1eb349ebd  ./arty/base/or1k/unstable.sha256sum
 41160b2c6e386ecc8406e72f52159b980ae84bec1f96d4ce73214059c96a32dc  ./arty/base/picorv32.minimal/channels.txt
 dc2ebf1b09390c6c188f4ed047aa25dd7a2b113adf111939cc74347410b0f363  ./arty/base/picorv32.minimal/unstable.sha256sum
-bb5c071e8037a5529a7612cf319ce23a56cdfb439b663ab5b79dc994dc8a0f1d  ./arty/base/picorv32/channels.txt
-25843b31ab818630a63d85080903fbf35f38e44b82c52b703e23f0229648069c  ./arty/base/picorv32/unstable.sha256sum
+6cd238c4b40907a14aae027197612c8a68d4627e1cc41468ebe90a07e776cc33  ./arty/base/picorv32/channels.txt
+cf9c9a72d269f91f2a34d87d20817a0330936c84ef3f2b7638da482300fb7b2e  ./arty/base/picorv32/unstable.sha256sum
 1a2160790e90e03e806c18ae8725265af807d27cee16c21d4d07b167228dc7d6  ./arty/base/vexriscv.lite/channels.txt
 2938bab33ec92cda112f19edcb305f8d3468728eb6248de8807501d5a42d53fe  ./arty/base/vexriscv.lite/unstable.sha256sum
 b3f5d71cdb7c0e112dee5036d24d0cb1b1dbb674e5218bec3af9c203e487ec1c  ./arty/base/vexriscv/channels.txt
