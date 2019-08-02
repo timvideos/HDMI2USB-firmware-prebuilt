@@ -239,8 +239,8 @@ a4e051d0fec1e9cf5586da130e942978aa1f71717820dcdbf0a9d9c1f2036a9a  ./pipistrello/
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 e0f4716d3f9d616d0d483a778803a1bc01a6d72c8070f8d74fd4be72e2207a14  ./pipistrello/base/or1k/unstable.sha256sum
 93b192777e11b9fd1a03b615aff82dcf3acdf306c307f9cfaab6ca0198ad1431  ./revs.txt
-647098d0345d6ccfa8040aa9b9f205d25905956aee433b2734304a3b1c67bc49  ./saturn/base/lm32/channels.txt
-d58569917738772cda0226945c35acbc3dfdfa25532ea2432e80c6def5ba4a93  ./saturn/base/lm32/unstable.sha256sum
+ada7baff5a4326e2ec80e117a42c53ac0453d88788cc722ca0632c3e07d9d4ff  ./saturn/base/lm32/channels.txt
+c8cb0e2457bdddd4333e9823776523b05f3d7930467f2fc67e5801badd3a8c59  ./saturn/base/lm32/unstable.sha256sum
 893900b20fc2ecd558804aea72045a8321cc9ac8dd0bba40224ddc5918ddbd25  ./tinyfpga_bx/base/lm32.lite/channels.txt
 00eec39d9dd947492123e3dee304a5ade6a76fd649c7e9e1d9945348d00819d2  ./tinyfpga_bx/base/lm32.lite/unstable.sha256sum
 7871657108e64a593b3ce34b9aadfa44c7e26642e0f14dbe483d8549e8c54764  ./tinyfpga_bx/base/lm32.minimal/channels.txt
