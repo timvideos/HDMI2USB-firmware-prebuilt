@@ -35,8 +35,8 @@ e227b9c4f6db327e20d5492e70213da5240fd822488ea9ef963b6e00d5f47e34  ./arty/net/lm3
 98a7d0995f58ad649b04dfa51b969a41facc6cd4f5e481b7d9583c4c9e7d712a  ./arty/net/minerva/unstable.sha256sum
 e7d6940cc44f9eaae492b9bd97539cfdb9d6dd42ed824fbbd9e5d5248eeb72c8  ./arty/net/mor1kx.linux/channels.txt
 3ef5cbb20ea47ccac964a6c757bd714e47dc3752d58b840b4f92931b1d501407  ./arty/net/mor1kx.linux/unstable.sha256sum
-53e8bd06ff9cbab55df184fe7a4cff1b6b4bb1f04751e6795f95c2a1360f9880  ./arty/net/mor1kx/channels.txt
-71d8970ead7a7b444c2e4a67876a41e3900de59e1a26af3499e594b76b101e49  ./arty/net/mor1kx/unstable.sha256sum
+5112732c4ac494fab95a87fccb2cd8369203a429457c8b333ca25ae34b66a9cf  ./arty/net/mor1kx/channels.txt
+b503b5f75aacdf709432e4e32182248eaac30f54e04ccd1ab1fd6efd2ce7449f  ./arty/net/mor1kx/unstable.sha256sum
 713f4ce6fb98a458e251e0dd532ae2a002b7bdfe7587fe0adecf4f31d277fef5  ./arty/net/or1k.linux/channels.txt
 c10b619c8bd3dea37c5c726d0d3ebe99ee104841db409ef6d0771610b8dbed7f  ./arty/net/or1k.linux/testing.sha256sum
 1d302f04fed85a4fd4f464338bf51ad022f8ee83163866b34a0f259d3281fb19  ./arty/net/or1k.linux/unstable.sha256sum
