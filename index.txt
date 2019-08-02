@@ -184,8 +184,8 @@ aaf5210f367a67b8b008a7ce5f50f32b8eb21c91fd5296171b4bcaa1f4823e18  ./opsis/base/l
 ae9c4354d398df8cb688c438c52a93e9377738fb094bdadd40abc72443bcce6a  ./opsis/base/lm32/stable.sha256sum
 a15b321a7fe62bb5a631280d1b5c3a4f32bc8ab2a461e6993a7ed7a5caed6112  ./opsis/base/lm32/testing.sha256sum
 174212491e1ee52876083c26d6765f39ff19314bd18a75599d1ecb4018f96597  ./opsis/base/lm32/unstable.sha256sum
-5d2383977f63b868dd9e66368d61c6a0128f42c033c431c99e8524e2e439aa19  ./opsis/base/minerva/channels.txt
-a4c2623392e6e9e233865b275f11a7c422dc205ce2dbcfee53ad55d8db3306cb  ./opsis/base/minerva/unstable.sha256sum
+295590ce98e364837c73ea5e2a7de9ce4a44c9fbe48b3666e47dd429269612ee  ./opsis/base/minerva/channels.txt
+c042b6fb9b61f8fc9bc859db179d52a55d3fb7b327e9352f8aa6c687c9b3ce2b  ./opsis/base/minerva/unstable.sha256sum
 ff474874621f9f9ad66bb094bc88bdec8581ee98b58cabffe9f744946f3e66e2  ./opsis/base/mor1kx/channels.txt
 5424c812249a4888b10c25066e2326b5941b01d978c9bffdd71e84f92b5d7c98  ./opsis/base/mor1kx/unstable.sha256sum
 505a7fc86a0306666d39cc5393655f657d8a2e786a5f501bfd010f017bb78851  ./opsis/base/or1k/channels.txt
