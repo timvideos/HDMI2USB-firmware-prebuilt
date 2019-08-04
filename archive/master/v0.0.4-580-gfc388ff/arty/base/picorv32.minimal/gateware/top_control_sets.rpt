@@ -1,0 +1,241 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Sun Aug  4 03:39:24 2019
+| Host         : travis-job-ab4c7ca6-c4ad-4ef2-8497-417e79867c46 running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_control_sets -verbose -file top_control_sets.rpt
+| Design       : top
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   170 |
+| Unused register locations in slices containing registers |   329 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             173 |           95 |
+| No           | No                    | Yes                    |               4 |            2 |
+| No           | Yes                   | No                     |             887 |          308 |
+| Yes          | No                    | No                     |             212 |           78 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            1611 |          539 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------+--------------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+| Clock Signal |                               Enable Signal                              |                      Set/Reset Signal                     | Slice Load Count | Bel Load Count |
++--------------+--------------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|  sys_clk     | spiflash_i_i_1_n_0                                                       | sys_rst                                                   |                1 |              1 |
+|  clk200_clk  |                                                                          |                                                           |                1 |              1 |
+|  sys_clk     | basesoc_sdram_tfawcon_ready_reg019_in                                    | basesoc_sdram_tfawcon_ready_i_1_n_0                       |                1 |              1 |
+|  sys_clk     | serial_tx_i_1_n_0                                                        | sys_rst                                                   |                1 |              1 |
+|  sys_clk     |                                                                          | basesoc_sdram_tccdcon_ready_i_1_n_0                       |                1 |              1 |
+|  clk200_clk  |                                                                          | xilinxasyncresetsynchronizerimpl0                         |                1 |              2 |
+|  sys_clk     |                                                                          | xilinxasyncresetsynchronizerimpl0                         |                1 |              2 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine6_cmd_buffer_lookahead_level_reg[3][0] | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | eventmanager_storage_full[3]_i_1_n_0                                     | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | basesoc_uart_tx_fifo_syncfifo_re                                         | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | bankmachine2_next_state                                                  | sys_rst                                                   |                2 |              4 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine0_cmd_buffer_lookahead_level_reg[3][0] | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | bankmachine7_next_state                                                  | sys_rst                                                   |                2 |              4 |
+|  sys_clk     | basesoc_sdram_time1[3]_i_1_n_0                                           | sys_rst                                                   |                2 |              4 |
+|  sys_clk     | leds_storage_full[3]_i_1_n_0                                             | sys_rst                                                   |                2 |              4 |
+|  sys_clk     | bankmachine6_next_state                                                  | sys_rst                                                   |                2 |              4 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine7_cmd_buffer_lookahead_level_reg[3][0] | sys_rst                                                   |                2 |              4 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine3_cmd_buffer_lookahead_level_reg[3][0] | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine2_cmd_buffer_lookahead_level_reg[3][0] | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | basesoc_uart_phy_sink_ready1349_out                                      | basesoc_uart_phy_tx_bitcount[3]_i_1_n_0                   |                1 |              4 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine5_cmd_buffer_lookahead_level_reg[3][0] | sys_rst                                                   |                2 |              4 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine4_cmd_buffer_lookahead_level_reg[3][0] | sys_rst                                                   |                2 |              4 |
+|  sys_clk     | bankmachine0_next_state                                                  | sys_rst                                                   |                2 |              4 |
+|  sys_clk     | bankmachine5_next_state                                                  | sys_rst                                                   |                2 |              4 |
+|  sys_clk     | basesoc_uart_rx_fifo_syncfifo_re                                         | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | basesoc_uart_rx_fifo_wrport_we                                           | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | picorv32/is_lui_auipc_jal_jalr_addi_add_sub0                             | picorv32/instr_lbu_i_1_n_0                                |                2 |              4 |
+|  sys_clk     | basesoc_uart_tx_fifo_wrport_we                                           | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | basesoc_csrbankarray_csrbank5_bitbang0_re                                | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | bankmachine4_next_state                                                  | sys_rst                                                   |                3 |              4 |
+|  sys_clk     | bankmachine1_next_state                                                  | sys_rst                                                   |                1 |              4 |
+|  sys_clk     | basesoc_uart_phy_rx_bitcount                                             | basesoc_uart_phy_rx_bitcount[3]_i_1_n_0                   |                1 |              4 |
+|  sys_clk     | bankmachine3_next_state                                                  | sys_rst                                                   |                2 |              4 |
+|  clk200_clk  | reset_counter[3]_i_1_n_0                                                 | clk200_rst                                                |                1 |              4 |
+|  sys_clk     | multiplexer_next_state                                                   | sys_rst                                                   |                2 |              4 |
+|  sys_clk     |                                                                          | basesoc_csrbankarray_interface5_bank_bus_dat_r[3]_i_1_n_0 |                3 |              4 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine1_cmd_buffer_lookahead_level_reg[3][0] | sys_rst                                                   |                1 |              4 |
+|  sys_clk     |                                                                          | basesoc_csrbankarray_interface0_bank_bus_dat_r[3]_i_1_n_0 |                2 |              4 |
+|  sys_clk     | basesoc_uart_rx_fifo_level0[4]_i_1_n_0                                   | sys_rst                                                   |                2 |              5 |
+|  sys_clk     | basesoc_csrbankarray_csrbank2_half_sys8x_taps0_re                        | sys_rst                                                   |                3 |              5 |
+|  sys_clk     | basesoc_sdram_storage_full[3]_i_1_n_0                                    | sys_rst                                                   |                2 |              5 |
+|  sys_clk     | basesoc_sdram_time0[4]_i_1_n_0                                           | sys_rst                                                   |                2 |              5 |
+|  sys_clk     | picorv32/latched_rd[4]_i_1_n_0                                           |                                                           |                2 |              5 |
+|  sys_clk     | picorv32/instr_lui0                                                      | picorv32/decoded_rs1[0]_i_1_n_0                           |                1 |              5 |
+|  sys_clk     | basesoc_uart_tx_fifo_level0[4]_i_1_n_0                                   | sys_rst                                                   |                1 |              5 |
+|  sys_clk     |                                                                          | basesoc_csrbankarray_interface2_bank_bus_dat_r[4]_i_1_n_0 |                2 |              5 |
+|  sys_clk     | basesoc_sdram_generator_counter                                          | sys_rst                                                   |                1 |              6 |
+|  sys_clk     | basesoc_sdram_phaseinjector0_address_storage_full[13]_i_1_n_0            | sys_rst                                                   |                1 |              6 |
+|  sys_clk     | basesoc_csrbankarray_csrbank4_dfii_pi3_command0_re                       | sys_rst                                                   |                2 |              6 |
+|  sys_clk     | basesoc_csrbankarray_csrbank4_dfii_pi2_command0_re                       | sys_rst                                                   |                2 |              6 |
+|  sys_clk     | basesoc_sdram_phaseinjector3_address_storage_full[13]_i_1_n_0            | sys_rst                                                   |                1 |              6 |
+|  sys_clk     | basesoc_sdram_phaseinjector2_address_storage_full[13]_i_1_n_0            | sys_rst                                                   |                1 |              6 |
+|  sys_clk     | basesoc_sdram_phaseinjector0_command_storage_full[5]_i_1_n_0             | sys_rst                                                   |                4 |              6 |
+|  sys_clk     | basesoc_sdram_phaseinjector1_address_storage_full[13]_i_1_n_0            | sys_rst                                                   |                1 |              6 |
+|  sys_clk     | basesoc_csrbankarray_csrbank4_dfii_pi1_command0_re                       | sys_rst                                                   |                3 |              6 |
+|  sys_clk     | picorv32/cpu_state[7]_i_1_n_0                                            | picorv32/mem_state2                                       |                2 |              7 |
+|  sys_clk     | dna_cnt[6]_i_1_n_0                                                       | sys_rst                                                   |                3 |              7 |
+|  sys_clk     | basesoc_timer0_reload_storage_full[15]_i_1_n_0                           | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector0_wrdata_storage_full[23]_i_1_n_0             | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_uart_phy_source_payload_data[7]_i_1_n_0                          | sys_rst                                                   |                1 |              8 |
+|  sys_clk     | p_3_out[23]                                                              | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_timer0_load_storage_full[7]_i_1_n_0                              | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | picorv32/E[0]                                                            | sys_rst                                                   |                4 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector0_wrdata_storage_full[15]_i_1_n_0             | sys_rst                                                   |                5 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector0_address_storage_full[7]_i_1_n_0             | sys_rst                                                   |                4 |              8 |
+|  sys_clk     | basesoc_uart_phy_tx_reg[7]_i_1_n_0                                       | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_ctrl_storage_full[15]_i_1_n_0                                    | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_timer0_reload_storage_full[23]_i_1_n_0                           | sys_rst                                                   |                3 |              8 |
+|  sys_clk     |                                                                          | basesoc_csrbankarray_interface1_bank_bus_dat_r[7]_i_1_n_0 |                4 |              8 |
+|  sys_clk     | p_3_out[7]                                                               | sys_rst                                                   |                1 |              8 |
+|  sys_clk     | p_3_out[15]                                                              | sys_rst                                                   |                1 |              8 |
+|  sys_clk     | p_3_out[31]                                                              | sys_rst                                                   |                1 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector3_address_storage_full[7]_i_1_n_0             | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | spiflash_i                                                               | sys_rst                                                   |                3 |              8 |
+|  sys_clk     |                                                                          | basesoc_csrbankarray_interface8_bank_bus_dat_r[7]_i_1_n_0 |                3 |              8 |
+|  sys_clk     |                                                                          | basesoc_csrbankarray_interface3_bank_bus_dat_r[7]_i_1_n_0 |                6 |              8 |
+|  sys_clk     |                                                                          | basesoc_csrbankarray_interface4_bank_bus_dat_r[7]_i_1_n_0 |                7 |              8 |
+|  sys_clk     |                                                                          | basesoc_csrbankarray_interface6_bank_bus_dat_r[7]_i_1_n_0 |                5 |              8 |
+|  sys_clk     | basesoc_uart_rx_fifo_syncfifo_re                                         |                                                           |                2 |              8 |
+|  sys_clk     |                                                                          | basesoc_csrbankarray_interface7_bank_bus_dat_r[7]_i_1_n_0 |                3 |              8 |
+|  sys_clk     | basesoc_timer0_load_storage_full[15]_i_1_n_0                             | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_timer0_reload_storage_full[7]_i_1_n_0                            | sys_rst                                                   |                4 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector0_wrdata_storage_full[31]_i_1_n_0             | sys_rst                                                   |                4 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector2_wrdata_storage_full[7]_i_1_n_0              | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector1_wrdata_storage_full[7]_i_1_n_0              | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_uart_tx_fifo_syncfifo_re                                         |                                                           |                2 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector2_wrdata_storage_full[31]_i_1_n_0             | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector2_wrdata_storage_full[15]_i_1_n_0             | sys_rst                                                   |                6 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector2_wrdata_storage_full[23]_i_1_n_0             | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector2_address_storage_full[7]_i_1_n_0             | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_ctrl_storage_full[7]_i_1_n_0                                     | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_ctrl_storage_full[23]_i_1_n_0                                    | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_uart_phy_rx_reg                                                  | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector3_wrdata_storage_full[31]_i_1_n_0             | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_timer0_reload_storage_full[31]_i_1_n_0                           | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector3_wrdata_storage_full[7]_i_1_n_0              | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector0_wrdata_storage_full[7]_i_1_n_0              | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector1_wrdata_storage_full[31]_i_1_n_0             | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector1_wrdata_storage_full[23]_i_1_n_0             | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector1_wrdata_storage_full[15]_i_1_n_0             | sys_rst                                                   |                4 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector1_address_storage_full[7]_i_1_n_0             | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_timer0_load_storage_full[31]_i_1_n_0                             | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_timer0_load_storage_full[23]_i_1_n_0                             | sys_rst                                                   |                2 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector3_wrdata_storage_full[15]_i_1_n_0             | sys_rst                                                   |                4 |              8 |
+|  sys_clk     | basesoc_ctrl_storage_full[31]_i_1_n_0                                    | sys_rst                                                   |                3 |              8 |
+|  sys_clk     | basesoc_sdram_phaseinjector3_wrdata_storage_full[23]_i_1_n_0             | sys_rst                                                   |                4 |              8 |
+|  sys_clk     | basesoc_sdram_timer_count[9]_i_2_n_0                                     | basesoc_sdram_timer_count[9]_i_1_n_0                      |                3 |             10 |
+|  sys_clk     | vccbram_status                                                           | sys_rst                                                   |                3 |             12 |
+|  sys_clk     | vccaux_status                                                            | sys_rst                                                   |                3 |             12 |
+|  sys_clk     | temperature_status                                                       | sys_rst                                                   |                4 |             12 |
+|  sys_clk     | vccint_status                                                            | sys_rst                                                   |                5 |             12 |
+|  sys_clk     | basesoc_sdram_bankmachine5_row                                           | sys_rst                                                   |                4 |             14 |
+|  sys_clk     | basesoc_sdram_bankmachine4_row                                           | sys_rst                                                   |                3 |             14 |
+|  sys_clk     | basesoc_sdram_bankmachine7_row                                           | sys_rst                                                   |                4 |             14 |
+|  sys_clk     | basesoc_sdram_bankmachine0_row[13]_i_1_n_0                               | sys_rst                                                   |                3 |             14 |
+|  sys_clk     | basesoc_sdram_bankmachine3_row                                           | sys_rst                                                   |                4 |             14 |
+|  sys_clk     | basesoc_sdram_bankmachine2_row                                           | sys_rst                                                   |                3 |             14 |
+|  sys_clk     | basesoc_sdram_bankmachine1_row                                           | sys_rst                                                   |                3 |             14 |
+|  sys_clk     | basesoc_sdram_bankmachine6_row                                           | sys_rst                                                   |                3 |             14 |
+|  sys_clk     | picorv32/mem_rdata_q[24]_i_2_n_0                                         | picorv32/mem_rdata_q[24]_i_1_n_0                          |                7 |             15 |
+|  sys_clk     | basesoc_uart_tx_fifo_wrport_we                                           |                                                           |                2 |             16 |
+|  sys_clk     | basesoc_uart_rx_fifo_wrport_we                                           |                                                           |                2 |             16 |
+|  sys_clk     |                                                                          | picorv32/mem_state2                                       |               13 |             19 |
+|  sys_clk     | eventsourceprocess0_trigger                                              | waittimer0_count[0]_i_1_n_0                               |                5 |             20 |
+|  sys_clk     | eventsourceprocess3_trigger                                              | waittimer3_count[0]_i_1_n_0                               |                5 |             20 |
+|  sys_clk     | picorv32/mem_rdata_q_reg[24]_0                                           | picorv32/basesoc_count_reg_19_sn_1                        |                5 |             20 |
+|  sys_clk     | eventsourceprocess2_trigger                                              | waittimer2_count[0]_i_1_n_0                               |                5 |             20 |
+|  sys_clk     | picorv32/is_lui_auipc_jal_jalr_addi_add_sub0                             | picorv32/decoded_imm[31]_i_1_n_0                          |                8 |             20 |
+|  sys_clk     | eventsourceprocess1_trigger                                              | waittimer1_count[0]_i_1_n_0                               |                5 |             20 |
+|  sys_clk     | picorv32/is_lui_auipc_jal_jalr_addi_add_sub0                             | picorv32/mem_state2                                       |                6 |             22 |
+|  sys_clk     | spiflash_sr[31]_i_1_n_0                                                  | sys_rst                                                   |               13 |             22 |
+|  sys_clk     | basesoc_sdram_bankmachine4_cmd_buffer_pipe_ce                            | sys_rst                                                   |                7 |             23 |
+|  sys_clk     | basesoc_sdram_bankmachine0_cmd_buffer_pipe_ce                            | sys_rst                                                   |                6 |             23 |
+|  sys_clk     | basesoc_sdram_bankmachine1_cmd_buffer_pipe_ce                            | sys_rst                                                   |                5 |             23 |
+|  sys_clk     | basesoc_sdram_bankmachine6_cmd_buffer_pipe_ce                            | sys_rst                                                   |                7 |             23 |
+|  sys_clk     | basesoc_sdram_bankmachine2_cmd_buffer_pipe_ce                            | sys_rst                                                   |                8 |             23 |
+|  sys_clk     | basesoc_sdram_bankmachine5_cmd_buffer_pipe_ce                            | sys_rst                                                   |                7 |             23 |
+|  sys_clk     | basesoc_sdram_bankmachine3_cmd_buffer_pipe_ce                            | sys_rst                                                   |                7 |             23 |
+|  sys_clk     | basesoc_sdram_bankmachine7_cmd_buffer_pipe_ce                            | sys_rst                                                   |                5 |             23 |
+|  sys_clk     | basesoc_sdram_bandwidth_nreads                                           | basesoc_sdram_bandwidth_nwrites                           |                6 |             24 |
+|  sys_clk     | a7ddrphy_bitslip0_value                                                  | a7ddrphy_bitslip7_value                                   |               12 |             24 |
+|  sys_clk     | a7ddrphy_bitslip8_value                                                  | a7ddrphy_bitslip15_value                                  |                8 |             24 |
+|  sys_clk     | basesoc_sdram_bandwidth_nwrites[0]_i_1_n_0                               | basesoc_sdram_bandwidth_nwrites                           |                6 |             24 |
+|  sys_clk     | picorv32/is_lui_auipc_jal_jalr_addi_add_sub0                             |                                                           |               11 |             25 |
+|  sys_clk     |                                                                          | basesoc_uart_phy_phase_accumulator_rx[30]_i_1_n_0         |                8 |             31 |
+|  sys_clk     | picorv32/reg_op2[31]_i_1_n_0                                             |                                                           |               16 |             32 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine6_cmd_buffer_lookahead_wrport_we__0    |                                                           |                4 |             32 |
+|  sys_clk     | basesoc_ctrl_bus_errors                                                  | sys_rst                                                   |                8 |             32 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine5_cmd_buffer_lookahead_wrport_we__0    |                                                           |                4 |             32 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine3_cmd_buffer_lookahead_wrport_we__0    |                                                           |                4 |             32 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine7_cmd_buffer_lookahead_wrport_we__0    |                                                           |                4 |             32 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine1_cmd_buffer_lookahead_wrport_we__0    |                                                           |                4 |             32 |
+|  sys_clk     | picorv32/reg_op1[31]_i_1_n_0                                             |                                                           |               15 |             32 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine4_cmd_buffer_lookahead_wrport_we__0    |                                                           |                4 |             32 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine2_cmd_buffer_lookahead_wrport_we__0    |                                                           |                4 |             32 |
+|  sys_clk     | basesoc_timer0_update_value_re                                           | sys_rst                                                   |                8 |             32 |
+|  sys_clk     | picorv32/basesoc_sdram_bankmachine0_cmd_buffer_lookahead_wrport_we__0    |                                                           |                4 |             32 |
+|  sys_clk     | picorv32/mem_wdata[31]_i_1_n_0                                           |                                                           |               10 |             32 |
+|  sys_clk     |                                                                          | basesoc_uart_phy_phase_accumulator_tx[31]_i_1_n_0         |                8 |             32 |
+|  sys_clk     | picorv32/irq_mask                                                        | picorv32/mem_state2                                       |               20 |             32 |
+|  sys_clk     | picorv32/instr_lui0                                                      |                                                           |                7 |             35 |
+|  sys_clk     | picorv32/mem_addr[31]_i_1_n_0                                            |                                                           |               13 |             35 |
+|  sys_clk     | basesoc_sdram_bandwidth_period                                           | sys_rst                                                   |               15 |             48 |
+|  sys_clk     | basesoc_sdram_bandwidth_update_re                                        | sys_rst                                                   |               12 |             48 |
+|  sys_clk     | dna_status                                                               | sys_rst                                                   |               13 |             57 |
+|  sys_clk     | picorv32/cpu_state_reg_n_0_[6]                                           | picorv32/mem_state2                                       |               31 |             60 |
+|  sys_clk     | picorv32/p_0_in__1                                                       |                                                           |               22 |             88 |
+|  sys_clk     | basesoc_sdram_inti_p0_rddata_valid                                       | sys_rst                                                   |               50 |            128 |
+|  sys_clk     |                                                                          |                                                           |               95 |            174 |
+|  sys_clk     |                                                                          | sys_rst                                                   |              243 |            743 |
++--------------+--------------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     5 |
+| 2      |                     2 |
+| 4      |                    31 |
+| 5      |                     8 |
+| 6      |                     9 |
+| 7      |                     2 |
+| 8      |                    49 |
+| 10     |                     1 |
+| 12     |                     4 |
+| 14     |                     8 |
+| 15     |                     1 |
+| 16+    |                    50 |
++--------+-----------------------+
+
+
