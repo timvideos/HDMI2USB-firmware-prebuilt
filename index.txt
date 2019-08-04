@@ -257,8 +257,8 @@ a0b1f40cc3c5337c4d46c87be94581641556ae1271769d9c8d90a4d022e6ee6b  ./tinyfpga_bx/
 fb0f07ff2e830e5ae549cfcd0b1770967e745e7bbfde5c5dc93b57c60d952fce  ./tinyfpga_bx/base/picorv32/unstable.sha256sum
 3a0a72b5476521e28cf00a72223cdeefe4f36dd31eb72e07e92cb8aa6da583ff  ./tinyfpga_bx/base/vexriscv.lite/channels.txt
 1f64551c5804130007a75826435a4f98a14156e90f79443e5bd84c7bf6e2ce89  ./tinyfpga_bx/base/vexriscv.lite/unstable.sha256sum
-f44f20c31a073814809d3f11cd7564560fdcb09c9671c79230fb7426e8b1bd94  ./upduino_v1/base/lm32.lite/channels.txt
-a447ec4ed28ded998b5049c96a6632d08a404cb1a01d9a0e097ef9eab97e6e14  ./upduino_v1/base/lm32.lite/unstable.sha256sum
+b0d7cb62267bcf16e3cf22b59dd4628edcadbe31d9663445601b43eea4c15f6f  ./upduino_v1/base/lm32.lite/channels.txt
+51d11871e49b14d498042c710ae36a87b57cb16add5babd9403f7ee78fece4bf  ./upduino_v1/base/lm32.lite/unstable.sha256sum
 314441f4bf418552a62e2514abe270f92796b552a454174dec368b0b20f2b4e9  ./upduino_v1/base/lm32.minimal/channels.txt
 f8304a4185811a2cbcf8f6d22b7240cbe3cb96d274f299e86cde3339e8aece81  ./upduino_v1/base/lm32.minimal/unstable.sha256sum
 5fe37c6f6013353a56cab185fd888fe1dd8ac8fed55f933a969ae58f75ffc8de  ./upduino_v1/base/vexriscv.lite/channels.txt
