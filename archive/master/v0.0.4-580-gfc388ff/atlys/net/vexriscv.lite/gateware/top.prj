@@ -1,0 +1,2 @@
+verilog work /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/vexriscv/verilog/VexRiscv_Lite.v
+verilog work top.v
