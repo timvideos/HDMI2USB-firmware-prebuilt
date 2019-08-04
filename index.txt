@@ -82,8 +82,8 @@ d51df75a7cfafcabb820eb81218800fb7241b83f537a86d6d36ab38207d44b6e  ./atlys/net/or
 2e9ad284cd6e4dcc22fd58b304b1fc90c105b5ffdb153d78e27d8c2735a7c02d  ./atlys/net/or1k/stable.sha256sum
 f6f4cefb50cfda905dd6e0268911d00612c6be2251a9588938e7f6792db0fe38  ./atlys/net/or1k/testing.sha256sum
 7b92783d7fc19b60661ff1e693a97056a8aab54293c747fc74aa630c6e94e072  ./atlys/net/or1k/unstable.sha256sum
-33b9a5c26c949b9e326b01bc1d110dc8e856282d5deada90c5653c45b1f2ddfb  ./atlys/net/vexriscv.lite/channels.txt
-c89c4e2f964cc5b4ca1c5732d5fcf549f948149a0bcffb3f7cc4e5490198e44a  ./atlys/net/vexriscv.lite/unstable.sha256sum
+e0ca7a6548c26a8d5cc7b29349a1e2f0dde93f438ae0ac75ddaa04bce68212cd  ./atlys/net/vexriscv.lite/channels.txt
+50b79a4e15bd7a2d57d741cd845ec607cbfa6a34c0f3537256c2ee03c0365be0  ./atlys/net/vexriscv.lite/unstable.sha256sum
 5ae31d1930511ad1b41bb844379ebef610b5ab33409b8a66079e504e65ffdbd5  ./atlys/video/lm32/channels.txt
 54899077dd083134cc40b6f27afe9b179508c3c6d04130c81103f8ade6ce61e3  ./atlys/video/lm32/stable.sha256sum
 e5860adbeecdb1fef381e740ad88e376fffc2f9bab7428917168a5d6bdb9b6a3  ./atlys/video/lm32/testing.sha256sum
