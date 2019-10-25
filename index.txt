@@ -152,8 +152,8 @@ d070178ea963bad8dc3ad9b079896f78895e31cf7494901dd2f1d0ac7847c4ef  ./mimasv2/base
 bae74e6b6a657f49cd45959796f56c8abaaf0bd4dd0b2867d50adb9d6ab5ca48  ./minispartan6/base/lm32/stable.sha256sum
 922e836329effd80fb7fee32ead6d6ba5d2c3eabd216401d068607f57b884736  ./minispartan6/base/lm32/testing.sha256sum
 d5bcac12fdcf217c7df9e60f5cf4d73a1078069671579d5a3a49a39905bee76c  ./minispartan6/base/lm32/unstable.sha256sum
-149777c854b4ee589d9801ed23d9a45424db5131596da5b38605222d73d4a15e  ./neso/base/lm32/channels.txt
-c20d50960c3d0cf0f7d08cd4e9679d46b306a8c0e6465ced4eae94f036a522d2  ./neso/base/lm32/unstable.sha256sum
+5a17ac993df351d7fcd17740e93aa8463283afdb8e9b605059108aa099166701  ./neso/base/lm32/channels.txt
+b36e82876b9455c1d0a14ed9032707b1c6c75969c31b9a930d534a46639ed242  ./neso/base/lm32/unstable.sha256sum
 52df768b8461e88d4bc5ef7b2ebc784960c967286f3232e8071fb276d3e53ed4  ./netv2/base/lm32/channels.txt
 d65cbe064bd2d9d1a21101a076c3936062a0a025d921d67ddb8ada1bbf57d03f  ./netv2/base/lm32/stable.sha256sum
 e0879abee7cd64641aa65dac67ed4f62e3eea8b6140cf152981dce56290a86b8  ./netv2/base/lm32/testing.sha256sum
