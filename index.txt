@@ -1,6 +1,6 @@
 13d2e05169888208542bbf712913f25b497df90e9217c94b579d59a0cb892616  ./README.md
-758afef691987e96708a3b3bf1a7c7c6708063b9087bb3d14cdc37a7e67f3c9d  ./arty/base/lm32.lite/channels.txt
-21b617d11e44c00190b2f8a728143a70dfdaf23abdabddd70d81dc971c57a38b  ./arty/base/lm32.lite/unstable.sha256sum
+bfcbbe897e3441b3b1563f6ce48c868e084b5a808f64601aa932b6468881a0b4  ./arty/base/lm32.lite/channels.txt
+a5e8cf234f91c4074b31fb853e9374a6184787856768dc1a9508d8f071008e92  ./arty/base/lm32.lite/unstable.sha256sum
 d5962eac852baaa4789319ec38824f5e2ef6d9444786d3b0f9a602b00e874e31  ./arty/base/lm32.minimal/channels.txt
 6b6ab4bbd3eccdbd849e3880ca6fac551ba66aa68c12226ffa8c8e6c1de814a2  ./arty/base/lm32.minimal/unstable.sha256sum
 993ec7bce77e3ee3f4b7bec02daa3b1dd2ef25e6cbb6c554839667fc850315a4  ./arty/base/lm32/channels.txt
