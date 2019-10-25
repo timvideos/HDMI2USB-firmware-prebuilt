@@ -88,8 +88,8 @@ e0ca7a6548c26a8d5cc7b29349a1e2f0dde93f438ae0ac75ddaa04bce68212cd  ./atlys/net/ve
 54899077dd083134cc40b6f27afe9b179508c3c6d04130c81103f8ade6ce61e3  ./atlys/video/lm32/stable.sha256sum
 e5860adbeecdb1fef381e740ad88e376fffc2f9bab7428917168a5d6bdb9b6a3  ./atlys/video/lm32/testing.sha256sum
 41e08dddda1497db7dfe543a9306e2c6772e45db2b6d83dc9026f74e4fb4d058  ./atlys/video/lm32/unstable.sha256sum
-c4fd28f4d69f073e7a90d91271e7833eeae6c20c44d1ac6e854b8db0401049e6  ./basys3/base/lm32/channels.txt
-8915966111e814a29c164fc49c633c6ed73119bfa8bfa8e1a8f9995c00fd6b6a  ./basys3/base/lm32/unstable.sha256sum
+d97dcc6a6ed39c9db37ab0755357c182bca01fa1e5835cfa32b911a6d67d85d3  ./basys3/base/lm32/channels.txt
+468f63fb929111cb68cd56516377fac76cb7c7987472c1e4f78db02467bf14e8  ./basys3/base/lm32/unstable.sha256sum
 716e4f55eada546d6ccef340c565a0058f63d0184b8548962e4596d2b69de950  ./cmod_a7/base/lm32/channels.txt
 71761550cdf14533e36a91dbe8873f185e6141b5afe84da8a8dc772c1519421f  ./cmod_a7/base/lm32/unstable.sha256sum
 9bbf5077674927c2b37811f814c22a1517759668b89200c1ae67ab2f9f0e9832  ./galatea/base/lm32/channels.txt
@@ -246,7 +246,7 @@ dcf9aa07ceac2f5e828ab2d8970856efc9b80f4e663f1b3a054ffb0eedfb4d86  ./pipistrello/
 143f38272d77f65d2ad703ed96d6544f1fb23c1d04086cedbc4ae8762de6ce21  ./pipistrello/base/or1k/channels.txt
 f3ed04a94772d9a641a954eaaa0097da6de50c95cc5b063bd999cdd949e8ea68  ./pipistrello/base/or1k/testing.sha256sum
 e0f4716d3f9d616d0d483a778803a1bc01a6d72c8070f8d74fd4be72e2207a14  ./pipistrello/base/or1k/unstable.sha256sum
-0dab00ac1bd03dc1dd96753a244b8b4b0d2d2c738539011fe987dc6e2e5382ab  ./revs.txt
+6da51c57c2582906d21c7098e03932d214bf16e7093d3f236a0802c30733effb  ./revs.txt
 1f3f9592e014c7efa9edcda8fe993062e9c57c63df09e33f2551967e789db854  ./saturn/base/lm32/channels.txt
 e84a9ca4694d7a76e8eadf4d55e094bdd6c3f0d3208ec73d21169ebdf568bcd3  ./saturn/base/lm32/unstable.sha256sum
 6b4307ebc594b9d43567b9a98df045a032754150d1caa648e1d40866c988d491  ./tinyfpga_bx/base/lm32.lite/channels.txt
