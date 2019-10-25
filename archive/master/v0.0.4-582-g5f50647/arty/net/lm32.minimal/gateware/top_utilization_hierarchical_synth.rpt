@@ -1,0 +1,34 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Fri Oct 25 07:46:48 2019
+| Host         : travis-job-2b640bf7-789d-4412-a22c-003cbf522238 running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_synth.rpt
+| Design       : top
+| Device       : 7a35tcsg324-1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------+-----------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|       Instance       |         Module        | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++----------------------+-----------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top                  |                 (top) |       4302 |       4068 |     232 |    2 | 3818 |     18 |     27 |            0 |
+|   (top)              |                 (top) |       2723 |       2537 |     184 |    2 | 2917 |     18 |     27 |            0 |
+|   lm32_cpu           |              lm32_cpu |       1579 |       1531 |      48 |    0 |  901 |      0 |      0 |            0 |
+|     (lm32_cpu)       |              lm32_cpu |        137 |         89 |      48 |    0 |  334 |      0 |      0 |            0 |
+|     instruction_unit | lm32_instruction_unit |        548 |        548 |       0 |    0 |  216 |      0 |      0 |            0 |
+|     interrupt_unit   |        lm32_interrupt |         40 |         40 |       0 |    0 |   34 |      0 |      0 |            0 |
+|     load_store_unit  |  lm32_load_store_unit |        467 |        467 |       0 |    0 |  178 |      0 |      0 |            0 |
+|     mc_arithmetic    |    lm32_mc_arithmetic |        387 |        387 |       0 |    0 |  139 |      0 |      0 |            0 |
++----------------------+-----------------------+------------+------------+---------+------+------+--------+--------+--------------+
+
+
