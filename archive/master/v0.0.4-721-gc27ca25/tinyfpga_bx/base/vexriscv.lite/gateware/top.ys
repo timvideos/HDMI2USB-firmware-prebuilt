@@ -1,0 +1,4 @@
+read_verilog /home/travis/build/timvideos/HDMI2USB-litex-firmware/third_party/litex/litex/soc/cores/cpu/vexriscv/verilog/VexRiscv_Lite.v
+read_verilog /home/travis/build/timvideos/HDMI2USB-litex-firmware/build/tinyfpga_bx_base_vexriscv.lite/gateware/top.v
+attrmap -tocase keep -imap keep="true" keep=1 -imap keep="false" keep=0 -remove keep=0
+synth_ice40  -top top -json top.json
