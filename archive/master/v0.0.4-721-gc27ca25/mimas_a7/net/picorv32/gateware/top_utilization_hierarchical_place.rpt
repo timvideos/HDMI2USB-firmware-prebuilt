@@ -1,0 +1,33 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Thu Jan 30 16:35:35 2020
+| Host         : travis-job-1ac68664-093a-4af5-9336-3fc8bba7a6b3 running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_utilization -hierarchical -file top_utilization_hierarchical_place.rpt
+| Design       : top
+| Device       : 7a50tfgg484-1
+| Design State : Fully Placed
+---------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------+-------------------+------------+------------+---------+------+------+--------+--------+--------------+
+|    Instance    |       Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP48 Blocks |
++----------------+-------------------+------------+------------+---------+------+------+--------+--------+--------------+
+| top            |             (top) |       5041 |       4767 |     272 |    2 | 3935 |     28 |     19 |            0 |
+|   (top)        |             (top) |       2089 |       1903 |     184 |    2 | 2793 |     28 |     19 |            0 |
+|   picorv32     |          picorv32 |       2952 |       2864 |      88 |    0 | 1142 |      0 |      0 |            0 |
+|     (picorv32) |          picorv32 |       2280 |       2192 |      88 |    0 |  687 |      0 |      0 |            0 |
+|     pcpi_div   | picorv32_pcpi_div |        398 |        398 |       0 |    0 |  200 |      0 |      0 |            0 |
+|     pcpi_mul   | picorv32_pcpi_mul |        274 |        274 |       0 |    0 |  255 |      0 |      0 |            0 |
++----------------+-------------------+------------+------------+---------+------+------+--------+--------+--------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
