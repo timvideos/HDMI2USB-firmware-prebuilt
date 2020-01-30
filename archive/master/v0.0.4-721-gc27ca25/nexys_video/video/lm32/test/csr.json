@@ -1,0 +1,902 @@
+{
+    "csr_bases": {
+        "ctrl": 2181038080,
+        "ddrphy": 2181060608,
+        "ethmac": 2181072896,
+        "ethphy": 2181070848,
+        "hdmi_in0": 2181076992,
+        "hdmi_in0_freq": 2181079040,
+        "hdmi_out0": 2181074944,
+        "info": 2181062656,
+        "oled": 2181064704,
+        "sdram": 2181054464,
+        "spiflash": 2181058560,
+        "timer0": 2181044224,
+        "uart": 2181066752,
+        "uart_phy": 2181068800,
+        "hdmi_in0_edid_mem": 2181081088,
+        "identifier_mem": 2181042176
+    },
+    "csr_registers": {
+        "ctrl_reset": {
+            "addr": 2181038080,
+            "size": 1,
+            "type": "rw"
+        },
+        "ctrl_scratch": {
+            "addr": 2181038084,
+            "size": 4,
+            "type": "rw"
+        },
+        "ctrl_bus_errors": {
+            "addr": 2181038100,
+            "size": 4,
+            "type": "ro"
+        },
+        "ddrphy_half_sys8x_taps": {
+            "addr": 2181060608,
+            "size": 1,
+            "type": "rw"
+        },
+        "ddrphy_cdly_rst": {
+            "addr": 2181060612,
+            "size": 1,
+            "type": "rw"
+        },
+        "ddrphy_cdly_inc": {
+            "addr": 2181060616,
+            "size": 1,
+            "type": "rw"
+        },
+        "ddrphy_dly_sel": {
+            "addr": 2181060620,
+            "size": 1,
+            "type": "rw"
+        },
+        "ddrphy_rdly_dq_rst": {
+            "addr": 2181060624,
+            "size": 1,
+            "type": "rw"
+        },
+        "ddrphy_rdly_dq_inc": {
+            "addr": 2181060628,
+            "size": 1,
+            "type": "rw"
+        },
+        "ddrphy_rdly_dq_bitslip_rst": {
+            "addr": 2181060632,
+            "size": 1,
+            "type": "rw"
+        },
+        "ddrphy_rdly_dq_bitslip": {
+            "addr": 2181060636,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethmac_sram_writer_slot": {
+            "addr": 2181072896,
+            "size": 1,
+            "type": "ro"
+        },
+        "ethmac_sram_writer_length": {
+            "addr": 2181072900,
+            "size": 4,
+            "type": "ro"
+        },
+        "ethmac_sram_writer_errors": {
+            "addr": 2181072916,
+            "size": 4,
+            "type": "ro"
+        },
+        "ethmac_sram_writer_ev_status": {
+            "addr": 2181072932,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethmac_sram_writer_ev_pending": {
+            "addr": 2181072936,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethmac_sram_writer_ev_enable": {
+            "addr": 2181072940,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethmac_sram_reader_start": {
+            "addr": 2181072944,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethmac_sram_reader_ready": {
+            "addr": 2181072948,
+            "size": 1,
+            "type": "ro"
+        },
+        "ethmac_sram_reader_level": {
+            "addr": 2181072952,
+            "size": 1,
+            "type": "ro"
+        },
+        "ethmac_sram_reader_slot": {
+            "addr": 2181072956,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethmac_sram_reader_length": {
+            "addr": 2181072960,
+            "size": 2,
+            "type": "rw"
+        },
+        "ethmac_sram_reader_ev_status": {
+            "addr": 2181072968,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethmac_sram_reader_ev_pending": {
+            "addr": 2181072972,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethmac_sram_reader_ev_enable": {
+            "addr": 2181072976,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethmac_preamble_crc": {
+            "addr": 2181072980,
+            "size": 1,
+            "type": "ro"
+        },
+        "ethmac_preamble_errors": {
+            "addr": 2181072984,
+            "size": 4,
+            "type": "ro"
+        },
+        "ethmac_crc_errors": {
+            "addr": 2181073000,
+            "size": 4,
+            "type": "ro"
+        },
+        "ethphy_crg_reset": {
+            "addr": 2181070848,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethphy_mdio_w": {
+            "addr": 2181070852,
+            "size": 1,
+            "type": "rw"
+        },
+        "ethphy_mdio_r": {
+            "addr": 2181070856,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_edid_hpd_notif": {
+            "addr": 2181076992,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_edid_hpd_en": {
+            "addr": 2181076996,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_clocking_mmcm_reset": {
+            "addr": 2181077000,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_clocking_locked": {
+            "addr": 2181077004,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_clocking_mmcm_read": {
+            "addr": 2181077008,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_clocking_mmcm_write": {
+            "addr": 2181077012,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_clocking_mmcm_drdy": {
+            "addr": 2181077016,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_clocking_mmcm_adr": {
+            "addr": 2181077020,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_clocking_mmcm_dat_w": {
+            "addr": 2181077024,
+            "size": 2,
+            "type": "rw"
+        },
+        "hdmi_in0_clocking_mmcm_dat_r": {
+            "addr": 2181077032,
+            "size": 2,
+            "type": "ro"
+        },
+        "hdmi_in0_data0_cap_dly_ctl": {
+            "addr": 2181077040,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_data0_cap_phase": {
+            "addr": 2181077044,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data0_cap_phase_reset": {
+            "addr": 2181077048,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_data0_cap_cntvalueout_m": {
+            "addr": 2181077052,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data0_cap_cntvalueout_s": {
+            "addr": 2181077056,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data0_charsync_char_synced": {
+            "addr": 2181077060,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data0_charsync_ctl_pos": {
+            "addr": 2181077064,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data0_wer_update": {
+            "addr": 2181077068,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_data0_wer_value": {
+            "addr": 2181077072,
+            "size": 3,
+            "type": "ro"
+        },
+        "hdmi_in0_data1_cap_dly_ctl": {
+            "addr": 2181077084,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_data1_cap_phase": {
+            "addr": 2181077088,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data1_cap_phase_reset": {
+            "addr": 2181077092,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_data1_cap_cntvalueout_m": {
+            "addr": 2181077096,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data1_cap_cntvalueout_s": {
+            "addr": 2181077100,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data1_charsync_char_synced": {
+            "addr": 2181077104,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data1_charsync_ctl_pos": {
+            "addr": 2181077108,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data1_wer_update": {
+            "addr": 2181077112,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_data1_wer_value": {
+            "addr": 2181077116,
+            "size": 3,
+            "type": "ro"
+        },
+        "hdmi_in0_data2_cap_dly_ctl": {
+            "addr": 2181077128,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_data2_cap_phase": {
+            "addr": 2181077132,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data2_cap_phase_reset": {
+            "addr": 2181077136,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_data2_cap_cntvalueout_m": {
+            "addr": 2181077140,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data2_cap_cntvalueout_s": {
+            "addr": 2181077144,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data2_charsync_char_synced": {
+            "addr": 2181077148,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data2_charsync_ctl_pos": {
+            "addr": 2181077152,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_data2_wer_update": {
+            "addr": 2181077156,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_data2_wer_value": {
+            "addr": 2181077160,
+            "size": 3,
+            "type": "ro"
+        },
+        "hdmi_in0_chansync_channels_synced": {
+            "addr": 2181077172,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_in0_resdetection_hres": {
+            "addr": 2181077176,
+            "size": 2,
+            "type": "ro"
+        },
+        "hdmi_in0_resdetection_vres": {
+            "addr": 2181077184,
+            "size": 2,
+            "type": "ro"
+        },
+        "hdmi_in0_frame_overflow": {
+            "addr": 2181077192,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_dma_frame_size": {
+            "addr": 2181077196,
+            "size": 4,
+            "type": "rw"
+        },
+        "hdmi_in0_dma_slot0_status": {
+            "addr": 2181077212,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_dma_slot0_address": {
+            "addr": 2181077216,
+            "size": 4,
+            "type": "rw"
+        },
+        "hdmi_in0_dma_slot1_status": {
+            "addr": 2181077232,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_dma_slot1_address": {
+            "addr": 2181077236,
+            "size": 4,
+            "type": "rw"
+        },
+        "hdmi_in0_dma_ev_status": {
+            "addr": 2181077252,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_dma_ev_pending": {
+            "addr": 2181077256,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_dma_ev_enable": {
+            "addr": 2181077260,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_in0_freq_value": {
+            "addr": 2181079040,
+            "size": 4,
+            "type": "ro"
+        },
+        "hdmi_out0_core_underflow_enable": {
+            "addr": 2181074944,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_out0_core_underflow_update": {
+            "addr": 2181074948,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_out0_core_underflow_counter": {
+            "addr": 2181074952,
+            "size": 4,
+            "type": "ro"
+        },
+        "hdmi_out0_core_initiator_enable": {
+            "addr": 2181074968,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_out0_core_initiator_hres": {
+            "addr": 2181074972,
+            "size": 2,
+            "type": "rw"
+        },
+        "hdmi_out0_core_initiator_hsync_start": {
+            "addr": 2181074980,
+            "size": 2,
+            "type": "rw"
+        },
+        "hdmi_out0_core_initiator_hsync_end": {
+            "addr": 2181074988,
+            "size": 2,
+            "type": "rw"
+        },
+        "hdmi_out0_core_initiator_hscan": {
+            "addr": 2181074996,
+            "size": 2,
+            "type": "rw"
+        },
+        "hdmi_out0_core_initiator_vres": {
+            "addr": 2181075004,
+            "size": 2,
+            "type": "rw"
+        },
+        "hdmi_out0_core_initiator_vsync_start": {
+            "addr": 2181075012,
+            "size": 2,
+            "type": "rw"
+        },
+        "hdmi_out0_core_initiator_vsync_end": {
+            "addr": 2181075020,
+            "size": 2,
+            "type": "rw"
+        },
+        "hdmi_out0_core_initiator_vscan": {
+            "addr": 2181075028,
+            "size": 2,
+            "type": "rw"
+        },
+        "hdmi_out0_core_initiator_base": {
+            "addr": 2181075036,
+            "size": 4,
+            "type": "rw"
+        },
+        "hdmi_out0_core_initiator_length": {
+            "addr": 2181075052,
+            "size": 4,
+            "type": "rw"
+        },
+        "hdmi_out0_core_dma_delay_base": {
+            "addr": 2181075068,
+            "size": 4,
+            "type": "rw"
+        },
+        "hdmi_out0_driver_clocking_mmcm_reset": {
+            "addr": 2181075084,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_out0_driver_clocking_mmcm_read": {
+            "addr": 2181075088,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_out0_driver_clocking_mmcm_write": {
+            "addr": 2181075092,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_out0_driver_clocking_mmcm_drdy": {
+            "addr": 2181075096,
+            "size": 1,
+            "type": "ro"
+        },
+        "hdmi_out0_driver_clocking_mmcm_adr": {
+            "addr": 2181075100,
+            "size": 1,
+            "type": "rw"
+        },
+        "hdmi_out0_driver_clocking_mmcm_dat_w": {
+            "addr": 2181075104,
+            "size": 2,
+            "type": "rw"
+        },
+        "hdmi_out0_driver_clocking_mmcm_dat_r": {
+            "addr": 2181075112,
+            "size": 2,
+            "type": "ro"
+        },
+        "info_dna_id": {
+            "addr": 2181062656,
+            "size": 8,
+            "type": "ro"
+        },
+        "info_git_commit": {
+            "addr": 2181062688,
+            "size": 20,
+            "type": "ro"
+        },
+        "info_platform_platform": {
+            "addr": 2181062768,
+            "size": 8,
+            "type": "ro"
+        },
+        "info_platform_target": {
+            "addr": 2181062800,
+            "size": 8,
+            "type": "ro"
+        },
+        "info_xadc_temperature": {
+            "addr": 2181062832,
+            "size": 2,
+            "type": "ro"
+        },
+        "info_xadc_vccint": {
+            "addr": 2181062840,
+            "size": 2,
+            "type": "ro"
+        },
+        "info_xadc_vccaux": {
+            "addr": 2181062848,
+            "size": 2,
+            "type": "ro"
+        },
+        "info_xadc_vccbram": {
+            "addr": 2181062856,
+            "size": 2,
+            "type": "ro"
+        },
+        "oled_spi_ctrl": {
+            "addr": 2181064704,
+            "size": 1,
+            "type": "rw"
+        },
+        "oled_spi_length": {
+            "addr": 2181064708,
+            "size": 1,
+            "type": "rw"
+        },
+        "oled_spi_status": {
+            "addr": 2181064712,
+            "size": 1,
+            "type": "ro"
+        },
+        "oled_spi_mosi": {
+            "addr": 2181064716,
+            "size": 1,
+            "type": "rw"
+        },
+        "oled_gpio_out": {
+            "addr": 2181064720,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_control": {
+            "addr": 2181054464,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi0_command": {
+            "addr": 2181054468,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi0_command_issue": {
+            "addr": 2181054472,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi0_address": {
+            "addr": 2181054476,
+            "size": 2,
+            "type": "rw"
+        },
+        "sdram_dfii_pi0_baddress": {
+            "addr": 2181054484,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi0_wrdata": {
+            "addr": 2181054488,
+            "size": 4,
+            "type": "rw"
+        },
+        "sdram_dfii_pi0_rddata": {
+            "addr": 2181054504,
+            "size": 4,
+            "type": "ro"
+        },
+        "sdram_dfii_pi1_command": {
+            "addr": 2181054520,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi1_command_issue": {
+            "addr": 2181054524,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi1_address": {
+            "addr": 2181054528,
+            "size": 2,
+            "type": "rw"
+        },
+        "sdram_dfii_pi1_baddress": {
+            "addr": 2181054536,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi1_wrdata": {
+            "addr": 2181054540,
+            "size": 4,
+            "type": "rw"
+        },
+        "sdram_dfii_pi1_rddata": {
+            "addr": 2181054556,
+            "size": 4,
+            "type": "ro"
+        },
+        "sdram_dfii_pi2_command": {
+            "addr": 2181054572,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi2_command_issue": {
+            "addr": 2181054576,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi2_address": {
+            "addr": 2181054580,
+            "size": 2,
+            "type": "rw"
+        },
+        "sdram_dfii_pi2_baddress": {
+            "addr": 2181054588,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi2_wrdata": {
+            "addr": 2181054592,
+            "size": 4,
+            "type": "rw"
+        },
+        "sdram_dfii_pi2_rddata": {
+            "addr": 2181054608,
+            "size": 4,
+            "type": "ro"
+        },
+        "sdram_dfii_pi3_command": {
+            "addr": 2181054624,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi3_command_issue": {
+            "addr": 2181054628,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi3_address": {
+            "addr": 2181054632,
+            "size": 2,
+            "type": "rw"
+        },
+        "sdram_dfii_pi3_baddress": {
+            "addr": 2181054640,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_dfii_pi3_wrdata": {
+            "addr": 2181054644,
+            "size": 4,
+            "type": "rw"
+        },
+        "sdram_dfii_pi3_rddata": {
+            "addr": 2181054660,
+            "size": 4,
+            "type": "ro"
+        },
+        "sdram_controller_bandwidth_update": {
+            "addr": 2181054676,
+            "size": 1,
+            "type": "rw"
+        },
+        "sdram_controller_bandwidth_nreads": {
+            "addr": 2181054680,
+            "size": 3,
+            "type": "ro"
+        },
+        "sdram_controller_bandwidth_nwrites": {
+            "addr": 2181054692,
+            "size": 3,
+            "type": "ro"
+        },
+        "sdram_controller_bandwidth_data_width": {
+            "addr": 2181054704,
+            "size": 1,
+            "type": "ro"
+        },
+        "spiflash_bitbang": {
+            "addr": 2181058560,
+            "size": 1,
+            "type": "rw"
+        },
+        "spiflash_miso": {
+            "addr": 2181058564,
+            "size": 1,
+            "type": "ro"
+        },
+        "spiflash_bitbang_en": {
+            "addr": 2181058568,
+            "size": 1,
+            "type": "rw"
+        },
+        "timer0_load": {
+            "addr": 2181044224,
+            "size": 4,
+            "type": "rw"
+        },
+        "timer0_reload": {
+            "addr": 2181044240,
+            "size": 4,
+            "type": "rw"
+        },
+        "timer0_en": {
+            "addr": 2181044256,
+            "size": 1,
+            "type": "rw"
+        },
+        "timer0_update_value": {
+            "addr": 2181044260,
+            "size": 1,
+            "type": "rw"
+        },
+        "timer0_value": {
+            "addr": 2181044264,
+            "size": 4,
+            "type": "ro"
+        },
+        "timer0_ev_status": {
+            "addr": 2181044280,
+            "size": 1,
+            "type": "rw"
+        },
+        "timer0_ev_pending": {
+            "addr": 2181044284,
+            "size": 1,
+            "type": "rw"
+        },
+        "timer0_ev_enable": {
+            "addr": 2181044288,
+            "size": 1,
+            "type": "rw"
+        },
+        "uart_rxtx": {
+            "addr": 2181066752,
+            "size": 1,
+            "type": "rw"
+        },
+        "uart_txfull": {
+            "addr": 2181066756,
+            "size": 1,
+            "type": "ro"
+        },
+        "uart_rxempty": {
+            "addr": 2181066760,
+            "size": 1,
+            "type": "ro"
+        },
+        "uart_ev_status": {
+            "addr": 2181066764,
+            "size": 1,
+            "type": "rw"
+        },
+        "uart_ev_pending": {
+            "addr": 2181066768,
+            "size": 1,
+            "type": "rw"
+        },
+        "uart_ev_enable": {
+            "addr": 2181066772,
+            "size": 1,
+            "type": "rw"
+        },
+        "uart_phy_tuning_word": {
+            "addr": 2181068800,
+            "size": 4,
+            "type": "rw"
+        }
+    },
+    "constants": {
+        "read_leveling_bitslip": 3,
+        "read_leveling_delay": 14,
+        "spiflash_page_size": 256,
+        "spiflash_sector_size": 65536,
+        "hdmi_in0_description": "  fixme in platforms/nexys_video.py\\r\\n",
+        "hdmi_in0_mnemonic": "rx1",
+        "hdmi_out0_description": "  fixme in platforms/nexys_video.py\\r\\n",
+        "hdmi_out0_mnemonic": "tx1",
+        "localip1": 192,
+        "localip2": 168,
+        "localip3": 100,
+        "localip4": 50,
+        "remoteip1": 192,
+        "remoteip2": 168,
+        "remoteip3": 100,
+        "remoteip4": 100,
+        "ethmac_rx_slots": 2,
+        "ethmac_tx_slots": 2,
+        "ethmac_slot_size": 2048,
+        "config_clock_frequency": 100000000,
+        "config_cpu_reset_addr": 0,
+        "config_cpu_type": "lm32",
+        "config_cpu_type_lm32": null,
+        "config_csr_alignment": 32,
+        "config_csr_data_width": 8,
+        "config_l2_size": 8192,
+        "config_shadow_base": 2147483648,
+        "ethmac_interrupt": 2,
+        "hdmi_in0_interrupt": 3,
+        "timer0_interrupt": 0,
+        "uart_interrupt": 1
+    },
+    "memories": {
+        "rom": {
+            "base": 0,
+            "size": 32768,
+            "type": "cached"
+        },
+        "sram": {
+            "base": 16777216,
+            "size": 32768,
+            "type": "cached"
+        },
+        "csr": {
+            "base": 2181038080,
+            "size": 16777216,
+            "type": "cached"
+        },
+        "main_ram": {
+            "base": 1073741824,
+            "size": 536870912,
+            "type": "cached"
+        },
+        "spiflash": {
+            "base": 536870912,
+            "size": 16777216,
+            "type": "cached"
+        },
+        "ethmac": {
+            "base": 2952790016,
+            "size": 8192,
+            "type": "cached"
+        }
+    }
+}
