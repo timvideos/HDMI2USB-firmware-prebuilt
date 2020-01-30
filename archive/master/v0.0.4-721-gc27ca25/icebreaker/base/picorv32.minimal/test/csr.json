@@ -1,0 +1,201 @@
+{
+    "csr_bases": {
+        "cas": 2181040128,
+        "ctrl": 2181042176,
+        "rgbled": 2181054464,
+        "spiflash": 2181038080,
+        "timer0": 2181052416,
+        "uart": 2181048320,
+        "uart_phy": 2181046272,
+        "identifier_mem": 2181050368
+    },
+    "csr_registers": {
+        "cas_leds_out": {
+            "addr": 2181040128,
+            "size": 1,
+            "type": "rw"
+        },
+        "cas_buttons_ev_status": {
+            "addr": 2181040132,
+            "size": 1,
+            "type": "rw"
+        },
+        "cas_buttons_ev_pending": {
+            "addr": 2181040136,
+            "size": 1,
+            "type": "rw"
+        },
+        "cas_buttons_ev_enable": {
+            "addr": 2181040140,
+            "size": 1,
+            "type": "rw"
+        },
+        "ctrl_reset": {
+            "addr": 2181042176,
+            "size": 1,
+            "type": "rw"
+        },
+        "ctrl_scratch": {
+            "addr": 2181042180,
+            "size": 4,
+            "type": "rw"
+        },
+        "ctrl_bus_errors": {
+            "addr": 2181042196,
+            "size": 4,
+            "type": "ro"
+        },
+        "rgbled_dat": {
+            "addr": 2181054464,
+            "size": 1,
+            "type": "rw"
+        },
+        "rgbled_addr": {
+            "addr": 2181054468,
+            "size": 1,
+            "type": "rw"
+        },
+        "rgbled_ctrl": {
+            "addr": 2181054472,
+            "size": 1,
+            "type": "rw"
+        },
+        "spiflash_bitbang": {
+            "addr": 2181038080,
+            "size": 1,
+            "type": "rw"
+        },
+        "spiflash_miso": {
+            "addr": 2181038084,
+            "size": 1,
+            "type": "ro"
+        },
+        "spiflash_bitbang_en": {
+            "addr": 2181038088,
+            "size": 1,
+            "type": "rw"
+        },
+        "timer0_load": {
+            "addr": 2181052416,
+            "size": 4,
+            "type": "rw"
+        },
+        "timer0_reload": {
+            "addr": 2181052432,
+            "size": 4,
+            "type": "rw"
+        },
+        "timer0_en": {
+            "addr": 2181052448,
+            "size": 1,
+            "type": "rw"
+        },
+        "timer0_update_value": {
+            "addr": 2181052452,
+            "size": 1,
+            "type": "rw"
+        },
+        "timer0_value": {
+            "addr": 2181052456,
+            "size": 4,
+            "type": "ro"
+        },
+        "timer0_ev_status": {
+            "addr": 2181052472,
+            "size": 1,
+            "type": "rw"
+        },
+        "timer0_ev_pending": {
+            "addr": 2181052476,
+            "size": 1,
+            "type": "rw"
+        },
+        "timer0_ev_enable": {
+            "addr": 2181052480,
+            "size": 1,
+            "type": "rw"
+        },
+        "uart_rxtx": {
+            "addr": 2181048320,
+            "size": 1,
+            "type": "rw"
+        },
+        "uart_txfull": {
+            "addr": 2181048324,
+            "size": 1,
+            "type": "ro"
+        },
+        "uart_rxempty": {
+            "addr": 2181048328,
+            "size": 1,
+            "type": "ro"
+        },
+        "uart_ev_status": {
+            "addr": 2181048332,
+            "size": 1,
+            "type": "rw"
+        },
+        "uart_ev_pending": {
+            "addr": 2181048336,
+            "size": 1,
+            "type": "rw"
+        },
+        "uart_ev_enable": {
+            "addr": 2181048340,
+            "size": 1,
+            "type": "rw"
+        },
+        "uart_phy_tuning_word": {
+            "addr": 2181046272,
+            "size": 4,
+            "type": "rw"
+        }
+    },
+    "constants": {
+        "spiflash_page_size": 256,
+        "spiflash_sector_size": 65536,
+        "rom_disable": 1,
+        "flash_boot_address": 537034752,
+        "cas_leds_count": 5,
+        "cas_switches_count": 0,
+        "cas_buttons_count": 3,
+        "config_clock_frequency": 12000000,
+        "config_cpu_reset_addr": 537001984,
+        "config_cpu_type": "picorv32",
+        "config_cpu_type_picorv32": null,
+        "config_cpu_variant": "minimal",
+        "config_cpu_variant_minimal": null,
+        "config_csr_alignment": 32,
+        "config_csr_data_width": 8,
+        "config_shadow_base": 2147483648,
+        "timer0_interrupt": 1,
+        "uart_interrupt": 0
+    },
+    "memories": {
+        "csr": {
+            "base": 2181038080,
+            "size": 16777216,
+            "type": "cached"
+        },
+        "spiflash": {
+            "base": 536870912,
+            "size": 16777216,
+            "type": "cached"
+        },
+        "rom": {
+            "base": 537001984,
+            "size": 32768,
+            "type": "cached+linker"
+        },
+        "sram": {
+            "base": 16777216,
+            "size": 131072,
+            "type": "cached"
+        },
+        "user_flash": {
+            "base": 537034752,
+            "size": 16777216,
+            "type": "cached+linker"
+        }
+    }
+}
