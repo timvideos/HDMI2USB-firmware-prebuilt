@@ -1,1 +1,1 @@
-unstable v0.0.4-582-g5f50647 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-582-g5f50647/mimas_a7/base/picorv32/
+unstable v0.0.4-721-gc27ca25 https://github.com/timvideos/HDMI2USB-firmware-prebuilt/blob/master/archive/master/v0.0.4-721-gc27ca25/mimas_a7/base/picorv32/
